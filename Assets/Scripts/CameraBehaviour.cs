@@ -4,32 +4,41 @@ using UnityEngine;
 
 public class CameraBehaviour : MonoBehaviour
 {
-    //Camera follow + smooth
-    public Transform target;
-    public float smoothTime;
-    public Vector2 offset;
-    private Vector3 velocity = Vector3.zero;
+    private BoxCollider2D cameraBox; //Camera collider
+    private Transform player; //Player position
+    public BoxCollider2D boundaryBox; //Box Limit
 
-    //Camera bounds with background
-    public Sprite background;
-    public Vector3 cameraBounds;
-    public Camera cam;
+    private float cameraWidth;
+    private float cameraHeight;
+
     // Use this for initialization
     void Start()
     {
-        cameraBounds = background.bounds.size;
+        cameraBox = GetComponent<BoxCollider2D>();
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.position = new Vector3(Mathf.Clamp(transform.position.x, -cameraBounds.x/2, cameraBounds.x/2),
-                                         Mathf.Clamp(transform.position.y, -cameraBounds.y/2, cameraBounds.y/2),
-                                         transform.position.z);
+        AspectRatioBoxchange();
+        FollowPlayer();
     }
-    void FixedUpdate()
+
+    void AspectRatioBoxchange() //Projection rectangle for the size of the camera
     {
-        Vector3 newPosition = new Vector3(target.position.x + offset.x, target.position.y + offset.y, transform.position.z);
-        transform.position = Vector3.SmoothDamp(transform.position, newPosition, ref velocity, smoothTime);
+        cameraHeight = 2 * Camera.main.orthographicSize;
+        cameraWidth = cameraHeight * Camera.main.aspect;
+        cameraBox.size = new Vector2(cameraWidth, cameraHeight);
+    }
+
+    void FollowPlayer()
+    {
+        if (GameObject.Find("Boundary"))
+        {
+            transform.position = new Vector3(Mathf.Clamp(player.position.x, (boundaryBox.bounds.min.x + (cameraBox.size.x / 2)), (boundaryBox.bounds.max.x - (cameraBox.size.x / 2))),
+                                             Mathf.Clamp(player.position.y, (boundaryBox.bounds.min.y + (cameraBox.size.y / 2)), (boundaryBox.bounds.max.y - (cameraBox.size.y / 2))),
+                                             transform.position.z);
+        }
     }
 }
