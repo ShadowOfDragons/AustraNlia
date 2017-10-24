@@ -1,4 +1,4 @@
-## PRE-ALPHA (15/11/2017)
+## PRE-ALPHA (November 2017)
 **General**
 - [ ] Create GDD.
 
