@@ -9,6 +9,11 @@
 
 **Twitter:** https://twitter.com/TotemTreeGames
 
-//TODO Add contact of every member + rol in the project
+**Team Members:**
+* **2D artist:** Anna Plaza
+* **Programmer:** Zoé González
+* **Technical artist:** Laura Cobo
+
+[**Members contact details**](https://github.com/ShadowOfDragons/AustraNlia/wiki/Team-Members)
 
 ### [License](https://github.com/ShadowOfDragons/AustraNlia/blob/master/LICENSE)
