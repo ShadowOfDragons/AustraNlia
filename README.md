@@ -14,7 +14,7 @@ But one thing is dreaming about getting the big news, and the other is getting o
 * 2D hand painted graphics in full HD
 * A unique story full of humor and mistery
 * Two playable characters, with unforgettable personalities and unique skills
-* Tons of puzzles and interactions
+* Tons of puzzles and character interactions
 
 ### Contact Information
 **E-mail:** totemtreegames@gmail.com
