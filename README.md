@@ -1,4 +1,4 @@
-**[Insert header image here]**
+![Halloween header](https://github.com/ShadowOfDragons/AustraNlia/blob/master/wiki_resources/concept_halloween_2017.png)
 
 ## Austra N'lia
 
