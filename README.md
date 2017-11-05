@@ -1,4 +1,4 @@
-![Provisional header](https://github.com/ShadowOfDragons/AustraNlia/blob/master/WikiResources/header_placeholder.png)
+![Alpha header](https://github.com/ShadowOfDragons/AustraNlia/blob/master/WikiResources/concept_header.png)
 
 
 
