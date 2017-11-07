@@ -1,4 +1,4 @@
-![Alpha header](https://github.com/ShadowOfDragons/AustraNlia/blob/master/WikiResources/concept_header.png)
+![Alpha header](/WikiResources/concept_header.png)
 
 
 
@@ -26,7 +26,7 @@ But one thing is dreaming about getting the big news, and the other is getting o
 * **Programmer:** Zoé González
 * **Technical artist:** Laura Cobo
 
-[**Members contact details**](https://github.com/ShadowOfDragons/AustraNlia/wiki/Team-Members)
+[**Members contact details**](/wiki/Team-Members)
 
 ## License
 
