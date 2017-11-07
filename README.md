@@ -10,7 +10,7 @@ Chad Cosay is a junior journalist sent to Taramar, the capital, where he has to 
 
 But one thing is dreaming about getting the big news, and the other is getting out of Witheller.
 
-### Main features:
+### Main features
 * 2D hand painted graphics in full HD
 * A unique story full of humor and mistery
 * Two playable characters, with unforgettable personalities and unique skills
@@ -27,6 +27,8 @@ But one thing is dreaming about getting the big news, and the other is getting o
 * **Technical artist:** Laura Cobo
 
 [**Members contact details**](https://github.com/ShadowOfDragons/AustraNlia/wiki/Team-Members)
+
+### License
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Austra N'lia</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://twitter.com/TotemTreeGames" property="cc:attributionName" rel="cc:attributionURL">Totem Tree Games</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
 
