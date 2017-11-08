@@ -30,8 +30,7 @@ But one thing is dreaming about getting the big news, and the other is getting o
 
 ## License
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" align="left" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" width=88 /></a><br />
-
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" align="left" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" width=88 /></a>
 Austra N'lia by [Totem Tree Games](https://twitter.com/TotemTreeGames) is licensed under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
 Code licensed under [MIT](https://github.com/ShadowOfDragons/AustraNlia/blob/master/LICENSE)
