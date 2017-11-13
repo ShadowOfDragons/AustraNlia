@@ -12,7 +12,7 @@ But one thing is dreaming about getting the big news, and the other is getting o
 
 ## Main features
 * 2D hand painted graphics in full HD
-* A unique story full of humor and mistery
+* A unique story full of humor and mystery
 * Two playable characters, with unforgettable personalities and unique skills
 * Tons of puzzles and character interactions
 
