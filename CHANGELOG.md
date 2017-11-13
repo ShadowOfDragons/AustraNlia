@@ -8,6 +8,6 @@
 - [x] 2 Prop concepts.
 
 **Mockups**
-- [ ] 2 Gameplay.
-- [ ] 1 Title screen.
+- [x] 2 Gameplay.
+- [x] 1 Title screen.
 - [ ] 1 Options screen.
