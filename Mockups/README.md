@@ -6,11 +6,8 @@
 
 ## GAMEPLAY SCREEN MOCKUPS
 
-### Mockup_01
 ![Gameplay screen](https://github.com/ShadowOfDragons/AustraNlia/blob/master/Mockups/mockup_gameplay_screen_01.png)
 
-### Mockup_02
 ![Dialog screen](https://github.com/ShadowOfDragons/AustraNlia/blob/master/Mockups/mockup_gameplay_screen_02.png)
 
-### Mockup_03
 ![Gameplay screen 2](https://github.com/ShadowOfDragons/AustraNlia/blob/master/Mockups/mockup_gameplay_screen_03.png)
