@@ -10,4 +10,4 @@
 **Mockups**
 - [x] 2 Gameplay.
 - [ ] 1 Title screen.
-- [ ] 1 Options screen.
+- [x] 1 Options screen.
