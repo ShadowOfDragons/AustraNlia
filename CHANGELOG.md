@@ -46,6 +46,7 @@
     * **Ending:**
         - [ ] Custom background with message (Victory/Defeat)
     
+***
 
 ## PRE-ALPHA (15 of November 2017)
 **General**
