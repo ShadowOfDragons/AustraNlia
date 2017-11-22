@@ -1,6 +1,6 @@
 ## Alpha (18 of December 2017)
 ### Design:
-- [ ] Game Design Document
+- [x] Game Design Document
 - [ ] Level Design Map
 * **Concept Art:**
     - [ ] Characters
@@ -12,8 +12,8 @@
     - [ ] Level flow map
 * **Screens Mockups:**
     - [ ] Title screen
-    - [ ] Gameplay screen
-    - [ ] Dialog screen
+    - [x] Gameplay screen
+    - [x] Dialog screen
     - [ ] Ending screen
 ### General:
 - [ ] Animation between scenes (fade-in, fade-out)
