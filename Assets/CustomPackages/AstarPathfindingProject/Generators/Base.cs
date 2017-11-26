@@ -4,25 +4,8 @@ using Pathfinding.Util;
 using Pathfinding.Serialization;
 
 namespace Pathfinding {
-	/** Exposes internal methods for graphs.
-	 * This is used to hide methods that should not be used by any user code
-	 * but still have to be 'public' or 'internal' (which is pretty much the same as 'public'
-	 * as this library is distributed with source code).
-	 *
-	 * Hiding the internal methods cleans up the documentation and IntelliSense suggestions.
-	 */
-	public interface IGraphInternals {
-		void OnDestroy ();
-		void DestroyAllNodes ();
-		IEnumerable<Progress> ScanInternal ();
-		void SerializeExtraInfo (GraphSerializationContext ctx);
-		void DeserializeExtraInfo (GraphSerializationContext ctx);
-		void PostDeserialization (GraphSerializationContext ctx);
-		void DeserializeSettingsCompatibility (GraphSerializationContext ctx);
-	}
-
-	/** Base class for all graphs */
-	public abstract class NavGraph : IGraphInternals {
+	/**  Base class for all graphs */
+	public abstract class NavGraph {
 		/** Reference to the AstarPath object in the scene */
 		public AstarPath active;
 
@@ -93,11 +76,17 @@ namespace Pathfinding {
 		 *
 		 * Do not change the graph structure inside the delegate.
 		 *
-		 * \snippet MiscSnippets.cs NavGraph.GetNodes1
+		 * \code
+		 * myGraph.GetNodes (node => {
+		 *     Debug.Log ("I found a node at position " + (Vector3)node.Position);
+		 * });
+		 * \endcode
 		 *
 		 * If you want to store all nodes in a list you can do this
-		 *
-		 * \snippet MiscSnippets.cs NavGraph.GetNodes2
+		 * \code
+		 * List<GraphNode> nodes = new List<GraphNode>();
+		 * myGraph.GetNodes(nodes.Add);
+		 * \endcode
 		 */
 		public abstract void GetNodes (System.Action<GraphNode> action);
 
@@ -231,32 +220,48 @@ namespace Pathfinding {
 		 * Use by creating a function overriding this one in a graph class, but always call base.OnDestroy () in that function.
 		 * All nodes should be destroyed in this function otherwise a memory leak will arise.
 		 */
-		protected virtual void OnDestroy () {
-			DestroyAllNodes();
+		public virtual void OnDestroy () {
+			DestroyAllNodesInternal();
 		}
 
 		/** Destroys all nodes in the graph.
 		 * \warning This is an internal method. Unless you have a very good reason, you should probably not call it.
 		 */
-		protected virtual void DestroyAllNodes () {
+		internal virtual void DestroyAllNodesInternal () {
 			GetNodes(node => node.Destroy());
 		}
 
-		/** Scan the graph.
-		 * \deprecated Use AstarPath.Scan() instead
+		/** Partially scan the graph.
+		 *
+		 * Consider using AstarPath.Scan () instead since this function might screw things up if there is more than one graph.
+		 * This function does not perform all necessary postprocessing for the graph to work with pathfinding (e.g flood fill).
+		 * See the source of the AstarPath.Scan function to see how it can be used.
+		 * In almost all cases you should use AstarPath.Scan instead.
 		 */
-		[System.Obsolete("Use AstarPath.Scan instead")]
 		public void ScanGraph () {
-			Scan();
+			if (AstarPath.OnPreScan != null) {
+				AstarPath.OnPreScan(AstarPath.active);
+			}
+
+			if (AstarPath.OnGraphPreScan != null) {
+				AstarPath.OnGraphPreScan(this);
+			}
+
+			var scan = ScanInternal().GetEnumerator();
+			while (scan.MoveNext()) {}
+
+			if (AstarPath.OnGraphPostScan != null) {
+				AstarPath.OnGraphPostScan(this);
+			}
+
+			if (AstarPath.OnPostScan != null) {
+				AstarPath.OnPostScan(AstarPath.active);
+			}
 		}
 
-		/** Scan the graph.
-		 *
-		 * Consider using AstarPath.Scan() instead since this function only scans this graph and if you are using multiple graphs
-		 * with connections between them, then it is better to scan all graphs at once.
-		 */
+		[System.Obsolete("Please use AstarPath.active.Scan or if you really want this.ScanInternal which has the same functionality as this method had")]
 		public void Scan () {
-			active.Scan(this);
+			throw new System.Exception("This method is deprecated. Please use AstarPath.active.Scan or if you really want this.ScanInternal which has the same functionality as this method had.");
 		}
 
 		/**
@@ -266,7 +271,7 @@ namespace Pathfinding {
 		 * Progress objects can be yielded to show progress info in the editor and to split up processing
 		 * over several frames when using async scanning.
 		 */
-		protected abstract IEnumerable<Progress> ScanInternal ();
+		public abstract IEnumerable<Progress> ScanInternal ();
 
 		/** Serializes graph type specific node data.
 		 * This function can be overriden to serialize extra node information (or graph information for that matter)
@@ -275,26 +280,26 @@ namespace Pathfinding {
 		 * When loading, the exact same byte array will be passed to the DeserializeExtraInfo function.\n
 		 * These functions will only be called if node serialization is enabled.\n
 		 */
-		protected virtual void SerializeExtraInfo (GraphSerializationContext ctx) {
+		public virtual void SerializeExtraInfo (GraphSerializationContext ctx) {
 		}
 
 		/** Deserializes graph type specific node data.
 		 * \see SerializeExtraInfo
 		 */
-		protected virtual void DeserializeExtraInfo (GraphSerializationContext ctx) {
+		public virtual void DeserializeExtraInfo (GraphSerializationContext ctx) {
 		}
 
 		/** Called after all deserialization has been done for all graphs.
 		 * Can be used to set up more graph data which is not serialized
 		 */
-		protected virtual void PostDeserialization (GraphSerializationContext ctx) {
+		public virtual void PostDeserialization () {
 		}
 
 		/** An old format for serializing settings.
 		 * \deprecated This is deprecated now, but the deserialization code is kept to
 		 * avoid loosing data when upgrading from older versions.
 		 */
-		protected virtual void DeserializeSettingsCompatibility (GraphSerializationContext ctx) {
+		public virtual void DeserializeSettingsCompatibility (GraphSerializationContext ctx) {
 			guid = new Guid(ctx.reader.ReadBytes(16));
 			initialPenalty = ctx.reader.ReadUInt32();
 			open = ctx.reader.ReadBoolean();
@@ -333,17 +338,9 @@ namespace Pathfinding {
 			});
 		}
 
-		#region IGraphInternals implementation
-
-		void IGraphInternals.OnDestroy () { OnDestroy(); }
-		void IGraphInternals.DestroyAllNodes () { DestroyAllNodes(); }
-		IEnumerable<Progress> IGraphInternals.ScanInternal () { return ScanInternal(); }
-		void IGraphInternals.SerializeExtraInfo (GraphSerializationContext ctx) { SerializeExtraInfo(ctx); }
-		void IGraphInternals.DeserializeExtraInfo (GraphSerializationContext ctx) { DeserializeExtraInfo(ctx); }
-		void IGraphInternals.PostDeserialization (GraphSerializationContext ctx) { PostDeserialization(ctx); }
-		void IGraphInternals.DeserializeSettingsCompatibility (GraphSerializationContext ctx) { DeserializeSettingsCompatibility(ctx); }
-
-		#endregion
+		/** Called when temporary meshes used in OnDrawGizmos need to be unloaded to prevent memory leaks */
+		internal virtual void UnloadGizmoMeshes () {
+		}
 	}
 
 
@@ -353,28 +350,17 @@ namespace Pathfinding {
 	[System.Serializable]
 	public class GraphCollision {
 		/** Collision shape to use.
-		 * \see #Pathfinding.ColliderType
+		 * Pathfinding.ColliderType
 		 */
 		public ColliderType type = ColliderType.Capsule;
 
 		/** Diameter of capsule or sphere when checking for collision.
-		 * When checking for collisions the system will check if any colliders
-		 * overlap a specific shape at the node's position. The shape is determined
-		 * by the #type field.
-		 *
-		 * A diameter of 1 means that the shape has a diameter equal to the node's width,
-		 * or in other words it is equal to \link Pathfinding.GridGraph.nodeSize nodeSize \endlink.
-		 *
-		 * If #type is set to Ray, this does not affect anything.
-		 *
-		 * \shadowimage{grid_collision_diameter.png}
-		 */
+		 * 1 equals \link Pathfinding.GridGraph.nodeSize nodeSize \endlink.
+		 * If #type is set to Ray, this does not affect anything */
 		public float diameter = 1F;
 
 		/** Height of capsule or length of ray when checking for collision.
-		 * If #type is set to Sphere, this does not affect anything.
-		 *
-		 * \shadowimage{grid_collision_height.png}
+		 * If #type is set to Sphere, this does not affect anything
 		 */
 		public float height = 2F;
 
@@ -391,27 +377,21 @@ namespace Pathfinding {
 
 		/** Direction of the ray when checking for collision.
 		 * If #type is not Ray, this does not affect anything
+		 * \note This variable is not used currently, it does not affect anything
 		 */
 		public RayDirection rayDirection = RayDirection.Both;
 
-		/** Layers to be treated as obstacles. */
+		/** Layer mask to use for collision check.
+		 * This should only contain layers of objects defined as obstacles */
 		public LayerMask mask;
 
-		/** Layers to be included in the height check. */
+		/** Layer mask to use for height check. */
 		public LayerMask heightMask = -1;
 
-		/** The height to check from when checking height ('ray length' in the inspector).
-		 *
-		 * As the image below visualizes, different ray lengths can make the ray hit different things.
-		 * The distance is measured up from the graph plane.
-		 *
-		 * \shadowimage{grid_collision_from_height.png}
-		 */
+		/** The height to check from when checking height */
 		public float fromHeight = 100;
 
-		/** Toggles thick raycast.
-		 * \see https://docs.unity3d.com/ScriptReference/Physics.SphereCast.html
-		 */
+		/** Toggles thick raycast */
 		public bool thickRaycast;
 
 		/** Diameter of the thick raycast in nodes.
@@ -477,6 +457,7 @@ namespace Pathfinding {
 			if (use2D) {
 				switch (type) {
 				case ColliderType.Capsule:
+					throw new System.Exception("Capsule mode cannot be used with 2D since capsules don't exist in 2D. Please change the Physics Testing -> Collider Type setting.");
 				case ColliderType.Sphere:
 					return Physics2D.OverlapCircle(position, finalRadius, mask) == null;
 				default:
@@ -641,16 +622,11 @@ namespace Pathfinding {
 	}
 
 
-	/** Determines collision check shape.
-	 * \see #Pathfinding.GraphCollision
-	  */
+	/** Determines collision check shape */
 	public enum ColliderType {
-		/** Uses a Sphere, Physics.CheckSphere. In 2D this is a circle instead. */
-		Sphere,
-		/** Uses a Capsule, Physics.CheckCapsule. This will behave identically to the Sphere mode in 2D. */
-		Capsule,
-		/** Uses a Ray, Physics.Linecast. In 2D this is a single point instead. */
-		Ray
+		Sphere,     /**< Uses a Sphere, Physics.CheckSphere */
+		Capsule,    /**< Uses a Capsule, Physics.CheckCapsule */
+		Ray         /**< Uses a Ray, Physics.Linecast */
 	}
 
 	/** Determines collision check ray direction */

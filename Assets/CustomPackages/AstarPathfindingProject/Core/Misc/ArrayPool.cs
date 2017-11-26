@@ -131,8 +131,7 @@ namespace Pathfinding.Util {
 		}
 	}
 
-	/** Extension methods for List<T> */
-	public static class ListExtensions {
+	public static class ArrayPoolExtensions {
 		/** Identical to ToArray but it uses ArrayPool<T> to avoid allocations if possible.
 		 *
 		 * Use with caution as pooling too many arrays with different lengths that
@@ -145,25 +144,6 @@ namespace Pathfinding.Util {
 				arr[i] = list[i];
 			}
 			return arr;
-		}
-
-		/** Clear a list faster than List<T>.Clear.
-		 * It turns out that the List<T>.Clear method will clear all elements in the underlaying array
-		 * not just the ones up to Count. If the list only has a few elements, but the capacity
-		 * is huge, this can cause performance problems. Using the RemoveRange method to remove
-		 * all elements in the list does not have this problem, however it is implemented in a
-		 * stupid way, so it will clear the elements twice (completely unnecessarily) so it will
-		 * only be faster than using the Clear method if the number of elements in the list is
-		 * less than half of the capacity of the list.
-		 *
-		 * Hopefully this method can be removed when Unity upgrades to a newer version of Mono.
-		 */
-		public static void ClearFast<T>(this List<T> list) {
-			if (list.Count*2 < list.Capacity) {
-				list.RemoveRange(0, list.Count);
-			} else {
-				list.Clear();
-			}
 		}
 	}
 }

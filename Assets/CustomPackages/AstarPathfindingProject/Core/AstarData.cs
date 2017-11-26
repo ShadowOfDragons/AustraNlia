@@ -115,10 +115,8 @@ namespace Pathfinding {
 		public byte[] data_cachedStartup;
 
 		/** Should graph-data be cached.
-		 * Caching the startup means saving the whole graphs - not only the settings - to a file (#file_cachedStartup) which can
-		 * be loaded when the game starts. This is usually much faster than scanning the graphs when the game starts. This is configured from the editor under the "Save & Load" tab.
-		 *
-		 * \see \ref save-load-graphs
+		 * Caching the startup means saving the whole graphs, not only the settings to an internal array (#data_cachedStartup) which can
+		 * be loaded faster than scanning all graphs at startup. This is setup from the editor.
 		 */
 		[SerializeField]
 		public bool cacheStartup;
@@ -192,7 +190,7 @@ namespace Pathfinding {
 
 		/** Updates shortcuts to the first graph of different types.
 		 * Hard coding references to some graph types is not really a good thing imo. I want to keep it dynamic and flexible.
-		 * But these references ease the use of the system, so I decided to keep them.
+		 * But these references ease the use of the system, so I decided to keep them.\n
 		 */
 		public void UpdateShortcuts () {
 			navmesh = (NavMeshGraph)FindGraphOfType(typeof(NavMeshGraph));
@@ -272,7 +270,7 @@ namespace Pathfinding {
 			if (graphs == null) return;
 			for (int i = 0; i < graphs.Length; i++) {
 				if (graphs[i] != null) {
-					((IGraphInternals)graphs[i]).OnDestroy();
+					graphs[i].OnDestroy();
 					graphs[i].active = null;
 				}
 			}
@@ -330,7 +328,7 @@ namespace Pathfinding {
 		 * Common info is what is shared between the editor serialization and the runtime serializer.
 		 * This is mostly everything except the graph inspectors which serialize some extra data in the editor
 		 *
-		 * In most cases you should use the #DeserializeGraphs or #DeserializeGraphsAdditive method instead.
+		 * In most cases you should use the DeserializeGraphs or DeserializeGraphsAdditive method instead.
 		 */
 		public void DeserializeGraphsPart (Pathfinding.Serialization.AstarSerializer sr) {
 			var graphLock = AssertSafe();
@@ -344,7 +342,7 @@ namespace Pathfinding {
 		 * Common info is what is shared between the editor serialization and the runtime serializer.
 		 * This is mostly everything except the graph inspectors which serialize some extra data in the editor
 		 *
-		 * In most cases you should use the #DeserializeGraphs or #DeserializeGraphsAdditive method instead.
+		 * In most cases you should use the DeserializeGraphs or DeserializeGraphsAdditive method instead.
 		 */
 		public void DeserializeGraphsPartAdditive (Pathfinding.Serialization.AstarSerializer sr) {
 			if (graphs == null) graphs = new NavGraph[0];
@@ -434,7 +432,7 @@ namespace Pathfinding {
 
 		/** Creates a new instance of a graph of type \a type. If no matching graph type was found, an error is logged and null is returned
 		 * \returns The created graph
-		 * \see #CreateGraph(System.Type)
+		 * \see CreateGraph(System.Type)
 		 *
 		 * \deprecated
 		 */
@@ -452,7 +450,7 @@ namespace Pathfinding {
 		}
 
 		/** Creates a new graph instance of type \a type
-		 * \see #CreateGraph(string)
+		 * \see CreateGraph(string)
 		 */
 		internal NavGraph CreateGraph (System.Type type) {
 			var graph = System.Activator.CreateInstance(type) as NavGraph;
@@ -555,7 +553,7 @@ namespace Pathfinding {
 			// this graph right now we could end up with NullReferenceExceptions
 			var graphLock = AssertSafe();
 
-			((IGraphInternals)graph).OnDestroy();
+			graph.OnDestroy();
 			graph.active = null;
 
 			int i = System.Array.IndexOf(graphs, graph);
@@ -593,26 +591,16 @@ namespace Pathfinding {
 			return data.graphs[(int)graphIndex];
 		}
 
-		/** Returns the first graph which satisfies the predicate. Returns null if no graph was found. */
-		public NavGraph FindGraph (System.Func<NavGraph, bool> predicate) {
+		/** Returns the first graph of type \a type found in the #graphs array. Returns null if none was found */
+		public NavGraph FindGraphOfType (System.Type type) {
 			if (graphs != null) {
 				for (int i = 0; i < graphs.Length; i++) {
-					if (graphs[i] != null && predicate(graphs[i])) {
+					if (graphs[i] != null && System.Type.Equals(graphs[i].GetType(), type)) {
 						return graphs[i];
 					}
 				}
 			}
 			return null;
-		}
-
-		/** Returns the first graph of type \a type found in the #graphs array. Returns null if no graph was found. */
-		public NavGraph FindGraphOfType (System.Type type) {
-			return FindGraph(graph => System.Type.Equals(graph.GetType(), type));
-		}
-
-		/** Returns the first graph which inherits from the type \a type. Returns null if no graph was found. */
-		public NavGraph FindGraphWhichInheritsFrom (System.Type type) {
-			return FindGraph(graph => type.IsAssignableFrom(graph.GetType()));
 		}
 
 		/** Loop through this function to get all graphs of type 'type'
@@ -635,7 +623,7 @@ namespace Pathfinding {
 		 * \code foreach (IUpdatableGraph graph in AstarPath.data.GetUpdateableGraphs ()) {
 		 *  //Do something with the graph
 		 * } \endcode
-		 * \see AstarPath.AddWorkItem
+		 * \see AstarPath.RegisterSafeNodeUpdate
 		 * \see Pathfinding.IUpdatableGraph */
 		public IEnumerable GetUpdateableGraphs () {
 			if (graphs == null) yield break;

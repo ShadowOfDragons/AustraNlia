@@ -39,10 +39,7 @@ namespace Pathfinding {
 		/** Private cached convex hull of the #points */
 		private Vector3[] convexPoints;
 
-		/** Use the convex hull of the points instead of the original polygon.
-		 *
-		 * \see https://en.wikipedia.org/wiki/Convex_hull
-		 */
+		/** Use the convex hull of the points. */
 		public bool convex = true;
 
 		/** Minumum height of the bounds of the resulting Graph Update Object.
@@ -52,19 +49,15 @@ namespace Pathfinding {
 		public float minBoundsHeight = 1;
 
 		/** Penalty to add to nodes.
-		 * Usually you need quite large values, at least 1000-10000. A higher penalty means that agents will try to avoid those nodes more.
-		 *
-		 * Be careful when setting negative values since if a node gets a negative penalty it will underflow and instead get
+		 * Be careful when setting negative values since if a node get's a negative penalty it will underflow and instead get
 		 * really large. In most cases a warning will be logged if that happens.
-		 *
-		 * \see \ref tags for another way of applying penalties.
 		 */
 		public int penaltyDelta;
 
-		/** If true, then all affected nodes will be made walkable or unwalkable according to #setWalkability */
+		/** Set to true to set all targeted nodese walkability to #setWalkability */
 		public bool modifyWalkability;
 
-		/** Nodes will be made walkable or unwalkable according to this value if #modifyWalkability is true */
+		/** See #modifyWalkability */
 		public bool setWalkability;
 
 		/** Apply this graph update object on start */
@@ -89,9 +82,7 @@ namespace Pathfinding {
 		/** \copydoc Pathfinding::GraphUpdateObject::updateErosion */
 		public bool updateErosion = true;
 
-		/** Should the tags of the nodes be modified.
-		 * If enabled, set all nodes' tags to #setTag
-		 */
+		/** If enabled, set all nodes' tags to #setTag */
 		public bool modifyTag;
 
 		/** If #modifyTag is enabled, set all nodes' tags to this value */

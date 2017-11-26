@@ -4,14 +4,6 @@ using System.Collections.Generic;
 namespace Pathfinding {
 	[System.Serializable]
 	/** Adjusts start and end points of a path.
-	 *
-	 * This modifier is included in the \link Pathfinding.Seeker Seeker\endlink component and is always used if you are using a Seeker.
-	 * When a path is calculated the resulting path will only be the positions of the nodes it passes through.
-	 * However often you may not want to navigate to the center of a specific node but instead to a point on the surface of a node.
-	 * This modifier will adjust the endpoints of the path.
-	 *
-	 * \shadowimage{startendmodifier.png}
-	 *
 	 * \ingroup modifiers
 	 */
 	public class StartEndModifier : PathModifier {
@@ -31,9 +23,9 @@ namespace Pathfinding {
 
 		/** Sets where the start and end points of a path should be placed */
 		public enum Exactness {
-			/** The point is snapped to the first/last node in the path */
+			/** The point is snapped to the first/last node in the path*/
 			SnapToNode,
-			/** The point is set to the exact point which was passed when creating the path request */
+			/** The point is set to the exact point which was passed when calling the pathfinding */
 			Original,
 			/** The point is set to the closest point on the line between either the two first points or the two last points.
 			 * Usually you will want to use the NodeConnection mode instead since that is usually the behaviour that you really want.

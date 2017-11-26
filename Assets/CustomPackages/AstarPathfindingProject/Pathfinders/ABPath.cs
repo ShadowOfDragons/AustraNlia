@@ -327,12 +327,14 @@ namespace Pathfinding {
 			startNode = startNNInfo.node;
 
 			if (startNode == null) {
-				FailWithError("Couldn't find a node close to the start point");
+				Error();
+				LogError("Couldn't find a close node to the start point");
 				return;
 			}
 
 			if (!CanTraverse(startNode)) {
-				FailWithError("The node closest to the start point could not be traversed");
+				Error();
+				LogError("The node closest to the start point could not be traversed");
 				return;
 			}
 
@@ -343,20 +345,29 @@ namespace Pathfinding {
 				endPoint = endNNInfo.position;
 				endNode = endNNInfo.node;
 
+				if (startNode == null && endNode == null) {
+					Error();
+					LogError("Couldn't find close nodes to the start point or the end point");
+					return;
+				}
+
 				if (endNode == null) {
-					FailWithError("Couldn't find a node close to the end point");
+					Error();
+					LogError("Couldn't find a close node to the end point");
 					return;
 				}
 
 				// This should not trigger unless the user has modified the NNConstraint
 				if (!CanTraverse(endNode)) {
-					FailWithError("The node closest to the end point could not be traversed");
+					Error();
+					LogError("The node closest to the end point could not be traversed");
 					return;
 				}
 
 				// This should not trigger unless the user has modified the NNConstraint
 				if (startNode.Area != endNode.Area) {
-					FailWithError("There is no valid path to the target");
+					Error();
+					LogError("There is no valid path to the target (start area: " + startNode.Area+", target area: " + endNode.Area + ")");
 					return;
 				}
 
@@ -423,9 +434,10 @@ namespace Pathfinding {
 					CompleteState = PathCompleteState.Partial;
 					Trace(partialBestTarget);
 				} else {
-					FailWithError("No open points, the start node didn't open any nodes");
+					Error();
+					LogError("No open points, the start node didn't open any nodes");
+					return;
 				}
-				return;
 			}
 
 			// Pop the first node off the open list
@@ -496,7 +508,7 @@ namespace Pathfinding {
 		 *
 		 * Basic outline of what the function does for the standard path (Pathfinding.ABPath).
 		 * \code
-		 * while the end has not been found and no error has occurred
+		 * while the end has not been found and no error has ocurred
 		 * check if we have reached the end
 		 * if so, exit and return the path
 		 *
@@ -514,7 +526,7 @@ namespace Pathfinding {
 		protected override void CalculateStep (long targetTick) {
 			int counter = 0;
 
-			// Continue to search as long as we haven't encountered an error and we haven't found the target
+			// Continue to search while there hasn't ocurred an error and the end hasn't been found
 			while (CompleteState == PathCompleteState.NotCalculated) {
 				searchedNodes++;
 
@@ -539,12 +551,8 @@ namespace Pathfinding {
 
 				// Any nodes left to search?
 				if (pathHandler.heap.isEmpty) {
-					if (calculatePartial && partialBestTarget != null) {
-						CompleteState = PathCompleteState.Partial;
-						Trace(partialBestTarget);
-					} else {
-						FailWithError("Searched whole area but could not find target");
-					}
+					Error();
+					LogError("Searched whole area but could not find target");
 					return;
 				}
 

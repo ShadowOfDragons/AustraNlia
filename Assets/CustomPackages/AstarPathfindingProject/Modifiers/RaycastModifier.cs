@@ -9,7 +9,7 @@ namespace Pathfinding {
 	 * When using graph raycasting, the graph will be traversed and checked for obstacles. When physics raycasting is used, the Unity physics system
 	 * will be asked if there are any colliders which intersect the line that is currently being checked.
 	 */
-	[AddComponentMenu("Pathfinding/Modifiers/Raycast Modifier")]
+	[AddComponentMenu("Pathfinding/Modifiers/Raycast Simplifier")]
 	[RequireComponent(typeof(Seeker))]
 	[System.Serializable]
 	[HelpURL("http://arongranberg.com/astar/docs/class_pathfinding_1_1_raycast_modifier.php")]
@@ -38,12 +38,6 @@ namespace Pathfinding {
 		/** Distance from the ray which will be checked for colliders */
 		[Tooltip("Distance from the ray which will be checked for colliders")]
 		public float thickRaycastRadius;
-
-		/** Check for intersections with 2D colliders instead of 3D colliders.
-		 * Useful for 2D games.
-		 */
-		[Tooltip("Check for intersections with 2D colliders instead of 3D colliders.")]
-		public bool use2DPhysics;
 
 		/** Offset from the original positions to perform the raycast.
 		 * Can be useful to avoid the raycast intersecting the ground or similar things you do not want to it intersect
@@ -123,24 +117,11 @@ namespace Pathfinding {
 		public bool ValidateLine (GraphNode n1, GraphNode n2, Vector3 v1, Vector3 v2) {
 			if (useRaycasting) {
 				// Use raycasting to check if a straight path between v1 and v2 is valid
-				if (use2DPhysics) {
-					if (thickRaycast && thickRaycastRadius > 0 && Physics2D.CircleCast(v1 + raycastOffset, thickRaycastRadius, v2 - v1, (v2 - v1).magnitude, mask)) {
-						return false;
-					}
-
-					if (Physics2D.Linecast(v1+raycastOffset, v2+raycastOffset, mask)) {
+				if (thickRaycast && thickRaycastRadius > 0) {
+					if (Physics.SphereCast(new Ray(v1+raycastOffset, v2-v1), thickRaycastRadius, (v2-v1).magnitude, mask)) {
 						return false;
 					}
 				} else {
-					// Perform a thick raycast (if enabled)
-					if (thickRaycast && thickRaycastRadius > 0 && Physics.SphereCast(new Ray(v1+raycastOffset, v2-v1), thickRaycastRadius, (v2-v1).magnitude, mask)) {
-						return false;
-					}
-
-					// Perform a normal raycast
-					// This is done even if a thick raycast is also done because thick raycasts do not report collisions for
-					// colliders that overlapped the (imaginary) sphere at the origin of the thick raycast.
-					// This can cause some obstacles to be missed.
 					if (Physics.Linecast(v1+raycastOffset, v2+raycastOffset, mask)) {
 						return false;
 					}

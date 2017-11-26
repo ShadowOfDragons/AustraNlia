@@ -65,7 +65,7 @@ namespace Pathfinding {
 		static GUIStyle level0AreaStyle, level0LabelStyle;
 		static GUIStyle level1AreaStyle, level1LabelStyle;
 
-		static GUIStyle graphDeleteButtonStyle, graphInfoButtonStyle, graphGizmoButtonStyle, graphEditNameButtonStyle;
+		static GUIStyle graphDeleteButtonStyle, graphInfoButtonStyle, graphGizmoButtonStyle;
 
 		public static GUIStyle helpBox  { get; private set; }
 		public static GUIStyle thinHelpBox  { get; private set; }
@@ -245,24 +245,27 @@ namespace Pathfinding {
 		}
 
 		public override void OnInspectorGUI () {
-			// Do some loading and checking
-			if (!LoadStyles()) {
-				EditorGUILayout.HelpBox("The GUISkin 'AstarEditorSkin.guiskin' in the folder "+EditorResourceHelper.editorAssets+"/ was not found or some custom styles in it does not exist.\n"+
-					"This file is required for the A* Pathfinding Project editor.\n\n"+
-					"If you are trying to add A* to a new project, please do not copy the files outside Unity, "+
-					"export them as a UnityPackage and import them to this project or download the package from the Asset Store"+
-					"or the 'scripts only' package from the A* Pathfinding Project website.\n\n\n"+
-					"Skin loading is done in the AstarPathEditor.cs --> LoadStyles method", MessageType.Error);
-				return;
+			//Do some loading and checking
+			if (!stylesLoaded) {
+				if (!LoadStyles()) {
+					EditorGUILayout.HelpBox("The GUISkin 'AstarEditorSkin.guiskin' in the folder "+EditorResourceHelper.editorAssets+"/ was not found or some custom styles in it does not exist.\n"+
+						"This file is required for the A* Pathfinding Project editor.\n\n"+
+						"If you are trying to add A* to a new project, please do not copy the files outside Unity, "+
+						"export them as a UnityPackage and import them to this project or download the package from the Asset Store"+
+						"or the 'scripts only' package from the A* Pathfinding Project website.\n\n\n"+
+						"Skin loading is done in the AstarPathEditor.cs --> LoadStyles method", MessageType.Error);
+					return;
+				}
 			}
 
-			EditorGUI.BeginChangeCheck();
+			bool preChanged = GUI.changed;
+			GUI.changed = false;
 
 			Undo.RecordObject(script, "A* inspector");
 
 			CheckGraphEditors();
 
-			// End loading and checking
+			//End loading and checking
 
 			EditorGUI.indentLevel = 1;
 
@@ -275,7 +278,7 @@ namespace Pathfinding {
 
 			GUILayout.Space(5);
 
-			if (GUILayout.Button(new GUIContent("Scan", "Recalculate all graphs. Shortcut cmd+alt+s ( ctrl+alt+s on windows )"))) {
+			if (GUILayout.Button(new GUIContent("Scan", "Recaculate all graphs. Shortcut cmd+alt+s ( ctrl+alt+s on windows )"))) {
 				MenuScan();
 			}
 
@@ -284,7 +287,9 @@ namespace Pathfinding {
 			// Handle undo
 			SaveGraphsAndUndo(storedEventType, storedEventCommand);
 
-			if (EditorGUI.EndChangeCheck()) {
+			GUI.changed = preChanged || GUI.changed;
+
+			if (GUI.changed) {
 				RepaintSceneView();
 				EditorUtility.SetDirty(script);
 			}
@@ -295,8 +300,6 @@ namespace Pathfinding {
 		 * \returns True if all styles were found, false if there was an error somewhere
 		 */
 		static bool LoadStyles () {
-			if (stylesLoaded) return true;
-
 			// Dummy styles in case the loading fails
 			var inspectorSkin = EditorGUIUtility.GetBuiltinSkin(EditorSkin.Inspector);
 
@@ -329,7 +332,6 @@ namespace Pathfinding {
 			graphDeleteButtonStyle = astarSkin.FindStyle("PixelButton");
 			graphInfoButtonStyle = astarSkin.FindStyle("InfoButton");
 			graphGizmoButtonStyle = astarSkin.FindStyle("GizmoButton");
-			graphEditNameButtonStyle = astarSkin.FindStyle("EditButton");
 
 			helpBox = inspectorSkin.FindStyle("HelpBox") ?? inspectorSkin.box;
 
@@ -414,7 +416,7 @@ namespace Pathfinding {
 					alwaysVisibleArea.HeaderLabel("Backup data detected");
 					if (alwaysVisibleArea.BeginFade()) {
 						EditorGUILayout.HelpBox("Backup data was found, this can have been stored because there was an error during deserialization. Check the log.\n" +
-							"If you load again and everything goes well, you can discard the backup data.\n" +
+							"If you load again and everything goes well, you can discard the backup data\n" +
 							"When trying to load again, the deserializer will ignore version differences (for example 3.0 would try to load 3.0.1 files)\n" +
 							"The backup data is stored in AstarData.data_backup", MessageType.Warning);
 						GUILayout.BeginHorizontal();
@@ -544,9 +546,6 @@ namespace Pathfinding {
 			aboutArea.End();
 		}
 
-		/** Graph editor which has its 'name' field focused */
-		GraphEditor graphNameFocused;
-
 		void DrawGraphHeader (GraphEditor graphEditor) {
 			var graph = graphEditor.target;
 
@@ -555,26 +554,20 @@ namespace Pathfinding {
 
 			GUILayout.BeginHorizontal();
 
-			if (graphNameFocused == graphEditor) {
-				GUI.SetNextControlName(graphGUIDString);
-				graph.name = GUILayout.TextField(graph.name ?? "", level1LabelStyle, GUILayout.ExpandWidth(true), GUILayout.ExpandHeight(false));
+			GUI.SetNextControlName(graphGUIDString);
+			graph.name = GUILayout.TextField(graph.name ?? "", level1LabelStyle, GUILayout.ExpandWidth(false), GUILayout.ExpandHeight(false));
 
-				// Mark the name field as deselected when it has been deselected or when the user presses Return or Escape
-				if ((Event.current.type == EventType.Repaint && GUI.GetNameOfFocusedControl() != graphGUIDString) || (Event.current.type == EventType.keyUp && (Event.current.keyCode == KeyCode.Return || Event.current.keyCode == KeyCode.Escape))) {
-					if (Event.current.type == EventType.keyUp) Event.current.Use();
-					graphNameFocused = null;
-				}
-			} else {
-				// If the graph name text field is not focused and the graph name is empty, then fill it in
-				if (graph.name == null || graph.name == "") graph.name = graphEditorTypes[graph.GetType().Name].displayName;
+			// If the graph name text field is not focused and the graph name is empty, then fill it in
+			if (graph.name == "" && Event.current.type == EventType.Repaint && GUI.GetNameOfFocusedControl() != graphGUIDString) {
+				graph.name = graphEditorTypes[graph.GetType().Name].displayName;
+			}
 
-				if (GUILayout.Button(graph.name, level1LabelStyle)) {
-					graphEditor.fadeArea.open = graph.open = !graph.open;
-					if (!graph.open) {
-						graph.infoScreenOpen = false;
-					}
-					RepaintSceneView();
+			if (GUILayout.Button("", level1LabelStyle)) {
+				graphEditor.fadeArea.open = graph.open = !graph.open;
+				if (!graph.open) {
+					graph.infoScreenOpen = false;
 				}
+				RepaintSceneView();
 			}
 
 			if (script.prioritizeGraphs) {
@@ -609,15 +602,15 @@ namespace Pathfinding {
 				}
 			}
 
-			// The OnInspectorGUI method ensures that the scene view is repainted when gizmos are toggled on or off by checking for EndChangeCheck
-			graph.drawGizmos = GUILayout.Toggle(graph.drawGizmos, new GUIContent("Draw Gizmos", "Draw Gizmos"), graphGizmoButtonStyle);
+			bool drawGizmos = GUILayout.Toggle(graph.drawGizmos, "Draw Gizmos", graphGizmoButtonStyle);
+			if (drawGizmos != graph.drawGizmos) {
+				graph.drawGizmos = drawGizmos;
 
-			if (GUILayout.Button(new GUIContent("", "Edit Name"), graphEditNameButtonStyle)) {
-				graphNameFocused = graphEditor;
-				GUI.FocusControl(graphGUIDString);
+				// Make sure that the scene view is repainted when gizmos are toggled on or off
+				RepaintSceneView();
 			}
 
-			if (GUILayout.Toggle(graph.infoScreenOpen, new GUIContent("Info", "Info"), graphInfoButtonStyle)) {
+			if (GUILayout.Toggle(graph.infoScreenOpen, "Info", graphInfoButtonStyle)) {
 				if (!graph.infoScreenOpen) {
 					graphEditor.infoFadeArea.open = graph.infoScreenOpen = true;
 					graphEditor.fadeArea.open = graph.open = true;
@@ -626,7 +619,7 @@ namespace Pathfinding {
 				graphEditor.infoFadeArea.open = graph.infoScreenOpen = false;
 			}
 
-			if (GUILayout.Button(new GUIContent("Delete", "Delete"), graphDeleteButtonStyle)) {
+			if (GUILayout.Button("Delete", graphDeleteButtonStyle)) {
 				RemoveGraph(graph);
 			}
 			GUILayout.EndHorizontal();
@@ -680,13 +673,15 @@ namespace Pathfinding {
 
 		/** Draws the inspector for the given graph with the given graph editor */
 		void DrawGraph (GraphEditor graphEditor) {
+			var graph = graphEditor.target;
+
 			graphEditor.fadeArea.Begin();
 			DrawGraphHeader(graphEditor);
 
 			if (graphEditor.fadeArea.BeginFade()) {
 				DrawGraphInfoArea(graphEditor);
-				graphEditor.OnInspectorGUI(graphEditor.target);
-				graphEditor.OnBaseInspectorGUI(graphEditor.target);
+				graphEditor.OnInspectorGUI(graph);
+				graphEditor.OnBaseInspectorGUI(graph);
 			}
 
 			graphEditor.fadeArea.End();
@@ -707,7 +702,10 @@ namespace Pathfinding {
 			script.ConfigureReferencesInternal();
 			EditorGUI.BeginChangeCheck();
 
-			if (!LoadStyles()) return;
+			if (!stylesLoaded) {
+				LoadStyles();
+				return;
+			}
 
 			// Some GUI controls might change this to Used, so we need to grab it here
 			EventType et = Event.current.type;
@@ -853,12 +851,15 @@ namespace Pathfinding {
 					string path = EditorUtility.OpenFilePanel("Load Graphs", "", "");
 
 					if (path != "") {
+						byte[] bytes;
 						try {
-							byte[] bytes = Pathfinding.Serialization.AstarSerializer.LoadFromFile(path);
-							DeserializeGraphs(bytes);
+							bytes = Pathfinding.Serialization.AstarSerializer.LoadFromFile(path);
 						} catch (System.Exception e) {
 							Debug.LogError("Could not load from file at '"+path+"'\n"+e);
+							bytes = null;
 						}
+
+						if (bytes != null) DeserializeGraphs(bytes);
 					}
 				}
 
@@ -908,11 +909,6 @@ namespace Pathfinding {
 				script.maxFrameTime = 10;
 			}
 
-			script.maxNearestNodeDistance = EditorGUILayout.FloatField(new GUIContent("Max Nearest Node Distance",
-					"Normally, if the nearest node to e.g the start point of a path was not walkable" +
-					" a search will be done for the nearest node which is walkble. This is the maximum distance (world units) which it will serarch"),
-				script.maxNearestNodeDistance);
-
 			script.heuristic = (Heuristic)EditorGUILayout.EnumPopup("Heuristic", script.heuristic);
 
 			if (script.heuristic == Heuristic.Manhattan || script.heuristic == Heuristic.Euclidean || script.heuristic == Heuristic.DiagonalManhattan) {
@@ -920,6 +916,11 @@ namespace Pathfinding {
 				script.heuristicScale = EditorGUILayout.FloatField("Heuristic Scale", script.heuristicScale);
 				EditorGUI.indentLevel--;
 			}
+
+			script.maxNearestNodeDistance = EditorGUILayout.FloatField(new GUIContent("Max Nearest Node Distance",
+					"Normally, if the nearest node to e.g the start point of a path was not walkable" +
+					" a search will be done for the nearest node which is walkble. This is the maximum distance (world units) which it will serarch"),
+				script.maxNearestNodeDistance);
 
 			GUILayout.Label(new GUIContent("Advanced"), EditorStyles.boldLabel);
 
@@ -929,7 +930,7 @@ namespace Pathfinding {
 
 			if (script.batchGraphUpdates) {
 				EditorGUI.indentLevel++;
-				script.graphUpdateBatchingInterval = EditorGUILayout.FloatField(new GUIContent("Update Interval (s)", "Minimum number of seconds between each batch of graph updates"), script.graphUpdateBatchingInterval);
+				script.graphUpdateBatchingInterval = EditorGUILayout.FloatField(new GUIContent("Update Interval (s)", "Minimum number of seconds between each graph update"), script.graphUpdateBatchingInterval);
 				EditorGUI.indentLevel--;
 			}
 
@@ -956,7 +957,9 @@ namespace Pathfinding {
 
 		/** Opens the A* Inspector and shows the section for editing tags */
 		public static void EditTags () {
-			AstarPath astar = GameObject.FindObjectOfType<AstarPath>();
+			AstarPath astar = AstarPath.active;
+
+			if (astar == null) astar = GameObject.FindObjectOfType<AstarPath>();
 
 			if (astar != null) {
 				editTags = true;
@@ -988,7 +991,7 @@ namespace Pathfinding {
 			editorSettingsArea.Header("Editor");
 
 			if (editorSettingsArea.BeginFade()) {
-				FadeArea.fancyEffects = EditorGUILayout.Toggle("Smooth Transitions", FadeArea.fancyEffects);
+				FadeArea.fancyEffects = EditorGUILayout.Toggle("Fancy fading effects", FadeArea.fancyEffects);
 
 				if (IsJsEnabled()) {
 					if (GUILayout.Button(new GUIContent("Disable Js Support", "Revert to only enable pathfinding calls from C#"))) {
@@ -1095,8 +1098,9 @@ namespace Pathfinding {
 						EditorResourceHelper.GizmoLineMaterial.SetColor("_FadeColor", fade * new Color(1, 1, 1, 0.7f));
 					}
 				}
-
-				colors._AreaColors = colors._AreaColors ?? new Color[0];
+				if (colors._AreaColors == null) {
+					colors._AreaColors = new Color[0];
+				}
 
 				// Custom Area Colors
 				customAreaColorsOpen = EditorGUILayout.Foldout(customAreaColorsOpen, "Custom Area Colors");
@@ -1117,7 +1121,9 @@ namespace Pathfinding {
 
 					if (GUILayout.Button("Add New")) {
 						var newcols = new Color[colors._AreaColors.Length+1];
-						colors._AreaColors.CopyTo(newcols, 0);
+						for (int i = 0; i < colors._AreaColors.Length; i++) {
+							newcols[i] = colors._AreaColors[i];
+						}
 						newcols[newcols.Length-1] = AstarMath.IntToColor(newcols.Length-1, 1F);
 						colors._AreaColors = newcols;
 					}
@@ -1232,11 +1238,11 @@ namespace Pathfinding {
 		/** Hashes the contents of a byte array */
 		static int ByteArrayHash (byte[] arr) {
 			if (arr == null) return -1;
-			int hash = -1;
+			int h = -1;
 			for (int i = 0; i < arr.Length; i++) {
-				hash ^= (arr[i]^i)*3221;
+				h ^= (arr[i]^i)*3221;
 			}
-			return hash;
+			return h;
 		}
 
 		void SerializeIfDataChanged () {
@@ -1304,8 +1310,8 @@ namespace Pathfinding {
 			}
 		}
 
-		/** Load graphs from serialized data */
 		public void LoadGraphs () {
+			//Load graphs from serialized data
 			DeserializeGraphs();
 		}
 
@@ -1313,12 +1319,13 @@ namespace Pathfinding {
 			var settings = Pathfinding.Serialization.SerializeSettings.Settings;
 
 			settings.editorSettings = true;
-			return SerializeGraphs(settings, out checksum);
+			byte[] bytes = SerializeGraphs(settings, out checksum);
+			return bytes;
 		}
 
 		public byte[] SerializeGraphs (Pathfinding.Serialization.SerializeSettings settings, out uint checksum) {
 			byte[] bytes = null;
-			uint tmpChecksum = 0;
+			uint ch = 0;
 
 			// Add a work item since we cannot be sure that pathfinding (or graph updates)
 			// is not running at the same time
@@ -1328,22 +1335,23 @@ namespace Pathfinding {
 				script.data.SerializeGraphsPart(sr);
 				sr.SerializeEditorSettings(graphEditors);
 				bytes = sr.CloseSerialize();
-				tmpChecksum = sr.GetChecksum();
+				ch = sr.GetChecksum();
 				return true;
 			}));
 
 			// Make sure the above work item is executed immediately
 			AstarPath.active.FlushWorkItems();
-			checksum = tmpChecksum;
+			checksum = ch;
 			return bytes;
 		}
 
 		void DeserializeGraphs () {
 			if (script.data.GetData() == null || script.data.GetData().Length == 0) {
 				script.data.graphs = new NavGraph[0];
-			} else {
-				DeserializeGraphs(script.data.GetData());
+				return;
 			}
+
+			DeserializeGraphs(script.data.GetData());
 		}
 
 		void DeserializeGraphs (byte[] bytes) {
@@ -1373,7 +1381,7 @@ namespace Pathfinding {
 		[MenuItem("Edit/Pathfinding/Scan All Graphs %&s")]
 		public static void MenuScan () {
 			if (AstarPath.active == null) {
-				AstarPath.active = FindObjectOfType<AstarPath>();
+				AstarPath.active = FindObjectOfType(typeof(AstarPath)) as AstarPath;
 				if (AstarPath.active == null) {
 					return;
 				}
