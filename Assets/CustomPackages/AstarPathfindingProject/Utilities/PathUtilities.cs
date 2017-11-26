@@ -5,32 +5,31 @@ using UnityEngine;
 namespace Pathfinding {
 	/** Contains useful functions for working with paths and nodes.
 	 * This class works a lot with the Node class, a useful function to get nodes is AstarPath.GetNearest.
-	 * \see #AstarPath.GetNearest
-	 * \see #Pathfinding.GraphUpdateUtilities
+	 * \see AstarPath.GetNearest
+	 * \see Pathfinding.GraphUpdateUtilities
 	 * \since Added in version 3.2
 	 * \ingroup utils
 	 *
 	 */
 	public static class PathUtilities {
 		/** Returns if there is a walkable path from \a n1 to \a n2.
-		 *
-		 * \note If you are making changes to the graph without using e.g #AstarPath.UpdateGraphs or the \link Pathfinding.GraphUpdateScene GraphUpdateScene\endlink component, areas must first be recaculated using AstarPath.FloodFill().
-		 * \see \ref graph-updates
-		 *
-		 * \see #AstarPath.GetNearest
+		 * If you are making changes to the graph, areas must first be recaculated using FloodFill()
+		 * \note This might return true for small areas even if there is no possible path if AstarPath.minAreaSize is greater than zero (0).
+		 * So when using this, it is recommended to set AstarPath.minAreaSize to 0. (A* Inspector -> Settings -> Pathfinding)
+		 * \see AstarPath.GetNearest
 		 */
 		public static bool IsPathPossible (GraphNode n1, GraphNode n2) {
 			return n1.Walkable && n2.Walkable && n1.Area == n2.Area;
 		}
 
 		/** Returns if there are walkable paths between all nodes.
+		 * If you are making changes to the graph, areas must first be recaculated using FloodFill()
+		 * \note This might return true for small areas even if there is no possible path if AstarPath.minAreaSize is greater than zero (0).
+		 * So when using this, it is recommended to set AstarPath.minAreaSize to 0. (A* Inspector -> Settings -> Pathfinding)
 		 *
-		 * \note If you are making changes to the graph without using e.g #AstarPath.UpdateGraphs or the \link Pathfinding.GraphUpdateScene GraphUpdateScene\endlink component, areas must first be recaculated using e.g AstarPath.FloodFill().
-		 * \see \ref graph-updates
+		 * Returns true for empty lists
 		 *
-		 * Returns true for empty lists.
-		 *
-		 * \see #AstarPath.GetNearest
+		 * \see AstarPath.GetNearest
 		 */
 		public static bool IsPathPossible (List<GraphNode> nodes) {
 			if (nodes.Count == 0) return true;
@@ -41,8 +40,7 @@ namespace Pathfinding {
 		}
 
 		/** Returns if there are walkable paths between all nodes.
-		 * \note If you are making changes to the graph without using e.g #AstarPath.UpdateGraphs or the \link Pathfinding.GraphUpdateScene GraphUpdateScene\endlink component, areas must first be recaculated using e.g AstarPath.FloodFill().
-		 * \see \ref graph-updates
+		 * If you are making changes to the graph, areas should first be recaculated using FloodFill()
 		 *
 		 * This method will actually only check if the first node can reach all other nodes. However this is
 		 * equivalent in 99% of the cases since almost always the graph connections are bidirectional.
@@ -53,7 +51,7 @@ namespace Pathfinding {
 		 *
 		 * \warning This method is significantly slower than the IsPathPossible method which does not take a tagMask
 		 *
-		 * \see #AstarPath.GetNearest
+		 * \see AstarPath.GetNearest
 		 */
 		public static bool IsPathPossible (List<GraphNode> nodes, int tagMask) {
 			if (nodes.Count == 0) return true;
@@ -77,7 +75,7 @@ namespace Pathfinding {
 			}
 
 			// Pool the temporary list
-			ListPool<GraphNode>.Release(ref reachable);
+			ListPool<GraphNode>.Release(reachable);
 
 			return result;
 		}
@@ -103,44 +101,45 @@ namespace Pathfinding {
 		 * For better memory management the returned list should be pooled, see Pathfinding.Util.ListPool
 		 */
 		public static List<GraphNode> GetReachableNodes (GraphNode seed, int tagMask = -1) {
-			Stack<GraphNode> dfsStack = StackPool<GraphNode>.Claim();
-			List<GraphNode> reachable = ListPool<GraphNode>.Claim();
+			Stack<GraphNode> stack = StackPool<GraphNode>.Claim();
+			List<GraphNode> list = ListPool<GraphNode>.Claim();
 
 			/** \todo Pool */
 			var map = new HashSet<GraphNode>();
 
 			System.Action<GraphNode> callback;
 			if (tagMask == -1) {
-				callback = (GraphNode node) => {
+				callback = delegate(GraphNode node) {
 					if (node.Walkable && map.Add(node)) {
-						reachable.Add(node);
-						dfsStack.Push(node);
+						list.Add(node);
+						stack.Push(node);
 					}
 				};
 			} else {
-				callback = (GraphNode node) => {
+				callback = delegate(GraphNode node) {
 					if (node.Walkable && ((tagMask >> (int)node.Tag) & 0x1) != 0 && map.Add(node)) {
-						reachable.Add(node);
-						dfsStack.Push(node);
+						list.Add(node);
+						stack.Push(node);
 					}
 				};
 			}
 
 			callback(seed);
 
-			while (dfsStack.Count > 0) {
-				dfsStack.Pop().GetConnections(callback);
+			while (stack.Count > 0) {
+				stack.Pop().GetConnections(callback);
 			}
 
-			StackPool<GraphNode>.Release(dfsStack);
-			return reachable;
+			StackPool<GraphNode>.Release(stack);
+
+			return list;
 		}
 
 		static Queue<GraphNode> BFSQueue;
 		static Dictionary<GraphNode, int> BFSMap;
 
 		/** Returns all nodes up to a given node-distance from the seed node.
-		 * This function performs a BFS (<a href="https://en.wikipedia.org/wiki/Breadth-first_search">breadth-first search</a>) or flood fill of the graph and returns all nodes within a specified node distance which can be reached from
+		 * This function performs a BFS (breadth-first-search) or flood fill of the graph and returns all nodes within a specified node distance which can be reached from
 		 * the seed node. In almost all cases when \a depth is large enough this will be identical to returning all nodes which have the same area as the seed node.
 		 * In the editor areas are displayed as different colors of the nodes.
 		 * The only case where it will not be so is when there is a one way path from some part of the area to the seed node
@@ -157,13 +156,10 @@ namespace Pathfinding {
 		 * \param depth The maximum node-distance from the seed node.
 		 * \param tagMask Optional mask for tags. This is a bitmask.
 		 *
-		 * \returns A List<GraphNode> containing all nodes reachable up to a specified node distance from the seed node.
+		 * \returns A List<Node> containing all nodes reachable up to a specified node distance from the seed node.
 		 * For better memory management the returned list should be pooled, see Pathfinding.Util.ListPool
 		 *
 		 * \warning This method is not thread safe. Only use it from the Unity thread (i.e normal game code).
-		 *
-		 * The video below shows the BFS result with varying values of \a depth. Points are sampled on the nodes using #GetPointsOnNodes.
-		 * \video{bfs.mp4}
 		 */
 		public static List<GraphNode> BFS (GraphNode seed, int depth, int tagMask = -1) {
 			BFSQueue = BFSQueue ?? new Queue<GraphNode>();
@@ -405,11 +401,11 @@ namespace Pathfinding {
 		 * Selecting points ON the nodes only works for TriangleMeshNode (used by Recast Graph and Navmesh Graph) and GridNode (used by GridGraph).
 		 * For other node types, only the positions of the nodes will be used.
 		 *
-		 * \a clearanceRadius will be reduced if no valid points can be found.
+		 * clearanceRadius will be reduced if no valid points can be found.
 		 *
 		 * \note This method assumes that the nodes in the list have the same type for some special cases.
 		 * More specifically if the first node is not a TriangleMeshNode or a GridNode, it will use a fast path
-		 * which assumes that all nodes in the list have the same surface area (which usually is a surface area of zero and the
+		 * which assumes that all nodes in the list have the same area (which usually is an area of zero and the
 		 * nodes are all PointNodes).
 		 */
 		public static List<Vector3> GetPointsOnNodes (List<GraphNode> nodes, int count, float clearanceRadius = 0) {
@@ -488,7 +484,7 @@ namespace Pathfinding {
 					}
 				}
 
-				ListPool<float>.Release(ref accs);
+				ListPool<float>.Release(accs);
 			} else {
 				// Fast path, assumes all nodes have the same area (usually zero)
 				for (int i = 0; i < count; i++) {

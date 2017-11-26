@@ -56,7 +56,7 @@ namespace Pathfinding.Serialization {
 		public GraphNode DeserializeNodeReference () {
 			var id = reader.ReadInt32();
 
-			if (id2NodeMapping == null) throw new Exception("Calling DeserializeNodeReference when not deserializing node references");
+			if (id2NodeMapping == null) throw new Exception("Calling DeserializeNodeReference when serializing");
 
 			if (id == -1) return null;
 			GraphNode node = id2NodeMapping[id];
@@ -203,15 +203,6 @@ namespace Pathfinding.Serialization {
 		 * thus only be called from a single thread and should not be called while using an earlier got string builder.
 		 */
 		static System.Text.StringBuilder GetStringBuilder () { _stringBuilder.Length = 0; return _stringBuilder; }
-
-		/** Cached version object for 3.8.3 */
-		public static readonly System.Version V3_8_3 = new System.Version(3, 8, 3);
-
-		/** Cached version object for 3.9.0 */
-		public static readonly System.Version V3_9_0 = new System.Version(3, 9, 0);
-
-		/** Cached version object for 4.1.0 */
-		public static readonly System.Version V4_1_0 = new System.Version(4, 1, 0);
 
 		public AstarSerializer (AstarData data) {
 			this.data = data;
@@ -404,7 +395,7 @@ namespace Pathfinding.Serialization {
 			var writer = new BinaryWriter(stream);
 			var ctx = new GraphSerializationContext(writer);
 
-			((IGraphInternals)graph).SerializeExtraInfo(ctx);
+			graph.SerializeExtraInfo(ctx);
 			byte[] bytes = stream.ToArray();
 			writer.Close();
 
@@ -573,7 +564,7 @@ namespace Pathfinding.Serialization {
 			} else if (ContainsEntry(binName)) {
 				var reader = GetBinaryReader(GetEntry(binName));
 				var ctx = new GraphSerializationContext(reader, null, graph.graphIndex, meta);
-				((IGraphInternals)graph).DeserializeSettingsCompatibility(ctx);
+				graph.DeserializeSettingsCompatibility(ctx);
 			} else {
 				throw new FileNotFoundException("Could not find data for graph " + zipIndex + " in zip. Entry 'graph" + zipIndex + jsonExt + "' does not exist");
 			}
@@ -618,7 +609,7 @@ namespace Pathfinding.Serialization {
 			var ctx = new GraphSerializationContext(reader, null, graph.graphIndex, meta);
 
 			// Call the graph to process the data
-			((IGraphInternals)graph).DeserializeExtraInfo(ctx);
+			graph.DeserializeExtraInfo(ctx);
 			return true;
 		}
 
@@ -731,8 +722,7 @@ namespace Pathfinding.Serialization {
 		/** Calls PostDeserialization on all loaded graphs */
 		public void PostDeserialization () {
 			for (int i = 0; i < graphs.Length; i++) {
-				var ctx = new GraphSerializationContext(null, null, 0, meta);
-				((IGraphInternals)graphs[i]).PostDeserialization(ctx);
+				graphs[i].PostDeserialization();
 			}
 		}
 
@@ -871,26 +861,26 @@ namespace Pathfinding.Serialization {
 		/** Type names for all graphs */
 		public List<string> typeNames;
 
-		/** Returns the Type of graph number \a index */
-		public Type GetGraphType (int index) {
+		/** Returns the Type of graph number \a i */
+		public Type GetGraphType (int i) {
 			// The graph was null when saving. Ignore it
-			if (String.IsNullOrEmpty(typeNames[index])) return null;
+			if (String.IsNullOrEmpty(typeNames[i])) return null;
 
 #if ASTAR_FAST_NO_EXCEPTIONS || UNITY_WEBGL
 			System.Type[] types = AstarData.DefaultGraphTypes;
 
 			Type type = null;
 			for (int j = 0; j < types.Length; j++) {
-				if (types[j].FullName == typeNames[index]) type = types[j];
+				if (types[j].FullName == typeNames[i]) type = types[j];
 			}
 #else
 			// Note calling through assembly is more stable on e.g WebGL
-			Type type = WindowsStoreCompatibility.GetTypeInfo(typeof(AstarPath)).Assembly.GetType(typeNames[index]);
+			Type type = WindowsStoreCompatibility.GetTypeInfo(typeof(AstarPath)).Assembly.GetType(typeNames[i]);
 #endif
 			if (!System.Type.Equals(type, null))
 				return type;
 
-			throw new Exception("No graph of type '" + typeNames[index] + "' could be created, type does not exist");
+			throw new Exception("No graph of type '" + typeNames[i] + "' could be created, type does not exist");
 		}
 	}
 

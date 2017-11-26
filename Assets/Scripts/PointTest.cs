@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class PointTest : MonoBehaviour
 {
+    private Transform point;
+    private Vector3 target;
 
-	// Use this for initialization
-	void Start ()
+    // Use this for initialization
+    void Start ()
     {
-		
+        point = this.gameObject.transform;
 	}
 	
 	// Update is called once per frame
@@ -16,7 +18,10 @@ public class PointTest : MonoBehaviour
     {
 		if(Input.GetMouseButtonDown(0))
         {
-            GameObject.Destroy(this.gameObject);
+            target = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            target.z = transform.position.z;
+
+            point.position = target;
         }
 	}
 }

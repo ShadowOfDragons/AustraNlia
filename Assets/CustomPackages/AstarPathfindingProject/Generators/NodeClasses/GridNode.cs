@@ -257,7 +257,7 @@ namespace Pathfinding {
 			int[] neighbourOffsets = gg.neighbourOffsets;
 			GridNode[] nodes = gg.nodes;
 
-			pathNode.UpdateG(path);
+			UpdateG(path, pathNode);
 			handler.heap.Add(pathNode);
 
 			ushort pid = handler.PathID;
@@ -296,7 +296,6 @@ namespace Pathfinding {
 
 						uint tmpCost = neighbourCosts[i];
 
-						// Check if the other node has not yet been visited by this path
 						if (otherPN.pathID != pid) {
 							otherPN.parent = pathNode;
 							otherPN.pathID = pid;
@@ -304,9 +303,11 @@ namespace Pathfinding {
 							otherPN.cost = tmpCost;
 
 							otherPN.H = path.CalculateHScore(other);
-							otherPN.UpdateG(path);
+							other.UpdateG(path, otherPN);
 
+							//Debug.Log ("G " + otherPN.G + " F " + otherPN.F);
 							handler.heap.Add(otherPN);
+							//Debug.DrawRay ((Vector3)otherPN.node.Position, Vector3.up,Color.blue);
 						} else {
 							// Sorry for the huge number of #ifs
 

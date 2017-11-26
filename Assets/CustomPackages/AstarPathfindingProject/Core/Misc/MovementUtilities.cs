@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace Pathfinding.Util {
 	public static class MovementUtilities {
-		/** Clamps the velocity to the max speed and optionally the forwards direction.
+		/** Clamps the velocity to the max speed.
 		 * \param velocity Desired velocity of the character. In world units per second.
 		 * \param maxSpeed Max speed of the character. In world units per second.
 		 * \param slowdownFactor Value between 0 and 1 which determines how much slower the character should move than normal.
@@ -18,17 +18,17 @@ namespace Pathfinding.Util {
 		 */
 		public static Vector2 ClampVelocity (Vector2 velocity, float maxSpeed, float slowdownFactor, bool slowWhenNotFacingTarget, Vector2 forward) {
 			// Max speed to use for this frame
-			var currentMaxSpeed = maxSpeed * slowdownFactor;
+			var currentMaxSpeed = maxSpeed * Mathf.Sqrt(Mathf.Min(1, slowdownFactor));
 
 			// Check if the agent should slow down in case it is not facing the direction it wants to move in
 			if (slowWhenNotFacingTarget && (forward.x != 0 || forward.y != 0)) {
 				float currentSpeed;
 				var normalizedVelocity = VectorMath.Normalize(velocity, out currentSpeed);
+				// 1 when velocity is in the same direction as forward
+				// 0.2 when they point in the opposite directions
 				float dot = Vector2.Dot(normalizedVelocity, forward);
 
 				// Lower the speed when the character's forward direction is not pointing towards the desired velocity
-				// 1 when velocity is in the same direction as forward
-				// 0.2 when they point in the opposite directions
 				float directionSpeedFactor = Mathf.Clamp(dot+0.707f, 0.2f, 1.0f);
 				currentMaxSpeed *= directionSpeedFactor;
 				currentSpeed = Mathf.Min(currentSpeed, currentMaxSpeed);
@@ -42,7 +42,7 @@ namespace Pathfinding.Util {
 				// the velocity would always be in the forwards direction of the character then
 				// the character would never rotate.
 				// Allow larger angles when near the end of the path to prevent oscillations.
-				angle = Mathf.Min(angle, (20f + 180f*(1 - slowdownFactor*slowdownFactor))*Mathf.Deg2Rad);
+				angle = Mathf.Min(angle, (20f + 180f*Mathf.Clamp01(1 - slowdownFactor))*Mathf.Deg2Rad);
 
 				float sin = Mathf.Sin(angle);
 				float cos = Mathf.Cos(angle);

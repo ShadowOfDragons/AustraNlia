@@ -4,45 +4,73 @@ using UnityEditor;
 namespace Pathfinding {
 	[CustomEditor(typeof(SimpleSmoothModifier))]
 	[CanEditMultipleObjects]
-	public class SmoothModifierEditor : EditorBase {
-		protected override void Inspector () {
-			var smoothType = FindProperty("smoothType");
+	public class SmoothModifierEditor : Editor {
+		SerializedProperty smoothType, uniformLength, maxSegmentLength, subdivisions, iterations, strength, offset, bezierTangentLength, factor;
 
-			PropertyField("smoothType");
+		void OnEnable () {
+			smoothType = serializedObject.FindProperty("smoothType");
+			uniformLength = serializedObject.FindProperty("uniformLength");
+			maxSegmentLength = serializedObject.FindProperty("maxSegmentLength");
+			subdivisions = serializedObject.FindProperty("subdivisions");
+			iterations = serializedObject.FindProperty("iterations");
+			strength = serializedObject.FindProperty("strength");
+			offset = serializedObject.FindProperty("offset");
+			bezierTangentLength = serializedObject.FindProperty("bezierTangentLength");
+			factor = serializedObject.FindProperty("factor");
+		}
+
+		public override void OnInspectorGUI () {
+			serializedObject.Update();
+
+			EditorGUILayout.PropertyField(smoothType);
 
 			if (!smoothType.hasMultipleDifferentValues) {
 				switch ((SimpleSmoothModifier.SmoothType)smoothType.enumValueIndex) {
 				case SimpleSmoothModifier.SmoothType.Simple:
-					if (PropertyField("uniformLength")) {
-						PropertyField("maxSegmentLength");
-						Clamp("maxSegmentLength", 0.005f);
+					EditorGUILayout.PropertyField(uniformLength);
+
+					if (uniformLength.boolValue) {
+						EditorGUILayout.PropertyField(maxSegmentLength);
+						if (maxSegmentLength.floatValue < 0.005f && !maxSegmentLength.hasMultipleDifferentValues) {
+							maxSegmentLength.floatValue = 0.005f;
+						}
 					} else {
-						IntSlider("subdivisions", 0, 6);
+						EditorGUILayout.IntSlider(subdivisions, 0, 6);
 					}
 
-					PropertyField("iterations");
-					ClampInt("iterations", 0);
+					EditorGUILayout.PropertyField(iterations);
+					if (iterations.intValue < 0 && !iterations.hasMultipleDifferentValues) {
+						iterations.intValue = 0;
+					}
 
-					PropertyField("strength");
+					EditorGUILayout.Slider(strength, 0f, 1f);
 					break;
 				case SimpleSmoothModifier.SmoothType.OffsetSimple:
-					PropertyField("iterations");
-					ClampInt("iterations", 0);
+					EditorGUILayout.PropertyField(iterations);
+					if (iterations.intValue < 0 && !iterations.hasMultipleDifferentValues) {
+						iterations.intValue = 0;
+					}
 
-					PropertyField("offset");
-					Clamp("offset", 0);
+					EditorGUILayout.PropertyField(offset);
+					if (offset.floatValue < 0 && !offset.hasMultipleDifferentValues) {
+						offset.floatValue = 0;
+					}
 					break;
 				case SimpleSmoothModifier.SmoothType.Bezier:
-					IntSlider("subdivisions", 0, 6);
-					PropertyField("bezierTangentLength");
+					EditorGUILayout.IntSlider(subdivisions, 0, 6);
+					EditorGUILayout.PropertyField(bezierTangentLength);
 					break;
 				case SimpleSmoothModifier.SmoothType.CurvedNonuniform:
-					PropertyField("maxSegmentLength");
-					Clamp("maxSegmentLength", 0.005f);
-					PropertyField("factor");
+					EditorGUILayout.PropertyField(maxSegmentLength);
+					if (maxSegmentLength.floatValue < 0.005f && !maxSegmentLength.hasMultipleDifferentValues) {
+						maxSegmentLength.floatValue = 0.005f;
+					}
+					EditorGUILayout.PropertyField(factor);
 					break;
 				}
 			}
+
+			serializedObject.ApplyModifiedProperties();
 		}
 	}
 }

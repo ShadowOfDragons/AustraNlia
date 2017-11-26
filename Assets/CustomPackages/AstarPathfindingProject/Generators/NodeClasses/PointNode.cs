@@ -13,8 +13,6 @@ namespace Pathfinding {
 
 		/** GameObject this node was created from (if any).
 		 * \warning When loading a graph from a saved file or from cache, this field will be null.
-		 *
-		 * \snippet MiscSnippets.cs PointNode.gameObject
 		 */
 		public GameObject gameObject;
 
@@ -41,7 +39,7 @@ namespace Pathfinding {
 		}
 
 		public override void UpdateRecursiveG (Path path, PathNode pathNode, PathHandler handler) {
-			pathNode.UpdateG(path);
+			UpdateG(path, pathNode);
 
 			handler.heap.Add(pathNode);
 
@@ -85,7 +83,10 @@ namespace Pathfinding {
 				newconns[i] = connections[i];
 			}
 
-			newconns[connLength] = new Connection(node, cost);
+			newconns[connLength] = new Connection {
+				node = node,
+				cost = cost
+			};
 
 			connections = newconns;
 		}
@@ -134,7 +135,7 @@ namespace Pathfinding {
 						pathOther.cost = connections[i].cost;
 
 						pathOther.H = path.CalculateHScore(other);
-						pathOther.UpdateG(path);
+						other.UpdateG(path, pathOther);
 
 						handler.heap.Add(pathOther);
 					} else {
@@ -201,7 +202,10 @@ namespace Pathfinding {
 				connections = new Connection[count];
 
 				for (int i = 0; i < count; i++) {
-					connections[i] = new Connection(ctx.DeserializeNodeReference(), ctx.reader.ReadUInt32());
+					connections[i] = new Connection {
+						node = ctx.DeserializeNodeReference(),
+						cost = ctx.reader.ReadUInt32()
+					};
 				}
 			}
 		}

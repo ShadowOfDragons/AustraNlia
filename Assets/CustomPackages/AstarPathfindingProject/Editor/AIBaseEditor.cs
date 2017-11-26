@@ -4,30 +4,30 @@ using UnityEngine;
 namespace Pathfinding {
 	[CustomEditor(typeof(AIBase), true)]
 	[CanEditMultipleObjects]
-	public class BaseAIEditor : EditorBase {
+	public class BaseAIEditor : Editor {
 		protected SerializedProperty gravity, groundMask, centerOffset, rotationIn2D;
 		float lastSeenCustomGravity = float.NegativeInfinity;
 
-		protected override void OnEnable () {
-			base.OnEnable();
+		void OnEnable () {
 			gravity = serializedObject.FindProperty("gravity");
 			groundMask = serializedObject.FindProperty("groundMask");
 			centerOffset = serializedObject.FindProperty("centerOffset");
 			rotationIn2D = serializedObject.FindProperty("rotationIn2D");
 		}
 
-		protected override void Inspector () {
+		public override void OnInspectorGUI () {
+			serializedObject.Update();
+
 			// Iterate over all properties of the script
 			var p = serializedObject.GetIterator();
-
 			p.Next(true);
 			while (p.NextVisible(false)) {
 				if (!SerializedProperty.EqualContents(p, groundMask) && !SerializedProperty.EqualContents(p, centerOffset) && !SerializedProperty.EqualContents(p, gravity) && !SerializedProperty.EqualContents(p, rotationIn2D)) {
-					PropertyField(p);
+					EditorGUILayout.PropertyField(p, true);
 				}
 			}
 
-			PropertyField(rotationIn2D);
+			EditorGUILayout.PropertyField(rotationIn2D);
 
 			var mono = target as MonoBehaviour;
 			var rigid = mono.GetComponent<Rigidbody>();
@@ -53,12 +53,12 @@ namespace Pathfinding {
 					if (Time.realtimeSinceStartup - lastSeenCustomGravity < 2f) {
 						EditorGUI.indentLevel++;
 						if (!float.IsNaN(gravity.vector3Value.x)) {
-							PropertyField(gravity.propertyPath);
+							EditorGUILayout.PropertyField(gravity, true);
 						}
 
 						if (controller == null || !controller.enabled) {
-							PropertyField(groundMask.propertyPath, "Raycast Ground Mask");
-							PropertyField(centerOffset.propertyPath, "Raycast Center Offset");
+							EditorGUILayout.PropertyField(groundMask, new GUIContent("Raycast Ground Mask"));
+							EditorGUILayout.PropertyField(centerOffset, new GUIContent("Raycast Center Offset"));
 						}
 
 						EditorGUI.indentLevel--;
@@ -70,9 +70,7 @@ namespace Pathfinding {
 				EditorGUI.EndDisabledGroup();
 			}
 
-			if ((rigid != null || rigid2D != null) && (controller != null && controller.enabled)) {
-				EditorGUILayout.HelpBox("You are using both a Rigidbody and a Character Controller. Those components are not really designed for that. Please use only one of them.", MessageType.Warning);
-			}
+			serializedObject.ApplyModifiedProperties();
 		}
 	}
 }

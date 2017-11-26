@@ -94,14 +94,14 @@ namespace Pathfinding {
 		}
 
 		/** Push a path to the front of the queue */
-		public void PushFront (Path path) {
+		public void PushFront (Path p) {
 			lock (lockObj) {
 				// If termination is due, why add stuff to a queue which will not be read from anyway
 				if (terminate) return;
 
 				if (tail == null) {// (tail == null) ==> (head == null)
-					head = path;
-					tail = path;
+					head = p;
+					tail = p;
 
 					if (starving && !blocked) {
 						starving = false;
@@ -110,21 +110,21 @@ namespace Pathfinding {
 						starving = false;
 					}
 				} else {
-					path.next = head;
-					head = path;
+					p.next = head;
+					head = p;
 				}
 			}
 		}
 
 		/** Push a path to the end of the queue */
-		public void Push (Path path) {
+		public void Push (Path p) {
 			lock (lockObj) {
 				// If termination is due, why add stuff to a queue which will not be read from anyway
 				if (terminate) return;
 
 				if (tail == null) {// (tail == null) ==> (head == null)
-					head = path;
-					tail = path;
+					head = p;
+					tail = p;
 
 					if (starving && !blocked) {
 						starving = false;
@@ -133,8 +133,8 @@ namespace Pathfinding {
 						starving = false;
 					}
 				} else {
-					tail.next = path;
-					tail = path;
+					tail.next = p;
+					tail = p;
 				}
 			}
 		}
@@ -196,12 +196,10 @@ namespace Pathfinding {
 				}
 				Path p = head;
 
-				var newHead = head.next;
-				if (newHead == null) {
+				if (head.next == null) {
 					tail = null;
 				}
-				head.next = null;
-				head = newHead;
+				head = head.next;
 				return p;
 			} finally {
 				Monitor.Exit(lockObj);
@@ -258,12 +256,10 @@ namespace Pathfinding {
 
 				Path p = head;
 
-				var newHead = head.next;
-				if (newHead == null) {
+				if (head.next == null) {
 					tail = null;
 				}
-				head.next = null;
-				head = newHead;
+				head = head.next;
 				return p;
 			} finally {
 				Monitor.Exit(lockObj);

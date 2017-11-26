@@ -48,9 +48,10 @@ namespace Pathfinding {
 			ApplyNow(p.path);
 		}
 
-		protected void OnDestroy () {
+		public override void OnDestroy () {
 			destroyed = true;
 			ClearOnDestroy();
+			base.OnDestroy();
 		}
 
 		void ClearOnDestroy () {

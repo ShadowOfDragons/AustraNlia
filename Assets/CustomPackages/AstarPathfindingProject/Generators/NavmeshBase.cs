@@ -9,7 +9,6 @@ namespace Pathfinding {
 	using Pathfinding.Util;
 	using Pathfinding.Serialization;
 	using Math = System.Math;
-	using System.Linq;
 
 	/** Base class for RecastGraph and NavMeshGraph */
 	public abstract class NavmeshBase : NavGraph, INavmesh, INavmeshHolder, ITransformedGraph {
@@ -62,8 +61,8 @@ namespace Pathfinding {
 		 * Recomended for single-layered environments. Faster but can be inaccurate esp. in multilayered contexts.
 		 * You should not use this if the graph is rotated since then the XZ plane no longer corresponds to the ground plane.
 		 *
-		 * This can be important on sloped surfaces. See the image below in which the closest point for each blue point is queried for:
-		 * \shadowimage{distanceXZ2.png}
+		 * This can be important on sloped surfaces. See the image below:
+		 * \shadowimage{distanceXZ.png}
 		 *
 		 * You can also control this using a \link Pathfinding.NNConstraint.distanceXZ field on an NNConstraint object\endlink.
 		 */
@@ -83,9 +82,6 @@ namespace Pathfinding {
 
 		GraphTransform ITransformedGraph.transform { get { return transform; } }
 
-		/** \copydoc Pathfinding::NavMeshGraph::recalculateNormals */
-		protected abstract bool RecalculateNormals { get; }
-
 		/** Returns a new transform which transforms graph space to world space.
 		 * Does not update the #transform field.
 		 * \see #RelocateNodes(GraphTransform)
@@ -102,8 +98,6 @@ namespace Pathfinding {
 
 		/** Tile at the specified x, z coordinate pair.
 		 * The first tile is at (0,0), the last tile at (tileXCount-1, tileZCount-1).
-		 *
-		 * \snippet MiscSnippets.cs NavmeshBase.GetTile
 		 */
 		public NavmeshTile GetTile (int x, int z) {
 			return tiles[x + z * tileXCount];
@@ -181,17 +175,17 @@ namespace Pathfinding {
 			return b;
 		}
 
-		/** Returns the tile coordinate which contains the specified \a position.
+		/** Returns the tile coordinate which contains the point \a p.
 		 * It is not necessarily a valid tile (i.e it could be out of bounds).
 		 */
-		public Int2 GetTileCoordinates (Vector3 position) {
-			position = transform.InverseTransform(position);
-			position.x /= TileWorldSizeX;
-			position.z /= TileWorldSizeZ;
-			return new Int2((int)position.x, (int)position.z);
+		public Int2 GetTileCoordinates (Vector3 p) {
+			p = transform.InverseTransform(p);
+			p.x /= TileWorldSizeX;
+			p.z /= TileWorldSizeZ;
+			return new Int2((int)p.x, (int)p.z);
 		}
 
-		protected override void OnDestroy () {
+		public override void OnDestroy () {
 			base.OnDestroy();
 
 			// Cleanup
@@ -249,7 +243,7 @@ namespace Pathfinding {
 		}
 
 		/** Creates a single new empty tile */
-		protected NavmeshTile NewEmptyTile (int x, int z) {
+		protected static NavmeshTile NewEmptyTile (int x, int z) {
 			return new NavmeshTile {
 					   x = x,
 					   z = z,
@@ -259,8 +253,7 @@ namespace Pathfinding {
 					   vertsInGraphSpace = new Int3[0],
 					   tris = new int[0],
 					   nodes = new TriangleMeshNode[0],
-					   bbTree = ObjectPool<BBTree>.Claim(),
-					   graph = this,
+					   bbTree = ObjectPool<BBTree>.Claim()
 			};
 		}
 
@@ -547,11 +540,10 @@ namespace Pathfinding {
 						for (int b = 0; b < bv; b++) {
 							/** \todo This will fail on edges which are only partially shared */
 							if (other.GetVertexIndex(b) == second && other.GetVertexIndex((b+1) % bv) == first) {
-								connections.Add(new Connection(
-										other,
-										(uint)(node.position - other.position).costMagnitude,
-										(byte)a
-										));
+								connections.Add(new Connection {
+									node = other,
+									cost = (uint)(node.position - other.position).costMagnitude
+								});
 								break;
 							}
 						}
@@ -563,7 +555,7 @@ namespace Pathfinding {
 
 			nodeRefs.Clear();
 			ObjectPoolSimple<Dictionary<Int2, int> >.Release(ref nodeRefs);
-			ListPool<Connection>.Release(ref connections);
+			ListPool<Connection>.Release(connections);
 		}
 
 		/** Generate connections between the two tiles.
@@ -654,8 +646,8 @@ namespace Pathfinding {
 											VectorMath.SqrDistanceSegmentSegment((Vector3)aVertex1, (Vector3)aVertex2, (Vector3)bVertex1, (Vector3)bVertex2) < MaxTileConnectionEdgeDistance*MaxTileConnectionEdgeDistance) {
 											uint cost = (uint)(nodeA.position - nodeB.position).costMagnitude;
 
-											nodeA.AddConnection(nodeB, cost, a);
-											nodeB.AddConnection(nodeA, cost, b);
+											nodeA.AddConnection(nodeB, cost);
+											nodeB.AddConnection(nodeA, cost);
 										}
 									}
 								}
@@ -789,8 +781,7 @@ namespace Pathfinding {
 				w = w,
 				d = d,
 				tris = tris,
-				bbTree = ObjectPool<BBTree>.Claim(),
-				graph = this,
+				bbTree = ObjectPool<BBTree>.Claim()
 			};
 
 			if (!Mathf.Approximately(x*TileWorldSizeX*Int3.FloatPrecision, (float)Math.Round(x*TileWorldSizeX*Int3.FloatPrecision))) Debug.LogWarning("Possible numerical imprecision. Consider adjusting tileSize and/or cellSize");
@@ -883,7 +874,7 @@ namespace Pathfinding {
 				node.v2 = tris[i*3+2] | tileIndex;
 
 				// Make sure the triangle is clockwise in graph space (it may not be in world space since the graphs can be rotated)
-				if (RecalculateNormals && !VectorMath.IsClockwiseXZ(node.GetVertexInGraphSpace(0), node.GetVertexInGraphSpace(1), node.GetVertexInGraphSpace(2))) {
+				if (!VectorMath.IsClockwiseXZ(node.GetVertexInGraphSpace(0), node.GetVertexInGraphSpace(1), node.GetVertexInGraphSpace(2))) {
 					int tmp = node.v0;
 					node.v0 = node.v2;
 					node.v2 = tmp;
@@ -1027,7 +1018,7 @@ namespace Pathfinding {
 		 *
 		 * \see
 		 */
-		protected override void SerializeExtraInfo (GraphSerializationContext ctx) {
+		public override void SerializeExtraInfo (GraphSerializationContext ctx) {
 			BinaryWriter writer = ctx.writer;
 
 			if (tiles == null) {
@@ -1077,7 +1068,7 @@ namespace Pathfinding {
 			}
 		}
 
-		protected override void DeserializeExtraInfo (GraphSerializationContext ctx) {
+		public override void DeserializeExtraInfo (GraphSerializationContext ctx) {
 			BinaryReader reader = ctx.reader;
 
 			tileXCount = reader.ReadInt32();
@@ -1107,18 +1098,19 @@ namespace Pathfinding {
 						continue;
 					}
 
-					var tile = tiles[tileIndex] = new NavmeshTile {
-						x = tx,
-						z = tz,
-						w = reader.ReadInt32(),
-						d = reader.ReadInt32(),
-						bbTree = ObjectPool<BBTree>.Claim(),
-						graph = this,
-					};
+					var tile = new NavmeshTile();
+
+					tile.x = tx;
+					tile.z = tz;
+					tile.w = reader.ReadInt32();
+					tile.d = reader.ReadInt32();
+					tile.bbTree = ObjectPool<BBTree>.Claim();
+
+					tiles[tileIndex] = tile;
 
 					int trisCount = reader.ReadInt32();
 
-					if (trisCount % 3 != 0) throw new System.Exception("Corrupt data. Triangle indices count must be divisable by 3. Read " + trisCount);
+					if (trisCount % 3 != 0) throw new System.Exception("Corrupt data. Triangle indices count must be divisable by 3. Got " + trisCount);
 
 					tile.tris = new int[trisCount];
 					for (int i = 0; i < tile.tris.Length; i++) tile.tris[i] = reader.ReadInt32();
@@ -1144,7 +1136,7 @@ namespace Pathfinding {
 					int nodeCount = reader.ReadInt32();
 					tile.nodes = new TriangleMeshNode[nodeCount];
 
-					// Prepare for storing in vertex indices
+					//Prepare for storing in vertex indices
 					tileIndex <<= TileIndexOffset;
 
 					for (int i = 0; i < tile.nodes.Length; i++) {
@@ -1164,25 +1156,7 @@ namespace Pathfinding {
 			}
 		}
 
-		protected override void PostDeserialization (GraphSerializationContext ctx) {
-			// Compatibility
-			if (ctx.meta.version < AstarSerializer.V4_1_0 && tiles != null) {
-				Dictionary<TriangleMeshNode, Connection[]> conns = tiles.SelectMany(s => s.nodes).ToDictionary(n => n, n => n.connections ?? new Connection[0]);
-				// We need to recalculate all connections when upgrading data from earlier than 4.1.0
-				// as the connections now need information about which edge was used.
-				// This may remove connections for e.g off-mesh links.
-				foreach (var tile in tiles) CreateNodeConnections(tile.nodes);
-				foreach (var tile in tiles) ConnectTileWithNeighbours(tile);
-
-				// Restore any connections that were contained in the serialized file but didn't get added by the method calls above
-				GetNodes(node => {
-					var triNode = node as TriangleMeshNode;
-					foreach (var conn in conns[triNode].Where(conn => !triNode.ContainsConnection(conn.node)).ToList()) {
-						triNode.AddConnection(conn.node, conn.cost, conn.shapeEdge);
-					}
-				});
-			}
-
+		public override void PostDeserialization () {
 			// Make sure that the transform is up to date.
 			// It is assumed that the current graph settings correspond to the correct
 			// transform as it is not serialized itself.

@@ -139,9 +139,7 @@ namespace Pathfinding {
 		 * \note This needs to be called when it is safe to update nodes, which is
 		 * - when scanning
 		 * - during a graph update
-		 * - inside a callback registered using AstarPath.AddWorkItem
-		 *
-		 * \snippet MiscSnippets.cs PointGraph.AddNode
+		 * - inside a callback registered using AstarPath.RegisterSafeUpdate
 		 */
 		public PointNode AddNode (Int3 position) {
 			return AddNode(new PointNode(active), position);
@@ -158,14 +156,14 @@ namespace Pathfinding {
 		 * \note This needs to be called when it is safe to update nodes, which is
 		 * - when scanning
 		 * - during a graph update
-		 * - inside a callback registered using AstarPath.AddWorkItem
+		 * - inside a callback registered using AstarPath.RegisterSafeUpdate
 		 *
-		 * \see AstarPath.AddWorkItem
+		 * \see AstarPath.RegisterSafeUpdate
 		 */
 		public T AddNode<T>(T node, Int3 position) where T : PointNode {
 			if (nodes == null || nodeCount == nodes.Length) {
 				var newNodes = new PointNode[nodes != null ? System.Math.Max(nodes.Length+4, nodes.Length*2) : 4];
-				if (nodes != null) nodes.CopyTo(newNodes, 0);
+				for (int i = 0; i < nodeCount; i++) newNodes[i] = nodes[i];
 				nodes = newNodes;
 			}
 
@@ -176,6 +174,7 @@ namespace Pathfinding {
 			nodes[nodeCount] = node;
 			nodeCount++;
 
+			AddToLookup(node);
 
 			return node;
 		}
@@ -194,7 +193,7 @@ namespace Pathfinding {
 		/** Recursively adds childrens of a transform as nodes */
 		protected void AddChildren (ref int c, Transform tr) {
 			foreach (Transform child in tr) {
-				nodes[c].position = (Int3)child.position;
+				nodes[c].SetPosition((Int3)child.position);
 				nodes[c].Walkable = true;
 				nodes[c].gameObject = child.gameObject;
 
@@ -210,16 +209,6 @@ namespace Pathfinding {
 		 * You should call this method every time you move a node in the graph manually and
 		 * you are using #optimizeForSparseGraph, otherwise pathfinding might not work correctly.
 		 *
-		 * You may also call this after you have added many nodes using the
-		 * #AddNode method. When adding nodes using the #AddNode method they
-		 * will be added to the lookup structure. The lookup structure will
-		 * rebalance itself when it gets too unbalanced however if you are
-		 * sure you won't be adding any more nodes in the short term, you can
-		 * make sure it is perfectly balanced and thus squeeze out the last
-		 * bit of performance by calling this method. This can improve the
-		 * performance of the #GetNearest method slightly. The improvements
-		 * are on the order of 10-20%.
-		 *
 		 * \astarpro
 		 */
 		public void RebuildNodeLookup () {
@@ -230,18 +219,11 @@ namespace Pathfinding {
 			// A* Pathfinding Project Pro Only
 		}
 
-		protected virtual PointNode[] CreateNodes (int count) {
-			var nodes = new PointNode[count];
-
-			for (int i = 0; i < nodeCount; i++) nodes[i] = new PointNode(active);
-			return nodes;
-		}
-
-		protected override IEnumerable<Progress> ScanInternal () {
+		public override IEnumerable<Progress> ScanInternal () {
 			yield return new Progress(0, "Searching for GameObjects");
 
 			if (root == null) {
-				// If there is no root object, try to find nodes with the specified tag instead
+				//If there is no root object, try to find nodes with the specified tag instead
 				GameObject[] gos = searchTag != null ? GameObject.FindGameObjectsWithTag(searchTag) : null;
 
 				if (gos == null) {
@@ -252,32 +234,38 @@ namespace Pathfinding {
 
 				yield return new Progress(0.1f, "Creating nodes");
 
-				// Create all the nodes
-				nodeCount = gos.Length;
-				nodes = CreateNodes(nodeCount);
+				//Create and set up the found nodes
+				nodes = new PointNode[gos.Length];
+				nodeCount = nodes.Length;
+
+				for (int i = 0; i < nodes.Length; i++) nodes[i] = new PointNode(active);
 
 				for (int i = 0; i < gos.Length; i++) {
-					nodes[i].position = (Int3)gos[i].transform.position;
+					nodes[i].SetPosition((Int3)gos[i].transform.position);
 					nodes[i].Walkable = true;
 					nodes[i].gameObject = gos[i].gameObject;
 				}
 			} else {
-				// Search the root for children and create nodes for them
+				//Search the root for children and create nodes for them
 				if (!recursive) {
-					nodeCount = root.childCount;
-					nodes = CreateNodes(nodeCount);
+					nodes = new PointNode[root.childCount];
+					nodeCount = nodes.Length;
+
+					for (int i = 0; i < nodes.Length; i++) nodes[i] = new PointNode(active);
 
 					int c = 0;
 					foreach (Transform child in root) {
-						nodes[c].position = (Int3)child.position;
+						nodes[c].SetPosition((Int3)child.position);
 						nodes[c].Walkable = true;
 						nodes[c].gameObject = child.gameObject;
 
 						c++;
 					}
 				} else {
-					nodeCount = CountChildren(root);
-					nodes = CreateNodes(nodeCount);
+					nodes = new PointNode[CountChildren(root)];
+					nodeCount = nodes.Length;
+
+					for (int i = 0; i < nodes.Length; i++) nodes[i] = new PointNode(active);
 
 					int startID = 0;
 					AddChildren(ref startID, root);
@@ -285,50 +273,44 @@ namespace Pathfinding {
 			}
 
 
-			foreach (var progress in ConnectNodes()) yield return progress.MapTo(0.16f, 1.0f);
-		}
-
-		/** Calculates connections for all nodes in the graph.
-		 * This is an IEnumerable, you can iterate through it using e.g foreach to get progress information.
-		 */
-		IEnumerable<Progress> ConnectNodes () {
 			if (maxDistance >= 0) {
 				// To avoid too many allocations, these lists are reused for each node
 				var connections = new List<Connection>();
 
-				long maxSquaredRange;
 				// Max possible squared length of a connection between two nodes
 				// This is used to speed up the calculations by skipping a lot of nodes that do not need to be checked
+				long maxPossibleSqrRange;
 				if (maxDistance == 0 && (limits.x == 0 || limits.y == 0 || limits.z == 0)) {
-					maxSquaredRange = long.MaxValue;
+					maxPossibleSqrRange = long.MaxValue;
 				} else {
-					maxSquaredRange = (long)(Mathf.Max(limits.x, Mathf.Max(limits.y, Mathf.Max(limits.z, maxDistance))) * Int3.Precision) + 1;
-					maxSquaredRange *= maxSquaredRange;
+					maxPossibleSqrRange = (long)(Mathf.Max(limits.x, Mathf.Max(limits.y, Mathf.Max(limits.z, maxDistance))) * Int3.Precision) + 1;
+					maxPossibleSqrRange *= maxPossibleSqrRange;
 				}
 
 				// Report progress every N nodes
 				const int YieldEveryNNodes = 512;
 
 				// Loop through all nodes and add connections to other nodes
-				for (int i = 0; i < nodeCount; i++) {
+				for (int i = 0; i < nodes.Length; i++) {
 					if (i % YieldEveryNNodes == 0) {
-						yield return new Progress(i/(float)nodes.Length, "Connecting nodes");
+						yield return new Progress(Mathf.Lerp(0.15f, 1, i/(float) nodes.Length), "Connecting nodes");
 					}
 
 					connections.Clear();
-					var node = nodes[i];
+
+					PointNode node = nodes[i];
 					// Only brute force is available in the free version
-					for (int j = 0; j < nodeCount; j++) {
+					for (int j = 0; j < nodes.Length; j++) {
 						if (i == j) continue;
 
 						PointNode other = nodes[j];
 						float dist;
 						if (IsValidConnection(node, other, out dist)) {
-							connections.Add(new Connection(
-									other,
-									/** \todo Is this equal to .costMagnitude */
-									(uint)Mathf.RoundToInt(dist*Int3.FloatPrecision)
-									));
+							connections.Add(new Connection {
+								node = other,
+								/** \todo Is this equal to .costMagnitude */
+								cost = (uint)Mathf.RoundToInt(dist*Int3.FloatPrecision)
+							});
 						}
 					}
 					node.connections = connections.ToArray();
@@ -410,7 +392,7 @@ namespace Pathfinding {
 		}
 #endif
 
-		protected override void PostDeserialization (GraphSerializationContext ctx) {
+		public override void PostDeserialization () {
 			RebuildNodeLookup();
 		}
 
@@ -419,7 +401,7 @@ namespace Pathfinding {
 			RebuildNodeLookup();
 		}
 
-		protected override void DeserializeSettingsCompatibility (GraphSerializationContext ctx) {
+		public override void DeserializeSettingsCompatibility (GraphSerializationContext ctx) {
 			base.DeserializeSettingsCompatibility(ctx);
 
 			root = ctx.DeserializeUnityObject() as Transform;
@@ -435,7 +417,7 @@ namespace Pathfinding {
 			mask = (LayerMask)ctx.reader.ReadInt32();
 		}
 
-		protected override void SerializeExtraInfo (GraphSerializationContext ctx) {
+		public override void SerializeExtraInfo (GraphSerializationContext ctx) {
 			// Serialize node data
 
 			if (nodes == null) ctx.writer.Write(-1);
@@ -452,7 +434,7 @@ namespace Pathfinding {
 			}
 		}
 
-		protected override void DeserializeExtraInfo (GraphSerializationContext ctx) {
+		public override void DeserializeExtraInfo (GraphSerializationContext ctx) {
 			int count = ctx.reader.ReadInt32();
 
 			if (count == -1) {
