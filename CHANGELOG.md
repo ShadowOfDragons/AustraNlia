@@ -3,13 +3,13 @@
 - [x] Game Design Document
 - [ ] Level Design Map
 * **Concept Art:**
-    - [ ] Characters
+    - [x] Characters
     - [ ] Environments
-    - [ ] Character thumbnails
-    - [ ] Props thumbnails
-    - [ ] Characters size charts
-    - [ ] Level props size charts
-    - [ ] Level flow map
+    - [x] Character thumbnails
+    - [x] Props thumbnails
+    - [x] Characters size charts
+    - [x] Level props size charts
+    - [x] Level flow map
 * **Screens Mockups:**
     - [ ] Title screen
     - [x] Gameplay screen
