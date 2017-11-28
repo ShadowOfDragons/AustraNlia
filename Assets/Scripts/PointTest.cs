@@ -12,16 +12,12 @@ public class PointTest : MonoBehaviour
     {
         point = this.gameObject.transform;
 	}
-	
-	// Update is called once per frame
-	void Update ()
-    {
-		if(Input.GetMouseButtonDown(0))
-        {
-            target = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            target.z = transform.position.z;
 
-            point.position = target;
-        }
-	}
+    public void UpdatePosition()
+    {
+        target = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        target.z = transform.position.z;
+
+        point.position = target;
+    }
 }

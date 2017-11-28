@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class InputManager : MonoBehaviour
 {
-    public CharacterTest player;
+    public CharacterManager player;
+    public PointTest point;
 
 	// Use this for initialization
 	void Start ()
@@ -15,6 +16,7 @@ public class InputManager : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
     {
-//        if(Input.GetKeyDown(KeyCode.LeftShift)) change.Update();
+        if(Input.GetMouseButtonDown(0)) point.UpdatePosition();
+        if(Input.GetKeyDown(KeyCode.LeftShift)) player.Change();
 	}
 }

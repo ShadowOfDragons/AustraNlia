@@ -14,13 +14,13 @@ public class CameraBehaviour : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        cameraBox = GetComponent<BoxCollider2D>();
-        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+        cameraBox = GetComponent<BoxCollider2D>();        
     }
 
     // Update is called once per frame
     void Update()
     {
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
         AspectRatioBoxchange();
         FollowPlayer();
     }
