@@ -23,23 +23,23 @@ public class LevelManager : MonoBehaviour
     void Start()
     {
         //PARA TESTING
-        if (SceneManager.sceneCount >= 2) SceneManager.SetActiveScene(SceneManager.GetSceneAt(1)); //JERARQUIA DE ESCENAS SEGUN ORDEN EN EDITOR
+        if(SceneManager.sceneCount >= 2) SceneManager.SetActiveScene(SceneManager.GetSceneAt(1)); //JERARQUIA DE ESCENAS SEGUN ORDEN EN EDITOR
 
         UpdateSceneState();
 
-        if (currentScene == managerScene) Load(nextScene);
+        if(currentScene == managerScene) Load(nextScene);
     }
 
     // Update is called once per frame
     void Update()
     {
         //AÑADIR A INPUT MANAGER
-        if (Input.GetKey(KeyCode.AltGr))
+        if(Input.GetKey(KeyCode.AltGr))
         {
-            if (Input.GetKeyDown(KeyCode.N)) Load(nextScene);
-            if (Input.GetKeyDown(KeyCode.B)) Load(backScene);
-            if (Input.GetKeyDown(KeyCode.R)) Load(currentScene);
-            if (Input.GetKeyDown(KeyCode.M)) Load(menuScene);
+            if(Input.GetKeyDown(KeyCode.N)) Load(nextScene);
+            if(Input.GetKeyDown(KeyCode.B)) Load(backScene);
+            if(Input.GetKeyDown(KeyCode.R)) Load(currentScene);
+            if(Input.GetKeyDown(KeyCode.M)) Load(menuScene);
         }
     }
 
@@ -49,16 +49,16 @@ public class LevelManager : MonoBehaviour
 
         currentScene = SceneManager.GetActiveScene().buildIndex; //GetActiveScene solo da la escena como asset, AÑADIR buildIndex para recibir el numero dentro del Index
 
-        if (currentScene + 1 >= sceneCountInBuildSettings) nextScene = managerScene + 1;
+        if(currentScene + 1 >= sceneCountInBuildSettings) nextScene = managerScene + 1;
         else nextScene = currentScene + 1;
 
-        if (currentScene - 1 <= managerScene) backScene = sceneCountInBuildSettings - 1;
+        if(currentScene - 1 <= managerScene) backScene = sceneCountInBuildSettings - 1;
         else backScene = currentScene - 1;
     }
 
     void Load(int index)
     {
-        if (loading)
+        if(loading)
         {
             Debug.LogError("ALREADY LOADING A SCENE");
             return;
@@ -75,11 +75,11 @@ public class LevelManager : MonoBehaviour
 
     IEnumerator Loading()
     {
-        while (loading)
+        while(loading)
         {
             Debug.Log(asynLoad.progress);
 
-            if ((asynUnload == null || asynUnload.isDone) && asynLoad.isDone)
+            if((asynUnload == null || asynUnload.isDone) && asynLoad.isDone)
             {
                 SceneManager.SetActiveScene(SceneManager.GetSceneByBuildIndex(sceneToLoad));
                 UpdateSceneState();

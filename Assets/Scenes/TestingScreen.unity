@@ -141,6 +141,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   point: {fileID: 1861460051}
+  isFacingLeft: 1
 --- !u!4 &31810392
 Transform:
   m_ObjectHideFlags: 0
@@ -496,6 +497,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   point: {fileID: 1861460051}
+  isFacingLeft: 1
 --- !u!1 &1256324494
 GameObject:
   m_ObjectHideFlags: 0
