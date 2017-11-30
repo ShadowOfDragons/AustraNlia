@@ -22,9 +22,13 @@ public class CharacterManager : MonoBehaviour
 
         currentCharacter.GetComponent<CharacterTest>().enabled = false;
         currentCharacter.tag = "Follower";
+        currentCharacter.GetComponent<FollowerBehaviour>().enabled = true;
+        currentCharacter.GetComponent<BoxCollider2D>().isTrigger = true;
 
         characters[charactersIndex].GetComponent<CharacterTest>().enabled = true;
         characters[charactersIndex].tag = "Player";
+        characters[charactersIndex].GetComponent<FollowerBehaviour>().enabled = false;
+        characters[charactersIndex].GetComponent<BoxCollider2D>().isTrigger = false;
 
         currentCharacter = characters[charactersIndex];
     }
