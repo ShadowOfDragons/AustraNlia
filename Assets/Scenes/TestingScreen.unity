@@ -172,6 +172,7 @@ MonoBehaviour:
   speed: 5
   player: {fileID: 1091294041}
   isFacingLeft: 1
+  followPos: {x: 0, y: 0, z: 0}
   followSpace: {x: 1.4, y: 4, z: 0}
   filter:
     useTriggers: 1
@@ -200,7 +201,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 2}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -314,9 +315,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2102729716}
-  - {fileID: 716193561}
   - {fileID: 1434306718}
   - {fileID: 1050269179}
+  - {fileID: 716193561}
   - {fileID: 269346790}
   m_Father: {fileID: 1576840391}
   m_RootOrder: 1
@@ -386,7 +387,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -2021843407
   m_SortingLayer: 1
-  m_SortingOrder: 5
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: 70c96459aa02fa746b1995dbdb2d1f99, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -823,7 +824,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 132814540}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &716193562
 SpriteRenderer:
@@ -859,7 +860,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -2021843407
   m_SortingLayer: 1
-  m_SortingOrder: 4
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: d94802686504e1a479f7111f3cd9dbfd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -942,7 +943,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 132814540}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1050269180
 SpriteRenderer:
@@ -978,7 +979,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -2021843407
   m_SortingLayer: 1
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: ec9f5856d1218f54aa790058e8c62fb8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1122,6 +1123,7 @@ MonoBehaviour:
   speed: 5
   player: {fileID: 31810390}
   isFacingLeft: 1
+  followPos: {x: 0, y: 0, z: 0}
   followSpace: {x: 1.4, y: 4, z: 0}
   filter:
     useTriggers: 1
@@ -1150,7 +1152,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 2}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1265,7 +1267,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 132814540}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1434306719
 SpriteRenderer:
@@ -1690,56 +1692,104 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   net:
   - id: 0
-    connections: 06000000040000000b0000000c000000
-    coordinates: {x: 2.6485136, y: -3.6553488}
+    connections: 0e0000000f000000100000001100000013000000140000001500000016000000
+    coordinates: {x: 2.6394587, y: -3.682513}
     type: 0
   - id: 1
-    connections: 020000000b000000
-    coordinates: {x: 2.6131754, y: -0.863781}
+    connections: 0d0000000b00000002000000
+    coordinates: {x: 2.5345116, y: -0.84320664}
     type: 0
   - id: 2
-    connections: 0100000003000000
-    coordinates: {x: 4.20331, y: -0.881449}
+    connections: 0d0000000300000001000000
+    coordinates: {x: 4.545755, y: -0.8342154}
     type: 0
   - id: 3
-    connections: 02000000040000000b000000
-    coordinates: {x: 5.2987347, y: -2.3773804}
+    connections: 0d0000000e000000120000000400000002000000
+    coordinates: {x: 5.372393, y: -2.324767}
     type: 0
   - id: 4
-    connections: 0300000005000000000000000c000000
-    coordinates: {x: 6.252818, y: -3.5728707}
+    connections: 050000000e000000110000001300000003000000
+    coordinates: {x: 6.0898333, y: -3.5356784}
     type: 0
   - id: 5
     connections: 04000000
-    coordinates: {x: 7.5544004, y: -3.574336}
+    coordinates: {x: 7.601141, y: -3.5342078}
     type: 0
   - id: 6
-    connections: 070000000900000000000000
-    coordinates: {x: -0.16072272, y: -3.6906857}
+    connections: 090000000f000000100000001500000007000000
+    coordinates: {x: -0.16072273, y: -3.708795}
     type: 0
   - id: 7
-    connections: 06000000080000000b000000
+    connections: 0b0000000f0000001700000006000000
     coordinates: {x: -0.07238194, y: -2.4539154}
     type: 0
   - id: 8
-    connections: 07000000
+    connections: 17000000
     coordinates: {x: -5.0901365, y: -2.4539154}
     type: 0
   - id: 9
-    connections: 060000000a0000000c000000
+    connections: 060000000c0000001000000018000000
     coordinates: {x: -0.28439963, y: -5.033466}
     type: 0
   - id: 10
-    connections: 09000000
+    connections: 18000000
     coordinates: {x: -6.856952, y: -5.015797}
     type: 0
   - id: 11
-    connections: 01000000000000000300000007000000
-    coordinates: {x: 2.6131773, y: -2.3832428}
+    connections: 070000000d0000000e0000000f000000120000001400000001000000
+    coordinates: {x: 2.568745, y: -2.3832428}
     type: 0
   - id: 12
-    connections: 090000000400000000000000
+    connections: 09000000100000001100000016000000
     coordinates: {x: 2.6308448, y: -5.051134}
+    type: 0
+  - id: 13
+    connections: 02000000010000000b0000000300000012000000
+    coordinates: {x: 3.7049477, y: -1.5750667}
+    type: 0
+  - id: 14
+    connections: 030000000b0000000400000000000000120000001300000014000000
+    coordinates: {x: 4.043312, y: -3.015677}
+    type: 0
+  - id: 15
+    connections: 07000000060000000b000000000000001400000015000000
+    coordinates: {x: 1.1813004, y: -3.0925093}
+    type: 0
+  - id: 16
+    connections: 09000000060000000c000000000000001500000016000000
+    coordinates: {x: 1.1428841, y: -4.3410378}
+    type: 0
+  - id: 17
+    connections: 000000000c000000040000001300000016000000
+    coordinates: {x: 4.216185, y: -4.3410378}
+    type: 0
+  - id: 18
+    connections: 0d0000000b000000030000000e000000
+    coordinates: {x: 3.9280632, y: -2.3626006}
+    type: 0
+  - id: 19
+    connections: 000000000e0000001100000004000000
+    coordinates: {x: 4.158561, y: -3.6767097}
+    type: 0
+  - id: 20
+    connections: 0e0000000b000000000000000f000000
+    coordinates: {x: 2.6027014, y: -3.034885}
+    type: 0
+  - id: 21
+    connections: 0f000000060000001000000000000000
+    coordinates: {x: 1.1722456, y: -3.6959178}
+    type: 0
+  - id: 22
+    connections: 00000000100000000c00000011000000
+    coordinates: {x: 2.6603265, y: -4.360246}
+    type: 0
+  - id: 23
+    connections: 0800000007000000
+    coordinates: {x: -2.5812593, y: -2.4539154}
+    type: 0
+  - id: 24
+    connections: 0a00000009000000
+    coordinates: {x: -3.5706758, y: -5.0246315}
     type: 0
   gizmoColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1 &2102729715

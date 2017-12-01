@@ -39,6 +39,7 @@ public static class NodusBFS
         }
         return distanceFromRoot;
     }
+
     public static int[] GetPath(NodusNet net, int from, int to, bool ignoreDanger)
     {
         //float[] bfsDistance = BFS(net, from);

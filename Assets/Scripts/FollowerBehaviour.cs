@@ -12,6 +12,7 @@ public class FollowerBehaviour : MonoBehaviour
     private Vector3 target;
 
     [Header("Follow")]
+    public Vector3 followPos;
     public Vector3 followSpace;
     public ContactFilter2D filter;
     public int maxColliders = 1;
@@ -47,9 +48,10 @@ public class FollowerBehaviour : MonoBehaviour
 
     void FollowMargin()
     {
+        followPos = new Vector3(player.transform.position.x, player.transform.position.y + 2, player.transform.position.z);
         Collider2D[] results = new Collider2D[maxColliders];
 
-        int numColliders = Physics2D.OverlapBox(player.transform.position, followSpace, 0, filter, results);
+        int numColliders = Physics2D.OverlapBox(followPos, followSpace, 0, filter, results);
 
         if (numColliders > 0)
         {
@@ -62,6 +64,6 @@ public class FollowerBehaviour : MonoBehaviour
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
-        Gizmos.DrawWireCube(player.transform.position, followSpace);
+        Gizmos.DrawWireCube(followPos, followSpace);
     } 
 }
