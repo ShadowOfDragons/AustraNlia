@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CharacterTest : MonoBehaviour
+public class PlayerBehaviour : MonoBehaviour
 {
+
     [Header("Movement")]
     public float speed;
     public GameObject point;
@@ -12,13 +13,13 @@ public class CharacterTest : MonoBehaviour
     private Vector3 target;
 
     // Use this for initialization
-    void Start ()
+    void Start()
     {
         sprite = GetComponentInChildren<SpriteRenderer>();
-	}
-	
-	// Update is called once per frame
-	void Update ()
+    }
+
+    // Update is called once per frame
+    void Update()
     {
         target = point.transform.position;
 
@@ -26,7 +27,9 @@ public class CharacterTest : MonoBehaviour
         else if ((target.x > transform.position.x) && (isFacingLeft == true)) Flip();
 
         transform.position = Vector3.MoveTowards(transform.position, target, speed * Time.deltaTime);
-	}
+
+        if (this.gameObject.tag == "Player") sprite.sortingOrder = 1;
+    }
 
     void Flip()
     {

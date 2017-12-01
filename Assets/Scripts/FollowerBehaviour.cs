@@ -35,6 +35,8 @@ public class FollowerBehaviour : MonoBehaviour
         FollowMargin();
 
         transform.position = Vector3.MoveTowards(transform.position, target, speed * Time.deltaTime);
+
+        if (this.gameObject.tag == "Follower") sprite.sortingOrder = 0;
     }
 
     void Flip()
