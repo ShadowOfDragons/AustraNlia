@@ -1,10 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class MenuButtons : MonoBehaviour
 {
+    public Toggle fullScreenToggle;
+
+    public OptionsManager optionsManager;
+
 	public void QuitGame()
     {
         Application.Quit();
@@ -29,23 +34,49 @@ public class MenuButtons : MonoBehaviour
     {
         Screen.SetResolution(1600, 1200, false);
     }
+
     public void FullScreen()
     {
-        if(Screen.fullScreen == true)
-        {
-            Screen.fullScreen = false;
-            Debug.Log("Fulled");
-        }
-        else if(Screen.fullScreen == false)
-        {
-            Screen.fullScreen = true;
-            Debug.Log("NotFulled");
-        }
+        fullScreenToggle.isOn = Screen.fullScreen;
+
+        if(!Screen.fullScreen) Debug.Log("NotFulled");
+        else Debug.Log("Fulled");
     }
 
-    //GRAPHIC QUALITY
-    public void Ultra()
+    //GRAPHICS RESOLUTION
+    public void ToasterGraphQuality()
     {
-        
+        QualitySettings.SetQualityLevel(0);
+    }
+
+    public void LowGraphQuality()
+    {
+        QualitySettings.SetQualityLevel(1);
+    }
+
+    public void MediumGraphQuality()
+    {
+        QualitySettings.SetQualityLevel(2);
+    }
+
+    public void HighGraphQuality()
+    {
+        QualitySettings.SetQualityLevel(3);
+    }
+
+    public void UltraGraphQuality()
+    {
+        QualitySettings.SetQualityLevel(4);
+    }
+
+
+    public void OnLoadOptions()
+    {
+
+    }
+
+    public void OnSaveOptions()
+    {
+
     }
 }

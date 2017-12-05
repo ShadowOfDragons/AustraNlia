@@ -374,9 +374,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Cancel
-
-'
+  m_Text: Cancel
 --- !u!222 &205121259
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -432,6 +430,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a629b5d8c8a4e340b0d2caed25df1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fullScreenToggle: {fileID: 1449084170}
+  optionsManager: {fileID: 0}
 --- !u!1 &561400779
 GameObject:
   m_ObjectHideFlags: 0
@@ -601,9 +601,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Start
-
-'
+  m_Text: Start
 --- !u!222 &693765668
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2137,6 +2135,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a629b5d8c8a4e340b0d2caed25df1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fullScreenToggle: {fileID: 0}
+  optionsManager: {fileID: 0}
 --- !u!1 &1815135282
 GameObject:
   m_ObjectHideFlags: 0
