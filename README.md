@@ -1,4 +1,4 @@
-![Alpha header](/WikiResources/concept_header.png)
+![Alpha header](/WikiResources/concept_header_01.png)
 
 
 
