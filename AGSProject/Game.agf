@@ -103,19 +103,7 @@
         <CharsForFrame />
       </Frames>
     </LipSync>
-    <PropertyDefinitions>
-      <CustomPropertySchemaItem>
-        <Name>is_follower</Name>
-        <Description xml:space="preserve">Following player</Description>
-        <DefaultValue>1</DefaultValue>
-        <AppliesToCharacters>True</AppliesToCharacters>
-        <AppliesToHotspots>False</AppliesToHotspots>
-        <AppliesToInvItems>False</AppliesToInvItems>
-        <AppliesToObjects>False</AppliesToObjects>
-        <AppliesToRooms>False</AppliesToRooms>
-        <Type>Boolean</Type>
-      </CustomPropertySchemaItem>
-    </PropertyDefinitions>
+    <PropertyDefinitions />
     <GlobalMessages>
       <Message ID="500" />
       <Message ID="501" />
@@ -669,6 +657,26 @@
               </GUIInventory>
             </Controls>
           </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick>gui_icon_char_chang</OnClick>
+              <Height>210</Height>
+              <Width>240</Width>
+              <Left>0</Left>
+              <Top>0</Top>
+              <Clickable>True</Clickable>
+              <Visibility>Normal</Visibility>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>0</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>0</BackgroundColor>
+              <BackgroundImage>16</BackgroundImage>
+              <ID>1</ID>
+              <Name>gui_icon_char_change</Name>
+            </NormalGUI>
+            <Controls />
+          </GUIMain>
         </GUIs>
       </GUIFolder>
     </GUIs>
@@ -911,7 +919,16 @@
             <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
             <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
             <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
-            <Properties />
+            <Properties>
+              <CustomProperty>
+                <Name>is_follower</Name>
+                <Value>0</Value>
+              </CustomProperty>
+              <CustomProperty>
+                <Name>is_player</Name>
+                <Value>1</Value>
+              </CustomProperty>
+            </Properties>
             <Interactions>
               <Event Index="0" />
               <Event Index="1" />
@@ -976,10 +993,10 @@
             <StartX>1300</StartX>
             <StartY>650</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
-            <MovementSpeed>3</MovementSpeed>
+            <MovementSpeed>15</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
-            <AnimationDelay>4</AnimationDelay>
+            <AnimationDelay>0</AnimationDelay>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>1560</SpeechColor>
             <Solid>True</Solid>
@@ -1508,6 +1525,16 @@
                   <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\inventory_01.png</FileName>
                 </Source>
               </Sprite>
+              <Sprite Slot="16" Width="213" Height="203" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\GUI\icon_char_change_01.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="17" Width="238" Height="207" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\GUI\icon_char_change_02.png</FileName>
+                </Source>
+              </Sprite>
             </Sprites>
           </SpriteFolder>
         </SubFolders>
@@ -1693,6 +1720,30 @@
       <ScriptFolder Name="Main">
         <SubFolders />
         <ScriptAndHeaders>
+          <ScriptAndHeader>
+            <ScriptAndHeader_Header>
+              <Script>
+                <FileName>ASCII Quick Converter.ash</FileName>
+                <Name>ASCII Quick Converter</Name>
+                <Description>This nifty little module will convert a typed character such as eA into the ASCII equivelant.  So A = 65, etc.  That way, you don't have to remember those pesky ASCII numbers anymore.</Description>
+                <Author>Akumayo</Author>
+                <Version>1.0</Version>
+                <Key>406938537</Key>
+                <IsHeader>True</IsHeader>
+              </Script>
+            </ScriptAndHeader_Header>
+            <ScriptAndHeader_Script>
+              <Script>
+                <FileName>ASCII Quick Converter.asc</FileName>
+                <Name>ASCII Quick Converter</Name>
+                <Description>This nifty little module will convert a typed character such as eA into the ASCII equivelant.  So A = 65, etc.  That way, you don't have to remember those pesky ASCII numbers anymore.</Description>
+                <Author>Akumayo</Author>
+                <Version>1.0</Version>
+                <Key>406938537</Key>
+                <IsHeader>False</IsHeader>
+              </Script>
+            </ScriptAndHeader_Script>
+          </ScriptAndHeader>
           <ScriptAndHeader>
             <ScriptAndHeader_Header>
               <Script>
