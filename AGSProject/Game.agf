@@ -1033,10 +1033,10 @@
     <Cursors>
       <MouseCursor>
         <ID>0</ID>
-        <HotspotX>6</HotspotX>
-        <HotspotY>15</HotspotY>
+        <HotspotX>0</HotspotX>
+        <HotspotY>0</HotspotY>
         <StandardMode>True</StandardMode>
-        <Image>2</Image>
+        <Image>19</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -1069,10 +1069,10 @@
       </MouseCursor>
       <MouseCursor>
         <ID>3</ID>
-        <HotspotX>8</HotspotX>
-        <HotspotY>8</HotspotY>
+        <HotspotX>0</HotspotX>
+        <HotspotY>0</HotspotY>
         <StandardMode>True</StandardMode>
-        <Image>2</Image>
+        <Image>18</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -1553,6 +1553,16 @@
           <Sprite Slot="4" Width="25" Height="25" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
             <Source>
               <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Testing\hand.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="18" Width="25" Height="25" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>E:\PROYECTO\Test\bubble.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="19" Width="25" Height="25" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>E:\PROYECTO\Test\foot.png</FileName>
             </Source>
           </Sprite>
         </Sprites>
