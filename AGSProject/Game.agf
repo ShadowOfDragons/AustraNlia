@@ -616,6 +616,18 @@
             <Number>1</Number>
             <Description>Tutorial</Description>
           </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>301</Number>
+            <Description>Logo</Description>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>302</Number>
+            <Description xml:space="preserve">Main Menu</Description>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>303</Number>
+            <Description xml:space="preserve">Ending Screen</Description>
+          </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>
     </Rooms>
@@ -639,7 +651,7 @@
               <BackgroundColor>0</BackgroundColor>
               <BackgroundImage>11</BackgroundImage>
               <ID>0</ID>
-              <Name>gui_inventory_chad</Name>
+              <Name>gui_inventory</Name>
             </NormalGUI>
             <Controls>
               <GUIInventory>
@@ -662,8 +674,8 @@
               <OnClick>gui_icon_char_chang</OnClick>
               <Height>210</Height>
               <Width>240</Width>
-              <Left>0</Left>
-              <Top>0</Top>
+              <Left>450</Left>
+              <Top>870</Top>
               <Clickable>True</Clickable>
               <Visibility>Normal</Visibility>
               <PopupYPos>0</PopupYPos>
@@ -679,11 +691,11 @@
           </GUIMain>
           <GUIMain>
             <NormalGUI>
-              <OnClick />
-              <Height>156</Height>
-              <Width>804</Width>
-              <Left>658</Left>
-              <Top>924</Top>
+              <OnClick>gui_mouse_wheel_OnC</OnClick>
+              <Height>280</Height>
+              <Width>210</Width>
+              <Left>0</Left>
+              <Top>0</Top>
               <Clickable>True</Clickable>
               <Visibility>NormalButInitiallyOff</Visibility>
               <PopupYPos>0</PopupYPos>
@@ -691,9 +703,9 @@
               <BorderColor>0</BorderColor>
               <Transparency>0</Transparency>
               <BackgroundColor>0</BackgroundColor>
-              <BackgroundImage>20</BackgroundImage>
+              <BackgroundImage>21</BackgroundImage>
               <ID>2</ID>
-              <Name>gui_inventory_ica</Name>
+              <Name>gui_mouse_wheel</Name>
             </NormalGUI>
             <Controls />
           </GUIMain>
@@ -724,8 +736,8 @@
           </InventoryItem>
           <InventoryItem>
             <ID>2</ID>
-            <HotspotX>25</HotspotX>
-            <HotspotY>25</HotspotY>
+            <HotspotX>30</HotspotX>
+            <HotspotY>26</HotspotY>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <CursorImage>5</CursorImage>
             <Image>8</Image>
@@ -1558,6 +1570,16 @@
               <Sprite Slot="20" Width="804" Height="156" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
                   <FileName>E:\PROYECTO\inventory_02.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="21" Width="199" Height="277" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>E:\PROYECTO\mouse_wheel_01.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="22" Width="203" Height="280" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>E:\PROYECTO\mouse_wheel_02.png</FileName>
                 </Source>
               </Sprite>
             </Sprites>
