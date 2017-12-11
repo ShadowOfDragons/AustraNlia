@@ -1,6 +1,6 @@
 ## PROPS CONCEPTS
 
-### Cigarette
+### Cigar
 ![Cigarette](https://github.com/ShadowOfDragons/AustraNlia/blob/master/ConceptArt/Props/concept_prop_01.png)
 
 ### Lighter
@@ -9,7 +9,7 @@
 ### Bottle of whiskey
 ![Bottle of whiskey](https://github.com/ShadowOfDragons/AustraNlia/blob/master/ConceptArt/Props/concept_prop_03.png)
 
-### Locekd cabin key
+### Locked cabin key
 ![Key](https://github.com/ShadowOfDragons/AustraNlia/blob/master/ConceptArt/Props/concept_prop_04.png)
 
 ### Carpet
