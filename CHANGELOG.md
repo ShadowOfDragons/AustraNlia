@@ -44,7 +44,7 @@
         - [ ] 5 particles systems
         - [ ] 5 SFX
     * **Ending:**
-        - [x] Custom background with message (Victory/Defeat)
+        - [ ] Custom background with message (Victory/Defeat)
     
 ***
 

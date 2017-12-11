@@ -677,6 +677,26 @@
             </NormalGUI>
             <Controls />
           </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>156</Height>
+              <Width>804</Width>
+              <Left>658</Left>
+              <Top>924</Top>
+              <Clickable>True</Clickable>
+              <Visibility>NormalButInitiallyOff</Visibility>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>0</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>0</BackgroundColor>
+              <BackgroundImage>20</BackgroundImage>
+              <ID>2</ID>
+              <Name>gui_inventory_ica</Name>
+            </NormalGUI>
+            <Controls />
+          </GUIMain>
         </GUIs>
       </GUIFolder>
     </GUIs>
@@ -901,8 +921,8 @@
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
             <StartingRoom>1</StartingRoom>
-            <StartX>1200</StartX>
-            <StartY>800</StartY>
+            <StartX>1000</StartX>
+            <StartY>630</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>15</MovementSpeed>
             <MovementSpeedX>3</MovementSpeedX>
@@ -990,8 +1010,8 @@
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
             <StartingRoom>1</StartingRoom>
-            <StartX>1300</StartX>
-            <StartY>650</StartY>
+            <StartX>900</StartX>
+            <StartY>630</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>15</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
@@ -1533,6 +1553,11 @@
               <Sprite Slot="17" Width="238" Height="207" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
                   <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\GUI\icon_char_change_02.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="20" Width="804" Height="156" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>E:\PROYECTO\inventory_02.png</FileName>
                 </Source>
               </Sprite>
             </Sprites>
