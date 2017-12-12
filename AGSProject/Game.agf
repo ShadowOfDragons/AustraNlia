@@ -1000,7 +1000,7 @@
             <StartX>1000</StartX>
             <StartY>630</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
-            <MovementSpeed>15</MovementSpeed>
+            <MovementSpeed>10</MovementSpeed>
             <MovementSpeedX>3</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
             <AnimationDelay>0</AnimationDelay>
@@ -1089,7 +1089,7 @@
             <StartX>900</StartX>
             <StartY>630</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
-            <MovementSpeed>15</MovementSpeed>
+            <MovementSpeed>10</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
             <AnimationDelay>0</AnimationDelay>
