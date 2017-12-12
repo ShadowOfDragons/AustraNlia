@@ -691,7 +691,7 @@
           </GUIMain>
           <GUIMain>
             <NormalGUI>
-              <OnClick>gui_mouse_wheel_OnC</OnClick>
+              <OnClick />
               <Height>280</Height>
               <Width>210</Width>
               <Left>0</Left>
@@ -707,7 +707,71 @@
               <ID>2</ID>
               <Name>gui_mouse_wheel</Name>
             </NormalGUI>
-            <Controls />
+            <Controls>
+              <GUIButton>
+                <OnClick>Button1_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>19</Image>
+                <Text />
+                <Height>25</Height>
+                <Locked>False</Locked>
+                <Width>25</Width>
+                <Left>132</Left>
+                <Top>33</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>Button1</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick>Button2_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>3</Image>
+                <Text />
+                <Height>14</Height>
+                <Locked>False</Locked>
+                <Width>25</Width>
+                <Left>44</Left>
+                <Top>108</Top>
+                <ZOrder>1</ZOrder>
+                <ID>1</ID>
+                <Name>Button2</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick>Button3_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>4</Image>
+                <Text />
+                <Height>25</Height>
+                <Locked>False</Locked>
+                <Width>25</Width>
+                <Left>39</Left>
+                <Top>203</Top>
+                <ZOrder>2</ZOrder>
+                <ID>2</ID>
+                <Name>Button3</Name>
+              </GUIButton>
+            </Controls>
           </GUIMain>
         </GUIs>
       </GUIFolder>
@@ -1065,8 +1129,8 @@
     <Cursors>
       <MouseCursor>
         <ID>0</ID>
-        <HotspotX>0</HotspotX>
-        <HotspotY>0</HotspotY>
+        <HotspotX>12</HotspotX>
+        <HotspotY>13</HotspotY>
         <StandardMode>True</StandardMode>
         <Image>19</Image>
         <View>0</View>
@@ -1077,8 +1141,8 @@
       </MouseCursor>
       <MouseCursor>
         <ID>1</ID>
-        <HotspotX>0</HotspotX>
-        <HotspotY>0</HotspotY>
+        <HotspotX>11</HotspotX>
+        <HotspotY>6</HotspotY>
         <StandardMode>True</StandardMode>
         <Image>3</Image>
         <View>0</View>
@@ -1089,8 +1153,8 @@
       </MouseCursor>
       <MouseCursor>
         <ID>2</ID>
-        <HotspotX>0</HotspotX>
-        <HotspotY>0</HotspotY>
+        <HotspotX>13</HotspotX>
+        <HotspotY>12</HotspotY>
         <StandardMode>True</StandardMode>
         <Image>4</Image>
         <View>0</View>
@@ -1101,8 +1165,8 @@
       </MouseCursor>
       <MouseCursor>
         <ID>3</ID>
-        <HotspotX>0</HotspotX>
-        <HotspotY>0</HotspotY>
+        <HotspotX>13</HotspotX>
+        <HotspotY>11</HotspotY>
         <StandardMode>True</StandardMode>
         <Image>18</Image>
         <View>0</View>
