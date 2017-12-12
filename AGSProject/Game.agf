@@ -651,7 +651,7 @@
               <BackgroundColor>0</BackgroundColor>
               <BackgroundImage>11</BackgroundImage>
               <ID>0</ID>
-              <Name>gui_inventory</Name>
+              <Name>gInventory</Name>
             </NormalGUI>
             <Controls>
               <GUIInventory>
@@ -671,7 +671,7 @@
           </GUIMain>
           <GUIMain>
             <NormalGUI>
-              <OnClick>gui_icon_char_chang</OnClick>
+              <OnClick>gCharacterChange_On</OnClick>
               <Height>210</Height>
               <Width>240</Width>
               <Left>450</Left>
@@ -685,7 +685,7 @@
               <BackgroundColor>0</BackgroundColor>
               <BackgroundImage>16</BackgroundImage>
               <ID>1</ID>
-              <Name>gui_icon_char_change</Name>
+              <Name>gCharacterChange</Name>
             </NormalGUI>
             <Controls />
           </GUIMain>
@@ -705,7 +705,7 @@
               <BackgroundColor>0</BackgroundColor>
               <BackgroundImage>21</BackgroundImage>
               <ID>2</ID>
-              <Name>gui_mouse_wheel</Name>
+              <Name>gMouseWheel</Name>
             </NormalGUI>
             <Controls>
               <GUIButton>
@@ -788,7 +788,7 @@
             <CursorImage>6</CursorImage>
             <Image>12</Image>
             <Description xml:space="preserve">Old Cigarette</Description>
-            <Name>inv_old_cigarette</Name>
+            <Name>iOldCigarette</Name>
             <Properties />
             <Interactions>
               <Event Index="0">inv_old_cigarette_Look</Event>
@@ -806,7 +806,7 @@
             <CursorImage>5</CursorImage>
             <Image>8</Image>
             <Description>Lighter</Description>
-            <Name>inv_lighter</Name>
+            <Name>iLighter</Name>
             <Properties />
             <Interactions>
               <Event Index="0" />
@@ -989,7 +989,7 @@
         <Characters>
           <Character>
             <ID>0</ID>
-            <ScriptName>char_chad</ScriptName>
+            <ScriptName>cChad</ScriptName>
             <RealName>Chad</RealName>
             <NormalView>1</NormalView>
             <SpeechView>0</SpeechView>
@@ -1038,7 +1038,7 @@
           </Character>
           <Character>
             <ID>1</ID>
-            <ScriptName>char_mierins</ScriptName>
+            <ScriptName>cMierins</ScriptName>
             <RealName xml:space="preserve">Mierins Sprüd</RealName>
             <NormalView>2</NormalView>
             <SpeechView>0</SpeechView>
@@ -1078,7 +1078,7 @@
           </Character>
           <Character>
             <ID>2</ID>
-            <ScriptName>char_ica</ScriptName>
+            <ScriptName>cIca</ScriptName>
             <RealName>Íca</RealName>
             <NormalView>3</NormalView>
             <SpeechView>0</SpeechView>
@@ -1123,7 +1123,51 @@
     <Dialogs>
       <DialogFolder Name="Main">
         <SubFolders />
-        <Dialogs />
+        <Dialogs>
+          <Dialog>
+            <ID>0</ID>
+            <Name>dDialog1</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+Mierins: I hope you are who I think you are, or else, get out.
+
+return
+@1
+Mierins: Come in and don't make me wait more.
+Mierins: Anyway, come closer if you want to earn your paycheck.
+stop
+@2
+Mierins: Took you long enough, my time is worth your weight in gold.
+Mierins: Anyway, come closer if you want to earn your paycheck.
+stop
+@3
+Mierins: You think you're being funny?
+Mierins: Anyway, come closer if you want to earn your paycheck.
+stop
+]]></Script>
+            <DialogOptions>
+              <DialogOption>
+                <ID>1</ID>
+                <Text xml:space="preserve">It's me Mr.Sprüd, Chad Cosay. You called me.</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>2</ID>
+                <Text>Chad.</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>3</ID>
+                <Text xml:space="preserve">It's me, myself, and I.</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+            </DialogOptions>
+          </Dialog>
+        </Dialogs>
       </DialogFolder>
     </Dialogs>
     <Cursors>
@@ -1685,7 +1729,7 @@
         <Views>
           <View>
             <ID>1</ID>
-            <Name>v_chad</Name>
+            <Name>vChad</Name>
             <Loops>
               <Loop>
                 <ID>0</ID>
@@ -1735,7 +1779,7 @@
           </View>
           <View>
             <ID>2</ID>
-            <Name>v_mierins</Name>
+            <Name>vMierins</Name>
             <Loops>
               <Loop>
                 <ID>0</ID>
@@ -1785,7 +1829,7 @@
           </View>
           <View>
             <ID>3</ID>
-            <Name>v_ica</Name>
+            <Name>vIca</Name>
             <Loops>
               <Loop>
                 <ID>0</ID>
