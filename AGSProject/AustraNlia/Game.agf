@@ -1497,7 +1497,7 @@ stop
         <ID>6</ID>
         <HotspotX>1</HotspotX>
         <HotspotY>1</HotspotY>
-        <StandardMode>False</StandardMode>
+        <StandardMode>True</StandardMode>
         <Image>2</Image>
         <View>0</View>
         <Animate>False</Animate>
