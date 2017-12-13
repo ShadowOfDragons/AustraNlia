@@ -613,10 +613,6 @@
         <SubFolders />
         <UnloadedRooms>
           <UnloadedRoom>
-            <Number>1</Number>
-            <Description>Tutorial</Description>
-          </UnloadedRoom>
-          <UnloadedRoom>
             <Number>301</Number>
             <Description>Logo</Description>
           </UnloadedRoom>
@@ -627,6 +623,10 @@
           <UnloadedRoom>
             <Number>303</Number>
             <Description xml:space="preserve">Ending Screen</Description>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>1</Number>
+            <Description>Tutorial</Description>
           </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>
@@ -985,138 +985,388 @@
     </TextParser>
     <Characters>
       <CharacterFolder Name="Main">
-        <SubFolders />
-        <Characters>
-          <Character>
-            <ID>0</ID>
-            <ScriptName>cChad</ScriptName>
-            <RealName>Chad</RealName>
-            <NormalView>1</NormalView>
-            <SpeechView>0</SpeechView>
-            <IdleView>0</IdleView>
-            <ThinkingView>0</ThinkingView>
-            <BlinkingView>0</BlinkingView>
-            <StartingRoom>1</StartingRoom>
-            <StartX>1000</StartX>
-            <StartY>630</StartY>
-            <UniformMovementSpeed>True</UniformMovementSpeed>
-            <MovementSpeed>10</MovementSpeed>
-            <MovementSpeedX>3</MovementSpeedX>
-            <MovementSpeedY>0</MovementSpeedY>
-            <AnimationDelay>0</AnimationDelay>
-            <SpeechAnimationDelay>5</SpeechAnimationDelay>
-            <SpeechColor>12</SpeechColor>
-            <Solid>True</Solid>
-            <Clickable>True</Clickable>
-            <UseRoomAreaScaling>True</UseRoomAreaScaling>
-            <UseRoomAreaLighting>True</UseRoomAreaLighting>
-            <TurnBeforeWalking>True</TurnBeforeWalking>
-            <DiagonalLoops>True</DiagonalLoops>
-            <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
-            <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
-            <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
-            <Properties>
-              <CustomProperty>
-                <Name>is_follower</Name>
-                <Value>0</Value>
-              </CustomProperty>
-              <CustomProperty>
-                <Name>is_player</Name>
-                <Value>1</Value>
-              </CustomProperty>
-            </Properties>
-            <Interactions>
-              <Event Index="0" />
-              <Event Index="1" />
-              <Event Index="2" />
-              <Event Index="3" />
-              <Event Index="4" />
-              <Event Index="5" />
-              <Event Index="6" />
-              <Event Index="7" />
-            </Interactions>
-          </Character>
-          <Character>
-            <ID>1</ID>
-            <ScriptName>cMierins</ScriptName>
-            <RealName xml:space="preserve">Mierins Sprüd</RealName>
-            <NormalView>2</NormalView>
-            <SpeechView>0</SpeechView>
-            <IdleView>0</IdleView>
-            <ThinkingView>0</ThinkingView>
-            <BlinkingView>0</BlinkingView>
-            <StartingRoom>1</StartingRoom>
-            <StartX>416</StartX>
-            <StartY>966</StartY>
-            <UniformMovementSpeed>True</UniformMovementSpeed>
-            <MovementSpeed>3</MovementSpeed>
-            <MovementSpeedX>0</MovementSpeedX>
-            <MovementSpeedY>0</MovementSpeedY>
-            <AnimationDelay>4</AnimationDelay>
-            <SpeechAnimationDelay>5</SpeechAnimationDelay>
-            <SpeechColor>23796</SpeechColor>
-            <Solid>True</Solid>
-            <Clickable>True</Clickable>
-            <UseRoomAreaScaling>True</UseRoomAreaScaling>
-            <UseRoomAreaLighting>True</UseRoomAreaLighting>
-            <TurnBeforeWalking>True</TurnBeforeWalking>
-            <DiagonalLoops>True</DiagonalLoops>
-            <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
-            <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
-            <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
-            <Properties />
-            <Interactions>
-              <Event Index="0" />
-              <Event Index="1" />
-              <Event Index="2" />
-              <Event Index="3" />
-              <Event Index="4" />
-              <Event Index="5" />
-              <Event Index="6" />
-              <Event Index="7" />
-            </Interactions>
-          </Character>
-          <Character>
-            <ID>2</ID>
-            <ScriptName>cIca</ScriptName>
-            <RealName>Íca</RealName>
-            <NormalView>3</NormalView>
-            <SpeechView>0</SpeechView>
-            <IdleView>0</IdleView>
-            <ThinkingView>0</ThinkingView>
-            <BlinkingView>0</BlinkingView>
-            <StartingRoom>1</StartingRoom>
-            <StartX>900</StartX>
-            <StartY>630</StartY>
-            <UniformMovementSpeed>True</UniformMovementSpeed>
-            <MovementSpeed>10</MovementSpeed>
-            <MovementSpeedX>0</MovementSpeedX>
-            <MovementSpeedY>0</MovementSpeedY>
-            <AnimationDelay>0</AnimationDelay>
-            <SpeechAnimationDelay>5</SpeechAnimationDelay>
-            <SpeechColor>1560</SpeechColor>
-            <Solid>True</Solid>
-            <Clickable>True</Clickable>
-            <UseRoomAreaScaling>True</UseRoomAreaScaling>
-            <UseRoomAreaLighting>True</UseRoomAreaLighting>
-            <TurnBeforeWalking>True</TurnBeforeWalking>
-            <DiagonalLoops>True</DiagonalLoops>
-            <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
-            <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
-            <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
-            <Properties />
-            <Interactions>
-              <Event Index="0" />
-              <Event Index="1" />
-              <Event Index="2" />
-              <Event Index="3" />
-              <Event Index="4" />
-              <Event Index="5" />
-              <Event Index="6" />
-              <Event Index="7" />
-            </Interactions>
-          </Character>
-        </Characters>
+        <SubFolders>
+          <CharacterFolder Name="Logo">
+            <SubFolders />
+            <Characters>
+              <Character>
+                <ID>3</ID>
+                <ScriptName>cLeftDragon</ScriptName>
+                <RealName>LogoLeftDragon</RealName>
+                <NormalView>4</NormalView>
+                <SpeechView>0</SpeechView>
+                <IdleView>0</IdleView>
+                <ThinkingView>0</ThinkingView>
+                <BlinkingView>0</BlinkingView>
+                <StartingRoom>301</StartingRoom>
+                <StartX>-213</StartX>
+                <StartY>959</StartY>
+                <UniformMovementSpeed>True</UniformMovementSpeed>
+                <MovementSpeed>3</MovementSpeed>
+                <MovementSpeedX>0</MovementSpeedX>
+                <MovementSpeedY>0</MovementSpeedY>
+                <AnimationDelay>0</AnimationDelay>
+                <SpeechAnimationDelay>5</SpeechAnimationDelay>
+                <SpeechColor>12</SpeechColor>
+                <Solid>False</Solid>
+                <Clickable>True</Clickable>
+                <UseRoomAreaScaling>True</UseRoomAreaScaling>
+                <UseRoomAreaLighting>True</UseRoomAreaLighting>
+                <TurnBeforeWalking>True</TurnBeforeWalking>
+                <DiagonalLoops>True</DiagonalLoops>
+                <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
+                <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
+                <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
+                <Properties />
+                <Interactions>
+                  <Event Index="0" />
+                  <Event Index="1" />
+                  <Event Index="2" />
+                  <Event Index="3" />
+                  <Event Index="4" />
+                  <Event Index="5" />
+                  <Event Index="6" />
+                  <Event Index="7" />
+                </Interactions>
+              </Character>
+              <Character>
+                <ID>4</ID>
+                <ScriptName>cRightDragon</ScriptName>
+                <RealName>LogoRightDragon</RealName>
+                <NormalView>5</NormalView>
+                <SpeechView>0</SpeechView>
+                <IdleView>0</IdleView>
+                <ThinkingView>0</ThinkingView>
+                <BlinkingView>0</BlinkingView>
+                <StartingRoom>301</StartingRoom>
+                <StartX>2132</StartX>
+                <StartY>959</StartY>
+                <UniformMovementSpeed>True</UniformMovementSpeed>
+                <MovementSpeed>3</MovementSpeed>
+                <MovementSpeedX>0</MovementSpeedX>
+                <MovementSpeedY>0</MovementSpeedY>
+                <AnimationDelay>0</AnimationDelay>
+                <SpeechAnimationDelay>5</SpeechAnimationDelay>
+                <SpeechColor>12</SpeechColor>
+                <Solid>False</Solid>
+                <Clickable>True</Clickable>
+                <UseRoomAreaScaling>True</UseRoomAreaScaling>
+                <UseRoomAreaLighting>True</UseRoomAreaLighting>
+                <TurnBeforeWalking>True</TurnBeforeWalking>
+                <DiagonalLoops>True</DiagonalLoops>
+                <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
+                <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
+                <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
+                <Properties />
+                <Interactions>
+                  <Event Index="0" />
+                  <Event Index="1" />
+                  <Event Index="2" />
+                  <Event Index="3" />
+                  <Event Index="4" />
+                  <Event Index="5" />
+                  <Event Index="6" />
+                  <Event Index="7" />
+                </Interactions>
+              </Character>
+              <Character>
+                <ID>5</ID>
+                <ScriptName>cBonsai</ScriptName>
+                <RealName>LogoBonsai</RealName>
+                <NormalView>6</NormalView>
+                <SpeechView>0</SpeechView>
+                <IdleView>0</IdleView>
+                <ThinkingView>0</ThinkingView>
+                <BlinkingView>0</BlinkingView>
+                <StartingRoom>301</StartingRoom>
+                <StartX>1174</StartX>
+                <StartY>611</StartY>
+                <UniformMovementSpeed>True</UniformMovementSpeed>
+                <MovementSpeed>3</MovementSpeed>
+                <MovementSpeedX>0</MovementSpeedX>
+                <MovementSpeedY>0</MovementSpeedY>
+                <AnimationDelay>0</AnimationDelay>
+                <SpeechAnimationDelay>5</SpeechAnimationDelay>
+                <SpeechColor>12</SpeechColor>
+                <Solid>False</Solid>
+                <Clickable>True</Clickable>
+                <UseRoomAreaScaling>True</UseRoomAreaScaling>
+                <UseRoomAreaLighting>True</UseRoomAreaLighting>
+                <TurnBeforeWalking>True</TurnBeforeWalking>
+                <DiagonalLoops>True</DiagonalLoops>
+                <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
+                <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
+                <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
+                <Properties />
+                <Interactions>
+                  <Event Index="0" />
+                  <Event Index="1" />
+                  <Event Index="2" />
+                  <Event Index="3" />
+                  <Event Index="4" />
+                  <Event Index="5" />
+                  <Event Index="6" />
+                  <Event Index="7" />
+                </Interactions>
+              </Character>
+              <Character>
+                <ID>6</ID>
+                <ScriptName>cTotem</ScriptName>
+                <RealName>LogoTotem</RealName>
+                <NormalView>7</NormalView>
+                <SpeechView>0</SpeechView>
+                <IdleView>0</IdleView>
+                <ThinkingView>0</ThinkingView>
+                <BlinkingView>0</BlinkingView>
+                <StartingRoom>301</StartingRoom>
+                <StartX>617</StartX>
+                <StartY>0</StartY>
+                <UniformMovementSpeed>True</UniformMovementSpeed>
+                <MovementSpeed>5</MovementSpeed>
+                <MovementSpeedX>0</MovementSpeedX>
+                <MovementSpeedY>0</MovementSpeedY>
+                <AnimationDelay>0</AnimationDelay>
+                <SpeechAnimationDelay>5</SpeechAnimationDelay>
+                <SpeechColor>12</SpeechColor>
+                <Solid>False</Solid>
+                <Clickable>True</Clickable>
+                <UseRoomAreaScaling>True</UseRoomAreaScaling>
+                <UseRoomAreaLighting>True</UseRoomAreaLighting>
+                <TurnBeforeWalking>True</TurnBeforeWalking>
+                <DiagonalLoops>True</DiagonalLoops>
+                <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
+                <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
+                <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
+                <Properties />
+                <Interactions>
+                  <Event Index="0" />
+                  <Event Index="1" />
+                  <Event Index="2" />
+                  <Event Index="3" />
+                  <Event Index="4" />
+                  <Event Index="5" />
+                  <Event Index="6" />
+                  <Event Index="7" />
+                </Interactions>
+              </Character>
+              <Character>
+                <ID>7</ID>
+                <ScriptName>cRee</ScriptName>
+                <RealName>LogoRee</RealName>
+                <NormalView>8</NormalView>
+                <SpeechView>0</SpeechView>
+                <IdleView>0</IdleView>
+                <ThinkingView>0</ThinkingView>
+                <BlinkingView>0</BlinkingView>
+                <StartingRoom>301</StartingRoom>
+                <StartX>833</StartX>
+                <StartY>607</StartY>
+                <UniformMovementSpeed>True</UniformMovementSpeed>
+                <MovementSpeed>3</MovementSpeed>
+                <MovementSpeedX>0</MovementSpeedX>
+                <MovementSpeedY>0</MovementSpeedY>
+                <AnimationDelay>0</AnimationDelay>
+                <SpeechAnimationDelay>5</SpeechAnimationDelay>
+                <SpeechColor>0</SpeechColor>
+                <Solid>False</Solid>
+                <Clickable>True</Clickable>
+                <UseRoomAreaScaling>True</UseRoomAreaScaling>
+                <UseRoomAreaLighting>True</UseRoomAreaLighting>
+                <TurnBeforeWalking>True</TurnBeforeWalking>
+                <DiagonalLoops>True</DiagonalLoops>
+                <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
+                <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
+                <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
+                <Properties />
+                <Interactions>
+                  <Event Index="0" />
+                  <Event Index="1" />
+                  <Event Index="2" />
+                  <Event Index="3" />
+                  <Event Index="4" />
+                  <Event Index="5" />
+                  <Event Index="6" />
+                  <Event Index="7" />
+                </Interactions>
+              </Character>
+              <Character>
+                <ID>8</ID>
+                <ScriptName>cGames</ScriptName>
+                <RealName>LogoGames</RealName>
+                <NormalView>9</NormalView>
+                <SpeechView>0</SpeechView>
+                <IdleView>0</IdleView>
+                <ThinkingView>0</ThinkingView>
+                <BlinkingView>0</BlinkingView>
+                <StartingRoom>301</StartingRoom>
+                <StartX>1111</StartX>
+                <StartY>682</StartY>
+                <UniformMovementSpeed>True</UniformMovementSpeed>
+                <MovementSpeed>3</MovementSpeed>
+                <MovementSpeedX>0</MovementSpeedX>
+                <MovementSpeedY>0</MovementSpeedY>
+                <AnimationDelay>0</AnimationDelay>
+                <SpeechAnimationDelay>5</SpeechAnimationDelay>
+                <SpeechColor>12</SpeechColor>
+                <Solid>False</Solid>
+                <Clickable>True</Clickable>
+                <UseRoomAreaScaling>True</UseRoomAreaScaling>
+                <UseRoomAreaLighting>True</UseRoomAreaLighting>
+                <TurnBeforeWalking>True</TurnBeforeWalking>
+                <DiagonalLoops>True</DiagonalLoops>
+                <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
+                <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
+                <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
+                <Properties />
+                <Interactions>
+                  <Event Index="0" />
+                  <Event Index="1" />
+                  <Event Index="2" />
+                  <Event Index="3" />
+                  <Event Index="4" />
+                  <Event Index="5" />
+                  <Event Index="6" />
+                  <Event Index="7" />
+                </Interactions>
+              </Character>
+            </Characters>
+          </CharacterFolder>
+          <CharacterFolder Name="Characters">
+            <SubFolders />
+            <Characters>
+              <Character>
+                <ID>0</ID>
+                <ScriptName>cChad</ScriptName>
+                <RealName>Chad</RealName>
+                <NormalView>1</NormalView>
+                <SpeechView>0</SpeechView>
+                <IdleView>0</IdleView>
+                <ThinkingView>0</ThinkingView>
+                <BlinkingView>0</BlinkingView>
+                <StartingRoom>301</StartingRoom>
+                <StartX>1000</StartX>
+                <StartY>630</StartY>
+                <UniformMovementSpeed>True</UniformMovementSpeed>
+                <MovementSpeed>10</MovementSpeed>
+                <MovementSpeedX>3</MovementSpeedX>
+                <MovementSpeedY>0</MovementSpeedY>
+                <AnimationDelay>0</AnimationDelay>
+                <SpeechAnimationDelay>5</SpeechAnimationDelay>
+                <SpeechColor>12</SpeechColor>
+                <Solid>True</Solid>
+                <Clickable>True</Clickable>
+                <UseRoomAreaScaling>True</UseRoomAreaScaling>
+                <UseRoomAreaLighting>True</UseRoomAreaLighting>
+                <TurnBeforeWalking>True</TurnBeforeWalking>
+                <DiagonalLoops>True</DiagonalLoops>
+                <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
+                <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
+                <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
+                <Properties>
+                  <CustomProperty>
+                    <Name>is_follower</Name>
+                    <Value>0</Value>
+                  </CustomProperty>
+                  <CustomProperty>
+                    <Name>is_player</Name>
+                    <Value>1</Value>
+                  </CustomProperty>
+                </Properties>
+                <Interactions>
+                  <Event Index="0" />
+                  <Event Index="1" />
+                  <Event Index="2" />
+                  <Event Index="3" />
+                  <Event Index="4" />
+                  <Event Index="5" />
+                  <Event Index="6" />
+                  <Event Index="7" />
+                </Interactions>
+              </Character>
+              <Character>
+                <ID>1</ID>
+                <ScriptName>cMierins</ScriptName>
+                <RealName xml:space="preserve">Mierins Sprüd</RealName>
+                <NormalView>2</NormalView>
+                <SpeechView>0</SpeechView>
+                <IdleView>0</IdleView>
+                <ThinkingView>0</ThinkingView>
+                <BlinkingView>0</BlinkingView>
+                <StartingRoom>1</StartingRoom>
+                <StartX>416</StartX>
+                <StartY>966</StartY>
+                <UniformMovementSpeed>True</UniformMovementSpeed>
+                <MovementSpeed>3</MovementSpeed>
+                <MovementSpeedX>0</MovementSpeedX>
+                <MovementSpeedY>0</MovementSpeedY>
+                <AnimationDelay>4</AnimationDelay>
+                <SpeechAnimationDelay>5</SpeechAnimationDelay>
+                <SpeechColor>23796</SpeechColor>
+                <Solid>True</Solid>
+                <Clickable>True</Clickable>
+                <UseRoomAreaScaling>True</UseRoomAreaScaling>
+                <UseRoomAreaLighting>True</UseRoomAreaLighting>
+                <TurnBeforeWalking>True</TurnBeforeWalking>
+                <DiagonalLoops>True</DiagonalLoops>
+                <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
+                <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
+                <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
+                <Properties />
+                <Interactions>
+                  <Event Index="0" />
+                  <Event Index="1" />
+                  <Event Index="2" />
+                  <Event Index="3" />
+                  <Event Index="4" />
+                  <Event Index="5" />
+                  <Event Index="6" />
+                  <Event Index="7" />
+                </Interactions>
+              </Character>
+              <Character>
+                <ID>2</ID>
+                <ScriptName>cIca</ScriptName>
+                <RealName>Íca</RealName>
+                <NormalView>3</NormalView>
+                <SpeechView>0</SpeechView>
+                <IdleView>0</IdleView>
+                <ThinkingView>0</ThinkingView>
+                <BlinkingView>0</BlinkingView>
+                <StartingRoom>1</StartingRoom>
+                <StartX>900</StartX>
+                <StartY>630</StartY>
+                <UniformMovementSpeed>True</UniformMovementSpeed>
+                <MovementSpeed>10</MovementSpeed>
+                <MovementSpeedX>0</MovementSpeedX>
+                <MovementSpeedY>0</MovementSpeedY>
+                <AnimationDelay>0</AnimationDelay>
+                <SpeechAnimationDelay>5</SpeechAnimationDelay>
+                <SpeechColor>1560</SpeechColor>
+                <Solid>True</Solid>
+                <Clickable>True</Clickable>
+                <UseRoomAreaScaling>True</UseRoomAreaScaling>
+                <UseRoomAreaLighting>True</UseRoomAreaLighting>
+                <TurnBeforeWalking>True</TurnBeforeWalking>
+                <DiagonalLoops>True</DiagonalLoops>
+                <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
+                <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
+                <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
+                <Properties />
+                <Interactions>
+                  <Event Index="0" />
+                  <Event Index="1" />
+                  <Event Index="2" />
+                  <Event Index="3" />
+                  <Event Index="4" />
+                  <Event Index="5" />
+                  <Event Index="6" />
+                  <Event Index="7" />
+                </Interactions>
+              </Character>
+            </Characters>
+          </CharacterFolder>
+        </SubFolders>
+        <Characters />
       </CharacterFolder>
     </Characters>
     <PlayerCharacter>0</PlayerCharacter>
@@ -1692,6 +1942,41 @@ stop
               </Sprite>
             </Sprites>
           </SpriteFolder>
+          <SpriteFolder Name="Logo">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="23" Width="375" Height="290" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Logo\bonsai.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="24" Width="424" Height="826" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Logo\dragon_dch.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="25" Width="426" Height="838" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Logo\dragon_izq.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="26" Width="211" Height="49" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Logo\games.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="27" Width="294" Height="126" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Logo\ree.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="28" Width="126" Height="669" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Logo\totem.png</FileName>
+                </Source>
+              </Sprite>
+            </Sprites>
+          </SpriteFolder>
         </SubFolders>
         <Sprites>
           <Sprite Slot="0" Width="1" Height="1" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
@@ -1725,159 +2010,469 @@ stop
     </Sprites>
     <Views>
       <ViewFolder Name="Default">
-        <SubFolders />
-        <Views>
-          <View>
-            <ID>1</ID>
-            <Name>vChad</Name>
-            <Loops>
-              <Loop>
-                <ID>0</ID>
-                <RunNextLoop>False</RunNextLoop>
-                <Frames>
-                  <ViewFrame>
-                    <ID>0</ID>
-                    <Image>1</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                </Frames>
-              </Loop>
-              <Loop>
+        <SubFolders>
+          <ViewFolder Name="Characters">
+            <SubFolders />
+            <Views>
+              <View>
                 <ID>1</ID>
-                <RunNextLoop>False</RunNextLoop>
-                <Frames>
-                  <ViewFrame>
+                <Name>vChad</Name>
+                <Loops>
+                  <Loop>
                     <ID>0</ID>
-                    <Image>1</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                </Frames>
-              </Loop>
-              <Loop>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>1</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>1</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>1</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>2</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>1</Image>
+                        <Flipped>True</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>3</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames />
+                  </Loop>
+                </Loops>
+              </View>
+              <View>
                 <ID>2</ID>
-                <RunNextLoop>False</RunNextLoop>
-                <Frames>
-                  <ViewFrame>
+                <Name>vMierins</Name>
+                <Loops>
+                  <Loop>
                     <ID>0</ID>
-                    <Image>1</Image>
-                    <Flipped>True</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                </Frames>
-              </Loop>
-              <Loop>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>15</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>1</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>0</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>2</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>0</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>3</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames />
+                  </Loop>
+                </Loops>
+              </View>
+              <View>
                 <ID>3</ID>
-                <RunNextLoop>False</RunNextLoop>
-                <Frames />
-              </Loop>
-            </Loops>
-          </View>
-          <View>
-            <ID>2</ID>
-            <Name>vMierins</Name>
-            <Loops>
-              <Loop>
-                <ID>0</ID>
-                <RunNextLoop>False</RunNextLoop>
-                <Frames>
-                  <ViewFrame>
+                <Name>vIca</Name>
+                <Loops>
+                  <Loop>
                     <ID>0</ID>
-                    <Image>15</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                </Frames>
-              </Loop>
-              <Loop>
-                <ID>1</ID>
-                <RunNextLoop>False</RunNextLoop>
-                <Frames>
-                  <ViewFrame>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>14</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>1</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>14</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>2</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>14</Image>
+                        <Flipped>True</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>3</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames />
+                  </Loop>
+                </Loops>
+              </View>
+            </Views>
+          </ViewFolder>
+          <ViewFolder Name="Logo">
+            <SubFolders />
+            <Views>
+              <View>
+                <ID>4</ID>
+                <Name>vLeftDragon</Name>
+                <Loops>
+                  <Loop>
                     <ID>0</ID>
-                    <Image>0</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                </Frames>
-              </Loop>
-              <Loop>
-                <ID>2</ID>
-                <RunNextLoop>False</RunNextLoop>
-                <Frames>
-                  <ViewFrame>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>25</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>1</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>0</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>2</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>0</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>3</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames />
+                  </Loop>
+                </Loops>
+              </View>
+              <View>
+                <ID>5</ID>
+                <Name>vRightDragon</Name>
+                <Loops>
+                  <Loop>
                     <ID>0</ID>
-                    <Image>0</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                </Frames>
-              </Loop>
-              <Loop>
-                <ID>3</ID>
-                <RunNextLoop>False</RunNextLoop>
-                <Frames />
-              </Loop>
-            </Loops>
-          </View>
-          <View>
-            <ID>3</ID>
-            <Name>vIca</Name>
-            <Loops>
-              <Loop>
-                <ID>0</ID>
-                <RunNextLoop>False</RunNextLoop>
-                <Frames>
-                  <ViewFrame>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>24</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>1</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>0</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>2</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>0</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>3</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames />
+                  </Loop>
+                </Loops>
+              </View>
+              <View>
+                <ID>6</ID>
+                <Name>vBonsai</Name>
+                <Loops>
+                  <Loop>
                     <ID>0</ID>
-                    <Image>14</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                </Frames>
-              </Loop>
-              <Loop>
-                <ID>1</ID>
-                <RunNextLoop>False</RunNextLoop>
-                <Frames>
-                  <ViewFrame>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>23</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>1</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>0</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>2</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>0</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>3</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames />
+                  </Loop>
+                </Loops>
+              </View>
+              <View>
+                <ID>7</ID>
+                <Name>vTotem</Name>
+                <Loops>
+                  <Loop>
                     <ID>0</ID>
-                    <Image>14</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                </Frames>
-              </Loop>
-              <Loop>
-                <ID>2</ID>
-                <RunNextLoop>False</RunNextLoop>
-                <Frames>
-                  <ViewFrame>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>28</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>1</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>0</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>2</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>0</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>3</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames />
+                  </Loop>
+                </Loops>
+              </View>
+              <View>
+                <ID>8</ID>
+                <Name>vRee</Name>
+                <Loops>
+                  <Loop>
                     <ID>0</ID>
-                    <Image>14</Image>
-                    <Flipped>True</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                </Frames>
-              </Loop>
-              <Loop>
-                <ID>3</ID>
-                <RunNextLoop>False</RunNextLoop>
-                <Frames />
-              </Loop>
-            </Loops>
-          </View>
-        </Views>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>27</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>1</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>0</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>2</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>0</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>3</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames />
+                  </Loop>
+                </Loops>
+              </View>
+              <View>
+                <ID>9</ID>
+                <Name>vGames</Name>
+                <Loops>
+                  <Loop>
+                    <ID>0</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>26</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>1</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>0</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>2</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>0</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>3</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames />
+                  </Loop>
+                </Loops>
+              </View>
+            </Views>
+          </ViewFolder>
+        </SubFolders>
+        <Views />
       </ViewFolder>
     </Views>
     <DeletedViews />
