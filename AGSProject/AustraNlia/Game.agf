@@ -773,6 +773,48 @@
               </GUIButton>
             </Controls>
           </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>70</Height>
+              <Width>300</Width>
+              <Left>0</Left>
+              <Top>0</Top>
+              <Clickable>True</Clickable>
+              <Visibility>Normal</Visibility>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>2</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>8</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <ID>3</ID>
+              <Name>gEndscreen</Name>
+            </NormalGUI>
+            <Controls>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text xml:space="preserve">Return to Menu</Text>
+                <Height>70</Height>
+                <Locked>False</Locked>
+                <Width>300</Width>
+                <Left>0</Left>
+                <Top>0</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>Button4</Name>
+              </GUIButton>
+            </Controls>
+          </GUIMain>
         </GUIs>
       </GUIFolder>
     </GUIs>
@@ -1160,7 +1202,7 @@
                 <BlinkingView>0</BlinkingView>
                 <StartingRoom>301</StartingRoom>
                 <StartX>833</StartX>
-                <StartY>607</StartY>
+                <StartY>1234</StartY>
                 <UniformMovementSpeed>True</UniformMovementSpeed>
                 <MovementSpeed>3</MovementSpeed>
                 <MovementSpeedX>0</MovementSpeedX>
@@ -1890,7 +1932,498 @@ stop
                 </Sprites>
               </SpriteFolder>
               <SpriteFolder Name="Scene">
-                <SubFolders />
+                <SubFolders>
+                  <SpriteFolder Name="Lamp">
+                    <SubFolders />
+                    <Sprites>
+                      <Sprite Slot="29" Width="200" Height="200" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\lamp\lamp_00000.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="30" Width="200" Height="200" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\lamp\lamp_00001.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="31" Width="200" Height="200" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\lamp\lamp_00002.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="32" Width="200" Height="200" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\lamp\lamp_00003.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="33" Width="200" Height="200" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\lamp\lamp_00004.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="34" Width="200" Height="200" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\lamp\lamp_00005.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="35" Width="200" Height="200" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\lamp\lamp_00006.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="36" Width="200" Height="200" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\lamp\lamp_00007.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="37" Width="200" Height="200" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\lamp\lamp_00008.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="38" Width="200" Height="200" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\lamp\lamp_00009.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="39" Width="200" Height="200" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\lamp\lamp_00010.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="40" Width="200" Height="200" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\lamp\lamp_00011.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="41" Width="200" Height="200" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\lamp\lamp_00012.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="42" Width="200" Height="200" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\lamp\lamp_00013.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="43" Width="200" Height="200" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\lamp\lamp_00014.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="44" Width="200" Height="200" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\lamp\lamp_00015.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="45" Width="200" Height="200" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\lamp\lamp_00016.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="46" Width="200" Height="200" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\lamp\lamp_00017.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="47" Width="200" Height="200" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\lamp\lamp_00018.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="48" Width="200" Height="200" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\lamp\lamp_00019.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="49" Width="200" Height="200" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\lamp\lamp_00020.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="50" Width="200" Height="200" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\lamp\lamp_00021.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="51" Width="200" Height="200" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\lamp\lamp_00022.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="52" Width="200" Height="200" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\lamp\lamp_00023.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="53" Width="200" Height="200" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\lamp\lamp_00024.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="54" Width="200" Height="200" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\lamp\lamp_00025.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="55" Width="200" Height="200" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\lamp\lamp_00026.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="56" Width="200" Height="200" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\lamp\lamp_00027.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="57" Width="200" Height="200" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\lamp\lamp_00028.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="58" Width="200" Height="200" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\lamp\lamp_00029.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="59" Width="200" Height="200" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\lamp\lamp_00030.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="60" Width="200" Height="200" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\lamp\lamp_00031.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="61" Width="200" Height="200" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\lamp\lamp_00032.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="62" Width="200" Height="200" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\lamp\lamp_00033.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="63" Width="200" Height="200" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\lamp\lamp_00034.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="64" Width="200" Height="200" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\lamp\lamp_00035.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="65" Width="200" Height="200" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\lamp\lamp_00036.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="66" Width="200" Height="200" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\lamp\lamp_00037.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="67" Width="200" Height="200" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\lamp\lamp_00038.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="68" Width="200" Height="200" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\lamp\lamp_00039.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="69" Width="200" Height="200" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\lamp\lamp_00040.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="70" Width="200" Height="200" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\lamp\lamp_00041.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="71" Width="200" Height="200" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\lamp\lamp_00042.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="72" Width="200" Height="200" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\lamp\lamp_00043.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="73" Width="200" Height="200" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\lamp\lamp_00044.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="74" Width="200" Height="200" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\lamp\lamp_00045.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="75" Width="200" Height="200" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\lamp\lamp_00046.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="76" Width="200" Height="200" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\lamp\lamp_00047.png</FileName>
+                        </Source>
+                      </Sprite>
+                    </Sprites>
+                  </SpriteFolder>
+                  <SpriteFolder Name="Camera">
+                    <SubFolders />
+                    <Sprites>
+                      <Sprite Slot="77" Width="163" Height="168" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\camera\camera_00000.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="78" Width="163" Height="168" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\camera\camera_00001.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="79" Width="163" Height="168" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\camera\camera_00002.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="80" Width="163" Height="168" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\camera\camera_00003.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="81" Width="163" Height="168" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\camera\camera_00004.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="82" Width="163" Height="168" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\camera\camera_00005.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="83" Width="163" Height="168" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\camera\camera_00006.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="84" Width="163" Height="168" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\camera\camera_00007.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="85" Width="163" Height="168" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\camera\camera_00008.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="86" Width="163" Height="168" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\camera\camera_00009.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="87" Width="163" Height="168" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\camera\camera_00010.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="88" Width="163" Height="168" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\camera\camera_00011.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="89" Width="163" Height="168" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\camera\camera_00012.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="90" Width="163" Height="168" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\camera\camera_00013.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="91" Width="163" Height="168" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\camera\camera_00014.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="92" Width="163" Height="168" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\camera\camera_00015.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="93" Width="163" Height="168" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\camera\camera_00016.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="94" Width="163" Height="168" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\camera\camera_00017.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="95" Width="163" Height="168" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\camera\camera_00018.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="96" Width="163" Height="168" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\camera\camera_00019.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="97" Width="163" Height="168" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\camera\camera_00020.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="98" Width="163" Height="168" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\camera\camera_00021.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="99" Width="163" Height="168" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\camera\camera_00022.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="100" Width="163" Height="168" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\camera\camera_00023.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="101" Width="163" Height="168" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\camera\camera_00024.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="102" Width="163" Height="168" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\camera\camera_00025.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="103" Width="163" Height="168" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\camera\camera_00026.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="104" Width="163" Height="168" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\camera\camera_00027.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="105" Width="163" Height="168" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\camera\camera_00028.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="106" Width="163" Height="168" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\camera\camera_00029.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="107" Width="163" Height="168" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\camera\camera_00030.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="108" Width="163" Height="168" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\camera\camera_00031.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="109" Width="163" Height="168" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\camera\camera_00032.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="110" Width="163" Height="168" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\camera\camera_00033.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="111" Width="163" Height="168" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\camera\camera_00034.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="112" Width="163" Height="168" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\camera\camera_00035.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="113" Width="163" Height="168" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\camera\camera_00036.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="114" Width="163" Height="168" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\camera\camera_00037.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="115" Width="163" Height="168" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\camera\camera_00038.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="116" Width="163" Height="168" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\camera\camera_00039.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="117" Width="163" Height="168" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\camera\camera_00040.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="118" Width="163" Height="168" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\camera\camera_00041.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="119" Width="163" Height="168" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\camera\camera_00042.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="120" Width="163" Height="168" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\camera\camera_00043.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="121" Width="163" Height="168" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\camera\camera_00044.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="122" Width="163" Height="168" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\camera\camera_00045.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="123" Width="163" Height="168" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\camera\camera_00046.png</FileName>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="124" Width="163" Height="168" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\camera\camera_00047.png</FileName>
+                        </Source>
+                      </Sprite>
+                    </Sprites>
+                  </SpriteFolder>
+                </SubFolders>
                 <Sprites>
                   <Sprite Slot="5" Width="50" Height="45" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
@@ -2475,7 +3008,9 @@ stop
         <Views />
       </ViewFolder>
     </Views>
-    <DeletedViews />
+    <DeletedViews>
+      <ViewID>10</ViewID>
+    </DeletedViews>
     <Scripts>
       <ScriptFolder Name="Main">
         <SubFolders />
