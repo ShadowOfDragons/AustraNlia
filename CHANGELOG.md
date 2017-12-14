@@ -21,7 +21,7 @@
 - [ ] Victory/Defeat conditions
 ### Screens:
 * **Logo:**
-    - [ ] Enter/Exit animation
+    - [x] Enter/Exit animation
 * **Title:**
     - [ ] Title final art
     - [ ] Enter animation
