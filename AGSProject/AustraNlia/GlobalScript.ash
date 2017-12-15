@@ -13,4 +13,8 @@ character_struct playable_characters[3];
 
 bool hasTalkedToMierins = false;
 bool isCarpetOnFloor = false;
+bool icaIsUsingPower = false;
+int manaIca = 0;
+
+
 
