@@ -628,10 +628,6 @@
             <Number>1</Number>
             <Description>Tutorial</Description>
           </UnloadedRoom>
-          <UnloadedRoom>
-            <Number>2</Number>
-            <Description xml:space="preserve">Dialog Screen</Description>
-          </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>
     </Rooms>
@@ -817,6 +813,315 @@
                 <ID>0</ID>
                 <Name>Button4</Name>
               </GUIButton>
+            </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>425</Height>
+              <Width>1784</Width>
+              <Left>0</Left>
+              <Top>0</Top>
+              <Clickable>True</Clickable>
+              <Visibility>Normal</Visibility>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>0</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>0</BackgroundColor>
+              <BackgroundImage>125</BackgroundImage>
+              <ID>4</ID>
+              <Name>gDialogBox</Name>
+            </NormalGUI>
+            <Controls />
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>1080</Height>
+              <Width>500</Width>
+              <Left>0</Left>
+              <Top>0</Top>
+              <Clickable>True</Clickable>
+              <Visibility>Normal</Visibility>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>0</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>0</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <ID>5</ID>
+              <Name>gMainMenu</Name>
+            </NormalGUI>
+            <Controls>
+              <GUIButton>
+                <OnClick>Button5_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text xml:space="preserve">New Game</Text>
+                <Height>90</Height>
+                <Locked>False</Locked>
+                <Width>300</Width>
+                <Left>70</Left>
+                <Top>70</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>Button5</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick>Button6_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text xml:space="preserve">Continue Game</Text>
+                <Height>90</Height>
+                <Locked>False</Locked>
+                <Width>300</Width>
+                <Left>70</Left>
+                <Top>190</Top>
+                <ZOrder>1</ZOrder>
+                <ID>1</ID>
+                <Name>Button6</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick>Button7_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>Options</Text>
+                <Height>90</Height>
+                <Locked>False</Locked>
+                <Width>300</Width>
+                <Left>70</Left>
+                <Top>310</Top>
+                <ZOrder>2</ZOrder>
+                <ID>2</ID>
+                <Name>Button7</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>Credits</Text>
+                <Height>90</Height>
+                <Locked>False</Locked>
+                <Width>300</Width>
+                <Left>70</Left>
+                <Top>430</Top>
+                <ZOrder>3</ZOrder>
+                <ID>3</ID>
+                <Name>Button8</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick>Button9_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text xml:space="preserve">Exit to Desktop</Text>
+                <Height>90</Height>
+                <Locked>False</Locked>
+                <Width>300</Width>
+                <Left>70</Left>
+                <Top>550</Top>
+                <ZOrder>4</ZOrder>
+                <ID>4</ID>
+                <Name>Button9</Name>
+              </GUIButton>
+            </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>1000</Height>
+              <Width>1840</Width>
+              <Left>40</Left>
+              <Top>40</Top>
+              <Clickable>True</Clickable>
+              <Visibility>Normal</Visibility>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>0</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>8</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <ID>6</ID>
+              <Name>gOptionMenu</Name>
+            </NormalGUI>
+            <Controls>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>x</Text>
+                <Height>50</Height>
+                <Locked>False</Locked>
+                <Width>50</Width>
+                <Left>350</Left>
+                <Top>300</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>tFullscreen</Name>
+              </GUIButton>
+              <GUILabel>
+                <TextAlignment>TopLeft</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <Text>Fullscreen</Text>
+                <Height>44</Height>
+                <Locked>False</Locked>
+                <Width>150</Width>
+                <Left>190</Left>
+                <Top>300</Top>
+                <ZOrder>1</ZOrder>
+                <ID>1</ID>
+                <Name>Fullscreen</Name>
+              </GUILabel>
+              <GUISlider>
+                <OnChange />
+                <HandleImage>0</HandleImage>
+                <HandleOffset>0</HandleOffset>
+                <BackgroundImage>0</BackgroundImage>
+                <MinValue>0</MinValue>
+                <MaxValue>10</MaxValue>
+                <Value>0</Value>
+                <Height>70</Height>
+                <Locked>False</Locked>
+                <Width>500</Width>
+                <Left>700</Left>
+                <Top>300</Top>
+                <ZOrder>2</ZOrder>
+                <ID>2</ID>
+                <Name>sMusicVolume</Name>
+              </GUISlider>
+              <GUISlider>
+                <OnChange />
+                <HandleImage>0</HandleImage>
+                <HandleOffset>0</HandleOffset>
+                <BackgroundImage>0</BackgroundImage>
+                <MinValue>0</MinValue>
+                <MaxValue>10</MaxValue>
+                <Value>0</Value>
+                <Height>70</Height>
+                <Locked>False</Locked>
+                <Width>500</Width>
+                <Left>700</Left>
+                <Top>400</Top>
+                <ZOrder>3</ZOrder>
+                <ID>3</ID>
+                <Name>sSFXVolume</Name>
+              </GUISlider>
+              <GUISlider>
+                <OnChange />
+                <HandleImage>0</HandleImage>
+                <HandleOffset>0</HandleOffset>
+                <BackgroundImage>0</BackgroundImage>
+                <MinValue>0</MinValue>
+                <MaxValue>10</MaxValue>
+                <Value>0</Value>
+                <Height>70</Height>
+                <Locked>False</Locked>
+                <Width>500</Width>
+                <Left>700</Left>
+                <Top>200</Top>
+                <ZOrder>4</ZOrder>
+                <ID>4</ID>
+                <Name>sMasterVolume</Name>
+              </GUISlider>
+              <GUIButton>
+                <OnClick>Accept_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>ACCEPT</Text>
+                <Height>100</Height>
+                <Locked>False</Locked>
+                <Width>475</Width>
+                <Left>150</Left>
+                <Top>600</Top>
+                <ZOrder>5</ZOrder>
+                <ID>5</ID>
+                <Name>Accept</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick>Cancel_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>CANCEL</Text>
+                <Height>100</Height>
+                <Locked>False</Locked>
+                <Width>475</Width>
+                <Left>700</Left>
+                <Top>600</Top>
+                <ZOrder>6</ZOrder>
+                <ID>6</ID>
+                <Name>Cancel</Name>
+              </GUIButton>
+              <GUILabel>
+                <TextAlignment>TopLeft</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <Text>OPTIONS</Text>
+                <Height>113</Height>
+                <Locked>False</Locked>
+                <Width>641</Width>
+                <Left>435</Left>
+                <Top>30</Top>
+                <ZOrder>7</ZOrder>
+                <ID>7</ID>
+                <Name>Label1</Name>
+              </GUILabel>
             </Controls>
           </GUIMain>
         </GUIs>
@@ -1298,7 +1603,7 @@
                 <MovementSpeedY>0</MovementSpeedY>
                 <AnimationDelay>0</AnimationDelay>
                 <SpeechAnimationDelay>5</SpeechAnimationDelay>
-                <SpeechColor>12</SpeechColor>
+                <SpeechColor>32768</SpeechColor>
                 <Solid>True</Solid>
                 <Clickable>True</Clickable>
                 <UseRoomAreaScaling>True</UseRoomAreaScaling>
@@ -1347,7 +1652,7 @@
                 <MovementSpeedY>0</MovementSpeedY>
                 <AnimationDelay>4</AnimationDelay>
                 <SpeechAnimationDelay>5</SpeechAnimationDelay>
-                <SpeechColor>23796</SpeechColor>
+                <SpeechColor>0</SpeechColor>
                 <Solid>True</Solid>
                 <Clickable>True</Clickable>
                 <UseRoomAreaScaling>True</UseRoomAreaScaling>
@@ -1621,6 +1926,25 @@ stop
               </DialogOption>
             </DialogOptions>
           </Dialog>
+          <Dialog>
+            <ID>2</ID>
+            <Name>dDialog3</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+Mierins: Well, well, well. Now I am willing to explain your job. 
+Mierins: You've heard of the Bubble Forests? Yeah, those dome that clean the air \nand protect the forsts from that damn invasive plant.
+Mierins: As you should know, your father is the Maintenance Director of the capital, \nand that is the one and only reason you are here.
+
+Chad: Yeah! I have contacts in high places!
+
+Mierins: And yet you're stuck in this poky old town. Your father has no care for you.
+Mierins: Whatever... Witheller has so little importance that even the Bubble Forest have stopped \nreceiving maintenance from the capital. Imagine it!
+
+return
+]]></Script>
+            <DialogOptions />
+          </Dialog>
         </Dialogs>
       </DialogFolder>
     </Dialogs>
@@ -1757,19 +2081,19 @@ stop
       </Font>
       <Font>
         <ID>1</ID>
-        <PointSize>0</PointSize>
+        <PointSize>20</PointSize>
         <Name xml:space="preserve">Font 1</Name>
-        <OutlineFont>2</OutlineFont>
+        <OutlineFont>5</OutlineFont>
         <OutlineStyle>UseOutlineFont</OutlineStyle>
-        <SourceFilename />
+        <SourceFilename>E:\sadana_square\SadanaSquare.ttf</SourceFilename>
       </Font>
       <Font>
         <ID>2</ID>
-        <PointSize>0</PointSize>
+        <PointSize>20</PointSize>
         <Name xml:space="preserve">Font 2</Name>
         <OutlineFont>0</OutlineFont>
         <OutlineStyle>None</OutlineStyle>
-        <SourceFilename />
+        <SourceFilename>E:\sadana_square\SadanaSquare.ttf</SourceFilename>
       </Font>
     </Fonts>
     <Palette>
@@ -2635,6 +2959,11 @@ stop
                   <FileName>E:\PROYECTO\mouse_wheel_02.png</FileName>
                 </Source>
               </Sprite>
+              <Sprite Slot="125" Width="1784" Height="425" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>D:\Imágenes\Testinig\gui_dialog_box_01.png</FileName>
+                </Source>
+              </Sprite>
             </Sprites>
           </SpriteFolder>
           <SpriteFolder Name="Logo">
@@ -3279,24 +3608,24 @@ stop
     </AudioClips>
     <AudioClipTypes>
       <AudioClipType>
-        <TypeID>1</TypeID>
         <Name xml:space="preserve">Ambient Sound</Name>
+        <TypeID>1</TypeID>
         <MaxChannels>1</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
         <BackwardsCompatibilityType>True</BackwardsCompatibilityType>
       </AudioClipType>
       <AudioClipType>
-        <TypeID>2</TypeID>
         <Name>Music</Name>
+        <TypeID>2</TypeID>
         <MaxChannels>1</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>30</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
         <BackwardsCompatibilityType>True</BackwardsCompatibilityType>
       </AudioClipType>
       <AudioClipType>
-        <TypeID>3</TypeID>
         <Name>Sound</Name>
+        <TypeID>3</TypeID>
         <MaxChannels>0</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
