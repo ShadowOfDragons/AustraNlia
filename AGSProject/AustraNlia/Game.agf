@@ -74,7 +74,7 @@
       <SaveGameFileExtension />
       <SaveGameFolderName>AustraNlia</SaveGameFolderName>
       <BinaryFilesInSourceControl>False</BinaryFilesInSourceControl>
-      <AudioIndexer>1</AudioIndexer>
+      <AudioIndexer>2</AudioIndexer>
       <BuildTargets>Windows</BuildTargets>
     </Settings>
     <LipSync>
@@ -628,6 +628,10 @@
             <Number>1</Number>
             <Description>Tutorial</Description>
           </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>2</Number>
+            <Description xml:space="preserve">Dialog Screen</Description>
+          </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>
     </Rooms>
@@ -766,10 +770,31 @@
                 <Locked>False</Locked>
                 <Width>25</Width>
                 <Left>39</Left>
-                <Top>203</Top>
+                <Top>202</Top>
                 <ZOrder>2</ZOrder>
                 <ID>2</ID>
                 <Name>Button3</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick>Button10_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>18</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>25</Height>
+                <Locked>False</Locked>
+                <Width>25</Width>
+                <Left>105</Left>
+                <Top>241</Top>
+                <ZOrder>3</ZOrder>
+                <ID>3</ID>
+                <Name>Button10</Name>
               </GUIButton>
             </Controls>
           </GUIMain>
@@ -818,26 +843,6 @@
           <GUIMain>
             <NormalGUI>
               <OnClick />
-              <Height>425</Height>
-              <Width>1784</Width>
-              <Left>0</Left>
-              <Top>0</Top>
-              <Clickable>True</Clickable>
-              <Visibility>Normal</Visibility>
-              <PopupYPos>0</PopupYPos>
-              <ZOrder>0</ZOrder>
-              <BorderColor>0</BorderColor>
-              <Transparency>0</Transparency>
-              <BackgroundColor>0</BackgroundColor>
-              <BackgroundImage>125</BackgroundImage>
-              <ID>4</ID>
-              <Name>gDialogBox</Name>
-            </NormalGUI>
-            <Controls />
-          </GUIMain>
-          <GUIMain>
-            <NormalGUI>
-              <OnClick />
               <Height>1080</Height>
               <Width>500</Width>
               <Left>0</Left>
@@ -850,7 +855,7 @@
               <Transparency>0</Transparency>
               <BackgroundColor>0</BackgroundColor>
               <BackgroundImage>0</BackgroundImage>
-              <ID>5</ID>
+              <ID>4</ID>
               <Name>gMainMenu</Name>
             </NormalGUI>
             <Controls>
@@ -976,7 +981,7 @@
               <Transparency>0</Transparency>
               <BackgroundColor>8</BackgroundColor>
               <BackgroundImage>0</BackgroundImage>
-              <ID>6</ID>
+              <ID>5</ID>
               <Name>gOptionMenu</Name>
             </NormalGUI>
             <Controls>
@@ -1158,6 +1163,60 @@
             <Image>8</Image>
             <Description>Lighter</Description>
             <Name>iLighter</Name>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <ID>3</ID>
+            <HotspotX>18</HotspotX>
+            <HotspotY>26</HotspotY>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <CursorImage>134</CursorImage>
+            <Image>7</Image>
+            <Description xml:space="preserve">New inventory item</Description>
+            <Name>iWhiskey</Name>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <ID>4</ID>
+            <HotspotX>24</HotspotX>
+            <HotspotY>13</HotspotY>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <CursorImage>135</CursorImage>
+            <Image>9</Image>
+            <Description xml:space="preserve">New inventory item</Description>
+            <Name>iCarpet</Name>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <ID>5</ID>
+            <HotspotX>18</HotspotX>
+            <HotspotY>25</HotspotY>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <CursorImage>136</CursorImage>
+            <Image>10</Image>
+            <Description xml:space="preserve">New inventory item</Description>
+            <Name>iKey</Name>
             <Properties />
             <Interactions>
               <Event Index="0" />
@@ -1652,7 +1711,7 @@
                 <MovementSpeedY>0</MovementSpeedY>
                 <AnimationDelay>4</AnimationDelay>
                 <SpeechAnimationDelay>5</SpeechAnimationDelay>
-                <SpeechColor>0</SpeechColor>
+                <SpeechColor>1536</SpeechColor>
                 <Solid>True</Solid>
                 <Clickable>True</Clickable>
                 <UseRoomAreaScaling>True</UseRoomAreaScaling>
@@ -1666,7 +1725,7 @@
                 <Interactions>
                   <Event Index="0" />
                   <Event Index="1" />
-                  <Event Index="2" />
+                  <Event Index="2">cMierins_Talk</Event>
                   <Event Index="3">cMierins_UseInv</Event>
                   <Event Index="4" />
                   <Event Index="5" />
@@ -1718,21 +1777,21 @@
                 <ID>9</ID>
                 <ScriptName>cDialogDummy</ScriptName>
                 <RealName>DialogDummy</RealName>
-                <NormalView>1</NormalView>
+                <NormalView>2</NormalView>
                 <SpeechView>0</SpeechView>
                 <IdleView>0</IdleView>
                 <ThinkingView>0</ThinkingView>
                 <BlinkingView>0</BlinkingView>
-                <StartingRoom>-1</StartingRoom>
-                <StartX>160</StartX>
-                <StartY>120</StartY>
+                <StartingRoom>2</StartingRoom>
+                <StartX>376</StartX>
+                <StartY>699</StartY>
                 <UniformMovementSpeed>True</UniformMovementSpeed>
                 <MovementSpeed>3</MovementSpeed>
                 <MovementSpeedX>0</MovementSpeedX>
                 <MovementSpeedY>0</MovementSpeedY>
                 <AnimationDelay>4</AnimationDelay>
                 <SpeechAnimationDelay>5</SpeechAnimationDelay>
-                <SpeechColor>12</SpeechColor>
+                <SpeechColor>65520</SpeechColor>
                 <Solid>True</Solid>
                 <Clickable>True</Clickable>
                 <UseRoomAreaScaling>True</UseRoomAreaScaling>
@@ -1763,16 +1822,16 @@
                 <IdleView>0</IdleView>
                 <ThinkingView>0</ThinkingView>
                 <BlinkingView>0</BlinkingView>
-                <StartingRoom>-1</StartingRoom>
-                <StartX>160</StartX>
-                <StartY>120</StartY>
+                <StartingRoom>2</StartingRoom>
+                <StartX>1524</StartX>
+                <StartY>700</StartY>
                 <UniformMovementSpeed>True</UniformMovementSpeed>
                 <MovementSpeed>3</MovementSpeed>
                 <MovementSpeedX>0</MovementSpeedX>
                 <MovementSpeedY>0</MovementSpeedY>
                 <AnimationDelay>4</AnimationDelay>
                 <SpeechAnimationDelay>5</SpeechAnimationDelay>
-                <SpeechColor>12</SpeechColor>
+                <SpeechColor>63488</SpeechColor>
                 <Solid>True</Solid>
                 <Clickable>True</Clickable>
                 <UseRoomAreaScaling>True</UseRoomAreaScaling>
@@ -1941,7 +2000,109 @@ Chad: Yeah! I have contacts in high places!
 Mierins: And yet you're stuck in this poky old town. Your father has no care for you.
 Mierins: Whatever... Witheller has so little importance that even the Bubble Forest have stopped \nreceiving maintenance from the capital. Imagine it!
 
+Chad: So... You want me to go to Taramar, search for my dad and \nbeg him to do something to save the town?
+
+Mierins: No. I want you to find out the reasons why there isn't anybody taking care of our Bubble Forests. 
+Mierins: I want the exclusive! Imagine the scandal that could come out of this!
+
+Chad: Oh... I supose that's also nice... Will I get paid?
+
+Mierins: Yes... since you mentioned it.
+
+Mierins: If you got any question, you better ask them before leaving or I run out of patience.
+
 return
+@1
+Mierins: Do I look like an expert on the subject? How about you ask your father about while you're at it?
+return
+@2
+Mierins: Before Gerler that would be unthinkable. Nowadays everything is going to shit and nobody gives a damn about it.
+Mierins: Who knows, maybe they only want to force our population to move or maybe there is a big conspiration going on. 
+Mierins: I want you to get all the information you can.
+return
+@3
+Mierins: One more handless joke and you're fired.
+goto-dialog 3
+@4
+    cChad.SetAsPlayer();
+stop
+]]></Script>
+            <DialogOptions>
+              <DialogOption>
+                <ID>1</ID>
+                <Text xml:space="preserve">What happens exactly inside the Bubble Forests?</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>2</ID>
+                <Text xml:space="preserve">Wouldn't be a serious negligence from the government to let an entire town die?</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>3</ID>
+                <Text xml:space="preserve">Do you need a hand with anything else?</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>4</ID>
+                <Text xml:space="preserve">I should go.</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+            </DialogOptions>
+          </Dialog>
+          <Dialog>
+            <ID>3</ID>
+            <Name>dDialog4</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+@1
+Mierins: Good.
+goto-previous
+@2
+Mierins: As far as I remember I haven't hired you yet.
+goto-previous
+]]></Script>
+            <DialogOptions>
+              <DialogOption>
+                <ID>1</ID>
+                <Text xml:space="preserve">Sorry, it won't happen again.</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>2</ID>
+                <Text xml:space="preserve">And how will you write my letter of dissmissal?</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+            </DialogOptions>
+          </Dialog>
+          <Dialog>
+            <ID>4</ID>
+            <Name>dDialog5</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+
+Mierins: Before you go, I prepared an update for your Omni-Pad with crucial information about your task, \nit will record the people you meet and bits of information about them and what you discover.
+Mierins: It's stored in the cabin at your left.
+
+Chad: That's really nice from you! Wait... The one with the lock? Are you kidding me?
+
+Mierins: It's a secret to everybody! I am trusting you with vital information that no one must know and I have to take lots of precatuions! 
+Mierins: Also I totally didn't lose the key! It just... lost sight of it while feeding Daniel... \nYeah, while I was also reading those manuals about sea cucumbers.
+
+Chad: The sea cucumber...? Riiight. Let's see if I can find that key...
+
+Mierins: Consider it a test. Let's see if you rise to the challenge.
+
+stop
 ]]></Script>
             <DialogOptions />
           </Dialog>
@@ -2921,6 +3082,21 @@ return
                       <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\s_old_cigarette.png</FileName>
                     </Source>
                   </Sprite>
+                  <Sprite Slot="134" Width="38" Height="50" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\s_bottle_whiskey.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="135" Width="50" Height="33" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\s_office_carpet.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="136" Width="37" Height="50" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\s_office_key.png</FileName>
+                    </Source>
+                  </Sprite>
                 </Sprites>
               </SpriteFolder>
             </SubFolders>
@@ -2997,6 +3173,51 @@ return
               <Sprite Slot="28" Width="126" Height="669" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
                   <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Logo\totem.png</FileName>
+                </Source>
+              </Sprite>
+            </Sprites>
+          </SpriteFolder>
+          <SpriteFolder Name="FX">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="126" Width="314" Height="329" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\FX\brillo_tablon.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="127" Width="105" Height="105" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\FX\concept_prop_01.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="128" Width="95" Height="93" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\FX\concept_prop_02.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="129" Width="66" Height="143" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\FX\concept_prop_03.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="130" Width="117" Height="77" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\FX\concept_prop_05.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="131" Width="50" Height="70" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\FX\concept_prop_06.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="132" Width="87" Height="70" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\FX\fx_camara.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="133" Width="206" Height="180" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\FX\fx_lampara.png</FileName>
                 </Source>
               </Sprite>
             </Sprites>
@@ -3585,6 +3806,18 @@ return
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
                 <FileLastModifiedDate>2017-12-14 11:24:43Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ScriptName>aBubbles</ScriptName>
+                <SourceFileName xml:space="preserve">C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Audio\SFX\bubbles.wav</SourceFileName>
+                <Index>2</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>WAV</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2017-12-15 13:02:22Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>

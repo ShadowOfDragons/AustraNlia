@@ -11,3 +11,6 @@ struct character_struct
 
 character_struct playable_characters[3];
 
+bool hasTalkedToMierins = false;
+bool isCarpetOnFloor = false;
+
