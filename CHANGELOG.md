@@ -4,36 +4,36 @@
 - [x] Level Design Map
 * **Concept Art:**
     - [x] Characters
-    - [ ] Environments
+    - [x] Environments
     - [x] Character thumbnails
     - [x] Props thumbnails
     - [x] Characters size charts
     - [x] Level props size charts
     - [x] Level flow map
 * **Screens Mockups:**
-    - [ ] Title screen
+    - [x] Title screen
     - [x] Gameplay screen
     - [x] Dialog screen
     - [x] Ending screen
 ### General:
-- [ ] Animation between scenes (fade-in, fade-out)
+- [x] Animation between scenes (fade-in, fade-out)
 - [ ] GOD mode (F10)
-- [ ] Victory/Defeat conditions
+- [x] Victory/Defeat conditions
 ### Screens:
 * **Logo:**
     - [x] Enter/Exit animation
 * **Title:**
-    - [ ] Title final art
+    - [x] Title final art
     - [ ] Enter animation
     * **Basic Main Menu:**
-        - [ ] Start game
-        - [ ] Options
-        - [ ] Exit to desktop
+        - [x] Start game
+        - [x] Options
+        - [x] Exit to desktop
     * **Options Menu:**
         - [ ] Resolutions (1280 x 720, 1600 x 1200, 1920 x 1080)
         - [ ] Quality (FAST, GOOD, FANTASTIC, ULTRA)
     * **Gameplay:**
-        - [ ] Basic mechanics (Fully functional and testable)
+        - [x] Basic mechanics (Fully functional and testable)
         - [ ] Level colliders
         - [ ] 8 final props
         - [ ] Final PCs
@@ -44,7 +44,7 @@
         - [ ] 5 particles systems
         - [ ] 5 SFX
     * **Ending:**
-        - [ ] Custom background with message (Victory/Defeat)
+        - [x] Custom background with message (Victory/Defeat)
     
 ***
 
