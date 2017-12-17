@@ -74,7 +74,7 @@
       <SaveGameFileExtension />
       <SaveGameFolderName>AustraNlia</SaveGameFolderName>
       <BinaryFilesInSourceControl>False</BinaryFilesInSourceControl>
-      <AudioIndexer>13</AudioIndexer>
+      <AudioIndexer>15</AudioIndexer>
       <BuildTargets>Windows</BuildTargets>
     </Settings>
     <LipSync>
@@ -803,8 +803,8 @@
               <OnClick>gEndscreen_OnClick</OnClick>
               <Height>70</Height>
               <Width>300</Width>
-              <Left>0</Left>
-              <Top>0</Top>
+              <Left>1300</Left>
+              <Top>500</Top>
               <Clickable>True</Clickable>
               <Visibility>Normal</Visibility>
               <PopupYPos>0</PopupYPos>
@@ -854,7 +854,7 @@
               <BorderColor>0</BorderColor>
               <Transparency>0</Transparency>
               <BackgroundColor>0</BackgroundColor>
-              <BackgroundImage>0</BackgroundImage>
+              <BackgroundImage>156</BackgroundImage>
               <ID>4</ID>
               <Name>gMainMenu</Name>
             </NormalGUI>
@@ -875,7 +875,7 @@
                 <Locked>False</Locked>
                 <Width>258</Width>
                 <Left>70</Left>
-                <Top>45</Top>
+                <Top>132</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
                 <Name>Button5</Name>
@@ -896,7 +896,7 @@
                 <Locked>False</Locked>
                 <Width>258</Width>
                 <Left>70</Left>
-                <Top>181</Top>
+                <Top>270</Top>
                 <ZOrder>1</ZOrder>
                 <ID>1</ID>
                 <Name>Button6</Name>
@@ -917,7 +917,7 @@
                 <Locked>False</Locked>
                 <Width>258</Width>
                 <Left>70</Left>
-                <Top>308</Top>
+                <Top>403</Top>
                 <ZOrder>2</ZOrder>
                 <ID>2</ID>
                 <Name>Button7</Name>
@@ -938,7 +938,7 @@
                 <Locked>False</Locked>
                 <Width>258</Width>
                 <Left>70</Left>
-                <Top>430</Top>
+                <Top>530</Top>
                 <ZOrder>3</ZOrder>
                 <ID>3</ID>
                 <Name>Button8</Name>
@@ -959,7 +959,7 @@
                 <Locked>False</Locked>
                 <Width>258</Width>
                 <Left>70</Left>
-                <Top>550</Top>
+                <Top>658</Top>
                 <ZOrder>4</ZOrder>
                 <ID>4</ID>
                 <Name>Button9</Name>
@@ -1260,6 +1260,24 @@
             <Properties />
             <Interactions>
               <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <ID>6</ID>
+            <HotspotX>28</HotspotX>
+            <HotspotY>32</HotspotY>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <CursorImage>131</CursorImage>
+            <Image>13</Image>
+            <Description xml:space="preserve">New inventory item</Description>
+            <Name>iPapers</Name>
+            <Properties />
+            <Interactions>
+              <Event Index="0">iPapers_Look</Event>
               <Event Index="1" />
               <Event Index="2" />
               <Event Index="3" />
@@ -2096,7 +2114,48 @@
             </Characters>
           </CharacterFolder>
         </SubFolders>
-        <Characters />
+        <Characters>
+          <Character>
+            <ID>16</ID>
+            <ScriptName>cTitle</ScriptName>
+            <RealName xml:space="preserve">New character</RealName>
+            <NormalView>14</NormalView>
+            <SpeechView>0</SpeechView>
+            <IdleView>0</IdleView>
+            <ThinkingView>0</ThinkingView>
+            <BlinkingView>0</BlinkingView>
+            <StartingRoom>302</StartingRoom>
+            <StartX>1215</StartX>
+            <StartY>1469</StartY>
+            <UniformMovementSpeed>True</UniformMovementSpeed>
+            <MovementSpeed>3</MovementSpeed>
+            <MovementSpeedX>0</MovementSpeedX>
+            <MovementSpeedY>0</MovementSpeedY>
+            <AnimationDelay>0</AnimationDelay>
+            <SpeechAnimationDelay>5</SpeechAnimationDelay>
+            <SpeechColor>12</SpeechColor>
+            <Solid>True</Solid>
+            <Clickable>True</Clickable>
+            <UseRoomAreaScaling>True</UseRoomAreaScaling>
+            <UseRoomAreaLighting>True</UseRoomAreaLighting>
+            <TurnBeforeWalking>True</TurnBeforeWalking>
+            <DiagonalLoops>True</DiagonalLoops>
+            <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
+            <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
+            <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+              <Event Index="5" />
+              <Event Index="6" />
+              <Event Index="7" />
+            </Interactions>
+          </Character>
+        </Characters>
       </CharacterFolder>
     </Characters>
     <PlayerCharacter>0</PlayerCharacter>
@@ -3297,6 +3356,11 @@ stop
                       <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\s_office_key.png</FileName>
                     </Source>
                   </Sprite>
+                  <Sprite Slot="154" Width="58" Height="26" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Items\Scene\omnipad.png</FileName>
+                    </Source>
+                  </Sprite>
                 </Sprites>
               </SpriteFolder>
             </SubFolders>
@@ -3503,6 +3567,21 @@ stop
               <Sprite Slot="153" Width="23" Height="23" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
                   <FileName>H:\TTG\Animaciones\brishofeugo.png</FileName>
+                </Source>
+              </Sprite>
+            </Sprites>
+          </SpriteFolder>
+          <SpriteFolder Name="MainMenu">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="155" Width="1613" Height="389" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Maibn Menu\concept_header2.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="156" Width="489" Height="1080" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Sprites\Maibn Menu\tableta.png</FileName>
                 </Source>
               </Sprite>
             </Sprites>
@@ -4203,6 +4282,56 @@ stop
               </Loop>
             </Loops>
           </View>
+          <View>
+            <ID>14</ID>
+            <Name>vTitle</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>155</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>1</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>0</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>2</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>0</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>3</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames />
+              </Loop>
+            </Loops>
+          </View>
         </Views>
       </ViewFolder>
     </Views>
@@ -4398,6 +4527,30 @@ stop
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
                 <FileLastModifiedDate>2017-12-17 13:41:12Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <SourceFileName xml:space="preserve">C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Audio\SFX\lock.wav</SourceFileName>
+                <ScriptName>aLock</ScriptName>
+                <Index>14</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>WAV</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2017-12-17 19:27:33Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <SourceFileName xml:space="preserve">C:\Users\Zoé González\Documents\ADVENTURE GAME STUDIO PROJECTS\AustraNlia\Audio\SFX\ending.ogg</SourceFileName>
+                <ScriptName>aEnding</ScriptName>
+                <Index>15</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>OGG</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2017-12-17 19:33:27Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
