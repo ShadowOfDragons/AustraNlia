@@ -24,7 +24,7 @@
     - [x] Enter/Exit animation
 * **Title:**
     - [x] Title final art
-    - [ ] Enter animation
+    - [x] Enter animation
     * **Basic Main Menu:**
         - [x] Start game
         - [x] Options
@@ -34,11 +34,11 @@
         - [ ] Quality (FAST, GOOD, FANTASTIC, ULTRA)
     * **Gameplay:**
         - [x] Basic mechanics (Fully functional and testable)
-        - [ ] Level colliders
-        - [ ] 8 final props
-        - [ ] Final PCs
-        - [ ] Final NPCs
-        - [ ] Pause screen
+        - [x] Paths and hotspots
+        - [x] 8 final props
+        - [x] Final PCs
+        - [x] Final NPCs
+        - [x] Pause
         - [x] Gameplay User Interface
         - [x] Controls (Mouse and keyboard)
         - [ ] 5 particles systems
