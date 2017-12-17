@@ -828,7 +828,7 @@
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
                 <Image>0</Image>
-                <Text xml:space="preserve">Return to Menu</Text>
+                <Text xml:space="preserve">Return to menu</Text>
                 <Height>70</Height>
                 <Locked>False</Locked>
                 <Width>300</Width>
