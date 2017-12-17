@@ -39,10 +39,10 @@
         - [ ] Final PCs
         - [ ] Final NPCs
         - [ ] Pause screen
-        - [ ] Gameplay User Interface
-        - [ ] Controls (Mouse and keyboard)
+        - [x] Gameplay User Interface
+        - [x] Controls (Mouse and keyboard)
         - [ ] 5 particles systems
-        - [ ] 5 SFX
+        - [x] 5 SFX
     * **Ending:**
         - [x] Custom background with message (Victory/Defeat)
     
