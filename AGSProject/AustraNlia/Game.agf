@@ -74,7 +74,7 @@
       <SaveGameFileExtension />
       <SaveGameFolderName>AustraNlia</SaveGameFolderName>
       <BinaryFilesInSourceControl>False</BinaryFilesInSourceControl>
-      <AudioIndexer>5</AudioIndexer>
+      <AudioIndexer>13</AudioIndexer>
       <BuildTargets>Windows</BuildTargets>
     </Settings>
     <LipSync>
@@ -4024,30 +4024,6 @@ stop
                 <FileLastModifiedDate>2017-12-15 13:02:22Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <SourceFileName>H:\TTG\Sounds\button_01.wav</SourceFileName>
-                <ScriptName>aButton_01</ScriptName>
-                <Index>3</Index>
-                <Type>3</Type>
-                <BundlingType>InGameEXE</BundlingType>
-                <FileType>WAV</FileType>
-                <DefaultVolume>-1</DefaultVolume>
-                <DefaultPriority>Inherit</DefaultPriority>
-                <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2017-12-16 15:49:56Z</FileLastModifiedDate>
-              </AudioClip>
-              <AudioClip>
-                <SourceFileName>H:\TTG\Sounds\ica_bar.wav</SourceFileName>
-                <ScriptName>aIca_bar</ScriptName>
-                <Index>4</Index>
-                <Type>3</Type>
-                <BundlingType>InGameEXE</BundlingType>
-                <FileType>WAV</FileType>
-                <DefaultVolume>-1</DefaultVolume>
-                <DefaultPriority>Inherit</DefaultPriority>
-                <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2017-12-16 16:00:36Z</FileLastModifiedDate>
-              </AudioClip>
-              <AudioClip>
                 <SourceFileName>H:\TTG\Sounds\Logo.mp3</SourceFileName>
                 <ScriptName>aLogo</ScriptName>
                 <Index>5</Index>
@@ -4058,6 +4034,90 @@ stop
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
                 <FileLastModifiedDate>2017-12-16 16:10:46Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <SourceFileName xml:space="preserve">C:\Users\LAURA\Music\Musica Laura\Come And Get Your Love.mp3</SourceFileName>
+                <ScriptName>aCome_And_Get_Your_Love</ScriptName>
+                <Index>6</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2017-07-16 10:12:02Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <SourceFileName>H:\TTG\Sounds\button.ogg</SourceFileName>
+                <ScriptName>aButton</ScriptName>
+                <Index>8</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>OGG</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2017-12-17 13:41:12Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <SourceFileName>H:\TTG\Sounds\icaBar.ogg</SourceFileName>
+                <ScriptName>aIcaBar</ScriptName>
+                <Index>9</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>OGG</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2017-12-17 13:42:18Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <SourceFileName>H:\TTG\Sounds\button2.ogg</SourceFileName>
+                <ScriptName>aButton2</ScriptName>
+                <Index>10</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>OGG</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2017-12-17 13:41:12Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <SourceFileName>H:\TTG\Sounds\button3.ogg</SourceFileName>
+                <ScriptName>aButton3</ScriptName>
+                <Index>11</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>OGG</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2017-12-17 13:41:12Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <SourceFileName>H:\TTG\Sounds\button4.ogg</SourceFileName>
+                <ScriptName>aButton4</ScriptName>
+                <Index>12</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>OGG</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2017-12-17 13:41:12Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <SourceFileName>H:\TTG\Sounds\button5.ogg</SourceFileName>
+                <ScriptName>aButton5</ScriptName>
+                <Index>13</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>OGG</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2017-12-17 13:41:12Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
