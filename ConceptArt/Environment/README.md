@@ -1,6 +1,6 @@
 ## ENVIRONMENT CONCEPTS
 
-### Newspaper's office
+
 ![Office](https://github.com/ShadowOfDragons/AustraNlia/blob/master/ConceptArt/Environment/concept_environment_01.png)
 
 ### Bubble Forest entrance
