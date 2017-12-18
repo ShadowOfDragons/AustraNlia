@@ -17,3 +17,7 @@
 
 ### "How to take care of a healthy and happy sea cucumber" manual
 ![Manual](https://github.com/ShadowOfDragons/AustraNlia/blob/master/ConceptArt/Props/concept_prop_06.png)
+
+![Props Thumbnails](https://github.com/ShadowOfDragons/AustraNlia/blob/master/ConceptArt/Props/props_thumbnails.png)
+
+![Props Size Chart](https://github.com/ShadowOfDragons/AustraNlia/blob/master/ConceptArt/Props/props_size_chart.png)
