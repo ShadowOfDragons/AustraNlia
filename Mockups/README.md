@@ -1,4 +1,4 @@
-## MAIN MENU MOCKUPS
+
 ![Main menu](https://github.com/ShadowOfDragons/AustraNlia/blob/master/Mockups/mockup_title_screen_01.png)
 
 
