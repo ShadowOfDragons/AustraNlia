@@ -14,6 +14,7 @@
 
 ![Dialog screen](https://github.com/ShadowOfDragons/AustraNlia/blob/master/Mockups/mockup_gameplay_screen_02.png)
 
+![Gameplay screen 2](https://github.com/ShadowOfDragons/AustraNlia/blob/master/Mockups/mockup_gameplay_screen_03.png)
 
 
 ![Ending screen](https://github.com/ShadowOfDragons/AustraNlia/blob/master/Mockups/mockup_ending_screen.png)
