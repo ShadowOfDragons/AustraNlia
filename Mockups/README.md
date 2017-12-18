@@ -8,7 +8,7 @@
 ![Controls](https://github.com/ShadowOfDragons/AustraNlia/blob/master/Mockups/mockup_controls_screen_01.png)
 
 
-## GAMEPLAY SCREEN MOCKUPS
+
 
 ![Gameplay screen](https://github.com/ShadowOfDragons/AustraNlia/blob/master/Mockups/mockup_gameplay_screen_01.png)
 
