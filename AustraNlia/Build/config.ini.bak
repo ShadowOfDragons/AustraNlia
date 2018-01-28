@@ -1,0 +1,21 @@
+FILE = test_build.vis
+# 
+# FULLSCREEN = {yes|no}
+# yes - starts the game in fullscreen
+# no - starts the game in a window
+FULLSCREEN = yes
+# 
+# RESOLUTION = {Auto|Desktop|Game}
+# Auto - wide-screen support is activated if a wide-screen display is detected
+# Desktop - current desktop resolution is used when game is started in full screen mode
+# Game - game is initialized with the resolution specified in the game
+RESOLUTION = desktop
+# 
+# INTRO = {yes|no}
+# yes - Show the intro movie on start-up
+# no - Don't show the intro movie
+# 
+# LANGUAGE = {German|English|...}
+# 
+# LOGLEVEL = {Info|Warning|Error}
+LOGLEVEL = info

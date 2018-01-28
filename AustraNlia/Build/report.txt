@@ -1,0 +1,157 @@
+Container 'D:\Documentos\GitHub\AustraNlia\AustraNlia\Build\Character000.vc'
+-------------------------------------------------------------------------------
+Assets\Characters\Chad\Standing\Front\chad_front_stand_001.png
+Assets\UI\GUI\dialog_box_01.png
+--------------------------------------------------------------------------------
+Container 'D:\Documentos\GitHub\AustraNlia\AustraNlia\Build\Interfaces.vi'
+-------------------------------------------------------------------------------
+Assets\UI\GUI\inventory_01.png
+Assets\UI\GUI\mouse_wheel_chad.png
+Assets\UI\Cursors\hand.png
+Assets\UI\Cursors\dialog.png
+Assets\UI\Cursors\eye.png
+Assets\UI\GUI\icon_char_change_01.png
+Assets\UI\GUI\inventory_02.png
+Assets\UI\GUI\icon_char_change_02.png
+Assets\UI\GUI\mouse_wheel_ica.png
+Assets\UI\GUI\IcaBar_100.png
+--------------------------------------------------------------------------------
+Container 'D:\Documentos\GitHub\AustraNlia\AustraNlia\Build\Character002.vc'
+-------------------------------------------------------------------------------
+Assets\Characters\Mierins\concept_character_04.png
+--------------------------------------------------------------------------------
+Container 'D:\Documentos\GitHub\AustraNlia\AustraNlia\Build\test_build.vis'
+-------------------------------------------------------------------------------
+Assets\UI\Fonts\SadanaSquare.ttf
+Assets\Items\Inventory\inv_old_cigarette.png
+Assets\Items\Inventory\inv_lighter.png
+Assets\Items\Inventory\inv_bottle_whiskey.png
+Assets\UI\Cursors\cursor.png
+Assets\UI\Cursors\door.png
+tmp\game.veb
+--------------------------------------------------------------------------------
+Container 'D:\Documentos\GitHub\AustraNlia\AustraNlia\Build\Scene002.vs'
+-------------------------------------------------------------------------------
+Assets\Rooms\MierinsOffice\empty_office.png
+Assets\Items\Scene\s_lighter.png
+Assets\Items\Highlight\concept_prop_02.png
+Assets\Items\Scene\s_old_cigarette.png
+Assets\Items\Highlight\concept_prop_01.png
+Assets\Items\Scene\camera\camera_00000.png
+Assets\Items\Scene\camera\camera_00001.png
+Assets\Items\Scene\camera\camera_00002.png
+Assets\Items\Scene\camera\camera_00003.png
+Assets\Items\Scene\camera\camera_00004.png
+Assets\Items\Scene\camera\camera_00005.png
+Assets\Items\Scene\camera\camera_00006.png
+Assets\Items\Scene\camera\camera_00007.png
+Assets\Items\Scene\camera\camera_00008.png
+Assets\Items\Scene\camera\camera_00009.png
+Assets\Items\Scene\camera\camera_00010.png
+Assets\Items\Scene\camera\camera_00011.png
+Assets\Items\Scene\camera\camera_00012.png
+Assets\Items\Scene\camera\camera_00013.png
+Assets\Items\Scene\camera\camera_00014.png
+Assets\Items\Scene\camera\camera_00015.png
+Assets\Items\Scene\camera\camera_00016.png
+Assets\Items\Scene\camera\camera_00017.png
+Assets\Items\Scene\camera\camera_00018.png
+Assets\Items\Scene\camera\camera_00019.png
+Assets\Items\Scene\camera\camera_00020.png
+Assets\Items\Scene\camera\camera_00021.png
+Assets\Items\Scene\camera\camera_00022.png
+Assets\Items\Scene\camera\camera_00023.png
+Assets\Items\Scene\camera\camera_00024.png
+Assets\Items\Scene\camera\camera_00025.png
+Assets\Items\Scene\camera\camera_00026.png
+Assets\Items\Scene\camera\camera_00027.png
+Assets\Items\Scene\camera\camera_00028.png
+Assets\Items\Scene\camera\camera_00029.png
+Assets\Items\Scene\camera\camera_00030.png
+Assets\Items\Scene\camera\camera_00031.png
+Assets\Items\Scene\camera\camera_00032.png
+Assets\Items\Scene\camera\camera_00033.png
+Assets\Items\Scene\camera\camera_00034.png
+Assets\Items\Scene\camera\camera_00035.png
+Assets\Items\Scene\camera\camera_00036.png
+Assets\Items\Scene\camera\camera_00037.png
+Assets\Items\Scene\camera\camera_00038.png
+Assets\Items\Scene\camera\camera_00039.png
+Assets\Items\Scene\camera\camera_00040.png
+Assets\Items\Scene\camera\camera_00041.png
+Assets\Items\Scene\camera\camera_00042.png
+Assets\Items\Scene\camera\camera_00043.png
+Assets\Items\Scene\camera\camera_00044.png
+Assets\Items\Scene\camera\camera_00045.png
+Assets\Items\Scene\camera\camera_00046.png
+Assets\Items\Scene\camera\camera_00047.png
+Assets\Rooms\MierinsOffice\sofa.png
+Assets\Rooms\MierinsOffice\table.png
+Assets\Rooms\MierinsOffice\table_books.png
+Assets\Rooms\MierinsOffice\wall.png
+Assets\Rooms\MierinsOffice\trophy_table_locked_omni.png
+Assets\Rooms\MierinsOffice\trophy_table_omni.png
+Assets\Rooms\MierinsOffice\trophy_table.png
+Assets\Rooms\MierinsOffice\closet_with_bottle.png
+Assets\Rooms\MierinsOffice\closet_without_bottle.png
+Assets\Rooms\MierinsOffice\clock.png
+--------------------------------------------------------------------------------
+Container 'D:\Documentos\GitHub\AustraNlia\AustraNlia\Build\Scene001.vs'
+-------------------------------------------------------------------------------
+Assets\Rooms\MainMenu\options_menu_background.png
+Assets\Music\mainmenu.ogg
+Assets\UI\Buttons\OptionsMenu\return_main_menu.png
+Assets\UI\Buttons\OptionsMenu\VolumeBar.png
+Assets\UI\Buttons\OptionsMenu\VolumeBox.png
+Assets\UI\Buttons\OptionsMenu\MuteFS_Bar.png
+Assets\UI\Buttons\OptionsMenu\1920x1080.png
+Assets\UI\Buttons\OptionsMenu\1280x720.png
+Assets\UI\Buttons\OptionsMenu\1600x1200.png
+Assets\UI\Buttons\OptionsMenu\Low.png
+Assets\UI\Buttons\OptionsMenu\Medium.png
+Assets\UI\Buttons\OptionsMenu\High.png
+Assets\UI\Buttons\OptionsMenu\Ultra.png
+Assets\UI\Buttons\OptionsMenu\Language.png
+Assets\UI\Buttons\OptionsMenu\accept.png
+Assets\UI\Buttons\OptionsMenu\Cancel.png
+--------------------------------------------------------------------------------
+Container 'D:\Documentos\GitHub\AustraNlia\AustraNlia\Build\Character001.vc'
+-------------------------------------------------------------------------------
+Assets\Characters\Ica\Standing\Front\ica_front_stand_001.png
+Assets\UI\GUI\dialog_box_02.png
+--------------------------------------------------------------------------------
+Container 'D:\Documentos\GitHub\AustraNlia\AustraNlia\Build\Scene000.vs'
+-------------------------------------------------------------------------------
+Assets\Rooms\MainMenu\main_menu_background.png
+Assets\UI\Buttons\MainMenu\button_new_game_normal.png
+Assets\UI\Buttons\MainMenu\button_new_game_highlight.png
+Assets\UI\Buttons\MainMenu\button_load_game_normal.png
+Assets\UI\Buttons\MainMenu\button_load_game_highlight.png
+Assets\UI\Buttons\MainMenu\button_options_normal.png
+Assets\UI\Buttons\MainMenu\button_options_highlight.png
+Assets\UI\Buttons\MainMenu\button_credits_normal.png
+Assets\UI\Buttons\MainMenu\button_credits_highlight.png
+Assets\UI\Buttons\MainMenu\button_exit_normal.png
+Assets\UI\Buttons\MainMenu\button_exit_highlight.png
+Assets\Rooms\MainMenu\main_menu_tablet.png
+--------------------------------------------------------------------------------
+
+Containers:
+
+
+Character000.vc 0 pc_chad
+
+Character001.vc 4 pc_ica
+
+Character002.vc 2 npc_mierins
+
+Interfaces.vi 0 
+
+Scene000.vs 2 main_menu
+
+Scene001.vs 3 options_menu
+
+Scene002.vs 0 mierins_office
+
+test_build.vis 0 
+
