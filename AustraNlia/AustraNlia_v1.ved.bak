@@ -4737,7 +4737,7 @@
 			<ActionPartLink parentLink="F" id="161" tableId="7" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Execute script &apos;local object = Objects[&quot;o...&apos;" id="580" order="0" lastModified="-1" ActionPartCommand="138" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="local object = Objects[&quot;options_tablet&quot;]&lt;br/&gt;object:to(1500, {ObjectOffset = {x = 1425, y = 0}}, easeBounceOut)">
+		<ActionPart name="Execute script &apos;local object = Objects[&quot;o...&apos;" id="580" order="0" lastModified="-1" ActionPartCommand="138" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="local object = Objects[&quot;options_tablet&quot;]&lt;br/&gt;object:to(1500, {ObjectOffset = {x = 1425, y = 0}}, easeCircOut)">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -6699,7 +6699,7 @@
 			</ConditionConditions>
 		</Condition>
 	</Conditions>
-	<Dialogs newId="12" versionedId="-1" tableId="11">
+	<Dialogs newId="11" versionedId="-1" tableId="11">
 		<Dialog name="enter_mierins_office" id="0" order="0" lastModified="-1">
 			<DialogDialogParts>
 				<Link parentLink="T" id="0" tableId="12" LinkAny="F"/>
@@ -7205,7 +7205,7 @@
 			</SpriteSprite>
 		</Sprite>
 		<Sprite name="Image" id="101" order="101" lastModified="-1">
-			<SpriteSprite name="" pause="-1" path="Assets/UI/Buttons/OptionsMenu/return_main_menu.png" Transparency="2">
+			<SpriteSprite name="" pause="-1" path="Assets/UI/Buttons/OptionsMenu/general_button_normal.png" Transparency="2">
 				<position x="89" y="923"/>
 			</SpriteSprite>
 		</Sprite>
