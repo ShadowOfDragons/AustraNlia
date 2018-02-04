@@ -38,7 +38,7 @@
 			<Link parentLink="T" id="1" tableId="18" LinkAny="F"/>
 			<Link parentLink="T" id="2" tableId="18" LinkAny="F"/>
 		</GameLanguages>
-		<GameFirstScene parentLink="F" id="0" tableId="4" LinkAny="F"/>
+		<GameFirstScene parentLink="F" id="2" tableId="4" LinkAny="F"/>
 		<GameItems>
 			<Link parentLink="T" id="4" tableId="6" LinkAny="F"/>
 			<Link parentLink="T" id="6" tableId="6" LinkAny="F"/>
@@ -1063,6 +1063,8 @@
 				<Link parentLink="T" id="32" tableId="6" LinkAny="F"/>
 				<Link parentLink="T" id="50" tableId="6" LinkAny="F"/>
 				<Link parentLink="T" id="51" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="59" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="60" tableId="6" LinkAny="F"/>
 			</SceneObjects>
 			<SceneCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<SceneSavegameAreas>
@@ -1459,7 +1461,7 @@
 			</PointRelations>
 		</Point>
 	</Points>
-	<Objects newId="59" versionedId="-1" tableId="6">
+	<Objects newId="61" versionedId="-1" tableId="6">
 		<Object name="mierins_office_start_point" id="0" order="4" lastModified="-1" ObjectDirection="-1" ObjectCenter="0" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="25" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
@@ -2056,7 +2058,7 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="surveillance_camera" id="27" order="19" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="surveillance_camera" id="27" order="21" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="240" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 				<point x="364" y="41"/>
@@ -2084,7 +2086,7 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="sofa" id="28" order="20" lastModified="-1" ObjectDirection="-1" ObjectCenter="1080" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="sofa" id="28" order="22" lastModified="-1" ObjectDirection="-1" ObjectCenter="1080" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="242" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -2105,7 +2107,7 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="locker" id="29" order="22" lastModified="-1" ObjectDirection="-1" ObjectCenter="1080" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="locker" id="29" order="24" lastModified="-1" ObjectDirection="-1" ObjectCenter="1080" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="243" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -2129,7 +2131,7 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="whiskey_cabin" id="30" order="26" lastModified="-1" ObjectDirection="-1" ObjectCenter="593" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="whiskey_cabin" id="30" order="28" lastModified="-1" ObjectDirection="-1" ObjectCenter="593" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="245" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 				<point x="1205" y="468"/>
@@ -2158,7 +2160,7 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="wall" id="31" order="21" lastModified="-1" ObjectDirection="-1" ObjectCenter="756" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="wall" id="31" order="23" lastModified="-1" ObjectDirection="-1" ObjectCenter="756" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="246" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -2179,7 +2181,7 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="mierins_table" id="32" order="24" lastModified="-1" ObjectDirection="-1" ObjectCenter="829" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="mierins_table" id="32" order="26" lastModified="-1" ObjectDirection="-1" ObjectCenter="829" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="247" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -2200,7 +2202,7 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="books_table" id="33" order="25" lastModified="-1" ObjectDirection="-1" ObjectCenter="681" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="books_table" id="33" order="27" lastModified="-1" ObjectDirection="-1" ObjectCenter="681" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="248" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -2222,7 +2224,7 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="clock" id="34" order="23" lastModified="-1" ObjectDirection="-1" ObjectCenter="589" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="clock" id="34" order="25" lastModified="-1" ObjectDirection="-1" ObjectCenter="589" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="249" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -2265,7 +2267,7 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="lamp" id="50" order="18" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="lamp" id="50" order="20" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="311" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -2451,8 +2453,60 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
+		<Object name="claw_marks" id="59" order="18" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+			<ObjectName parentLink="T" id="444" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+				<point x="3" y="991"/>
+				<point x="54" y="999"/>
+				<point x="61" y="1067"/>
+				<point x="4" y="1063"/>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+				<Link parentLink="T" id="174" tableId="7" LinkAny="F"/>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Object>
+		<Object name="generator" id="60" order="19" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+			<ObjectName parentLink="T" id="446" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+				<point x="1647" y="1"/>
+				<point x="1684" y="114"/>
+				<point x="1918" y="127"/>
+				<point x="1923" y="1"/>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+				<Link parentLink="T" id="175" tableId="7" LinkAny="F"/>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Object>
 	</Objects>
-	<Actions newId="174" versionedId="-1" tableId="7">
+	<Actions newId="176" versionedId="-1" tableId="7">
 		<Action name="Action" id="0" order="0" lastModified="-1" ActionExecutionType="-1">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -3371,8 +3425,22 @@
 				<Link parentLink="T" id="635" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
+		<Action name="&apos;chad_look&apos; executed" id="174" order="0" lastModified="-1" ActionExecutionType="6">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="9" tableId="2" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="644" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="&apos;chad_look&apos; executed" id="175" order="0" lastModified="-1" ActionExecutionType="6">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="9" tableId="2" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="645" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
 	</Actions>
-	<ActionParts newId="644" versionedId="-1" tableId="8">
+	<ActionParts newId="646" versionedId="-1" tableId="8">
 		<ActionPart name="Clear saved object" id="0" order="0" lastModified="-1" ActionPartCommand="106" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -4029,7 +4097,7 @@
 			<ActionPartLink parentLink="F" id="96" tableId="9" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="pc_chad: " id="410" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="pc_chad: Me pregunto quién habrá pegado eso..." id="410" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="313" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
@@ -4741,7 +4809,7 @@
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="npc_mierins: Well, well, well. Now I am willing to explain your job. You&apos;ve heard of the Bubble Forests? Yeah those domes that clean ..." id="615" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="npc_mierins: Well, well, well. Now I am willing to explain your job. You&apos;ve heard of the Bubble Forests? Yeah those domes that clean the air and protect the forests from that damn invasive plant. As you should know, your father is the Maintenance Director of the capital, and that is the one and only reason you are here." id="615" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="385" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="2" tableId="0" LinkAny="F"/>
 		</ActionPart>
@@ -4753,7 +4821,7 @@
 			<ActionPartLink parentLink="T" id="387" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="2" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="npc_mierins: Whatever... Witheller has so little importance that even the Bubble Forests have stopped receiving maintenance from the ..." id="618" order="3" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="npc_mierins: Whatever... Witheller has so little importance that even the Bubble Forests have stopped receiving maintenance from the capital. Imagine it! We have been left to die!" id="618" order="3" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="388" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="2" tableId="0" LinkAny="F"/>
 		</ActionPart>
@@ -4761,7 +4829,7 @@
 			<ActionPartLink parentLink="T" id="389" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="npc_mierins: No. I want you to find out the reasons why there isn&apos;t anybody taking care of our Bubble Forests. I want the exclusive! ..." id="620" order="5" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="npc_mierins: No. I want you to find out the reasons why there isn&apos;t anybody taking care of our Bubble Forests. I want the exclusive! Imagine the scandal that could come out of this!" id="620" order="5" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="390" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="2" tableId="0" LinkAny="F"/>
 		</ActionPart>
@@ -4817,7 +4885,7 @@
 			<ActionPartLink parentLink="F" id="36" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="npc_mierins: Before you go, I prepared an update for your Omni-Pad with crucial information about your task, it will record the peopl..." id="639" order="11" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="npc_mierins: Before you go, I prepared an update for your Omni-Pad with crucial information about your task, it will record the people you meet and bits of information about them and what you discover. It&apos;s stored in the cabin at your left" id="639" order="11" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="439" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="2" tableId="0" LinkAny="F"/>
 		</ActionPart>
@@ -4825,7 +4893,7 @@
 			<ActionPartLink parentLink="T" id="440" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="npc_mierins: It&apos;s a secret to everybody! I am trusting you with vital information that no one must know and I have to take lots of pr..." id="641" order="13" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="npc_mierins: It&apos;s a secret to everybody! I am trusting you with vital information that no one must know and I have to take lots of precatuions! Also I totally didn&apos;t lose the key! It just... lost sight of it while feeding Daniel... Yeah, while I was also reading those manuals about sea cucumbers." id="641" order="13" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="441" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="2" tableId="0" LinkAny="F"/>
 		</ActionPart>
@@ -4833,9 +4901,17 @@
 			<ActionPartLink parentLink="T" id="442" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="npc_mierins: Consider it a test. Let&apos;s see if you rise to the challenge." id="643" order="15" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="npc_mierins: " id="643" order="15" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="443" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="2" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="pc_chad: ¿Eso son marcas de garra?" id="644" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="445" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="pc_chad: Parece que se vaya a romper en cualquier momento." id="645" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="447" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
 	</ActionParts>
 	<Animations newId="140" versionedId="-1" tableId="9">
@@ -7144,7 +7220,7 @@
 			</SpriteSprite>
 		</Sprite>
 	</Sprites>
-	<Texts newId="444" versionedId="-1" tableId="14">
+	<Texts newId="448" versionedId="-1" tableId="14">
 		<Text name="new_game_txt" id="1" order="1" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
@@ -7854,7 +7930,8 @@
 		</Text>
 		<Text name="Unnamed" id="313" order="313" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="" path="" int="0"/>
+				<text Text="I wonder who glued those..." path="" int="0"/>
+				<text Text="Me pregunto quién habrá pegado eso..." path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="314" order="314" lastModified="-1">
@@ -8141,6 +8218,31 @@
 		<Text name="Unnamed" id="443" order="443" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Consider it a test. Let&apos;s see if you rise to the challenge." path="" int="0"/>
+				<text Text="" path="" int="1"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="444" order="444" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Mysterious marks" path="" int="0"/>
+				<text Text="Marcas misteriosas" path="" int="1"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="445" order="445" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Are those claw marks?" path="" int="0"/>
+				<text Text="¿Eso son marcas de garra?" path="" int="1"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="446" order="446" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Generador de energia" path="" int="1"/>
+				<text Text="Energy generator" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="447" order="447" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Parece que se vaya a romper en cualquier momento." path="" int="1"/>
+				<text Text="That looks close to break." path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
 	</Texts>
