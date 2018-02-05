@@ -1140,6 +1140,7 @@
 			<SceneValues>
 			</SceneValues>
 			<SceneConditions>
+				<Link parentLink="T" id="37" tableId="10" LinkAny="F"/>
 			</SceneConditions>
 			<SceneActions>
 				<Link parentLink="T" id="151" tableId="7" LinkAny="F"/>
@@ -3338,6 +3339,11 @@
 				<Link parentLink="T" id="501" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="549" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="577" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="755" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="756" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="757" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="758" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="759" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Called by other action" id="152" order="0" lastModified="-1" ActionExecutionType="5">
@@ -3664,7 +3670,7 @@
 			</ActionActionParts>
 		</Action>
 	</Actions>
-	<ActionParts newId="755" versionedId="-1" tableId="8">
+	<ActionParts newId="760" versionedId="-1" tableId="8">
 		<ActionPart name="Clear saved object" id="0" order="0" lastModified="-1" ActionPartCommand="106" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -4333,7 +4339,7 @@
 			<ActionPartLink parentLink="F" id="4" tableId="4" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Call action &apos;Called by other action&apos;" id="418" order="6" lastModified="-1" ActionPartCommand="148" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Call action &apos;Called by other action&apos;" id="418" order="7" lastModified="-1" ActionPartCommand="148" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="152" tableId="7" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -4341,11 +4347,11 @@
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="If condition &apos;mm_title_pos&apos; is true" id="420" order="5" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="If condition &apos;mm_title_pos&apos; is true" id="420" order="6" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="29" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Call action &apos;Called by other action&apos;" id="421" order="1" lastModified="-1" ActionPartCommand="148" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Call action &apos;Called by other action&apos;" id="421" order="3" lastModified="-1" ActionPartCommand="148" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="153" tableId="7" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -4357,7 +4363,7 @@
 			<ActionPartLink parentLink="F" id="29" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Pause for 1 second" id="425" order="3" lastModified="-1" ActionPartCommand="30" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="1" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Pause for 1 second" id="425" order="4" lastModified="-1" ActionPartCommand="30" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="1" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -4369,35 +4375,35 @@
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="End if" id="428" order="9" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="End if" id="428" order="10" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="If condition &apos;mm_tablet_pos&apos; is true" id="429" order="10" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="If condition &apos;mm_tablet_pos&apos; is true" id="429" order="11" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="30" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Call action &apos;Called by other action&apos;" id="430" order="11" lastModified="-1" ActionPartCommand="148" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Call action &apos;Called by other action&apos;" id="430" order="13" lastModified="-1" ActionPartCommand="148" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="154" tableId="7" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Pause for 1500 milliseconds" id="431" order="7" lastModified="-1" ActionPartCommand="30" ActionPartPath="" ActionPartInt="1500" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Pause for 1500 milliseconds" id="431" order="8" lastModified="-1" ActionPartCommand="30" ActionPartPath="" ActionPartInt="1500" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Quit action &apos;Called by other action&apos;" id="433" order="4" lastModified="-1" ActionPartCommand="148" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Quit action &apos;Called by other action&apos;" id="433" order="5" lastModified="-1" ActionPartCommand="148" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="153" tableId="7" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Quit action &apos;Called by other action&apos;" id="434" order="8" lastModified="-1" ActionPartCommand="148" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Quit action &apos;Called by other action&apos;" id="434" order="9" lastModified="-1" ActionPartCommand="148" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="152" tableId="7" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="End if" id="436" order="17" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="End if" id="436" order="18" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Execute script &apos;local object = Objects[&quot;b...&apos;" id="437" order="0" lastModified="-1" ActionPartCommand="138" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="local object = Objects[&quot;button_new_game&quot;]&lt;br/&gt;object.Scale = 0;&lt;br/&gt;&lt;br/&gt;local object = Objects[&quot;button_continue_game&quot;]&lt;br/&gt;object.Scale = 0;&lt;br/&gt;&lt;br/&gt;local object = Objects[&quot;button_options&quot;]&lt;br/&gt;object.Scale = 0;&lt;br/&gt;&lt;br/&gt;local object = Objects[&quot;button_credits&quot;]&lt;br/&gt;object.Scale = 0;&lt;br/&gt;&lt;br/&gt;local object = Objects[&quot;button_exit&quot;]&lt;br/&gt;object.Scale = 0;&lt;br/&gt;">
+		<ActionPart name="Execute script &apos;local object = Objects[&quot;b...&apos;" id="437" order="1" lastModified="-1" ActionPartCommand="138" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="local object = Objects[&quot;button_new_game&quot;]&lt;br/&gt;object.Scale = 0;&lt;br/&gt;&lt;br/&gt;local object = Objects[&quot;button_continue_game&quot;]&lt;br/&gt;object.Scale = 0;&lt;br/&gt;&lt;br/&gt;local object = Objects[&quot;button_options&quot;]&lt;br/&gt;object.Scale = 0;&lt;br/&gt;&lt;br/&gt;local object = Objects[&quot;button_credits&quot;]&lt;br/&gt;object.Scale = 0;&lt;br/&gt;&lt;br/&gt;local object = Objects[&quot;button_exit&quot;]&lt;br/&gt;object.Scale = 0;&lt;br/&gt;">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -4573,7 +4579,7 @@
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Call action &apos;Called by other action&apos;" id="483" order="13" lastModified="-1" ActionPartCommand="148" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Call action &apos;Called by other action&apos;" id="483" order="14" lastModified="-1" ActionPartCommand="148" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="155" tableId="7" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -4645,7 +4651,7 @@
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Call action &apos;Called by other action&apos;" id="501" order="14" lastModified="-1" ActionPartCommand="148" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Call action &apos;Called by other action&apos;" id="501" order="15" lastModified="-1" ActionPartCommand="148" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="156" tableId="7" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -4837,7 +4843,7 @@
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Call action &apos;Called by other action&apos;" id="549" order="15" lastModified="-1" ActionPartCommand="148" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Call action &apos;Called by other action&apos;" id="549" order="16" lastModified="-1" ActionPartCommand="148" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="158" tableId="7" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -4949,7 +4955,7 @@
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Call action &apos;Called by other action&apos;" id="577" order="16" lastModified="-1" ActionPartCommand="148" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Call action &apos;Called by other action&apos;" id="577" order="17" lastModified="-1" ActionPartCommand="148" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="159" tableId="7" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -5523,6 +5529,26 @@
 		</ActionPart>
 		<ActionPart name="Hide animation &apos;exit_esp_pressed&apos;" id="754" order="12" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="138" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If condition &apos;from_options&apos; is false" id="755" order="0" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="37" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="End if" id="756" order="19" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If condition &apos;from_options&apos; is true" id="757" order="20" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="37" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="End if" id="758" order="22" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Execute script &apos;local object = Objects[&quot;b...&apos;" id="759" order="21" lastModified="-1" ActionPartCommand="138" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="local object = Objects[&quot;button_new_game&quot;]&lt;br/&gt;object.Scale = 0;&lt;br/&gt;&lt;br/&gt;local object = Objects[&quot;button_continue_game&quot;]&lt;br/&gt;object.Scale = 0;&lt;br/&gt;&lt;br/&gt;local object = Objects[&quot;button_options&quot;]&lt;br/&gt;object.Scale = 0;&lt;br/&gt;&lt;br/&gt;local object = Objects[&quot;button_credits&quot;]&lt;br/&gt;object.Scale = 0;&lt;br/&gt;&lt;br/&gt;local object = Objects[&quot;button_exit&quot;]&lt;br/&gt;object.Scale = 0;&lt;br/&gt;">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 	</ActionParts>
@@ -7457,7 +7483,7 @@
 			</AnimationPauses>
 		</Animation>
 	</Animations>
-	<Conditions newId="37" versionedId="-1" tableId="10">
+	<Conditions newId="38" versionedId="-1" tableId="10">
 		<Condition name="visible" id="1" order="0" lastModified="-1" ConditionIsVariable="T" ConditionValue="T" ConditionReturnNegate="F" ConditionOperator="0">
 			<ConditionConditions>
 			</ConditionConditions>
@@ -7511,6 +7537,10 @@
 			</ConditionConditions>
 		</Condition>
 		<Condition name="main_dialog_done" id="36" order="1" lastModified="-1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionOperator="0">
+			<ConditionConditions>
+			</ConditionConditions>
+		</Condition>
+		<Condition name="from_options" id="37" order="0" lastModified="-1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionOperator="0">
 			<ConditionConditions>
 			</ConditionConditions>
 		</Condition>
@@ -8017,7 +8047,7 @@
 		</Sprite>
 		<Sprite name="Image" id="100" order="100" lastModified="-1">
 			<SpriteSprite name="" pause="-1" path="Assets/Rooms/MainMenu/options_menu_background.png" Transparency="2">
-				<position x="0" y="0"/>
+				<position x="-1425" y="0"/>
 			</SpriteSprite>
 		</Sprite>
 		<Sprite name="Image" id="101" order="101" lastModified="-1">
@@ -8046,7 +8076,7 @@
 			</SpriteSprite>
 		</Sprite>
 	</Sprites>
-	<Texts newId="466" versionedId="-1" tableId="14">
+	<Texts newId="470" versionedId="-1" tableId="14">
 		<Text name="new_game_txt" id="1" order="1" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
