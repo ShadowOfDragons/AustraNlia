@@ -1,0 +1,3 @@
+﻿## ANIMATIONS PREVIEW
+
+### IDLE
