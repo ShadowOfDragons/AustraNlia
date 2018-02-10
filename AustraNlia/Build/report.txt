@@ -1,42 +1,60 @@
-Container 'D:\Documentos\GitHub\AustraNlia\AustraNlia\Build\Character000.vc'
--------------------------------------------------------------------------------
-Assets\Characters\Chad\Standing\Front\chad_front_stand_001.png
-Assets\UI\GUI\dialog_box_01.png
---------------------------------------------------------------------------------
-Container 'D:\Documentos\GitHub\AustraNlia\AustraNlia\Build\Interfaces.vi'
--------------------------------------------------------------------------------
-Assets\UI\GUI\inventory_01.png
-Assets\UI\GUI\mouse_wheel_chad.png
-Assets\UI\Cursors\hand.png
-Assets\UI\Cursors\dialog.png
-Assets\UI\Cursors\eye.png
-Assets\UI\GUI\icon_char_change_01.png
-Assets\UI\GUI\inventory_02.png
-Assets\UI\GUI\icon_char_change_02.png
-Assets\UI\GUI\mouse_wheel_ica.png
-Assets\UI\GUI\IcaBar_100.png
---------------------------------------------------------------------------------
-Container 'D:\Documentos\GitHub\AustraNlia\AustraNlia\Build\Character002.vc'
--------------------------------------------------------------------------------
-Assets\Characters\Mierins\concept_character_04.png
---------------------------------------------------------------------------------
-Container 'D:\Documentos\GitHub\AustraNlia\AustraNlia\Build\test_build.vis'
--------------------------------------------------------------------------------
-Assets\UI\Fonts\SadanaSquare.ttf
-Assets\Items\Inventory\inv_old_cigarette.png
-Assets\Items\Inventory\inv_lighter.png
-Assets\Items\Inventory\inv_bottle_whiskey.png
-Assets\UI\Cursors\cursor.png
-Assets\UI\Cursors\door.png
-tmp\game.veb
---------------------------------------------------------------------------------
-Container 'D:\Documentos\GitHub\AustraNlia\AustraNlia\Build\Scene002.vs'
+Container 'C:\Users\Zoé González\Documents\GitHub\AustraNlia\AustraNlia\Build\Scene003.vs'
 -------------------------------------------------------------------------------
 Assets\Rooms\MierinsOffice\empty_office.png
 Assets\Items\Scene\s_lighter.png
 Assets\Items\Highlight\concept_prop_02.png
 Assets\Items\Scene\s_old_cigarette.png
 Assets\Items\Highlight\concept_prop_01.png
+Assets\Items\Scene\concept_prop_05.png
+Assets\Items\Scene\s_office_carpet.png
+Assets\Items\Scene\lamp\lamp_00000.png
+Assets\Items\Scene\lamp\lamp_00001.png
+Assets\Items\Scene\lamp\lamp_00002.png
+Assets\Items\Scene\lamp\lamp_00003.png
+Assets\Items\Scene\lamp\lamp_00004.png
+Assets\Items\Scene\lamp\lamp_00005.png
+Assets\Items\Scene\lamp\lamp_00006.png
+Assets\Items\Scene\lamp\lamp_00007.png
+Assets\Items\Scene\lamp\lamp_00008.png
+Assets\Items\Scene\lamp\lamp_00009.png
+Assets\Items\Scene\lamp\lamp_00010.png
+Assets\Items\Scene\lamp\lamp_00011.png
+Assets\Items\Scene\lamp\lamp_00012.png
+Assets\Items\Scene\lamp\lamp_00013.png
+Assets\Items\Scene\lamp\lamp_00014.png
+Assets\Items\Scene\lamp\lamp_00015.png
+Assets\Items\Scene\lamp\lamp_00016.png
+Assets\Items\Scene\lamp\lamp_00017.png
+Assets\Items\Scene\lamp\lamp_00018.png
+Assets\Items\Scene\lamp\lamp_00019.png
+Assets\Items\Scene\lamp\lamp_00020.png
+Assets\Items\Scene\lamp\lamp_00021.png
+Assets\Items\Scene\lamp\lamp_00022.png
+Assets\Items\Scene\lamp\lamp_00023.png
+Assets\Items\Scene\lamp\lamp_00024.png
+Assets\Items\Scene\lamp\lamp_00025.png
+Assets\Items\Scene\lamp\lamp_00026.png
+Assets\Items\Scene\lamp\lamp_00027.png
+Assets\Items\Scene\lamp\lamp_00028.png
+Assets\Items\Scene\lamp\lamp_00029.png
+Assets\Items\Scene\lamp\lamp_00030.png
+Assets\Items\Scene\lamp\lamp_00031.png
+Assets\Items\Scene\lamp\lamp_00032.png
+Assets\Items\Scene\lamp\lamp_00033.png
+Assets\Items\Scene\lamp\lamp_00034.png
+Assets\Items\Scene\lamp\lamp_00035.png
+Assets\Items\Scene\lamp\lamp_00036.png
+Assets\Items\Scene\lamp\lamp_00037.png
+Assets\Items\Scene\lamp\lamp_00038.png
+Assets\Items\Scene\lamp\lamp_00039.png
+Assets\Items\Scene\lamp\lamp_00040.png
+Assets\Items\Scene\lamp\lamp_00041.png
+Assets\Items\Scene\lamp\lamp_00042.png
+Assets\Items\Scene\lamp\lamp_00043.png
+Assets\Items\Scene\lamp\lamp_00044.png
+Assets\Items\Scene\lamp\lamp_00045.png
+Assets\Items\Scene\lamp\lamp_00046.png
+Assets\Items\Scene\lamp\lamp_00047.png
 Assets\Items\Scene\camera\camera_00000.png
 Assets\Items\Scene\camera\camera_00001.png
 Assets\Items\Scene\camera\camera_00002.png
@@ -86,54 +104,167 @@ Assets\Items\Scene\camera\camera_00045.png
 Assets\Items\Scene\camera\camera_00046.png
 Assets\Items\Scene\camera\camera_00047.png
 Assets\Rooms\MierinsOffice\sofa.png
-Assets\Rooms\MierinsOffice\table.png
-Assets\Rooms\MierinsOffice\table_books.png
 Assets\Rooms\MierinsOffice\wall.png
 Assets\Rooms\MierinsOffice\trophy_table_locked_omni.png
 Assets\Rooms\MierinsOffice\trophy_table_omni.png
 Assets\Rooms\MierinsOffice\trophy_table.png
+Assets\Rooms\MierinsOffice\clock.png
+Assets\Rooms\MierinsOffice\table.png
+Assets\Rooms\MierinsOffice\table_books.png
 Assets\Rooms\MierinsOffice\closet_with_bottle.png
 Assets\Rooms\MierinsOffice\closet_without_bottle.png
-Assets\Rooms\MierinsOffice\clock.png
+Assets\SFX\step_on_glass.wav
 --------------------------------------------------------------------------------
-Container 'D:\Documentos\GitHub\AustraNlia\AustraNlia\Build\Scene001.vs'
+Container 'C:\Users\Zoé González\Documents\GitHub\AustraNlia\AustraNlia\Build\Scene004.vs'
 -------------------------------------------------------------------------------
-Assets\Rooms\MainMenu\options_menu_background.png
-Assets\Music\mainmenu.ogg
-Assets\UI\Buttons\OptionsMenu\return_main_menu.png
-Assets\UI\Buttons\OptionsMenu\VolumeBar.png
-Assets\UI\Buttons\OptionsMenu\VolumeBox.png
-Assets\UI\Buttons\OptionsMenu\MuteFS_Bar.png
-Assets\UI\Buttons\OptionsMenu\1920x1080.png
-Assets\UI\Buttons\OptionsMenu\1280x720.png
-Assets\UI\Buttons\OptionsMenu\1600x1200.png
-Assets\UI\Buttons\OptionsMenu\Low.png
-Assets\UI\Buttons\OptionsMenu\Medium.png
-Assets\UI\Buttons\OptionsMenu\High.png
-Assets\UI\Buttons\OptionsMenu\Ultra.png
-Assets\UI\Buttons\OptionsMenu\Language.png
-Assets\UI\Buttons\OptionsMenu\accept.png
-Assets\UI\Buttons\OptionsMenu\Cancel.png
+Assets\Rooms\BubbleForest\concept_environment_02.png
 --------------------------------------------------------------------------------
-Container 'D:\Documentos\GitHub\AustraNlia\AustraNlia\Build\Character001.vc'
+Container 'C:\Users\Zoé González\Documents\GitHub\AustraNlia\AustraNlia\Build\Video000.vv'
+-------------------------------------------------------------------------------
+Assets\Video\logo_screen.mkv
+--------------------------------------------------------------------------------
+Container 'C:\Users\Zoé González\Documents\GitHub\AustraNlia\AustraNlia\Build\Character000.vc'
+-------------------------------------------------------------------------------
+Assets\Characters\Chad\Walk\Right\walk_chad_000.png
+Assets\Characters\Chad\Walk\Right\walk_chad_001.png
+Assets\Characters\Chad\Walk\Right\walk_chad_002.png
+Assets\Characters\Chad\Walk\Right\walk_chad_003.png
+Assets\Characters\Chad\Walk\Right\walk_chad_004.png
+Assets\Characters\Chad\Walk\Right\walk_chad_005.png
+Assets\Characters\Chad\Walk\Right\walk_chad_006.png
+Assets\Characters\Chad\Walk\Right\walk_chad_007.png
+Assets\Characters\Chad\Walk\Right\walk_chad_008.png
+Assets\Characters\Chad\Walk\Right\walk_chad_009.png
+Assets\Characters\Chad\Walk\Right\walk_chad_010.png
+Assets\Characters\Chad\Walk\Right\walk_chad_011.png
+Assets\Characters\Chad\Walk\Right\walk_chad_012.png
+Assets\Characters\Chad\Walk\Right\walk_chad_013.png
+Assets\Characters\Chad\Walk\Right\walk_chad_014.png
+Assets\Characters\Chad\Standing\Front\chad_idle_000.png
+Assets\Characters\Chad\Standing\Front\chad_idle_001.png
+Assets\Characters\Chad\Standing\Front\chad_idle_002.png
+Assets\Characters\Chad\Standing\Front\chad_idle_003.png
+Assets\Characters\Chad\Standing\Front\chad_idle_004.png
+Assets\Characters\Chad\Standing\Front\chad_idle_005.png
+Assets\Characters\Chad\Standing\Front\chad_idle_006.png
+Assets\Characters\Chad\Standing\Front\chad_idle_007.png
+Assets\Characters\Chad\Standing\Front\chad_idle_008.png
+Assets\Characters\Chad\Standing\Front\chad_idle_009.png
+Assets\Characters\Chad\Standing\Front\chad_idle_010.png
+Assets\Characters\Chad\Standing\Front\chad_idle_011.png
+Assets\Characters\Chad\Standing\Front\chad_idle_012.png
+Assets\Characters\Chad\Standing\Front\chad_idle_013.png
+Assets\Characters\Chad\Standing\Front\chad_idle_014.png
+Assets\Characters\Chad\Standing\Front\chad_idle_015.png
+Assets\Characters\Chad\Standing\Front\chad_idle_016.png
+Assets\Characters\Chad\Standing\Front\chad_idle_017.png
+Assets\Characters\Chad\Standing\Front\chad_idle_018.png
+Assets\Characters\Chad\Standing\Front\chad_idle_019.png
+Assets\Characters\Chad\Standing\Front\chad_idle_020.png
+Assets\Characters\Chad\Standing\Front\chad_idle_021.png
+Assets\Characters\Chad\Standing\Front\chad_idle_022.png
+Assets\Characters\Chad\Standing\Front\chad_idle_023.png
+Assets\Characters\Chad\Standing\Front\chad_idle_024.png
+Assets\Characters\Chad\Standing\Front\chad_idle_025.png
+Assets\Characters\Chad\Standing\Front\chad_idle_026.png
+Assets\Characters\Chad\Standing\Front\chad_idle_027.png
+Assets\Characters\Chad\Standing\Front\chad_idle_028.png
+Assets\Characters\Chad\Standing\Front\chad_idle_029.png
+Assets\Characters\Chad\Standing\Front\chad_idle_030.png
+Assets\Characters\Chad\Standing\Front\chad_idle_031.png
+Assets\Characters\Chad\Standing\Front\chad_idle_032.png
+Assets\Characters\Chad\Standing\Front\chad_idle_033.png
+Assets\Characters\Chad\Standing\Front\chad_idle_034.png
+Assets\UI\GUI\dialog_box_01.png
+--------------------------------------------------------------------------------
+Container 'C:\Users\Zoé González\Documents\GitHub\AustraNlia\AustraNlia\Build\Interfaces.vi'
+-------------------------------------------------------------------------------
+Assets\UI\GUI\inventory_01.png
+Assets\UI\GUI\mouse_wheel_chad.png
+Assets\UI\Cursors\hand.png
+Assets\UI\Cursors\dialog.png
+Assets\UI\Cursors\eye.png
+Assets\UI\GUI\icon_char_change_01.png
+Assets\UI\GUI\inventory_02.png
+Assets\UI\GUI\icon_char_change_02.png
+Assets\UI\GUI\mouse_wheel_ica.png
+Assets\UI\GUI\IcaBar_100.png
+--------------------------------------------------------------------------------
+Container 'C:\Users\Zoé González\Documents\GitHub\AustraNlia\AustraNlia\Build\austranlia.vis'
+-------------------------------------------------------------------------------
+Assets\UI\Fonts\SadanaSquare.ttf
+Assets\Items\Inventory\inv_old_cigarette.png
+Assets\Items\Inventory\inv_lighter.png
+Assets\Items\Inventory\inv_bottle_whiskey.png
+Assets\Items\Inventory\inv_office_carpet.png
+Assets\Items\Inventory\inv_office_key.png
+Assets\Items\Inventory\inv_pamflets.png
+Assets\UI\Cursors\cursor.png
+Assets\UI\Cursors\door.png
+tmp\game.veb
+--------------------------------------------------------------------------------
+Container 'C:\Users\Zoé González\Documents\GitHub\AustraNlia\AustraNlia\Build\Character002.vc'
+-------------------------------------------------------------------------------
+Assets\Characters\Mierins\concept_character_04.png
+--------------------------------------------------------------------------------
+Container 'C:\Users\Zoé González\Documents\GitHub\AustraNlia\AustraNlia\Build\Scene002.vs'
+-------------------------------------------------------------------------------
+Assets\UI\Buttons\OptionsMenu\general_button_normal.png
+Assets\SFX\menu_click.wav
+Assets\UI\Buttons\OptionsMenu\return_normal.png
+Assets\UI\Buttons\OptionsMenu\return_highlight.png
+Assets\UI\Buttons\OptionsMenu\return_pressed.png
+Assets\UI\Buttons\OptionsMenu\volver_normal.png
+Assets\UI\Buttons\OptionsMenu\volver_highlight.png
+Assets\UI\Buttons\OptionsMenu\volver_pressed.png
+Assets\UI\Buttons\OptionsMenu\english_normal.png
+Assets\UI\Buttons\OptionsMenu\english_highlight.png
+Assets\UI\Buttons\OptionsMenu\english_pressed.png
+Assets\UI\Buttons\OptionsMenu\castellano_normal.png
+Assets\UI\Buttons\OptionsMenu\castellano_highlight.png
+Assets\UI\Buttons\OptionsMenu\castellano_pressed.png
+--------------------------------------------------------------------------------
+Container 'C:\Users\Zoé González\Documents\GitHub\AustraNlia\AustraNlia\Build\Scene001.vs'
+-------------------------------------------------------------------------------
+Assets\Rooms\MainMenu\main_menu_background.png
+Assets\UI\Buttons\MainMenu\button_normal.png
+Assets\UI\Buttons\MainMenu\button_new_game_eng_normal.png
+Assets\UI\Buttons\MainMenu\button_new_game_eng_highlight.png
+Assets\UI\Buttons\MainMenu\button_new_game_eng_press.png
+Assets\UI\Buttons\MainMenu\button_new_game_esp_normal.png
+Assets\UI\Buttons\MainMenu\button_new_game_esp_highlight.png
+Assets\UI\Buttons\MainMenu\button_new_game_esp_press.png
+Assets\UI\Buttons\MainMenu\button_continue_eng_normal.png
+Assets\UI\Buttons\MainMenu\button_continue_eng_highlight.png
+Assets\UI\Buttons\MainMenu\button_continue_eng_press.png
+Assets\UI\Buttons\MainMenu\button_continue_esp_normal.png
+Assets\UI\Buttons\MainMenu\button_continue_esp_highlight.png
+Assets\UI\Buttons\MainMenu\button_continue_esp_press.png
+Assets\UI\Buttons\MainMenu\button_options_eng_normal.png
+Assets\UI\Buttons\MainMenu\button_options_eng_highlight.png
+Assets\UI\Buttons\MainMenu\button_options_eng_press.png
+Assets\UI\Buttons\MainMenu\button_options_esp_normal.png
+Assets\UI\Buttons\MainMenu\button_options_esp_highlight.png
+Assets\UI\Buttons\MainMenu\button_options_esp_press.png
+Assets\UI\Buttons\MainMenu\button_credits_eng_normal.png
+Assets\UI\Buttons\MainMenu\button_credits_eng_highlight.png
+Assets\UI\Buttons\MainMenu\button_credits_eng_press.png
+Assets\UI\Buttons\MainMenu\button_credits_esp_normal.png
+Assets\UI\Buttons\MainMenu\button_credits_esp_highlight.png
+Assets\UI\Buttons\MainMenu\button_credits_esp_press.png
+Assets\UI\Buttons\MainMenu\button_exit_eng_normal.png
+Assets\UI\Buttons\MainMenu\button_exit_eng_highlight.png
+Assets\UI\Buttons\MainMenu\button_exit_eng_press.png
+Assets\UI\Buttons\MainMenu\button_exit_esp_normal.png
+Assets\UI\Buttons\MainMenu\button_exit_esp_highlight.png
+Assets\UI\Buttons\MainMenu\button_exit_esp_press.png
+Assets\Rooms\MainMenu\options_menu_background.png
+Assets\Rooms\MainMenu\concept_header_02.png
+--------------------------------------------------------------------------------
+Container 'C:\Users\Zoé González\Documents\GitHub\AustraNlia\AustraNlia\Build\Character001.vc'
 -------------------------------------------------------------------------------
 Assets\Characters\Ica\Standing\Front\ica_front_stand_001.png
 Assets\UI\GUI\dialog_box_02.png
---------------------------------------------------------------------------------
-Container 'D:\Documentos\GitHub\AustraNlia\AustraNlia\Build\Scene000.vs'
--------------------------------------------------------------------------------
-Assets\Rooms\MainMenu\main_menu_background.png
-Assets\UI\Buttons\MainMenu\button_new_game_normal.png
-Assets\UI\Buttons\MainMenu\button_new_game_highlight.png
-Assets\UI\Buttons\MainMenu\button_load_game_normal.png
-Assets\UI\Buttons\MainMenu\button_load_game_highlight.png
-Assets\UI\Buttons\MainMenu\button_options_normal.png
-Assets\UI\Buttons\MainMenu\button_options_highlight.png
-Assets\UI\Buttons\MainMenu\button_credits_normal.png
-Assets\UI\Buttons\MainMenu\button_credits_highlight.png
-Assets\UI\Buttons\MainMenu\button_exit_normal.png
-Assets\UI\Buttons\MainMenu\button_exit_highlight.png
-Assets\Rooms\MainMenu\main_menu_tablet.png
 --------------------------------------------------------------------------------
 
 Containers:
@@ -147,11 +278,15 @@ Character002.vc 2 npc_mierins
 
 Interfaces.vi 0 
 
-Scene000.vs 2 main_menu
+Scene001.vs 2 main_menu
 
-Scene001.vs 3 options_menu
+Scene002.vs 4 options_menu
 
-Scene002.vs 0 mierins_office
+Scene003.vs 0 mierins_office
 
-test_build.vis 0 
+Scene004.vs 1 bubble_forest
+
+Video000.vv 588 Play video 'logo_screen.mkv'
+
+austranlia.vis 0 
 
