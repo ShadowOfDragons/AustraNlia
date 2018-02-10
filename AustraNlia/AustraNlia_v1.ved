@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <VisionaireAdventure projectType="-1" revision="-1" version="190">
-	<Game name="" id="1" order="1" lastModified="-1" GameId="22988" GameDescription="" GameAbout="" GameIntro="" GameCommandBehaviour="0" GameFadeDelay="600" GameScrollSpeed="300" GameFullScreenIntro="F" GameDraggableItems="T" GameReserved="" GameHoldTime="250" GameFadeEffect="3" GameMinificationFilter="0" GameMagnificationFilter="0" GameAutoHideInterfacesInMenu="T" GameAlwaysAllowSkipText="F" GameExecuteActionsDuringDialog="F" GameAlignCharacterOnImExecution="T" GameComposedFile="C:\Users\Zoé González\Documents\GitHub\AustraNlia\AustraNlia\Build\austranlia.vis" GameSceneComposedFiles="0" GameSceneComposedFile="" GameCharacterComposedFiles="0" GameCharacterComposedFile="" GameMovieComposedFiles="2" GameMovieComposedFile="" GameVersion="1.0" GameDrawActionText="1" GameQuake="F" GameSpeakerTextAlignment="0" GameTextAlignment="2" GameKeepCharacterSpritesDuringMenus="F" GameDisableInteractionDuringAnim="0" GamePictureCacheSize="40" GameInterfaceComposedFiles="0" GameInterfaceComposedFile="" GameGameComposedFiles="0" GameGameComposedFile="" GameVideosEncrypted="F" GameCompanyName="Totem Tree Games" GameGameName="AustraNlia" GamePreloadPicThreads="3" GamePreloadedPicBufferSize="16384" GamePicBufferSize="120000" GameVideoSubtitleLanguage="" GameVideoAudioLanguage="" GamePreallocatedTextures="-1" GameNearestNeighborInterpolation="F" SpeakerSoundPanFactor="8" GameShowBlackScreenAfterVideo="F" GameSavegameScreenshot="" GameLeftHoldBehaviour="0" GameMiddleClickBehaviour="0" GameRightClickBehaviour="0" GameVideoPauseScreen="" GameExecuteCalledActionImmediately="T" GameIconFile="Build\icon.png" GameBuildOptions="12;general/webp;5;false;13;general/scale;4;true;14;general/scaleX;4;1920;14;general/scaleY;4;1080;19;windows/versionCode;7;1.0.0.1;18;windows/changeIcon;4;true;22;windows/changeManifest;4;true;" GameSmoothScrolling="T" GameSaveNameOffsetY="-1">
+	<Game name="" id="1" order="1" lastModified="-1" GameId="22988" GameDescription="" GameAbout="" GameIntro="" GameCommandBehaviour="0" GameFadeDelay="600" GameScrollSpeed="300" GameFullScreenIntro="F" GameDraggableItems="T" GameReserved="" GameHoldTime="250" GameFadeEffect="3" GameMinificationFilter="0" GameMagnificationFilter="0" GameAutoHideInterfacesInMenu="T" GameAlwaysAllowSkipText="F" GameExecuteActionsDuringDialog="F" GameAlignCharacterOnImExecution="T" GameComposedFile="C:/Users/Zoé González/Documents/GitHub/AustraNlia/AustraNlia/Build/austranlia.vis" GameSceneComposedFiles="0" GameSceneComposedFile="" GameCharacterComposedFiles="0" GameCharacterComposedFile="" GameMovieComposedFiles="2" GameMovieComposedFile="" GameVersion="1.0" GameDrawActionText="1" GameQuake="F" GameSpeakerTextAlignment="0" GameTextAlignment="2" GameKeepCharacterSpritesDuringMenus="F" GameDisableInteractionDuringAnim="0" GamePictureCacheSize="40" GameInterfaceComposedFiles="0" GameInterfaceComposedFile="" GameGameComposedFiles="0" GameGameComposedFile="" GameVideosEncrypted="F" GameCompanyName="Totem Tree Games" GameGameName="AustraNlia" GamePreloadPicThreads="3" GamePreloadedPicBufferSize="16384" GamePicBufferSize="120000" GameVideoSubtitleLanguage="" GameVideoAudioLanguage="" GamePreallocatedTextures="-1" GameNearestNeighborInterpolation="F" SpeakerSoundPanFactor="8" GameShowBlackScreenAfterVideo="F" GameSavegameScreenshot="" GameLeftHoldBehaviour="0" GameMiddleClickBehaviour="0" GameRightClickBehaviour="0" GameVideoPauseScreen="" GameExecuteCalledActionImmediately="T" GameIconFile="Build/icon.png" GameBuildOptions="12;general/webp;5;false;13;general/scale;4;true;14;general/scaleX;4;1920;14;general/scaleY;4;1080;19;windows/versionCode;7;1.0.0.1;18;windows/changeIcon;4;true;22;windows/changeManifest;4;true;" GameSmoothScrolling="T" GameSaveNameOffsetY="-1">
 		<GameSceneLinks>
 			<Link parentLink="T" id="0" tableId="4" LinkAny="F"/>
 			<Link parentLink="T" id="1" tableId="4" LinkAny="F"/>
@@ -2407,7 +2407,7 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="options_tablet" id="56" order="4" lastModified="-1" ObjectDirection="-1" ObjectCenter="1080" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="options_tablet" id="56" order="7" lastModified="-1" ObjectDirection="-1" ObjectCenter="1080" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="323" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -2661,14 +2661,22 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="1920x1080_button" id="67" order="5" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="1920x1080_button" id="67" order="4" lastModified="-1" ObjectDirection="-1" ObjectCenter="294" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="512" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
+				<point x="216" y="210"/>
+				<point x="466" y="212"/>
+				<point x="460" y="286"/>
+				<point x="220" y="284"/>
 			</ObjectPolygon>
 			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="107" tableId="13" LinkAny="F"/>
 			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectActions>
+				<Link parentLink="T" id="202" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="203" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="208" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="209" tableId="7" LinkAny="F"/>
 			</ObjectActions>
 			<ObjectConditions>
 			</ObjectConditions>
@@ -2685,14 +2693,22 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="1270x720_button" id="68" order="6" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="1270x720_button" id="68" order="5" lastModified="-1" ObjectDirection="-1" ObjectCenter="444" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="513" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
+				<point x="213" y="358"/>
+				<point x="466" y="361"/>
+				<point x="467" y="435"/>
+				<point x="216" y="434"/>
 			</ObjectPolygon>
 			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="108" tableId="13" LinkAny="F"/>
 			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectActions>
+				<Link parentLink="T" id="204" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="205" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="210" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="211" tableId="7" LinkAny="F"/>
 			</ObjectActions>
 			<ObjectConditions>
 			</ObjectConditions>
@@ -2709,14 +2725,20 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="1600x1200_button" id="69" order="7" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="1600x1200_button" id="69" order="6" lastModified="-1" ObjectDirection="-1" ObjectCenter="594" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="514" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
+				<point x="218" y="507"/>
+				<point x="462" y="507"/>
+				<point x="464" y="588"/>
+				<point x="220" y="588"/>
 			</ObjectPolygon>
 			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="109" tableId="13" LinkAny="F"/>
 			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectActions>
+				<Link parentLink="T" id="206" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="207" tableId="7" LinkAny="F"/>
 			</ObjectActions>
 			<ObjectConditions>
 			</ObjectConditions>
@@ -2734,7 +2756,7 @@
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
 	</Objects>
-	<Actions newId="202" versionedId="-1" tableId="7">
+	<Actions newId="212" versionedId="-1" tableId="7">
 		<Action name="Action" id="0" order="0" lastModified="-1" ActionExecutionType="-1">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -3938,8 +3960,94 @@
 				<Link parentLink="T" id="883" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
+		<Action name="Cursor enters object area" id="202" order="0" lastModified="-1" ActionExecutionType="1">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="909" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Cursor leaves object area" id="203" order="1" lastModified="-1" ActionExecutionType="2">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="910" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Cursor enters object area" id="204" order="0" lastModified="-1" ActionExecutionType="1">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="911" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Cursor leaves object area" id="205" order="1" lastModified="-1" ActionExecutionType="2">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="912" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Cursor enters object area" id="206" order="0" lastModified="-1" ActionExecutionType="1">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="913" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Cursor leaves object area" id="207" order="1" lastModified="-1" ActionExecutionType="2">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="914" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Left click" id="208" order="2" lastModified="-1" ActionExecutionType="7">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="915" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="916" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="917" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="918" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="919" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="920" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="921" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="922" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Called by other action" id="209" order="3" lastModified="-1" ActionExecutionType="5">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="923" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="924" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Left click" id="210" order="2" lastModified="-1" ActionExecutionType="7">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="925" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="926" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="927" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="928" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="929" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="930" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="931" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="932" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Called by other action" id="211" order="3" lastModified="-1" ActionExecutionType="5">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="933" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="934" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
 	</Actions>
-	<ActionParts newId="909" versionedId="-1" tableId="8">
+	<ActionParts newId="935" versionedId="-1" tableId="8">
 		<ActionPart name="Clear saved object" id="0" order="0" lastModified="-1" ActionPartCommand="106" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -5852,7 +5960,7 @@
 			<ActionPartLink parentLink="F" id="195" tableId="7" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Execute script &apos;local object = Objects[&quot;r...&apos;" id="847" order="0" lastModified="-1" ActionPartCommand="138" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="local object = Objects[&quot;return_main_menu&quot;]&lt;br/&gt;object.Scale = 0;&lt;br/&gt;&lt;br/&gt;local object = Objects[&quot;english_button&quot;]&lt;br/&gt;object.Scale = 0;&lt;br/&gt;&lt;br/&gt;local object = Objects[&quot;castellano_button&quot;]&lt;br/&gt;object.Scale = 0;&lt;br/&gt;">
+		<ActionPart name="Execute script &apos;local object = Objects[&quot;r...&apos;" id="847" order="0" lastModified="-1" ActionPartCommand="138" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="local object = Objects[&quot;return_main_menu&quot;]&lt;br/&gt;object.Scale = 0;&lt;br/&gt;&lt;br/&gt;object = Objects[&quot;english_button&quot;]&lt;br/&gt;object.Scale = 0;&lt;br/&gt;&lt;br/&gt;object = Objects[&quot;castellano_button&quot;]&lt;br/&gt;object.Scale = 0;&lt;br/&gt;&lt;br/&gt;object = Objects[&quot;1920x1080_button&quot;]&lt;br/&gt;object.Scale = 0;&lt;br/&gt;&lt;br/&gt;object = Objects[&quot;1280x720_button&quot;]&lt;br/&gt;object.Scale = 0;&lt;br/&gt;">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -6064,8 +6172,112 @@
 			<ActionPartLink parentLink="F" id="121" tableId="7" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
+		<ActionPart name="Play animation &apos;1920x1080_highlight&apos;" id="909" order="0" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="159" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide animation &apos;1920x1080_highlight&apos;" id="910" order="0" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="159" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play animation &apos;1280x720_highlight&apos;" id="911" order="0" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="162" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide animation &apos;1280x720_highlight&apos;" id="912" order="0" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="162" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play animation &apos;1600x1200_highlight&apos;" id="913" order="0" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="165" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide animation &apos;1600x1200_highlight&apos;" id="914" order="0" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="165" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If condition &apos;fullscreen?&apos; is false" id="915" order="1" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="43" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If value &apos;resolution?&apos; != 3" id="916" order="2" lastModified="-1" ActionPartCommand="69" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="3" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="2" tableId="20" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Value &apos;resolution?&apos; = 3" id="917" order="3" lastModified="-1" ActionPartCommand="70" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="3" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="2" tableId="20" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Call action &apos;check_has_edited_config?&apos;" id="918" order="4" lastModified="-1" ActionPartCommand="148" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="199" tableId="7" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="End if" id="919" order="5" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="End if" id="920" order="6" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide animation &apos;1920x1080_pressed&apos;" id="921" order="7" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="160" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play animation &apos;1920x1080_pressed&apos;" id="922" order="0" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="160" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play animation &apos;1920x1080_normal&apos;" id="923" order="0" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="158" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Execute script &apos;local object = Objects[&quot;1...&apos;" id="924" order="1" lastModified="-1" ActionPartCommand="138" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="local object = Objects[&quot;1920x1080_button&quot;]&lt;br/&gt;object:to(1000, {Scale = 1}, easeBounceOut)">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play animation &apos;1280x720_pressed&apos;" id="925" order="0" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="163" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If condition &apos;fullscreen?&apos; is false" id="926" order="1" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="43" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If value &apos;resolution?&apos; != 2" id="927" order="2" lastModified="-1" ActionPartCommand="69" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="2" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="2" tableId="20" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Value &apos;resolution?&apos; = 2" id="928" order="3" lastModified="-1" ActionPartCommand="70" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="2" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="2" tableId="20" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Call action &apos;check_has_edited_config?&apos;" id="929" order="4" lastModified="-1" ActionPartCommand="148" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="199" tableId="7" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="End if" id="930" order="5" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="End if" id="931" order="6" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide animation &apos;1280x720_pressed&apos;" id="932" order="7" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="163" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play animation &apos;1280x720_normal&apos;" id="933" order="0" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="161" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Execute script &apos;local object = Objects[&quot;1...&apos;" id="934" order="1" lastModified="-1" ActionPartCommand="138" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="local object = Objects[&quot;1280x720_button&quot;]&lt;br/&gt;object:to(1000, {Scale = 1}, easeBounceOut)">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
 	</ActionParts>
-	<Animations newId="167" versionedId="-1" tableId="9">
+	<Animations newId="168" versionedId="-1" tableId="9">
 		<Animation name="walk_front" id="1" order="3" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="270" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -8273,9 +8485,12 @@
 			</AnimationPauses>
 		</Animation>
 		<Animation name="1920x1080_normal" id="158" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
-			<AnimationPosition x="0" y="0"/>
+			<AnimationPosition x="200" y="200"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
+				<sprite name="" pause="6144" path="Assets/UI/Buttons/OptionsMenu/1920X1080_normal.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationCenter x="0" y="0"/>
@@ -8287,9 +8502,12 @@
 			</AnimationPauses>
 		</Animation>
 		<Animation name="1920x1080_highlight" id="159" order="1" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
-			<AnimationPosition x="0" y="0"/>
+			<AnimationPosition x="200" y="200"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
+				<sprite name="" pause="0" path="Assets/UI/Buttons/OptionsMenu/1920X1080_highlight.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationCenter x="0" y="0"/>
@@ -8301,9 +8519,12 @@
 			</AnimationPauses>
 		</Animation>
 		<Animation name="1920x1080_pressed" id="160" order="2" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
-			<AnimationPosition x="0" y="0"/>
+			<AnimationPosition x="200" y="200"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
+				<sprite name="" pause="26368" path="Assets/UI/Buttons/OptionsMenu/1920X1080_pressed.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationCenter x="0" y="0"/>
@@ -8315,9 +8536,12 @@
 			</AnimationPauses>
 		</Animation>
 		<Animation name="1280x720_normal" id="161" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
-			<AnimationPosition x="0" y="0"/>
+			<AnimationPosition x="200" y="350"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
+				<sprite name="" pause="0" path="Assets/UI/Buttons/OptionsMenu/1280X720_normal.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationCenter x="0" y="0"/>
@@ -8329,9 +8553,12 @@
 			</AnimationPauses>
 		</Animation>
 		<Animation name="1280x720_highlight" id="162" order="1" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
-			<AnimationPosition x="0" y="0"/>
+			<AnimationPosition x="200" y="350"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
+				<sprite name="" pause="0" path="Assets/UI/Buttons/OptionsMenu/1280X720_highlight.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationCenter x="0" y="0"/>
@@ -8343,9 +8570,12 @@
 			</AnimationPauses>
 		</Animation>
 		<Animation name="1280x720_pressed" id="163" order="2" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
-			<AnimationPosition x="0" y="0"/>
+			<AnimationPosition x="200" y="350"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
+				<sprite name="" pause="0" path="Assets/UI/Buttons/OptionsMenu/1280X720_pressed.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationCenter x="0" y="0"/>
@@ -8357,9 +8587,12 @@
 			</AnimationPauses>
 		</Animation>
 		<Animation name="1600x1200_normal" id="164" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
-			<AnimationPosition x="0" y="0"/>
+			<AnimationPosition x="200" y="500"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
+				<sprite name="" pause="9148" path="Assets/UI/Buttons/OptionsMenu/1600X1200_normal.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationCenter x="0" y="0"/>
@@ -8371,9 +8604,12 @@
 			</AnimationPauses>
 		</Animation>
 		<Animation name="1600x1200_highlight" id="165" order="1" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
-			<AnimationPosition x="0" y="0"/>
+			<AnimationPosition x="200" y="500"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
+				<sprite name="" pause="0" path="Assets/UI/Buttons/OptionsMenu/1600X1200_highlight.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationCenter x="0" y="0"/>
@@ -8385,9 +8621,12 @@
 			</AnimationPauses>
 		</Animation>
 		<Animation name="1600x1200_pressed" id="166" order="2" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
-			<AnimationPosition x="0" y="0"/>
+			<AnimationPosition x="200" y="500"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
+				<sprite name="" pause="0" path="Assets/UI/Buttons/OptionsMenu/1600X1200_pressed.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationCenter x="0" y="0"/>
@@ -8696,7 +8935,7 @@
 			<DialogPartAltText parentLink="T" id="430" tableId="14" LinkAny="F"/>
 		</DialogPart>
 	</DialogParts>
-	<Sprites newId="107" versionedId="-1" tableId="13">
+	<Sprites newId="110" versionedId="-1" tableId="13">
 		<Sprite name="Unnamed" id="2" order="2" lastModified="-1">
 			<SpriteSprite name="" pause="-1" path="" Transparency="2">
 				<position x="0" y="0"/>
@@ -9027,8 +9266,23 @@
 				<position x="1000" y="700"/>
 			</SpriteSprite>
 		</Sprite>
+		<Sprite name="Image" id="107" order="107" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="Assets/UI/Buttons/OptionsMenu/resolution_normal.png" Transparency="2">
+				<position x="200" y="200"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Image" id="108" order="108" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="Assets/UI/Buttons/OptionsMenu/resolution_normal.png" Transparency="2">
+				<position x="200" y="350"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Image" id="109" order="109" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="Assets/UI/Buttons/OptionsMenu/resolution_normal.png" Transparency="2">
+				<position x="200" y="500"/>
+			</SpriteSprite>
+		</Sprite>
 	</Sprites>
-	<Texts newId="515" versionedId="-1" tableId="14">
+	<Texts newId="529" versionedId="-1" tableId="14">
 		<Text name="new_game_txt" id="1" order="1" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
@@ -10277,7 +10531,7 @@
 	</ParticleContainers>
 	<CommentSetEntries newId="0" versionedId="-1" tableId="27">
 	</CommentSetEntries>
-	<AnimationFrames newId="1" versionedId="-1" tableId="28">
+	<AnimationFrames newId="9" versionedId="-1" tableId="28">
 	</AnimationFrames>
 	<WaySystems newId="5" versionedId="-1" tableId="29">
 		<WaySystem name="normal" id="2" order="2" lastModified="-1">
@@ -10370,7 +10624,7 @@
 			</WaySystemPoints>
 		</WaySystem>
 	</WaySystems>
-	<Scripts newId="3" versionedId="-1" tableId="30">
+	<Scripts newId="2" versionedId="-1" tableId="30">
 		<Script name="read_ini" id="0" order="0" lastModified="-1" ScriptScript="-- * globals * -- (used by read_ini and delete_ini)&lt;br/&gt;    local iniFilename = &apos;config.ini&apos;&lt;br/&gt;    local iniFile = io.open(iniFilename, &apos;r&apos;)&lt;br/&gt;     &lt;br/&gt;    -- * retrieves game settings from config.ini + sets condit?ions | values appropriately! * --&lt;br/&gt;    function read_ini()&lt;br/&gt;     &lt;br/&gt;    -- * locals * --&lt;br/&gt;    local r_fullscreen = getObject(&apos;Scenes[options_menu].SceneConditions[fullscreen?]&apos;)&lt;br/&gt;    local r_sfx = getObject(&apos;Scenes[options_menu].SceneConditions[sfx?]&apos;)&lt;br/&gt;    local r_resolution = getObject(&apos;Scenes[options_menu].SceneValues[resolution?]&apos;)&lt;br/&gt;    local r_language = getObject(&apos;Scenes[options_menu].SceneValues[language?]&apos;)&lt;br/&gt;    local r_quality = getObject(&apos;Scenes[options_menu].SceneValues[sfx_quality?]&apos;)&lt;br/&gt;     &lt;br/&gt;    -- * script * --&lt;br/&gt;     if iniFile then&lt;br/&gt;     local line = iniFile:read()&lt;br/&gt;     print(&apos;-- * --&apos;)&lt;br/&gt;     print(iniFilename .. &apos; exists!&apos;)&lt;br/&gt;     print(&apos;retrieving settings from &apos; .. iniFilename .. &apos;!&apos;)&lt;br/&gt;     for line in io.lines(iniFilename) do&lt;br/&gt;    -- * begin if else * --&lt;br/&gt;      if line == &apos;Fullscreen = No&apos; then&lt;br/&gt;       r_fullscreen:setValue(VConditionValue, false)&lt;br/&gt;       print(&apos;fullscreen mode is off!&apos;)&lt;br/&gt;      else&lt;br/&gt;      if line == &apos;Fullscreen = Yes&apos; then&lt;br/&gt;       r_fullscreen:setValue(VConditionValue, true)&lt;br/&gt;       print(&apos;fullscreen mode is on!&apos;)&lt;br/&gt;      end end&lt;br/&gt;    -- * --&lt;br/&gt;      if line == &apos;Resolution = Auto&apos; then&lt;br/&gt;       r_resolution:setValue(VValueInt, 0)&lt;br/&gt;       print(&apos;resolution is set to auto!&apos;)&lt;br/&gt;      else&lt;br/&gt;      if line == &apos;Resolution = 1920x1080&apos; then&lt;br/&gt;       r_resolution:setValue(VValueInt, 3)&lt;br/&gt;       print(&apos;resolution is currently set at 1920x1080!&apos;)&lt;br/&gt;      else&lt;br/&gt;      if line == &apos;Resolution = 1280x720&apos; then&lt;br/&gt;       r_resolution:setValue(VValueInt, 2)&lt;br/&gt;       print(&apos;resolution is currently set at 1280x720!&apos;)&lt;br/&gt;      else&lt;br/&gt;      if line == &apos;Resolution = 1600x1200&apos; then&lt;br/&gt;       r_resolution:setValue(VValueInt, 1)&lt;br/&gt;       print(&apos;resolution is currently set at 1600x1200!&apos;)&lt;br/&gt;      end end end end&lt;br/&gt;    -- * --&lt;br/&gt;      if line == &apos;Language = English&apos; then&lt;br/&gt;       r_language:setValue(VValueInt, 0)&lt;br/&gt;       print(&apos;Language is currently set to English!&apos;)&lt;br/&gt;      else&lt;br/&gt;      if line == &apos;Language = Spanish&apos; then&lt;br/&gt;       r_language:setValue(VValueInt, 1)&lt;br/&gt;       print(&apos;Language is currently set to Spanish!&apos;)&lt;br/&gt;      else&lt;br/&gt;      if line == &apos;Language = Catalan&apos; then&lt;br/&gt;       r_language:setValue(VValueInt, 2)&lt;br/&gt;       print(&apos;Language is currently set to Catalan!&apos;)&lt;br/&gt;      end end end&lt;br/&gt;    -- * --&lt;br/&gt;      if line == &apos;SFX = No&apos; then&lt;br/&gt;       r_sfx:setValue(VConditionValue, false)&lt;br/&gt;       print(&apos;special fx is currently set to basic mode!&apos;)&lt;br/&gt;      else&lt;br/&gt;      if line == &apos;SFX = Yes&apos; then&lt;br/&gt;       r_sfx:setValue(VConditionValue, true)&lt;br/&gt;       print(&apos;special fx is currently set to custom mode!&apos;)&lt;br/&gt;      end end&lt;br/&gt;    -- * --&lt;br/&gt;      if line == &apos;SFX_Quality = Low&apos; then&lt;br/&gt;       r_quality:setValue(VValueInt, 0)&lt;br/&gt;       print(&apos;special fx quality is currently set to Low!&apos;)&lt;br/&gt;      else&lt;br/&gt;      if line == &apos;SFX_Quality = Medium&apos; then&lt;br/&gt;       r_quality:setValue(VValueInt, 1)&lt;br/&gt;       print(&apos;special fx quality is currently set to Medium!&apos;)&lt;br/&gt;      else&lt;br/&gt;      if line == &apos;SFX_Quality = High&apos; then&lt;br/&gt;       r_quality:setValue(VValueInt, 2)&lt;br/&gt;       print(&apos;special fx quality is currently set to High!&apos;)&lt;br/&gt;      end end end&lt;br/&gt;      end&lt;br/&gt;       iniFile:close()&lt;br/&gt;       print(&apos;successfully retrieved settings from &apos; .. iniFilename .. &apos;!&apos;)&lt;br/&gt;       print(&apos;-- * --&apos;)&lt;br/&gt;    -- * end if else * --&lt;br/&gt;     else&lt;br/&gt;      print(iniFilename  .. &apos; does not exist!&apos;)&lt;br/&gt;     end&lt;br/&gt;    end&lt;br/&gt;     &lt;br/&gt;    -- * removes the config.ini file so we can replace it with the temporary file! (only called if we have edited any of the settings) * --&lt;br/&gt;    function delete_ini()&lt;br/&gt;    if iniFile then&lt;br/&gt;     os.remove(iniFilename)&lt;br/&gt;    else&lt;br/&gt;    end&lt;br/&gt;    end" ScriptType="1">
 		</Script>
 		<Script name="write_ini" id="1" order="1" lastModified="-1" ScriptScript=" -- * creates a temporary file to store edited settings which is renamed once the original config.ini file has been removed! * --&lt;br/&gt;    function save_ini()&lt;br/&gt;     &lt;br/&gt;    -- * locals * --&lt;br/&gt;    local newIniFilename = &apos;config.ini.bak&apos;&lt;br/&gt;    local newIniFile = io.open(newIniFilename, &apos;w&apos;)&lt;br/&gt;     &lt;br/&gt;    local fullscreen = getObject(&apos;Conditions[fullscreen?]&apos;):getBool(VConditionValue)&lt;br/&gt;    local sfx = getObject(&apos;Conditions[sfx?]&apos;):getBool(VConditionValue)&lt;br/&gt;    local resolution = getObject(&apos;Values[resolution?]&apos;):getInt(VValueInt)&lt;br/&gt;    local language = getObject(&apos;Values[language?]&apos;):getInt(VValueInt)&lt;br/&gt;    local quality = getObject(&apos;Values[sfx_quality?]&apos;):getInt(VValueInt)&lt;br/&gt;     &lt;br/&gt;    -- * convert resolution integer into a string * --&lt;br/&gt;    local res_str = 0&lt;br/&gt;    if resolution == 1 then res_str = &apos;1600x1200&apos;&lt;br/&gt;    else&lt;br/&gt;    if resolution == 2 then res_str = &apos;1280x720&apos;&lt;br/&gt;    else&lt;br/&gt;    if resolution == 3 then res_str = &apos;1920x1080&apos;&lt;br/&gt;    end end end&lt;br/&gt;     &lt;br/&gt;    -- * convert language integer into a string * --&lt;br/&gt;    local lang_str = 0&lt;br/&gt;    if language == 0 then lang_str = &apos;English&apos;&lt;br/&gt;    else&lt;br/&gt;    if language == 1 then lang_str = &apos;Spanish&apos;&lt;br/&gt;    else&lt;br/&gt;    if language == 2 then lang_str = &apos;Catalan&apos;&lt;br/&gt;    end end end&lt;br/&gt;     &lt;br/&gt; -- * convert special fx quality integer into a string * --&lt;br/&gt;    local quality_str = 0&lt;br/&gt;    if quality == 0 then quality_str = &apos;Low&apos;&lt;br/&gt;    else&lt;br/&gt;    if quality == 1 then quality_str = &apos;Medium&apos;&lt;br/&gt;    else&lt;br/&gt;    if quality == 2 then quality_str = &apos;High&apos;&lt;br/&gt;    end end end&lt;br/&gt;  &lt;br/&gt;    -- * write the data file * --&lt;br/&gt;    newIniFile:write(&apos;File = austranlia.vis\n&apos;)&lt;br/&gt;     &lt;br/&gt;    -- *  write the comments for fullscreen section! * --&lt;br/&gt;    newIniFile:write(&apos;# Fullscreen = {Yes|No}\n&apos;)&lt;br/&gt;    newIniFile:write(&apos;# Yes - starts the game in fullscreen\n&apos;)&lt;br/&gt;    newIniFile:write(&apos;# No - starts the game in a window\n&apos;)&lt;br/&gt;     &lt;br/&gt;    if fullscreen then&lt;br/&gt;     newIniFile:write(&apos;Fullscreen = Yes\n&apos;)&lt;br/&gt;     &lt;br/&gt;    -- * write comments for the resolution section! * --&lt;br/&gt;     newIniFile:write(&apos;#\n&apos;)&lt;br/&gt;     newIniFile:write(&apos;# Resolution = {Auto|Desktop|Custom}\n&apos;)&lt;br/&gt;     newIniFile:write(&apos;# Auto - wide-screen support is activated if a wide-screen display is detected\n&apos;)&lt;br/&gt;     newIniFile:write(&apos;# Desktop - current desktop resolution is used when game is started in full screen mode\n&apos;)&lt;br/&gt;     newIniFile:write(&apos;# Custom - enter a custom value eg: Resolution = 1920x1080\n&apos;)&lt;br/&gt;     &lt;br/&gt;    newIniFile:write(&apos;Resolution = Auto\n&apos;)&lt;br/&gt;    else&lt;br/&gt;     newIniFile:write(&apos;Fullscreen = No\n&apos;)&lt;br/&gt;     &lt;br/&gt;    -- * write comments for the resolution section! * --&lt;br/&gt;     newIniFile:write(&apos;#\n&apos;)&lt;br/&gt;     newIniFile:write(&apos;# Resolution = {Auto|Desktop|Custom}\n&apos;)&lt;br/&gt;     newIniFile:write(&apos;# Auto - wide-screen support is activated if a wide-screen display is detected\n&apos;)&lt;br/&gt;     newIniFile:write(&apos;# Desktop - current desktop resolution is used when game is started in full screen mode\n&apos;)&lt;br/&gt;     newIniFile:write(&apos;# Custom - enter a custom value eg: Resolution = 1920x1080\n&apos;)&lt;br/&gt;     &lt;br/&gt;    newIniFile:write(&apos;Resolution = &apos; .. res_str .. &apos;\n&apos;)&lt;br/&gt;    end&lt;br/&gt;     &lt;br/&gt;    -- * write comments for the language section! * --&lt;br/&gt;     newIniFile:write(&apos;#\n&apos;)&lt;br/&gt;     newIniFile:write(&apos;# Language = {English|German|Spanish}\n&apos;)&lt;br/&gt;     newIniFile:write(&apos;# this will display subtitles in the specified language and will play the appropriate voice sample if available\n&apos;)&lt;br/&gt;     newIniFile:write(&apos;# default voice samples are in English\n&apos;)&lt;br/&gt;     &lt;br/&gt;    newIniFile:write(&apos;Language = &apos; .. lang_str .. &apos;\n&apos;)&lt;br/&gt; &lt;br/&gt;    -- * write comments for the special fx section! * --&lt;br/&gt;     newIniFile:write(&apos;#\n&apos;)&lt;br/&gt;     newIniFile:write(&apos;# SFX = {Yes|No}\n&apos;)&lt;br/&gt;     newIniFile:write(&apos;# Yes - allow users to change animation and fx quality\n&apos;)&lt;br/&gt;     newIniFile:write(&apos;# No - only show the basic required game special fx and animations\n&apos;)&lt;br/&gt;     &lt;br/&gt;    if sfx then&lt;br/&gt;     newIniFile:write(&apos;SFX = Yes\n&apos;)&lt;br/&gt;    else&lt;br/&gt;     newIniFile:write(&apos;SFX = No\n&apos;)&lt;br/&gt;    end&lt;br/&gt;     &lt;br/&gt;    -- * write comments for the special fx quality section! * --&lt;br/&gt;     newIniFile:write(&apos;#\n&apos;)&lt;br/&gt;     newIniFile:write(&apos;# SFX_Quality = {Low|Medium|High}\n&apos;)&lt;br/&gt;     newIniFile:write(&apos;# allows user to change animation and fx modes - for people on lower end computer systems\n&apos;)&lt;br/&gt;     newIniFile:write(&apos;# Low = only show the basic required game animations and fx\n&apos;)&lt;br/&gt;     newIniFile:write(&apos;# Medium = animations use less frames meaning animations look less smooth\n&apos;)&lt;br/&gt;     newIniFile:write(&apos;# High = see the game as it\&apos;s meant to played\n&apos;)&lt;br/&gt;     &lt;br/&gt;    newIniFile:write(&apos;SFX_Quality = &apos; .. quality_str .. &apos;\n&apos;)&lt;br/&gt;     &lt;br/&gt;    -- * write comments for log section! * --&lt;br/&gt;     newIniFile:write(&apos;#\n&apos;)&lt;br/&gt;     newIniFile:write(&apos;# LogLevel = {Info|Warning|Error}\n&apos;)&lt;br/&gt;     &lt;br/&gt;    newIniFile:write(&apos;LogLevel = Error\n&apos;)&lt;br/&gt;     &lt;br/&gt;    -- * write comments for volume section! * --&lt;br/&gt;     newIniFile:write(&apos;#\n&apos;)&lt;br/&gt;     newIniFile:write(&apos;# MusicVolume|SoundVolume|SpeechVolume = int value {0-100}\n&apos;)&lt;br/&gt;     &lt;br/&gt;    -- * close the ini file! * --&lt;br/&gt;    newIniFile:close()&lt;br/&gt;     &lt;br/&gt;    -- * rename config.ini.bak to config.ini! * --&lt;br/&gt;    if os.rename(newIniFilename, &apos;config.ini&apos;) then&lt;br/&gt;     print(newIniFilename .. &apos; was sucessfully renamed to config.ini!&apos;)&lt;br/&gt;     print(&apos;saving new settings to config.ini!&apos;)&lt;br/&gt;    else&lt;br/&gt;     print(&apos;renaming &apos; .. newIniFilename .. &apos; to config.ini was unsuccessful!&apos;)&lt;br/&gt;    end&lt;br/&gt;     &lt;br/&gt;    -- * print various statements to the log file! * --&lt;br/&gt;    if fullscreen then&lt;br/&gt;     print(&apos;fullscreen has been set to on!&apos;)&lt;br/&gt;     print(&apos;resolution has been set to auto!&apos;)&lt;br/&gt;    else&lt;br/&gt;     print(&apos;fullscreen has been set to off!&apos;)&lt;br/&gt;     print(&apos;resolution has been set to &apos; .. res_str .. &apos;!&apos;)&lt;br/&gt;    end&lt;br/&gt; &lt;br/&gt;    print(&apos;language has been set to &apos; .. lang_str .. &apos;!&apos;)&lt;br/&gt; &lt;br/&gt; if sfx then&lt;br/&gt;  print(&apos;special fx has been set to custom mode!&apos;)&lt;br/&gt;  print(&apos;special fx quality has been set to &apos; .. quality_str .. &apos;!&apos;)&lt;br/&gt; else&lt;br/&gt;  print(&apos;special fx has been set to basic mode!&apos;)&lt;br/&gt;  print(&apos;special fx quality has been set to &apos; .. quality_str .. &apos;!&apos;)&lt;br/&gt;    end&lt;br/&gt;&lt;br/&gt;    print(&apos;new settings have successfully been saved to config.ini!&apos;) &lt;br/&gt;    print(&apos;-- * --&apos;)&lt;br/&gt; &lt;br/&gt;    end" ScriptType="1">
