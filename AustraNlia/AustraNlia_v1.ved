@@ -2854,6 +2854,7 @@
 			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectActions>
+				<Link parentLink="T" id="221" tableId="7" LinkAny="F"/>
 			</ObjectActions>
 			<ObjectConditions>
 			</ObjectConditions>
@@ -2890,6 +2891,8 @@
 			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectActions>
 				<Link parentLink="T" id="217" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="219" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="220" tableId="7" LinkAny="F"/>
 			</ObjectActions>
 			<ObjectConditions>
 			</ObjectConditions>
@@ -2907,7 +2910,7 @@
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
 	</Objects>
-	<Actions newId="219" versionedId="-1" tableId="7">
+	<Actions newId="222" versionedId="-1" tableId="7">
 		<Action name="Action" id="0" order="0" lastModified="-1" ActionExecutionType="-1">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -4250,6 +4253,7 @@
 				<Link parentLink="T" id="962" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="963" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="964" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1051" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Left click" id="217" order="0" lastModified="-1" ActionExecutionType="7">
@@ -4260,6 +4264,9 @@
 				<Link parentLink="T" id="978" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="979" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="980" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="988" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="989" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1052" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Left click" id="218" order="0" lastModified="-1" ActionExecutionType="7">
@@ -4270,10 +4277,86 @@
 				<Link parentLink="T" id="982" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="983" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="985" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1053" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1054" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1055" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Cursor enters object area" id="219" order="1" lastModified="-1" ActionExecutionType="1">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="986" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Cursor leaves object area" id="220" order="2" lastModified="-1" ActionExecutionType="2">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="987" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="sfx_number_change" id="221" order="0" lastModified="-1" ActionExecutionType="5">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="990" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="991" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="992" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="996" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="997" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="998" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="999" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1004" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1005" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1006" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1007" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1008" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1009" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1010" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1011" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1012" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1013" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1014" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1015" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1016" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1017" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1018" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1019" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1020" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1021" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1022" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1023" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1024" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1025" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1026" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1027" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1028" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1029" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1030" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1031" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1032" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1033" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1034" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1035" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1036" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1037" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1038" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1039" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1040" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1041" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1042" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1043" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1044" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1045" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1046" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1047" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1048" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1050" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 	</Actions>
-	<ActionParts newId="986" versionedId="-1" tableId="8">
+	<ActionParts newId="1056" versionedId="-1" tableId="8">
 		<ActionPart name="Clear saved object" id="0" order="0" lastModified="-1" ActionPartCommand="106" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -6626,36 +6709,284 @@
 			<ActionPartLink parentLink="F" id="168" tableId="9" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Execute script &apos;adjSfxVol(2, 10)&apos;" id="974" order="1" lastModified="-1" ActionPartCommand="138" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="adjSfxVol(2, 10)">
+		<ActionPart name="Execute script &apos;adjSfxVol(2, 10)&apos;" id="974" order="3" lastModified="-1" ActionPartCommand="138" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="adjSfxVol(2, 10)">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="If value &apos;sfx_volume&apos; &lt; 10" id="978" order="0" lastModified="-1" ActionPartCommand="69" ActionPartPath="" ActionPartInt="3" ActionPartAltInt="10" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="If value &apos;sfx_volume&apos; &lt; 10" id="978" order="1" lastModified="-1" ActionPartCommand="69" ActionPartPath="" ActionPartInt="3" ActionPartAltInt="10" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="4" tableId="20" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Value &apos;sfx_volume&apos; + 1" id="979" order="3" lastModified="-1" ActionPartCommand="70" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="1" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Value &apos;sfx_volume&apos; + 1" id="979" order="4" lastModified="-1" ActionPartCommand="70" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="1" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="4" tableId="20" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="End if" id="980" order="4" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="End if" id="980" order="6" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="If value &apos;sfx_volume&apos; &gt; 0" id="981" order="0" lastModified="-1" ActionPartCommand="69" ActionPartPath="" ActionPartInt="5" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="If value &apos;sfx_volume&apos; &gt; 0" id="981" order="3" lastModified="-1" ActionPartCommand="69" ActionPartPath="" ActionPartInt="5" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="4" tableId="20" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Value &apos;sfx_volume&apos; - 1" id="982" order="4" lastModified="-1" ActionPartCommand="70" ActionPartPath="" ActionPartInt="2" ActionPartAltInt="1" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Value &apos;sfx_volume&apos; - 1" id="982" order="5" lastModified="-1" ActionPartCommand="70" ActionPartPath="" ActionPartInt="2" ActionPartAltInt="1" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="4" tableId="20" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="End if" id="983" order="5" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="End if" id="983" order="7" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Execute script &apos;adjSfxVol(1, 10)&apos;" id="985" order="3" lastModified="-1" ActionPartCommand="138" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="adjSfxVol(1, 10)">
+		<ActionPart name="Execute script &apos;adjSfxVol(1, 10)&apos;" id="985" order="4" lastModified="-1" ActionPartCommand="138" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="adjSfxVol(1, 10)">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play animation &apos;sfx_plus_highlight&apos;" id="986" order="0" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="188" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide animation &apos;sfx_plus_highlight&apos;" id="987" order="0" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="188" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play animation &apos;sfx_plus_pressed&apos;" id="988" order="0" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="189" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide animation &apos;sfx_plus_pressed&apos;" id="989" order="7" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="189" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If value &apos;sfx_volume&apos; = 0" id="990" order="0" lastModified="-1" ActionPartCommand="69" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="4" tableId="20" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play animation &apos;sfx_00&apos;" id="991" order="4" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="176" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="End if" id="992" order="6" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If value &apos;sfx_volume&apos; = 1" id="996" order="7" lastModified="-1" ActionPartCommand="69" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="1" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="4" tableId="20" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play animation &apos;sfx_01&apos;" id="997" order="8" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="177" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="End if" id="998" order="12" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide animation &apos;sfx_01&apos;" id="999" order="5" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="177" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide animation &apos;sfx_00&apos;" id="1004" order="10" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="176" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide animation &apos;sfx_02&apos;" id="1005" order="11" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="178" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If value &apos;sfx_volume&apos; = 2" id="1006" order="13" lastModified="-1" ActionPartCommand="69" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="2" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="4" tableId="20" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play animation &apos;sfx_02&apos;" id="1007" order="14" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="178" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide animation &apos;sfx_01&apos;" id="1008" order="15" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="177" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide animation &apos;sfx_03&apos;" id="1009" order="16" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="179" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="End if" id="1010" order="17" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If value &apos;sfx_volume&apos; = 3" id="1011" order="18" lastModified="-1" ActionPartCommand="69" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="3" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="4" tableId="20" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play animation &apos;sfx_03&apos;" id="1012" order="19" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="179" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide animation &apos;sfx_02&apos;" id="1013" order="20" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="178" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide animation &apos;sfx_04&apos;" id="1014" order="21" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="180" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="End if" id="1015" order="22" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If value &apos;sfx_volume&apos; = 4" id="1016" order="23" lastModified="-1" ActionPartCommand="69" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="4" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="4" tableId="20" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play animation &apos;sfx_04&apos;" id="1017" order="24" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="180" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide animation &apos;sfx_03&apos;" id="1018" order="25" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="179" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide animation &apos;sfx_05&apos;" id="1019" order="26" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="181" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="End if" id="1020" order="27" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If value &apos;sfx_volume&apos; = 5" id="1021" order="28" lastModified="-1" ActionPartCommand="69" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="5" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="4" tableId="20" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play animation &apos;sfx_05&apos;" id="1022" order="29" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="181" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide animation &apos;sfx_04&apos;" id="1023" order="30" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="180" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide animation &apos;sfx_06&apos;" id="1024" order="31" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="182" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="End if" id="1025" order="32" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If value &apos;sfx_volume&apos; = 6" id="1026" order="33" lastModified="-1" ActionPartCommand="69" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="6" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="4" tableId="20" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play animation &apos;sfx_06&apos;" id="1027" order="34" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="182" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide animation &apos;sfx_05&apos;" id="1028" order="35" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="181" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide animation &apos;sfx_07&apos;" id="1029" order="36" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="183" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="End if" id="1030" order="37" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If value &apos;sfx_volume&apos; = 7" id="1031" order="38" lastModified="-1" ActionPartCommand="69" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="7" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="4" tableId="20" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play animation &apos;sfx_07&apos;" id="1032" order="39" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="183" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide animation &apos;sfx_06&apos;" id="1033" order="40" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="182" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide animation &apos;sfx_08&apos;" id="1034" order="41" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="184" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="End if" id="1035" order="42" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If value &apos;sfx_volume&apos; = 8" id="1036" order="43" lastModified="-1" ActionPartCommand="69" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="8" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="4" tableId="20" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play animation &apos;sfx_08&apos;" id="1037" order="44" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="184" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide animation &apos;sfx_07&apos;" id="1038" order="45" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="183" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide animation &apos;sfx_09&apos;" id="1039" order="46" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="185" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="End if" id="1040" order="47" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If value &apos;sfx_volume&apos; = 9" id="1041" order="48" lastModified="-1" ActionPartCommand="69" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="9" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="4" tableId="20" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play animation &apos;sfx_09&apos;" id="1042" order="49" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="185" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide animation &apos;sfx_08&apos;" id="1043" order="50" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="184" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide animation &apos;sfx_10&apos;" id="1044" order="51" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="186" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="End if" id="1045" order="52" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If value &apos;sfx_volume&apos; = 10" id="1046" order="53" lastModified="-1" ActionPartCommand="69" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="10" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="4" tableId="20" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play animation &apos;sfx_10&apos;" id="1047" order="54" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="186" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide animation &apos;sfx_09&apos;" id="1048" order="55" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="185" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="End if" id="1050" order="57" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Call action &apos;sfx_number_change&apos;" id="1051" order="5" lastModified="-1" ActionPartCommand="148" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="221" tableId="7" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Call action &apos;sfx_number_change&apos;" id="1052" order="5" lastModified="-1" ActionPartCommand="148" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="221" tableId="7" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Call action &apos;sfx_number_change&apos;" id="1053" order="6" lastModified="-1" ActionPartCommand="148" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="221" tableId="7" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play animation &apos;sfx_minus_pressed&apos;" id="1054" order="0" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="175" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide animation &apos;sfx_minus_pressed&apos;" id="1055" order="8" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="175" tableId="9" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 	</ActionParts>
@@ -9304,7 +9635,7 @@
 			</AnimationPauses>
 		</Animation>
 		<Animation name="sfx_minus_normal" id="173" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
-			<AnimationPosition x="800" y="200"/>
+			<AnimationPosition x="801" y="201"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
 				<sprite name="" pause="-24832" path="Assets/UI/Buttons/OptionsMenu/minus_normal.png" Transparency="2">
@@ -9321,9 +9652,12 @@
 			</AnimationPauses>
 		</Animation>
 		<Animation name="sfx_minus_highlight" id="174" order="1" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
-			<AnimationPosition x="0" y="0"/>
+			<AnimationPosition x="801" y="201"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
+				<sprite name="" pause="0" path="Assets/UI/Buttons/OptionsMenu/minus_highlight.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationCenter x="0" y="0"/>
@@ -9335,9 +9669,12 @@
 			</AnimationPauses>
 		</Animation>
 		<Animation name="sfx_minus_pressed" id="175" order="2" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
-			<AnimationPosition x="0" y="0"/>
+			<AnimationPosition x="801" y="201"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
+				<sprite name="" pause="122" path="Assets/UI/Buttons/OptionsMenu/minus_pressed.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationCenter x="0" y="0"/>
@@ -9366,9 +9703,12 @@
 			</AnimationPauses>
 		</Animation>
 		<Animation name="sfx_01" id="177" order="1" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
-			<AnimationPosition x="0" y="0"/>
+			<AnimationPosition x="875" y="190"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
+				<sprite name="" pause="0" path="Assets/UI/Buttons/OptionsMenu/01.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationCenter x="0" y="0"/>
@@ -9380,9 +9720,12 @@
 			</AnimationPauses>
 		</Animation>
 		<Animation name="sfx_02" id="178" order="2" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
-			<AnimationPosition x="0" y="0"/>
+			<AnimationPosition x="875" y="190"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
+				<sprite name="" pause="111" path="Assets/UI/Buttons/OptionsMenu/02.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationCenter x="0" y="0"/>
@@ -9394,9 +9737,12 @@
 			</AnimationPauses>
 		</Animation>
 		<Animation name="sfx_03" id="179" order="3" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
-			<AnimationPosition x="0" y="0"/>
+			<AnimationPosition x="875" y="190"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
+				<sprite name="" pause="24832" path="Assets/UI/Buttons/OptionsMenu/03.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationCenter x="0" y="0"/>
@@ -9408,9 +9754,12 @@
 			</AnimationPauses>
 		</Animation>
 		<Animation name="sfx_04" id="180" order="4" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
-			<AnimationPosition x="0" y="0"/>
+			<AnimationPosition x="875" y="190"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
+				<sprite name="" pause="0" path="Assets/UI/Buttons/OptionsMenu/04.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationCenter x="0" y="0"/>
@@ -9422,9 +9771,12 @@
 			</AnimationPauses>
 		</Animation>
 		<Animation name="sfx_05" id="181" order="5" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
-			<AnimationPosition x="0" y="0"/>
+			<AnimationPosition x="875" y="190"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
+				<sprite name="" pause="-26272" path="Assets/UI/Buttons/OptionsMenu/05.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationCenter x="0" y="0"/>
@@ -9436,9 +9788,12 @@
 			</AnimationPauses>
 		</Animation>
 		<Animation name="sfx_06" id="182" order="6" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
-			<AnimationPosition x="0" y="0"/>
+			<AnimationPosition x="875" y="190"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
+				<sprite name="" pause="0" path="Assets/UI/Buttons/OptionsMenu/06.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationCenter x="0" y="0"/>
@@ -9450,9 +9805,12 @@
 			</AnimationPauses>
 		</Animation>
 		<Animation name="sfx_07" id="183" order="7" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
-			<AnimationPosition x="0" y="0"/>
+			<AnimationPosition x="875" y="190"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
+				<sprite name="" pause="0" path="Assets/UI/Buttons/OptionsMenu/07.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationCenter x="0" y="0"/>
@@ -9464,9 +9822,12 @@
 			</AnimationPauses>
 		</Animation>
 		<Animation name="sfx_08" id="184" order="8" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
-			<AnimationPosition x="0" y="0"/>
+			<AnimationPosition x="875" y="190"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
+				<sprite name="" pause="0" path="Assets/UI/Buttons/OptionsMenu/08.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationCenter x="0" y="0"/>
@@ -9478,9 +9839,12 @@
 			</AnimationPauses>
 		</Animation>
 		<Animation name="sfx_09" id="185" order="9" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
-			<AnimationPosition x="0" y="0"/>
+			<AnimationPosition x="875" y="190"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
+				<sprite name="" pause="0" path="Assets/UI/Buttons/OptionsMenu/09.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationCenter x="0" y="0"/>
@@ -9492,9 +9856,12 @@
 			</AnimationPauses>
 		</Animation>
 		<Animation name="sfx_10" id="186" order="10" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
-			<AnimationPosition x="0" y="0"/>
+			<AnimationPosition x="875" y="190"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
+				<sprite name="" pause="0" path="Assets/UI/Buttons/OptionsMenu/10.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationCenter x="0" y="0"/>
@@ -9506,7 +9873,7 @@
 			</AnimationPauses>
 		</Animation>
 		<Animation name="sfx_plus_normal" id="187" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
-			<AnimationPosition x="980" y="200"/>
+			<AnimationPosition x="981" y="201"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
 				<sprite name="" pause="0" path="Assets/UI/Buttons/OptionsMenu/plus_normal.png" Transparency="2">
@@ -9523,9 +9890,12 @@
 			</AnimationPauses>
 		</Animation>
 		<Animation name="sfx_plus_highlight" id="188" order="1" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
-			<AnimationPosition x="0" y="0"/>
+			<AnimationPosition x="981" y="201"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
+				<sprite name="" pause="103" path="Assets/UI/Buttons/OptionsMenu/plus_highlight.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationCenter x="0" y="0"/>
@@ -9537,9 +9907,12 @@
 			</AnimationPauses>
 		</Animation>
 		<Animation name="sfx_plus_pressed" id="189" order="2" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
-			<AnimationPosition x="0" y="0"/>
+			<AnimationPosition x="981" y="201"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
+				<sprite name="" pause="0" path="Assets/UI/Buttons/OptionsMenu/plus_pressed.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationCenter x="0" y="0"/>
@@ -10210,7 +10583,7 @@
 			</SpriteSprite>
 		</Sprite>
 	</Sprites>
-	<Texts newId="532" versionedId="-1" tableId="14">
+	<Texts newId="548" versionedId="-1" tableId="14">
 		<Text name="new_game_txt" id="1" order="1" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
@@ -11490,7 +11863,7 @@
 	</ParticleContainers>
 	<CommentSetEntries newId="0" versionedId="-1" tableId="27">
 	</CommentSetEntries>
-	<AnimationFrames newId="4" versionedId="-1" tableId="28">
+	<AnimationFrames newId="18" versionedId="-1" tableId="28">
 	</AnimationFrames>
 	<WaySystems newId="5" versionedId="-1" tableId="29">
 		<WaySystem name="normal" id="2" order="2" lastModified="-1">
