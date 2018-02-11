@@ -223,6 +223,18 @@ Assets\UI\Buttons\OptionsMenu\english_pressed.png
 Assets\UI\Buttons\OptionsMenu\castellano_normal.png
 Assets\UI\Buttons\OptionsMenu\castellano_highlight.png
 Assets\UI\Buttons\OptionsMenu\castellano_pressed.png
+Assets\UI\Buttons\OptionsMenu\resolution_normal.png
+Assets\UI\Buttons\OptionsMenu\1920X1080_normal.png
+Assets\UI\Buttons\OptionsMenu\1920X1080_highlight.png
+Assets\UI\Buttons\OptionsMenu\1920X1080_pressed.png
+Assets\UI\Buttons\OptionsMenu\1280X720_normal.png
+Assets\UI\Buttons\OptionsMenu\1280X720_highlight.png
+Assets\UI\Buttons\OptionsMenu\1280X720_pressed.png
+Assets\UI\Buttons\OptionsMenu\1600X1200_normal.png
+Assets\UI\Buttons\OptionsMenu\1600X1200_highlight.png
+Assets\UI\Buttons\OptionsMenu\1600X1200_pressed.png
+Assets\UI\Buttons\OptionsMenu\fullscreen_circle.png
+Assets\UI\Buttons\OptionsMenu\fullscreen_bar.png
 --------------------------------------------------------------------------------
 Container 'C:\Users\Zoé González\Documents\GitHub\AustraNlia\AustraNlia\Build\Scene001.vs'
 -------------------------------------------------------------------------------
