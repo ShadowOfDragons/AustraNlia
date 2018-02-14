@@ -1,15 +1,11 @@
-Missing: Assets\Characters\Ica\Standing\Front\ica_front_stand_001.png
-Missing: Assets\Characters\Ica\Standing\Front\ica_front_stand_001.png
-Missing: Assets\Characters\Ica\Standing\Front\ica_front_stand_001.png
-Missing: Assets\Characters\Ica\Standing\Front\ica_front_stand_001.png
-Missing: Assets\Characters\Mierins\concept_character_04.png
-Missing: Assets\Characters\Mierins\concept_character_04.png
-Missing: Assets\Characters\Ica\Standing\Front\ica_front_stand_001.png
-Missing: Assets\Characters\Ica\Standing\Front\ica_front_stand_001.png
-Missing: Assets\Characters\Ica\Standing\Front\ica_front_stand_001.png
-Missing: Assets\Characters\Ica\Standing\Front\ica_front_stand_001.png
-Missing: Assets\Characters\Mierins\concept_character_04.png
-Missing: Assets\Characters\Mierins\concept_character_04.png
+Missing: Assets\UI\Cursors\hand.png
+Missing: Assets\UI\Cursors\hand.png
+Missing: Assets\UI\Cursors\dialog.png
+Missing: Assets\UI\Cursors\dialog.png
+Missing: Assets\UI\Cursors\hand.png
+Missing: Assets\UI\Cursors\hand.png
+Missing: Assets\UI\Cursors\dialog.png
+Missing: Assets\UI\Cursors\dialog.png
 Container 'C:\Users\Zoé González\Documents\GitHub\AustraNlia\AustraNlia\Build\Scene003.vs'
 -------------------------------------------------------------------------------
 Assets\Rooms\MierinsOffice\empty_office.png
@@ -242,8 +238,8 @@ Container 'C:\Users\Zoé González\Documents\GitHub\AustraNlia\AustraNlia\Build\
 -------------------------------------------------------------------------------
 Assets\UI\GUI\inventory_01.png
 Assets\UI\GUI\mouse_wheel_chad.png
-Assets\UI\Cursors\hand.png
-Assets\UI\Cursors\dialog.png
+Assets\UI\Cursors\take_give.png
+Assets\UI\Cursors\talk.png
 Assets\UI\Cursors\eye.png
 Assets\UI\GUI\icon_char_change_01.png
 Assets\UI\GUI\inventory_02.png
@@ -455,6 +451,18 @@ Assets\Rooms\MainMenu\concept_header_02.png
 --------------------------------------------------------------------------------
 Container 'C:\Users\Zoé González\Documents\GitHub\AustraNlia\AustraNlia\Build\Character001.vc'
 -------------------------------------------------------------------------------
+Assets\Characters\Ica\Walk\walk_cycle_ica_000.png
+Assets\Characters\Ica\Walk\walk_cycle_ica_001.png
+Assets\Characters\Ica\Walk\walk_cycle_ica_002.png
+Assets\Characters\Ica\Walk\walk_cycle_ica_003.png
+Assets\Characters\Ica\Walk\walk_cycle_ica_004.png
+Assets\Characters\Ica\Walk\walk_cycle_ica_005.png
+Assets\Characters\Ica\Walk\walk_cycle_ica_006.png
+Assets\Characters\Ica\Walk\walk_cycle_ica_007.png
+Assets\Characters\Ica\Walk\walk_cycle_ica_008.png
+Assets\Characters\Ica\Walk\walk_cycle_ica_009.png
+Assets\Characters\Ica\Walk\walk_cycle_ica_010.png
+Assets\Characters\Ica\Walk\walk_cycle_ica_011.png
 Assets\Characters\Ica\Standing\Front\ica_idle_500px_000.png
 Assets\Characters\Ica\Standing\Front\ica_idle_500px_001.png
 Assets\Characters\Ica\Standing\Front\ica_idle_500px_002.png
