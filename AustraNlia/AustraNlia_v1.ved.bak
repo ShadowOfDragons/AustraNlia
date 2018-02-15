@@ -41,7 +41,7 @@
 			<Link parentLink="T" id="1" tableId="18" LinkAny="F"/>
 			<Link parentLink="T" id="2" tableId="18" LinkAny="F"/>
 		</GameLanguages>
-		<GameFirstScene parentLink="F" id="2" tableId="4" LinkAny="F"/>
+		<GameFirstScene parentLink="F" id="0" tableId="4" LinkAny="F"/>
 		<GameItems>
 			<Link parentLink="T" id="4" tableId="6" LinkAny="F"/>
 			<Link parentLink="T" id="6" tableId="6" LinkAny="F"/>
@@ -254,7 +254,7 @@
 			</CharacterOutfits>
 			<CharacterCommentSets>
 			</CharacterCommentSets>
-			<CharacterStartObject parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<CharacterStartObject parentLink="F" id="100" tableId="6" LinkAny="F"/>
 			<CharacterValues>
 			</CharacterValues>
 			<CharacterConditions>
@@ -1098,7 +1098,7 @@
 		</Font>
 	</Fonts>
 	<Scenes newId="11" versionedId="-1" tableId="4">
-		<Scene name="mierins_office" id="0" order="5" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+		<Scene name="mierins_office" id="0" order="5" lastModified="-1" SceneBackgroundMusic="Assets\Music\mierins_office.ogg" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="Assets/Rooms/MierinsOffice/empty_office.png" Transparency="2">
 				<position x="0" y="0"/>
 			</SceneSprite>
@@ -1147,6 +1147,7 @@
 			<SceneActions>
 				<Link parentLink="T" id="85" tableId="7" LinkAny="F"/>
 				<Link parentLink="T" id="170" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="281" tableId="7" LinkAny="F"/>
 			</SceneActions>
 			<SceneSavegameFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<SceneParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -1157,7 +1158,6 @@
 			</SceneWaySystems>
 			<SceneCurrentWaySystem parentLink="F" id="2" tableId="29" LinkAny="F"/>
 			<SceneActionAreas>
-				<Link parentLink="T" id="0" tableId="32" LinkAny="F"/>
 			</SceneActionAreas>
 			<SceneAudioBusses>
 			</SceneAudioBusses>
@@ -1391,11 +1391,13 @@
 			</SceneAudioBusses>
 		</Scene>
 		<Scene name="central_taramar" id="10" order="8" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
-			<SceneSprite name="" pause="-1" path="" Transparency="2">
+			<SceneSprite name="" pause="-1" path="Assets/Rooms/CentralTaramar/Central_Taramar.png" Transparency="2">
 				<position x="0" y="0"/>
 			</SceneSprite>
 			<SceneName parentLink="T" id="672" tableId="14" LinkAny="F"/>
 			<SceneObjects>
+				<Link parentLink="T" id="99" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="100" tableId="6" LinkAny="F"/>
 			</SceneObjects>
 			<SceneCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<SceneSavegameAreas>
@@ -1410,15 +1412,16 @@
 			<SceneParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<SceneScrollableArea top="0" left="0" bottom="-1" right="-1"/>
 			<SceneWaySystems>
+				<Link parentLink="T" id="8" tableId="29" LinkAny="F"/>
 			</SceneWaySystems>
-			<SceneCurrentWaySystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneCurrentWaySystem parentLink="F" id="8" tableId="29" LinkAny="F"/>
 			<SceneActionAreas>
 			</SceneActionAreas>
 			<SceneAudioBusses>
 			</SceneAudioBusses>
 		</Scene>
 	</Scenes>
-	<Points newId="115" versionedId="-1" tableId="5">
+	<Points newId="126" versionedId="-1" tableId="5">
 		<Point name="Point0" id="62" order="0" lastModified="-1" PointSize="90">
 			<PointPosition x="1243" y="619"/>
 			<PointRelations>
@@ -1750,8 +1753,69 @@
 				<Link parentLink="F" id="113" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
+		<Point name="Point0" id="115" order="0" lastModified="-1" PointSize="-1">
+			<PointPosition x="272" y="887"/>
+			<PointRelations>
+				<Link parentLink="F" id="116" tableId="5" LinkAny="F"/>
+			</PointRelations>
+		</Point>
+		<Point name="Point1" id="116" order="1" lastModified="-1" PointSize="-1">
+			<PointPosition x="245" y="815"/>
+			<PointRelations>
+				<Link parentLink="F" id="115" tableId="5" LinkAny="F"/>
+				<Link parentLink="F" id="117" tableId="5" LinkAny="F"/>
+			</PointRelations>
+		</Point>
+		<Point name="Point2" id="117" order="2" lastModified="-1" PointSize="-1">
+			<PointPosition x="737" y="774"/>
+			<PointRelations>
+				<Link parentLink="F" id="116" tableId="5" LinkAny="F"/>
+				<Link parentLink="F" id="118" tableId="5" LinkAny="F"/>
+			</PointRelations>
+		</Point>
+		<Point name="Point3" id="118" order="3" lastModified="-1" PointSize="35">
+			<PointPosition x="1223" y="836"/>
+			<PointRelations>
+				<Link parentLink="F" id="117" tableId="5" LinkAny="F"/>
+				<Link parentLink="F" id="119" tableId="5" LinkAny="F"/>
+				<Link parentLink="F" id="120" tableId="5" LinkAny="F"/>
+			</PointRelations>
+		</Point>
+		<Point name="Point4" id="119" order="4" lastModified="-1" PointSize="25">
+			<PointPosition x="1375" y="727"/>
+			<PointRelations>
+				<Link parentLink="F" id="118" tableId="5" LinkAny="F"/>
+			</PointRelations>
+		</Point>
+		<Point name="Point5" id="120" order="5" lastModified="-1" PointSize="60">
+			<PointPosition x="1098" y="1063"/>
+			<PointRelations>
+				<Link parentLink="F" id="118" tableId="5" LinkAny="F"/>
+				<Link parentLink="F" id="121" tableId="5" LinkAny="F"/>
+				<Link parentLink="F" id="122" tableId="5" LinkAny="F"/>
+			</PointRelations>
+		</Point>
+		<Point name="Point6" id="121" order="6" lastModified="-1" PointSize="80">
+			<PointPosition x="1094" y="1313"/>
+			<PointRelations>
+				<Link parentLink="F" id="120" tableId="5" LinkAny="F"/>
+			</PointRelations>
+		</Point>
+		<Point name="Point7" id="122" order="7" lastModified="-1" PointSize="70">
+			<PointPosition x="1379" y="1129"/>
+			<PointRelations>
+				<Link parentLink="F" id="120" tableId="5" LinkAny="F"/>
+				<Link parentLink="F" id="123" tableId="5" LinkAny="F"/>
+			</PointRelations>
+		</Point>
+		<Point name="Point8" id="123" order="8" lastModified="-1" PointSize="-1">
+			<PointPosition x="1821" y="1125"/>
+			<PointRelations>
+				<Link parentLink="F" id="122" tableId="5" LinkAny="F"/>
+			</PointRelations>
+		</Point>
 	</Points>
-	<Objects newId="99" versionedId="-1" tableId="6">
+	<Objects newId="101" versionedId="-1" tableId="6">
 		<Object name="mierins_office_start_point" id="0" order="4" lastModified="-1" ObjectDirection="-1" ObjectCenter="0" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="25" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
@@ -2932,6 +2996,8 @@
 			<ObjectActions>
 				<Link parentLink="T" id="194" tableId="7" LinkAny="F"/>
 				<Link parentLink="T" id="242" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="279" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="280" tableId="7" LinkAny="F"/>
 			</ObjectActions>
 			<ObjectConditions>
 				<Link parentLink="T" id="38" tableId="10" LinkAny="F"/>
@@ -3728,8 +3794,50 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
+		<Object name="start_position" id="99" order="0" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+			<ObjectName parentLink="T" id="691" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="256" y="822"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Object>
+		<Object name="ica_pos" id="100" order="1" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+			<ObjectName parentLink="T" id="692" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="1495" y="1125"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Object>
 	</Objects>
-	<Actions newId="276" versionedId="-1" tableId="7">
+	<Actions newId="282" versionedId="-1" tableId="7">
 		<Action name="Action" id="0" order="0" lastModified="-1" ActionExecutionType="-1">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -4194,6 +4302,8 @@
 				<Link parentLink="T" id="403" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="404" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="1253" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1473" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1479" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Left click" id="90" order="4" lastModified="-1" ActionExecutionType="7">
@@ -4652,7 +4762,7 @@
 				<Link parentLink="T" id="821" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
-		<Action name="mierins_exposition" id="170" order="1" lastModified="-1" ActionExecutionType="5">
+		<Action name="mierins_exposition" id="170" order="2" lastModified="-1" ActionExecutionType="5">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionActionParts>
@@ -4830,15 +4940,6 @@
 			<ActionActionParts>
 				<Link parentLink="T" id="805" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="806" tableId="8" LinkAny="F"/>
-			</ActionActionParts>
-		</Action>
-		<Action name="Unnamed" id="193" order="193" lastModified="-1" ActionExecutionType="29">
-			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ActionActionParts>
-				<Link parentLink="T" id="807" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="808" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="809" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="&apos;item_office_carpet&apos; dropped" id="194" order="0" lastModified="-1" ActionExecutionType="3">
@@ -5649,6 +5750,7 @@
 				<Link parentLink="T" id="1444" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="1445" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="1446" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1477" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="&apos;item_office_key&apos; dropped" id="267" order="0" lastModified="-1" ActionExecutionType="3">
@@ -5659,6 +5761,7 @@
 				<Link parentLink="T" id="1454" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="1455" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="1457" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1478" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="&apos;chad_look&apos; executed" id="268" order="0" lastModified="-1" ActionExecutionType="6">
@@ -5724,10 +5827,39 @@
 				<Link parentLink="T" id="1466" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="1467" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="1468" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1480" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Called by other action" id="279" order="2" lastModified="-1" ActionExecutionType="5">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="1472" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="&apos;chad_walk&apos; executed" id="280" order="3" lastModified="-1" ActionExecutionType="6">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="1" tableId="2" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="1474" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1475" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1476" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="chad_leaves" id="281" order="1" lastModified="-1" ActionExecutionType="5">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="1481" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1482" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1483" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1484" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1485" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1486" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 	</Actions>
-	<ActionParts newId="1469" versionedId="-1" tableId="8">
+	<ActionParts newId="1487" versionedId="-1" tableId="8">
 		<ActionPart name="Clear saved object" id="0" order="0" lastModified="-1" ActionPartCommand="106" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -6288,23 +6420,23 @@
 			<ActionPartLink parentLink="F" id="4" tableId="29" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Send character &apos;Current character&apos; to position (1245,623) and wait" id="380" order="9" lastModified="-1" ActionPartCommand="47" ActionPartPath="" ActionPartInt="1245" ActionPartAltInt="623" ActionPartAltInt2="1" ActionPartString="">
+		<ActionPart name="Send character &apos;Current character&apos; to position (1245,623) and wait" id="380" order="10" lastModified="-1" ActionPartCommand="47" ActionPartPath="" ActionPartInt="1245" ActionPartAltInt="623" ActionPartAltInt2="1" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="npc_mierins: Espero que seas quien yo creo que eres, si no, largo de aquí." id="381" order="10" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="npc_mierins: I hope you are who I think you are, or else, get out." id="381" order="12" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="286" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="2" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Start dialog &apos;enter_mierins_office&apos;" id="382" order="11" lastModified="-1" ActionPartCommand="13" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Start dialog &apos;enter_mierins_office&apos;" id="382" order="13" lastModified="-1" ActionPartCommand="13" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="0" tableId="11" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="npc_mierins: Bueno, acércate y ganáte tu sueldo." id="396" order="14" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="npc_mierins: Anyway, come closer if you want to earn your paycheck." id="396" order="16" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="307" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="2" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="If condition &apos;enter_dialog_done&apos; is true" id="397" order="13" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="If condition &apos;enter_dialog_done&apos; is true" id="397" order="15" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="28" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -6316,15 +6448,15 @@
 			<ActionPartLink parentLink="F" id="28" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Wait until &apos;enter_dialog_done&apos; was changed" id="401" order="12" lastModified="-1" ActionPartCommand="165" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Wait until &apos;enter_dialog_done&apos; was changed" id="401" order="14" lastModified="-1" ActionPartCommand="165" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="28" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="End if" id="403" order="15" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="End if" id="403" order="17" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Set way system &apos;mierins_office: normal&apos;" id="404" order="16" lastModified="-1" ActionPartCommand="133" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Set way system &apos;mierins_office: normal&apos;" id="404" order="18" lastModified="-1" ActionPartCommand="133" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="2" tableId="29" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -7414,18 +7546,6 @@
 		</ActionPart>
 		<ActionPart name="Change condition &apos;carpet_visible&apos; to false" id="806" order="2" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="37" tableId="10" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="Play sound &apos;step_on_glass.wav&apos;" id="807" order="1" lastModified="-1" ActionPartCommand="24" ActionPartPath="Assets/SFX/step_on_glass.wav" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="1" tableId="37" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="If condition &apos;carpet_used&apos; is false" id="808" order="0" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="38" tableId="10" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="End if" id="809" order="2" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="If condition &apos;carpet_used&apos; is true" id="810" order="1" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
@@ -9420,11 +9540,11 @@
 			<ActionPartLink parentLink="F" id="35" tableId="6" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Add item &apos;item_office_key&apos; to character &apos;Current character&apos;" id="1445" order="4" lastModified="-1" ActionPartCommand="150" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="1" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Add item &apos;item_office_key&apos; to character &apos;Current character&apos;" id="1445" order="5" lastModified="-1" ActionPartCommand="150" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="1" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="53" tableId="6" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="End if" id="1446" order="5" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="End if" id="1446" order="6" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -9460,11 +9580,11 @@
 			<ActionPartLink parentLink="F" id="90" tableId="9" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Play animation &apos;locker_open&apos;" id="1455" order="2" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Play animation &apos;locker_open&apos;" id="1455" order="3" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="91" tableId="9" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Change condition &apos;locker_open&apos; to true" id="1457" order="3" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Change condition &apos;locker_open&apos; to true" id="1457" order="4" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="60" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -9472,7 +9592,7 @@
 			<ActionPartLink parentLink="F" id="60" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="pc_chad: Cerrado." id="1459" order="1" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="pc_chad: It&apos;s locked." id="1459" order="1" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="661" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
@@ -9492,7 +9612,7 @@
 			<ActionPartLink parentLink="F" id="92" tableId="9" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="End if" id="1464" order="10" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="End if" id="1464" order="14" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -9500,17 +9620,77 @@
 			<ActionPartLink parentLink="F" id="61" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="npc_mierins: Anda, lo has conesguido. No está mal." id="1466" order="7" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="npc_mierins: Ah, you actually did it. Not bad at all." id="1466" order="7" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="669" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="2" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="npc_mierins: Si conectas esa pieza a tu Omni-Pad, podrás ver la información que he recogido." id="1467" order="8" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="npc_mierins: If you connect that piece to your Omni-Pad, it will display the data I collected previously." id="1467" order="8" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="670" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="2" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="npc_mierins: ¡Ahora vete a Taramar y ponte a trabajar immediatamente!" id="1468" order="9" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="npc_mierins: Now, go to Taramar and get to work immediatly!" id="1468" order="9" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="671" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="2" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play sound &apos;step_on_glass.ogg&apos;" id="1472" order="0" lastModified="-1" ActionPartCommand="24" ActionPartPath="Assets\SFX\step_on_glass.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Call action &apos;Called by other action&apos;" id="1473" order="11" lastModified="-1" ActionPartCommand="148" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="279" tableId="7" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play sound &apos;step_on_glass.ogg&apos;" id="1474" order="1" lastModified="-1" ActionPartCommand="24" ActionPartPath="Assets\SFX\step_on_glass.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If condition &apos;carpet_used&apos; is false" id="1475" order="0" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="38" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="End if" id="1476" order="2" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play sound &apos;bubbles.ogg&apos;" id="1477" order="4" lastModified="-1" ActionPartCommand="24" ActionPartPath="Assets\SFX\bubbles.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play sound &apos;lock.ogg&apos;" id="1478" order="2" lastModified="-1" ActionPartCommand="24" ActionPartPath="Assets\SFX\lock.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play sound &apos;door_open.ogg&apos;" id="1479" order="9" lastModified="-1" ActionPartCommand="24" ActionPartPath="Assets\SFX\door_open.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Call action &apos;chad_leaves&apos;" id="1480" order="13" lastModified="-1" ActionPartCommand="148" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="281" tableId="7" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Set way system &apos;mierins_office: enter_exit&apos;" id="1481" order="0" lastModified="-1" ActionPartCommand="133" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="4" tableId="29" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Send character &apos;Current character&apos; to position (739,622) and wait" id="1482" order="1" lastModified="-1" ActionPartCommand="47" ActionPartPath="" ActionPartInt="739" ActionPartAltInt="622" ActionPartAltInt2="1" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play sound &apos;door_close.ogg&apos;" id="1483" order="2" lastModified="-1" ActionPartCommand="24" ActionPartPath="Assets\SFX\door_close.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Start color overlay" id="1484" order="3" lastModified="-1" ActionPartCommand="162" ActionPartPath="" ActionPartInt="1500" ActionPartAltInt="100" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Pause for 1500 milliseconds" id="1485" order="4" lastModified="-1" ActionPartCommand="30" ActionPartPath="" ActionPartInt="1500" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Switch to scene &apos;central_taramar&apos;" id="1486" order="5" lastModified="-1" ActionPartCommand="10" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="99" tableId="6" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 	</ActionParts>
 	<Animations newId="251" versionedId="-1" tableId="9">
@@ -9609,6 +9789,8 @@
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationCenter x="180" y="460"/>
 			<AnimationPropertyFrames>
+				<Link parentLink="T" id="3" tableId="28" LinkAny="F"/>
+				<Link parentLink="T" id="4" tableId="28" LinkAny="F"/>
 			</AnimationPropertyFrames>
 			<AnimationWalkSteps>
 			</AnimationWalkSteps>
@@ -10368,6 +10550,8 @@
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationCenter x="206" y="496"/>
 			<AnimationPropertyFrames>
+				<Link parentLink="T" id="5" tableId="28" LinkAny="F"/>
+				<Link parentLink="T" id="6" tableId="28" LinkAny="F"/>
 			</AnimationPropertyFrames>
 			<AnimationWalkSteps>
 			</AnimationWalkSteps>
@@ -14598,7 +14782,7 @@
 			</SpriteSprite>
 		</Sprite>
 	</Sprites>
-	<Texts newId="673" versionedId="-1" tableId="14">
+	<Texts newId="693" versionedId="-1" tableId="14">
 		<Text name="new_game_txt" id="1" order="1" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
@@ -15964,6 +16148,16 @@
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
+		<Text name="Unnamed" id="691" order="691" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="692" order="692" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
 	</Texts>
 	<Cursors newId="5" versionedId="-1" tableId="15">
 		<Cursor name="cursor_arrow" id="0" order="0" lastModified="-1">
@@ -16125,9 +16319,21 @@
 	</ParticleContainers>
 	<CommentSetEntries newId="0" versionedId="-1" tableId="27">
 	</CommentSetEntries>
-	<AnimationFrames newId="0" versionedId="-1" tableId="28">
+	<AnimationFrames newId="7" versionedId="-1" tableId="28">
+		<AnimationFrame name="walk_right - Property Frame" id="3" order="0" lastModified="-1" AnimationFrameIndex="0" AnimationFrameSound="Assets\SFX\chad_step.ogg" AnimationFrameSoundVolume="100" AnimationFrameSoundBalance="0">
+			<AnimationFrameAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</AnimationFrame>
+		<AnimationFrame name="walk_right - Property Frame" id="4" order="1" lastModified="-1" AnimationFrameIndex="7" AnimationFrameSound="Assets\SFX\chad_step.ogg" AnimationFrameSoundVolume="100" AnimationFrameSoundBalance="0">
+			<AnimationFrameAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</AnimationFrame>
+		<AnimationFrame name="walk_right - Property Frame" id="5" order="0" lastModified="-1" AnimationFrameIndex="0" AnimationFrameSound="Assets\SFX\ica_step.ogg" AnimationFrameSoundVolume="100" AnimationFrameSoundBalance="0">
+			<AnimationFrameAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</AnimationFrame>
+		<AnimationFrame name="walk_right - Property Frame" id="6" order="1" lastModified="-1" AnimationFrameIndex="7" AnimationFrameSound="Assets\SFX\ica_step.ogg" AnimationFrameSoundVolume="100" AnimationFrameSoundBalance="0">
+			<AnimationFrameAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</AnimationFrame>
 	</AnimationFrames>
-	<WaySystems newId="8" versionedId="-1" tableId="29">
+	<WaySystems newId="9" versionedId="-1" tableId="29">
 		<WaySystem name="normal" id="2" order="2" lastModified="-1">
 			<WaySystemBorder>
 				<point x="1148" y="596"/>
@@ -16279,6 +16485,46 @@
 				<Link parentLink="T" id="114" tableId="5" LinkAny="F"/>
 			</WaySystemPoints>
 		</WaySystem>
+		<WaySystem name="normal" id="8" order="0" lastModified="-1">
+			<WaySystemBorder>
+				<point x="659" y="1368"/>
+				<point x="700" y="1211"/>
+				<point x="803" y="1073"/>
+				<point x="1110" y="858"/>
+				<point x="698" y="805"/>
+				<point x="311" y="819"/>
+				<point x="387" y="909"/>
+				<point x="385" y="950"/>
+				<point x="202" y="913"/>
+				<point x="206" y="852"/>
+				<point x="184" y="801"/>
+				<point x="752" y="768"/>
+				<point x="1178" y="801"/>
+				<point x="1342" y="682"/>
+				<point x="1467" y="690"/>
+				<point x="1463" y="809"/>
+				<point x="1336" y="817"/>
+				<point x="1403" y="889"/>
+				<point x="1375" y="903"/>
+				<point x="1475" y="1012"/>
+				<point x="1914" y="1004"/>
+				<point x="1916" y="1223"/>
+				<point x="1526" y="1221"/>
+				<point x="1520" y="1239"/>
+				<point x="1612" y="1370"/>
+			</WaySystemBorder>
+			<WaySystemPoints>
+				<Link parentLink="T" id="115" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="116" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="117" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="118" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="119" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="120" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="121" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="122" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="123" tableId="5" LinkAny="F"/>
+			</WaySystemPoints>
+		</WaySystem>
 	</WaySystems>
 	<Scripts newId="5" versionedId="-1" tableId="30">
 		<Script name="read_ini" id="0" order="1" lastModified="-1" ScriptScript="-- * globals * -- (used by read_ini and delete_ini)&lt;br/&gt;    local iniFilename = &apos;config.ini&apos;&lt;br/&gt;    local iniFile = io.open(iniFilename, &apos;r&apos;)&lt;br/&gt;     &lt;br/&gt;    -- * retrieves game settings from config.ini + sets condit?ions | values appropriately! * --&lt;br/&gt;    function read_ini()&lt;br/&gt;     &lt;br/&gt;    -- * locals * --&lt;br/&gt;    local r_fullscreen = getObject(&apos;Scenes[options_menu].SceneConditions[fullscreen?]&apos;)&lt;br/&gt;    local r_sfx = getObject(&apos;Scenes[options_menu].SceneConditions[sfx?]&apos;)&lt;br/&gt;    local r_resolution = getObject(&apos;Scenes[options_menu].SceneValues[resolution?]&apos;)&lt;br/&gt;    local r_language = getObject(&apos;Scenes[options_menu].SceneValues[language?]&apos;)&lt;br/&gt;    local r_quality = getObject(&apos;Scenes[options_menu].SceneValues[sfx_quality?]&apos;)&lt;br/&gt;     &lt;br/&gt;    -- * script * --&lt;br/&gt;     if iniFile then&lt;br/&gt;     local line = iniFile:read()&lt;br/&gt;     print(&apos;-- * --&apos;)&lt;br/&gt;     print(iniFilename .. &apos; exists!&apos;)&lt;br/&gt;     print(&apos;retrieving settings from &apos; .. iniFilename .. &apos;!&apos;)&lt;br/&gt;     for line in io.lines(iniFilename) do&lt;br/&gt;    -- * begin if else * --&lt;br/&gt;      if line == &apos;Fullscreen = No&apos; then&lt;br/&gt;       r_fullscreen:setValue(VConditionValue, false)&lt;br/&gt;       print(&apos;fullscreen mode is off!&apos;)&lt;br/&gt;      else&lt;br/&gt;      if line == &apos;Fullscreen = Yes&apos; then&lt;br/&gt;       r_fullscreen:setValue(VConditionValue, true)&lt;br/&gt;       print(&apos;fullscreen mode is on!&apos;)&lt;br/&gt;      end end&lt;br/&gt;    -- * --&lt;br/&gt;      if line == &apos;Resolution = Auto&apos; then&lt;br/&gt;       r_resolution:setValue(VValueInt, 0)&lt;br/&gt;       print(&apos;resolution is set to auto!&apos;)&lt;br/&gt;      else&lt;br/&gt;      if line == &apos;Resolution = 1920x1080&apos; then&lt;br/&gt;       r_resolution:setValue(VValueInt, 3)&lt;br/&gt;       print(&apos;resolution is currently set at 1920x1080!&apos;)&lt;br/&gt;      else&lt;br/&gt;      if line == &apos;Resolution = 1280x720&apos; then&lt;br/&gt;       r_resolution:setValue(VValueInt, 2)&lt;br/&gt;       print(&apos;resolution is currently set at 1280x720!&apos;)&lt;br/&gt;      else&lt;br/&gt;      if line == &apos;Resolution = 1600x1200&apos; then&lt;br/&gt;       r_resolution:setValue(VValueInt, 1)&lt;br/&gt;       print(&apos;resolution is currently set at 1600x1200!&apos;)&lt;br/&gt;      end end end end&lt;br/&gt;    -- * --&lt;br/&gt;      if line == &apos;Language = English&apos; then&lt;br/&gt;       r_language:setValue(VValueInt, 0)&lt;br/&gt;       print(&apos;Language is currently set to English!&apos;)&lt;br/&gt;      else&lt;br/&gt;      if line == &apos;Language = Spanish&apos; then&lt;br/&gt;       r_language:setValue(VValueInt, 1)&lt;br/&gt;       print(&apos;Language is currently set to Spanish!&apos;)&lt;br/&gt;      else&lt;br/&gt;      if line == &apos;Language = Catalan&apos; then&lt;br/&gt;       r_language:setValue(VValueInt, 2)&lt;br/&gt;       print(&apos;Language is currently set to Catalan!&apos;)&lt;br/&gt;      end end end&lt;br/&gt;    -- * --&lt;br/&gt;      if line == &apos;SFX = No&apos; then&lt;br/&gt;       r_sfx:setValue(VConditionValue, false)&lt;br/&gt;       print(&apos;special fx is currently set to basic mode!&apos;)&lt;br/&gt;      else&lt;br/&gt;      if line == &apos;SFX = Yes&apos; then&lt;br/&gt;       r_sfx:setValue(VConditionValue, true)&lt;br/&gt;       print(&apos;special fx is currently set to custom mode!&apos;)&lt;br/&gt;      end end&lt;br/&gt;    -- * --&lt;br/&gt;      if line == &apos;SFX_Quality = Low&apos; then&lt;br/&gt;       r_quality:setValue(VValueInt, 0)&lt;br/&gt;       print(&apos;special fx quality is currently set to Low!&apos;)&lt;br/&gt;      else&lt;br/&gt;      if line == &apos;SFX_Quality = Medium&apos; then&lt;br/&gt;       r_quality:setValue(VValueInt, 1)&lt;br/&gt;       print(&apos;special fx quality is currently set to Medium!&apos;)&lt;br/&gt;      else&lt;br/&gt;      if line == &apos;SFX_Quality = High&apos; then&lt;br/&gt;       r_quality:setValue(VValueInt, 2)&lt;br/&gt;       print(&apos;special fx quality is currently set to High!&apos;)&lt;br/&gt;      end end end&lt;br/&gt;      end&lt;br/&gt;       iniFile:close()&lt;br/&gt;       print(&apos;successfully retrieved settings from &apos; .. iniFilename .. &apos;!&apos;)&lt;br/&gt;       print(&apos;-- * --&apos;)&lt;br/&gt;    -- * end if else * --&lt;br/&gt;     else&lt;br/&gt;      print(iniFilename  .. &apos; does not exist!&apos;)&lt;br/&gt;     end&lt;br/&gt;    end&lt;br/&gt;     &lt;br/&gt;    -- * removes the config.ini file so we can replace it with the temporary file! (only called if we have edited any of the settings) * --&lt;br/&gt;    function delete_ini()&lt;br/&gt;    if iniFile then&lt;br/&gt;     os.remove(iniFilename)&lt;br/&gt;    else&lt;br/&gt;    end&lt;br/&gt;    end" ScriptType="1">
@@ -16304,20 +16550,9 @@
 		<InterfaceClass name="Miscellaneous" id="4" order="4" lastModified="-1" InterfaceClassName="Miscellaneous">
 		</InterfaceClass>
 	</InterfaceClasses>
-	<ActionAreas newId="1" versionedId="-1" tableId="32">
-		<ActionArea name="Action area0" id="0" order="0" lastModified="-1">
-			<ActionAreaPolygon>
-			</ActionAreaPolygon>
-			<ActionAreaActions>
-				<Link parentLink="T" id="0" tableId="33" LinkAny="F"/>
-			</ActionAreaActions>
-		</ActionArea>
+	<ActionAreas newId="2" versionedId="-1" tableId="32">
 	</ActionAreas>
-	<AreaActions newId="1" versionedId="-1" tableId="33">
-		<AreaAction name="glass_shards" id="0" order="0" lastModified="-1" AreaActionExecuteAlways="F">
-			<AreaActionCharacter parentLink="F" id="0" tableId="0" LinkAny="F"/>
-			<AreaActionAction parentLink="T" id="193" tableId="7" LinkAny="F"/>
-		</AreaAction>
+	<AreaActions newId="3" versionedId="-1" tableId="33">
 	</AreaActions>
 	<Shaders newId="0" versionedId="-1" tableId="36">
 	</Shaders>
