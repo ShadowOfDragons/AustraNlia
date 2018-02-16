@@ -494,7 +494,7 @@
 			</InterfaceConditions>
 			<InterfaceValues>
 			</InterfaceValues>
-			<InterfaceInterfaceClass parentLink="F" id="1" tableId="31" LinkAny="F"/>
+			<InterfaceInterfaceClass parentLink="F" id="4" tableId="31" LinkAny="F"/>
 		</Interface>
 		<Interface name="ica_inventory" id="8" order="5" lastModified="-1" InterfaceScrollStepSize="1" InterfaceDisplacement="4" InterfaceSize="-1" InterfaceDrawActionText="T" InterfaceShowAlways="F">
 			<InterfaceSprite name="" pause="-1" path="Assets/UI/GUI/inventory_02.png" Transparency="2">
@@ -542,7 +542,7 @@
 			</InterfaceConditions>
 			<InterfaceValues>
 			</InterfaceValues>
-			<InterfaceInterfaceClass parentLink="F" id="1" tableId="31" LinkAny="F"/>
+			<InterfaceInterfaceClass parentLink="F" id="4" tableId="31" LinkAny="F"/>
 		</Interface>
 		<Interface name="ica_verb_coin" id="14" order="7" lastModified="-1" InterfaceScrollStepSize="1" InterfaceDisplacement="5" InterfaceSize="-1" InterfaceDrawActionText="F" InterfaceShowAlways="F">
 			<InterfaceSprite name="" pause="-1" path="Assets/UI/GUI/mouse_wheel_ica.png" Transparency="2">
@@ -1771,7 +1771,7 @@
 				<Link parentLink="F" id="100" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
-		<Point name="Point1" id="100" order="1" lastModified="-1" PointSize="-1">
+		<Point name="Point1" id="100" order="1" lastModified="-1" PointSize="40">
 			<PointPosition x="297" y="1241"/>
 			<PointRelations>
 				<Link parentLink="F" id="99" tableId="5" LinkAny="F"/>
@@ -1827,7 +1827,7 @@
 				<Link parentLink="F" id="111" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
-		<Point name="Point9" id="111" order="9" lastModified="-1" PointSize="-1">
+		<Point name="Point9" id="111" order="9" lastModified="-1" PointSize="80">
 			<PointPosition x="3118" y="1533"/>
 			<PointRelations>
 				<Link parentLink="F" id="110" tableId="5" LinkAny="F"/>
@@ -1980,6 +1980,7 @@
 			<ObjectAnimation parentLink="F" id="62" tableId="9" LinkAny="F"/>
 			<ObjectActions>
 				<Link parentLink="T" id="19" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="295" tableId="7" LinkAny="F"/>
 			</ObjectActions>
 			<ObjectConditions>
 				<Link parentLink="T" id="1" tableId="10" LinkAny="F"/>
@@ -2592,7 +2593,7 @@
 			</ObjectAnimations>
 			<ObjectValues>
 			</ObjectValues>
-			<ObjectPosition x="0" y="0"/>
+			<ObjectPosition x="303" y="1044"/>
 			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
@@ -2611,6 +2612,7 @@
 			<ObjectAnimation parentLink="F" id="95" tableId="9" LinkAny="F"/>
 			<ObjectActions>
 				<Link parentLink="T" id="120" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="296" tableId="7" LinkAny="F"/>
 			</ObjectActions>
 			<ObjectConditions>
 				<Link parentLink="T" id="25" tableId="10" LinkAny="F"/>
@@ -3065,6 +3067,7 @@
 			<ObjectAnimation parentLink="F" id="155" tableId="9" LinkAny="F"/>
 			<ObjectActions>
 				<Link parentLink="T" id="191" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="297" tableId="7" LinkAny="F"/>
 			</ObjectActions>
 			<ObjectConditions>
 				<Link parentLink="T" id="37" tableId="10" LinkAny="F"/>
@@ -3476,7 +3479,7 @@
 			</ObjectAnimations>
 			<ObjectValues>
 			</ObjectValues>
-			<ObjectPosition x="0" y="0"/>
+			<ObjectPosition x="1675" y="866"/>
 			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
@@ -3887,7 +3890,7 @@
 			</ObjectAnimations>
 			<ObjectValues>
 			</ObjectValues>
-			<ObjectPosition x="0" y="0"/>
+			<ObjectPosition x="740" y="1037"/>
 			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
@@ -4184,7 +4187,7 @@
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
 	</Objects>
-	<Actions newId="295" versionedId="-1" tableId="7">
+	<Actions newId="299" versionedId="-1" tableId="7">
 		<Action name="Action" id="0" order="0" lastModified="-1" ActionExecutionType="-1">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -4593,7 +4596,7 @@
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="9" tableId="2" LinkAny="F"/>
 			<ActionActionParts>
-				<Link parentLink="T" id="136" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1506" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="&apos;chad_look&apos; executed" id="79" order="0" lastModified="-1" ActionExecutionType="6">
@@ -4653,6 +4656,7 @@
 				<Link parentLink="T" id="1479" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="1500" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="1501" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1510" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Left click" id="90" order="4" lastModified="-1" ActionExecutionType="7">
@@ -6118,6 +6122,7 @@
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="9" tableId="2" LinkAny="F"/>
 			<ActionActionParts>
+				<Link parentLink="T" id="1504" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="&apos;chad_look&apos; with &apos;item_old_cigarette&apos; executed (immediate)" id="269" order="0" lastModified="-1" ActionExecutionType="17">
@@ -6203,8 +6208,6 @@
 				<Link parentLink="T" id="1481" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="1482" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="1483" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="1484" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="1485" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="1486" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
@@ -6300,8 +6303,29 @@
 				<Link parentLink="T" id="1502" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
+		<Action name="&apos;chad_look&apos; executed" id="295" order="1" lastModified="-1" ActionExecutionType="6">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="9" tableId="2" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="1505" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="&apos;chad_look&apos; executed" id="296" order="2" lastModified="-1" ActionExecutionType="6">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="9" tableId="2" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="1507" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="&apos;chad_look&apos; executed" id="297" order="2" lastModified="-1" ActionExecutionType="6">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="9" tableId="2" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="1508" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
 	</Actions>
-	<ActionParts newId="1504" versionedId="-1" tableId="8">
+	<ActionParts newId="1511" versionedId="-1" tableId="8">
 		<ActionPart name="Clear saved object" id="0" order="0" lastModified="-1" ActionPartCommand="106" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -6560,10 +6584,6 @@
 		</ActionPart>
 		<ActionPart name="Start dialog &apos;lighter_got&apos;" id="116" order="1" lastModified="-1" ActionPartCommand="13" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="2" tableId="11" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="Current character: A relic from the past. It has fallen on disuse since the tobacco prohibition." id="136" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="T" id="154" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="pc_chad: Full of nonsense. Just add that the moon landing was fake while you&apos;re at it." id="137" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
@@ -6838,7 +6858,7 @@
 			<ActionPartLink parentLink="F" id="23" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Change condition &apos;bottle_avaliable&apos; to true" id="311" order="8" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Change condition &apos;bottle_avaliable&apos; to true" id="311" order="9" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="25" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -6850,7 +6870,7 @@
 			<ActionPartLink parentLink="F" id="25" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Show &apos;Inventory&apos;" id="319" order="6" lastModified="-1" ActionPartCommand="56" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Show &apos;Inventory&apos;" id="319" order="8" lastModified="-1" ActionPartCommand="56" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="1" tableId="31" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -6858,27 +6878,27 @@
 			<ActionPartLink parentLink="F" id="4" tableId="0" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Set way system &apos;mierins_office: enter_exit&apos;" id="379" order="9" lastModified="-1" ActionPartCommand="133" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Set way system &apos;mierins_office: enter_exit&apos;" id="379" order="10" lastModified="-1" ActionPartCommand="133" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="4" tableId="29" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Send character &apos;Current character&apos; to position (1245,623) and wait" id="380" order="11" lastModified="-1" ActionPartCommand="47" ActionPartPath="" ActionPartInt="1245" ActionPartAltInt="623" ActionPartAltInt2="1" ActionPartString="">
+		<ActionPart name="Send character &apos;Current character&apos; to position (1245,623) and wait" id="380" order="12" lastModified="-1" ActionPartCommand="47" ActionPartPath="" ActionPartInt="1245" ActionPartAltInt="623" ActionPartAltInt2="1" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="npc_mierins: I hope you are who I think you are, or else, get out." id="381" order="13" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="npc_mierins: Espero que seas quien yo creo que eres, si no, largo de aquí." id="381" order="14" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="286" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="2" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Start dialog &apos;enter_mierins_office&apos;" id="382" order="14" lastModified="-1" ActionPartCommand="13" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Start dialog &apos;enter_mierins_office&apos;" id="382" order="15" lastModified="-1" ActionPartCommand="13" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="0" tableId="11" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="npc_mierins: Anyway, come closer if you want to earn your paycheck." id="396" order="17" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="npc_mierins: Bueno, acércate y ganáte tu sueldo." id="396" order="18" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="307" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="2" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="If condition &apos;enter_dialog_done&apos; is true" id="397" order="16" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="If condition &apos;enter_dialog_done&apos; is true" id="397" order="17" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="28" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -6890,15 +6910,15 @@
 			<ActionPartLink parentLink="F" id="28" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Wait until &apos;enter_dialog_done&apos; was changed" id="401" order="15" lastModified="-1" ActionPartCommand="165" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Wait until &apos;enter_dialog_done&apos; was changed" id="401" order="16" lastModified="-1" ActionPartCommand="165" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="28" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="End if" id="403" order="18" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="End if" id="403" order="19" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Set way system &apos;mierins_office: normal&apos;" id="404" order="20" lastModified="-1" ActionPartCommand="133" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Set way system &apos;mierins_office: normal&apos;" id="404" order="21" lastModified="-1" ActionPartCommand="133" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="2" tableId="29" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -7498,7 +7518,7 @@
 			<ActionPartLink parentLink="F" id="1" tableId="31" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="If condition &apos;enter_dialog_done&apos; is false" id="592" order="1" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="If condition &apos;enter_dialog_done&apos; is true" id="592" order="1" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="28" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -9942,11 +9962,11 @@
 			<ActionPartLink parentLink="F" id="259" tableId="7" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="npc_mierins: ¡¿Pero qué haces?!" id="1434" order="3" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="npc_mierins: What are you doing?!" id="1434" order="3" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="635" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="2" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="pc_chad: Ups. Perdón." id="1436" order="4" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="pc_chad: Woops! Sorry." id="1436" order="4" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="638" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
@@ -9962,7 +9982,7 @@
 			<ActionPartLink parentLink="F" id="59" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="pc_chad: (Ahora parece distraído...)" id="1440" order="6" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="pc_chad: (He looks distracted now...)" id="1440" order="6" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="640" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
@@ -10010,7 +10030,7 @@
 			<ActionPartLink parentLink="T" id="652" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="pc_chad: A pamplet detailing the life of a sea cucumber. It says that when threatened the animal will throw up its own entrails t..." id="1452" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="pc_chad: Unos papeles que detallan la vida de un pepino de mar. Dicen que cuando se siente amenazado, vomita sus propias entrañas..." id="1452" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="653" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
@@ -10034,7 +10054,7 @@
 			<ActionPartLink parentLink="F" id="60" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="pc_chad: It&apos;s locked." id="1459" order="1" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="pc_chad: Cerrado." id="1459" order="1" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="661" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
@@ -10050,27 +10070,27 @@
 			<ActionPartLink parentLink="F" id="91" tableId="9" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Play animation &apos;locker_empty&apos;" id="1463" order="5" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Play animation &apos;locker_empty&apos;" id="1463" order="6" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="92" tableId="9" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="End if" id="1464" order="14" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="End if" id="1464" order="15" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Change condition &apos;omni_pad_obtained&apos; to true" id="1465" order="6" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Change condition &apos;omni_pad_obtained&apos; to true" id="1465" order="7" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="61" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="npc_mierins: Ah, you actually did it. Not bad at all." id="1466" order="7" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="npc_mierins: Anda, lo has conesguido. No está mal." id="1466" order="8" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="669" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="2" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="npc_mierins: If you connect that piece to your Omni-Pad, it will display the data I collected previously." id="1467" order="8" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="npc_mierins: Si conectas esa pieza a tu Omni-Pad, podrás ver la información que he recogido." id="1467" order="9" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="670" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="2" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="npc_mierins: Now, go to Taramar and get to work immediatly!" id="1468" order="9" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="npc_mierins: ¡Ahora vete a Taramar y ponte a trabajar immediatamente!" id="1468" order="13" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="671" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="2" tableId="0" LinkAny="F"/>
 		</ActionPart>
@@ -10078,7 +10098,7 @@
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Call action &apos;Called by other action&apos;" id="1473" order="12" lastModified="-1" ActionPartCommand="148" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Call action &apos;Called by other action&apos;" id="1473" order="13" lastModified="-1" ActionPartCommand="148" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="279" tableId="7" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -10102,11 +10122,11 @@
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Play sound &apos;door_open.ogg&apos;" id="1479" order="10" lastModified="-1" ActionPartCommand="24" ActionPartPath="Assets/SFX/door_open.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Play sound &apos;door_open.ogg&apos;" id="1479" order="11" lastModified="-1" ActionPartCommand="24" ActionPartPath="Assets/SFX/door_open.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Call action &apos;chad_leaves&apos;" id="1480" order="13" lastModified="-1" ActionPartCommand="148" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Call action &apos;chad_leaves&apos;" id="1480" order="14" lastModified="-1" ActionPartCommand="148" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="281" tableId="7" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -10122,14 +10142,6 @@
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Start color overlay" id="1484" order="3" lastModified="-1" ActionPartCommand="162" ActionPartPath="" ActionPartInt="1500" ActionPartAltInt="100" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="Pause for 1500 milliseconds" id="1485" order="4" lastModified="-1" ActionPartCommand="30" ActionPartPath="" ActionPartInt="1500" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
 		<ActionPart name="Switch to scene &apos;central_taramar&apos;" id="1486" order="5" lastModified="-1" ActionPartCommand="10" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="99" tableId="6" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -10142,8 +10154,8 @@
 			<ActionPartLink parentLink="F" id="0" tableId="15" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Switch to scene &apos;[empty]&apos;" id="1489" order="0" lastModified="-1" ActionPartCommand="10" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		<ActionPart name="Switch to scene &apos;bubble_forest&apos;" id="1489" order="0" lastModified="-1" ActionPartCommand="10" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="103" tableId="6" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="Set cursor &apos;cursor_door&apos;" id="1490" order="0" lastModified="-1" ActionPartCommand="94" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
@@ -10186,11 +10198,11 @@
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="If condition &apos;from_pause_menu&apos; is false" id="1500" order="1" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="If condition &apos;from_pause_menu&apos; is false" id="1500" order="6" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="62" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="End if" id="1501" order="19" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="End if" id="1501" order="20" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -10200,6 +10212,30 @@
 		</ActionPart>
 		<ActionPart name="Change condition &apos;from_pause_menu&apos; to false" id="1503" order="1" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="62" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="pc_chad: Unos papeles que detallan la vida de un pepino de mar. Dicen que cuando se siente amenazado, vomita sus propias entrañas..." id="1504" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="719" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="pc_chad: Una reliquia del pasado muy cara. Hoy en día su consumo está prohibido por razones de salud, pero otras substancias lo h..." id="1505" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="720" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="pc_chad: Una reliquia del pasado. No suele usarse desde la prohibicón del tabaco." id="1506" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="722" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="pc_chad: Una botella llena de licor. Parece caro y tiene un fuerte olor pese a estar sin abrir." id="1507" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="723" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="pc_chad: Es suave y parece que amortigua el sonido." id="1508" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="724" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide &apos;Miscellaneous&apos;" id="1510" order="1" lastModified="-1" ActionPartCommand="56" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="4" tableId="31" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 	</ActionParts>
@@ -19935,7 +19971,7 @@
 			</SpriteSprite>
 		</Sprite>
 	</Sprites>
-	<Texts newId="719" versionedId="-1" tableId="14">
+	<Texts newId="728" versionedId="-1" tableId="14">
 		<Text name="new_game_txt" id="1" order="1" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
@@ -20409,13 +20445,6 @@
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="lighter_descript_txt" id="154" order="154" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="A relic from the past. It has fallen on disuse since the tobacco prohibition." path="" int="0"/>
-				<text Text="Una relquia del passat. Ha caigut en desús desde la prohibició del tabac." path="" int="2"/>
-				<text Text="Una reliquia del pasado. Ha caído en desuso desde la prohibición del tabaco." path="" int="1"/>
-			</TextTextLanguages>
-		</Text>
 		<Text name="conspiracy_panel_txt" id="156" order="156" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Conspiracy panel" path="" int="0"/>
@@ -20558,8 +20587,8 @@
 		</Text>
 		<Text name="Unnamed" id="243" order="243" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="" path="" int="0"/>
-				<text Text="" path="" int="1"/>
+				<text Text="Locker" path="" int="0"/>
+				<text Text="Candado" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="245" order="245" lastModified="-1">
@@ -21118,6 +21147,7 @@
 		<Text name="Unnamed" id="579" order="579" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
+				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="580" order="580" lastModified="-1">
@@ -21329,6 +21359,7 @@
 		<Text name="Unnamed" id="696" order="696" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
+				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="700" order="700" lastModified="-1">
@@ -21369,6 +21400,36 @@
 		<Text name="Unnamed" id="718" order="718" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="719" order="653" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="A pamplet detailing the life of a sea cucumber. It says that when threatened the animal will throw up its own entrails to fake deat. It also mentions that feeding iit certain substances will provoke the same reaction." path="" int="0"/>
+				<text Text="Unos papeles que detallan la vida de un pepino de mar. Dicen que cuando se siente amenazado, vomita sus propias entrañas para hacerse el muerto. También dice que algunas substancias provoca la mimsma reacción." path="" int="1"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="720" order="648" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Una reliquia del pasado muy cara. Hoy en día su consumo está prohibido por razones de salud, pero otras substancias lo han sustituido." path="" int="1"/>
+				<text Text="An expensive relic from the past. Nowadays its consumption is forbbiden due to health issues, but other substances have replace it." path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="722" order="649" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="A relic from the past. It has fallen on disuse since the tobacco prohibition." path="" int="0"/>
+				<text Text="Una reliquia del pasado. No suele usarse desde la prohibicón del tabaco." path="" int="1"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="723" order="650" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="A bottle full of liquor. It looks expensive and it has a strong smell despite of being sealed." path="" int="0"/>
+				<text Text="Una botella llena de licor. Parece caro y tiene un fuerte olor pese a estar sin abrir." path="" int="1"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="724" order="651" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="It&apos;s smooth and kinda muffles sound." path="" int="0"/>
+				<text Text="Es suave y parece que amortigua el sonido." path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
 	</Texts>
@@ -21800,7 +21861,7 @@
 		</Script>
 		<Script name="chad_inventory_slide" id="3" order="3" lastModified="-1" ScriptScript="--[[&lt;br/&gt;Deponia Based Sliding Interface [v4] (18/03/2013)&lt;br/&gt;Written by AFRLme [Lee Clarke]&lt;br/&gt;-- + --&lt;br/&gt;alternatingfrequencies@hotmail.com | skype @ AFRLme&lt;br/&gt;-- + --&lt;br/&gt;This script is donation optional. In game credit is non-negotiable.&lt;br/&gt;You are free to: ¹ use it in your game(s). ² modify the script.&lt;br/&gt;Do not remove - or edit - this comment block.&lt;br/&gt;--]]&lt;br/&gt; &lt;br/&gt;-- * local variables * --&lt;br/&gt;local getInterface = getObject(&quot;Interfaces[chad_inventory]&quot;) -- stores interface into a variable (replace &quot;inventory&quot; with your interface name)&lt;br/&gt; &lt;br/&gt;local minOffset = {x = 558, y = 1050} -- replace min offset values with current x,y absolute position of your interface&lt;br/&gt;local maxOffset = {x = 558, y = 924} -- replace max offset values with the x,y values that you want the interface to slide to&lt;br/&gt;local mwOffset = 0 -- this should be same value or slightly larger than the overlap amount of minOffset&lt;br/&gt;local checkOffset = getInterface:getPoint(VInterfaceOffset) -- stores current position of interface on start&lt;br/&gt; &lt;br/&gt;local inSpeed = 1 -- replace &quot;1&quot; with x number of squares you want interface to move back to start position on each loop&lt;br/&gt;local outSpeed = 2 -- replace &quot;2&quot; with x number of squares you want interface to move to max position on each loop&lt;br/&gt; &lt;br/&gt;local slideDirection = 4 -- set direction interface should slide from (1 = left, 2 = top, 3 = right, 4 = bottom) &lt;br/&gt; &lt;br/&gt;local hover = getObject(&quot;Conditions[chad_hover]&quot;) -- store hover condition&lt;br/&gt;local mwheel = getObject(&quot;Conditions[chad_mwheel]&quot;) -- store mouse mwheel condition&lt;br/&gt; &lt;br/&gt;-- * global variables * --&lt;br/&gt;mwUp = 0 -- this controls if mouse wheel up or down has been executed; by default &quot;0&quot; = nil (!important: do not edit)&lt;br/&gt; &lt;br/&gt;-- * function that moves the linked interface * --&lt;br/&gt;function intSlide()&lt;br/&gt; -- * let&apos;s create the on mouse over code * --&lt;br/&gt; if hover:getBool(VConditionValue) and not mwheel:getBool(VConditionValue) then -- check if &quot;hover&quot; = true &amp; &quot;mwheel&quot; = false&lt;br/&gt;  if mwUp ~= 0 then mwUp = 0 end -- check if mouse wheel is active; if it is, then set inactive&lt;br/&gt;  -- * let&apos;s slide the x position of the interface based on slideDirection (out) * --&lt;br/&gt;  if (slideDirection == 1 or slideDirection == 2) and checkOffset.x &lt; maxOffset.x then checkOffset.x = checkOffset.x + outSpeed setIntPos() end&lt;br/&gt;  if (slideDirection == 1 or slideDirection == 2) and checkOffset.x &gt; maxOffset.x then checkOffset.x = maxOffset.x setIntPos() end&lt;br/&gt;  if (slideDirection == 3 or slideDirection == 4) and checkOffset.x &gt; maxOffset.x then checkOffset.x = checkOffset.x - outSpeed setIntPos() end&lt;br/&gt;  if (slideDirection == 3 or slideDirection == 4) and checkOffset.x &lt; maxOffset.x then checkOffset.x = maxOffset.x setIntPos() end&lt;br/&gt;  -- * let&apos;s slide the y position of the interface based on SlideDirection (out) * --&lt;br/&gt;  if (slideDirection == 1 or slideDirection == 2) and checkOffset.y &lt; maxOffset.y then checkOffset.y = checkOffset.y + outSpeed setIntPos() end&lt;br/&gt;  if (slideDirection == 1 or slideDirection == 2) and checkOffset.y &gt; maxOffset.y then checkOffset.y = maxOffset.y setIntPos() end&lt;br/&gt;  if (slideDirection == 3 or slideDirection == 4) and checkOffset.y &gt; maxOffset.y then checkOffset.y = checkOffset.y - outSpeed setIntPos()  end&lt;br/&gt;  if (slideDirection == 3 or slideDirection == 4) and checkOffset.y &lt; maxOffset.y then checkOffset.y = maxOffset.y setIntPos() end&lt;br/&gt; elseif not hover:getBool(VConditionValue) and not mwheel:getBool(VConditionValue) then&lt;br/&gt;  if mwUp ~= 0 then mwUp = 0 end -- check if mouse wheel is active; if it is, then set inactive&lt;br/&gt;  -- * let&apos;s slide the x position of the interface based on slideDirection (in) * --&lt;br/&gt;  if (slideDirection == 1 or slideDirection == 2) and checkOffset.x &gt; minOffset.x then checkOffset.x = checkOffset.x - inSpeed setIntPos() end&lt;br/&gt;  if (slideDirection == 1 or slideDirection == 2) and checkOffset.x &lt; minOffset.x then checkOffset.x = minOffset.x setIntPos() end&lt;br/&gt;  if (slideDirection == 3 or slideDirection == 4) and checkOffset.x &lt; minOffset.x then checkOffset.x = checkOffset.x + inSpeed setIntPos() end&lt;br/&gt;  if (slideDirection == 3 or slideDirection == 4) and checkOffset.x &gt; minOffset.x then checkOffset.x = minOffset.x setIntPos() end&lt;br/&gt;  -- * let&apos;s slide the y position of the interface based on SlideDirection (in) * --&lt;br/&gt;  if (slideDirection == 1 or slideDirection == 2) and checkOffset.y &gt; minOffset.y then checkOffset.y = checkOffset.y - inSpeed setIntPos() end&lt;br/&gt;  if (slideDirection == 1 or slideDirection == 2) and checkOffset.y &lt; minOffset.y then checkOffset.y = minOffset.y setIntPos() end&lt;br/&gt;  if (slideDirection == 3 or slideDirection == 4) and checkOffset.y &lt; minOffset.y then checkOffset.y = checkOffset.y + inSpeed setIntPos() end&lt;br/&gt;  if (slideDirection == 3 or slideDirection == 4) and checkOffset.y &gt; minOffset.y then checkOffset.y = minOffset.y setIntPos() end&lt;br/&gt; end&lt;br/&gt; -- * let&apos;s create the mouse wheel code * --&lt;br/&gt; if not hover:getBool(VConditionValue) and mwheel:getBool(VConditionValue) and mwUp == 1 then -- check if mouse wheel up has been rotated&lt;br/&gt;  -- * let&apos;s slide the x position of the interface based on slideDirection (out) * --&lt;br/&gt;  if (slideDirection == 1 or slideDirection == 2) and checkOffset.x &lt; maxOffset.x then checkOffset.x = checkOffset.x + outSpeed setIntPos() end&lt;br/&gt;  if (slideDirection == 1 or slideDirection == 2) and checkOffset.x &gt; maxOffset.x then checkOffset.x = maxOffset.x setIntPos() end&lt;br/&gt;  if (slideDirection == 3 or slideDirection == 4) and checkOffset.x &gt; maxOffset.x then checkOffset.x = checkOffset.x - outSpeed setIntPos() end&lt;br/&gt;  if (slideDirection == 3 or slideDirection == 4) and checkOffset.x &lt; maxOffset.x then checkOffset.x = maxOffset.x setIntPos() end&lt;br/&gt;  -- * let&apos;s slide the y position of the interface based on SlideDirection (out) * --&lt;br/&gt;  if (slideDirection == 1 or slideDirection == 2) and checkOffset.y &lt; maxOffset.y then checkOffset.y = checkOffset.y + outSpeed setIntPos() end&lt;br/&gt;  if (slideDirection == 1 or slideDirection == 2) and checkOffset.y &gt; maxOffset.y then checkOffset.y = maxOffset.y setIntPos() end&lt;br/&gt;  if (slideDirection == 3 or slideDirection == 4) and checkOffset.y &gt; maxOffset.y then checkOffset.y = checkOffset.y - outSpeed setIntPos()  end&lt;br/&gt;  if (slideDirection == 3 or slideDirection == 4) and checkOffset.y &lt; maxOffset.y then checkOffset.y = maxOffset.y setIntPos() end&lt;br/&gt; end&lt;br/&gt; if not hover:getBool(VConditionValue) and mwheel:getBool(VConditionValue) and mwUp == 2 then -- check if mouse wheel down has been rotated&lt;br/&gt;  -- * let&apos;s slide the x position of the interface based on slideDirection (in) * --&lt;br/&gt;  if slideDirection == 1 and checkOffset.x &gt; minOffset.x - mwOffset then checkOffset.x = checkOffset.x - inSpeed setIntPos() end&lt;br/&gt;  if slideDirection == 1 and checkOffset.x &lt; minOffset.x - mwOffset then checkOffset.x = minOffset.x - mwOffset setIntPos() end&lt;br/&gt;  if slideDirection == 2 and checkOffset.x &gt; minOffset.x then checkOffset.x = checkOffset.x - inSpeed setIntPos() end&lt;br/&gt;  if slideDirection == 2 and checkOffset.x &lt; minOffset.x then checkOffset.x = minOffset.x setIntPos() end&lt;br/&gt;  if slideDirection == 3 and checkOffset.x &lt; minOffset.x + mwOffset then checkOffset.x = checkOffset.x + inSpeed setIntPos() end&lt;br/&gt;  if slideDirection == 3 and checkOffset.x &gt; minOffset.x + mwOffset then checkOffset.x = minOffset.x + mwOffset setIntPos() end&lt;br/&gt;  if slideDirection == 4 and checkOffset.x &lt; minOffset.x then checkOffset.x = checkOffset.x + inSpeed setIntPos() end&lt;br/&gt;  if slideDirection == 4 and checkOffset.x &gt; minOffset.x then checkOffset.x = minOffset.x setIntPos() end&lt;br/&gt;  -- * let&apos;s slide the y position of the interface based on SlideDirection (in) * --&lt;br/&gt;  if slideDirection == 1 and checkOffset.y &gt; minOffset.y then checkOffset.y = checkOffset.y - inSpeed setIntPos() end&lt;br/&gt;  if slideDirection == 1 and checkOffset.y &lt; minOffset.y then checkOffset.y = minOffset.y setIntPos() end&lt;br/&gt;  if slideDirection == 2 and checkOffset.y &gt; minOffset.y - mwOffset then checkOffset.y = checkOffset.y - inSpeed setIntPos() end&lt;br/&gt;  if slideDirection == 2 and checkOffset.y &lt; minOffset.y - mwOffset then checkOffset.y = minOffset.y - mwOffset setIntPos() end&lt;br/&gt;  if slideDirection == 3 and checkOffset.y &lt; minOffset.y then checkOffset.y = checkOffset.y + inSpeed setIntPos() end&lt;br/&gt;  if slideDirection == 3 and checkOffset.y &gt; minOffset.y then checkOffset.y = minOffset.y setIntPos() end&lt;br/&gt;  if slideDirection == 4 and checkOffset.y &lt; minOffset.y + mwOffset then checkOffset.y = checkOffset.y + inSpeed setIntPos() end&lt;br/&gt;  if slideDirection == 4 and checkOffset.y &gt; minOffset.y + mwOffset then checkOffset.y = minOffset.y + mwOffset setIntPos() end&lt;br/&gt; end&lt;br/&gt;end&lt;br/&gt; &lt;br/&gt; -- * updates the current position of the interface * --&lt;br/&gt;function setIntPos()&lt;br/&gt; getInterface:setValue(VInterfaceOffset, checkOffset)&lt;br/&gt;end&lt;br/&gt; &lt;br/&gt;-- * let&apos;s check if mouse wheel mode = true; if true then hide the interface else overlap interface slightly * --&lt;br/&gt;function mwMode()&lt;br/&gt; if mwheel:getBool(VConditionValue) then&lt;br/&gt;  if slideDirection == 1 then checkOffset = {x = minOffset.x - mwOffset, y = minOffset.y} setIntPos() end&lt;br/&gt;  if slideDirection == 2 then checkOffset = {x = minOffset.x, y = minOffset.y - mwOffset} setIntPos() end&lt;br/&gt;  if slideDirection == 3 then checkOffset = {x = minOffset.x + mwOffset, y = minOffset.y} setIntPos() end&lt;br/&gt;  if slideDirection == 4 then checkOffset = {x = minOffset.x, y = minOffset.y + mwOffset} setIntPos() end&lt;br/&gt; else&lt;br/&gt;  checkOffset = {x = minOffset.x, y = minOffset.y}&lt;br/&gt;  setIntPos()&lt;br/&gt; end&lt;br/&gt;end" ScriptType="1">
 		</Script>
-		<Script name="chad_event_inventory_slide" id="4" order="5" lastModified="-1" ScriptScript="-- * this is the mainLoop event function (all loop events &amp; functions for looping should be added or linked here) * --&lt;br/&gt;function onMainLoop()&lt;br/&gt; intSlide() -- loop the function which checks if interface should be sliding in, out or at default position!&lt;br/&gt;end&lt;br/&gt; &lt;br/&gt;-- * this is the mouse event listener! (all mouse events &amp; functions should be added or linked here) * --&lt;br/&gt;function onMouseEvent(eventType)&lt;br/&gt; if not getObject(&quot;Conditions[mwtoggle]&quot;):getBool(VConditionValue) then -- if toggle is false then set default&lt;br/&gt;  if eventType == eEvtMouseWheelUp then mwUp = 1 end&lt;br/&gt;  if eventType == eEvtMouseWheelDown then mwUp = 2 end&lt;br/&gt; else -- invert mouse wheel&lt;br/&gt;  if eventType == eEvtMouseWheelUp then mwUp = 2 end&lt;br/&gt;  if eventType == eEvtMouseWheelDown then mwUp = 1 end&lt;br/&gt; end&lt;br/&gt;end&lt;br/&gt; &lt;br/&gt;-- * let&apos;s create the mouse event listener! * --&lt;br/&gt;registerEventHandler(&quot;mouseEvent&quot;, &quot;onMouseEvent&quot;, {eEvtMouseWheelUp, eEvtMouseWheelDown})&lt;br/&gt;-- * let&apos;s create the loop event handler! * --&lt;br/&gt;registerEventHandler(&quot;mainLoop&quot;, &quot;onMainLoop&quot;)" ScriptType="1">
+		<Script name="chad_event_inventory_slide" id="4" order="5" lastModified="-1" ScriptScript="-- * this is the mainLoop event function (all loop events &amp; functions for looping should be added or linked here) * --&lt;br/&gt;function onMainLoop()&lt;br/&gt; intSlide() -- loop the function which checks if interface should be sliding in, out or at default position!&lt;br/&gt;end&lt;br/&gt; &lt;br/&gt;-- * this is the mouse event listener! (all mouse events &amp; functions should be added or linked here) * --&lt;br/&gt;function onMouseEvent(eventType)&lt;br/&gt; if not getObject(&quot;Conditions[chad_mwtoggle]&quot;):getBool(VConditionValue) then -- if toggle is false then set default&lt;br/&gt;  if eventType == eEvtMouseWheelUp then mwUp = 1 end&lt;br/&gt;  if eventType == eEvtMouseWheelDown then mwUp = 2 end&lt;br/&gt; else -- invert mouse wheel&lt;br/&gt;  if eventType == eEvtMouseWheelUp then mwUp = 2 end&lt;br/&gt;  if eventType == eEvtMouseWheelDown then mwUp = 1 end&lt;br/&gt; end&lt;br/&gt;end&lt;br/&gt; &lt;br/&gt;-- * let&apos;s create the mouse event listener! * --&lt;br/&gt;registerEventHandler(&quot;mouseEvent&quot;, &quot;onMouseEvent&quot;, {eEvtMouseWheelUp, eEvtMouseWheelDown})&lt;br/&gt;-- * let&apos;s create the loop event handler! * --&lt;br/&gt;registerEventHandler(&quot;mainLoop&quot;, &quot;onMainLoop&quot;)" ScriptType="1">
 		</Script>
 	</Scripts>
 	<InterfaceClasses newId="5" versionedId="-1" tableId="31">
