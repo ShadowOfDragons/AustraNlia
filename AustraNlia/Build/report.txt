@@ -1,0 +1,2038 @@
+Missing: Assets\UI\Cursors\hand.png
+Missing: Assets\UI\Cursors\hand.png
+Missing: Assets\UI\Cursors\dialog.png
+Missing: Assets\UI\Cursors\dialog.png
+Missing: Assets\UI\Cursors\hand.png
+Missing: Assets\UI\Cursors\hand.png
+Missing: Assets\UI\Cursors\dialog.png
+Missing: Assets\UI\Cursors\dialog.png
+Container 'C:\Users\Zoé González\Documents\GitHub\AustraNlia\AustraNlia\Build\Scene003.vs'
+-------------------------------------------------------------------------------
+Assets\Rooms\MierinsOffice\empty_office.png
+Assets\Music\mierins_office.ogg
+Assets\SFX\step_on_glass.ogg
+Assets\Items\Scene\lamp\lamp_00000.png
+Assets\Items\Scene\lamp\lamp_00001.png
+Assets\Items\Scene\lamp\lamp_00002.png
+Assets\Items\Scene\lamp\lamp_00003.png
+Assets\Items\Scene\lamp\lamp_00004.png
+Assets\Items\Scene\lamp\lamp_00005.png
+Assets\Items\Scene\lamp\lamp_00006.png
+Assets\Items\Scene\lamp\lamp_00007.png
+Assets\Items\Scene\lamp\lamp_00008.png
+Assets\Items\Scene\lamp\lamp_00009.png
+Assets\Items\Scene\lamp\lamp_00010.png
+Assets\Items\Scene\lamp\lamp_00011.png
+Assets\Items\Scene\lamp\lamp_00012.png
+Assets\Items\Scene\lamp\lamp_00013.png
+Assets\Items\Scene\lamp\lamp_00014.png
+Assets\Items\Scene\lamp\lamp_00015.png
+Assets\Items\Scene\lamp\lamp_00016.png
+Assets\Items\Scene\lamp\lamp_00017.png
+Assets\Items\Scene\lamp\lamp_00018.png
+Assets\Items\Scene\lamp\lamp_00019.png
+Assets\Items\Scene\lamp\lamp_00020.png
+Assets\Items\Scene\lamp\lamp_00021.png
+Assets\Items\Scene\lamp\lamp_00022.png
+Assets\Items\Scene\lamp\lamp_00023.png
+Assets\Items\Scene\lamp\lamp_00024.png
+Assets\Items\Scene\lamp\lamp_00025.png
+Assets\Items\Scene\lamp\lamp_00026.png
+Assets\Items\Scene\lamp\lamp_00027.png
+Assets\Items\Scene\lamp\lamp_00028.png
+Assets\Items\Scene\lamp\lamp_00029.png
+Assets\Items\Scene\lamp\lamp_00030.png
+Assets\Items\Scene\lamp\lamp_00031.png
+Assets\Items\Scene\lamp\lamp_00032.png
+Assets\Items\Scene\lamp\lamp_00033.png
+Assets\Items\Scene\lamp\lamp_00034.png
+Assets\Items\Scene\lamp\lamp_00035.png
+Assets\Items\Scene\lamp\lamp_00036.png
+Assets\Items\Scene\lamp\lamp_00037.png
+Assets\Items\Scene\lamp\lamp_00038.png
+Assets\Items\Scene\lamp\lamp_00039.png
+Assets\Items\Scene\lamp\lamp_00040.png
+Assets\Items\Scene\lamp\lamp_00041.png
+Assets\Items\Scene\lamp\lamp_00042.png
+Assets\Items\Scene\lamp\lamp_00043.png
+Assets\Items\Scene\lamp\lamp_00044.png
+Assets\Items\Scene\lamp\lamp_00045.png
+Assets\Items\Scene\lamp\lamp_00046.png
+Assets\Items\Scene\lamp\lamp_00047.png
+Assets\Items\Scene\camera\camera_00000.png
+Assets\Items\Scene\camera\camera_00001.png
+Assets\Items\Scene\camera\camera_00002.png
+Assets\Items\Scene\camera\camera_00003.png
+Assets\Items\Scene\camera\camera_00004.png
+Assets\Items\Scene\camera\camera_00005.png
+Assets\Items\Scene\camera\camera_00006.png
+Assets\Items\Scene\camera\camera_00007.png
+Assets\Items\Scene\camera\camera_00008.png
+Assets\Items\Scene\camera\camera_00009.png
+Assets\Items\Scene\camera\camera_00010.png
+Assets\Items\Scene\camera\camera_00011.png
+Assets\Items\Scene\camera\camera_00012.png
+Assets\Items\Scene\camera\camera_00013.png
+Assets\Items\Scene\camera\camera_00014.png
+Assets\Items\Scene\camera\camera_00015.png
+Assets\Items\Scene\camera\camera_00016.png
+Assets\Items\Scene\camera\camera_00017.png
+Assets\Items\Scene\camera\camera_00018.png
+Assets\Items\Scene\camera\camera_00019.png
+Assets\Items\Scene\camera\camera_00020.png
+Assets\Items\Scene\camera\camera_00021.png
+Assets\Items\Scene\camera\camera_00022.png
+Assets\Items\Scene\camera\camera_00023.png
+Assets\Items\Scene\camera\camera_00024.png
+Assets\Items\Scene\camera\camera_00025.png
+Assets\Items\Scene\camera\camera_00026.png
+Assets\Items\Scene\camera\camera_00027.png
+Assets\Items\Scene\camera\camera_00028.png
+Assets\Items\Scene\camera\camera_00029.png
+Assets\Items\Scene\camera\camera_00030.png
+Assets\Items\Scene\camera\camera_00031.png
+Assets\Items\Scene\camera\camera_00032.png
+Assets\Items\Scene\camera\camera_00033.png
+Assets\Items\Scene\camera\camera_00034.png
+Assets\Items\Scene\camera\camera_00035.png
+Assets\Items\Scene\camera\camera_00036.png
+Assets\Items\Scene\camera\camera_00037.png
+Assets\Items\Scene\camera\camera_00038.png
+Assets\Items\Scene\camera\camera_00039.png
+Assets\Items\Scene\camera\camera_00040.png
+Assets\Items\Scene\camera\camera_00041.png
+Assets\Items\Scene\camera\camera_00042.png
+Assets\Items\Scene\camera\camera_00043.png
+Assets\Items\Scene\camera\camera_00044.png
+Assets\Items\Scene\camera\camera_00045.png
+Assets\Items\Scene\camera\camera_00046.png
+Assets\Items\Scene\camera\camera_00047.png
+Assets\Items\Scene\s_lighter.png
+Assets\Items\Highlight\concept_prop_02.png
+Assets\Rooms\MierinsOffice\sofa.png
+Assets\Rooms\MierinsOffice\trophy_table_locked_omni.png
+Assets\SFX\lock.ogg
+Assets\Rooms\MierinsOffice\trophy_table_omni.png
+Assets\Rooms\MierinsOffice\trophy_table.png
+Assets\Rooms\MierinsOffice\clock.png
+Assets\Items\Scene\concept_prop_07.png
+Assets\Rooms\MierinsOffice\table.png
+Assets\Items\Scene\s_old_cigarette.png
+Assets\Items\Highlight\concept_prop_01.png
+Assets\Rooms\MierinsOffice\table_books.png
+Assets\Rooms\MierinsOffice\sea_cucumber.png
+Assets\SFX\bubbles.ogg
+Assets\Rooms\MierinsOffice\wall.png
+Assets\Items\Scene\ConspiracyPanel\conspiracy_table_000.png
+Assets\Items\Scene\ConspiracyPanel\conspiracy_table_001.png
+Assets\Items\Scene\ConspiracyPanel\conspiracy_table_002.png
+Assets\Items\Scene\ConspiracyPanel\conspiracy_table_003.png
+Assets\Items\Scene\ConspiracyPanel\conspiracy_table_004.png
+Assets\Items\Scene\ConspiracyPanel\conspiracy_table_005.png
+Assets\Items\Scene\ConspiracyPanel\conspiracy_table_006.png
+Assets\Items\Scene\ConspiracyPanel\conspiracy_table_007.png
+Assets\Items\Scene\ConspiracyPanel\conspiracy_table_008.png
+Assets\Items\Scene\ConspiracyPanel\conspiracy_table_009.png
+Assets\Items\Scene\ConspiracyPanel\conspiracy_table_010.png
+Assets\Items\Scene\ConspiracyPanel\conspiracy_table_011.png
+Assets\Items\Scene\ConspiracyPanel\conspiracy_table_012.png
+Assets\Items\Scene\ConspiracyPanel\conspiracy_table_013.png
+Assets\Items\Scene\ConspiracyPanel\conspiracy_table_014.png
+Assets\Items\Scene\ConspiracyPanel\conspiracy_table_015.png
+Assets\Items\Scene\ConspiracyPanel\conspiracy_table_016.png
+Assets\Items\Scene\ConspiracyPanel\conspiracy_table_017.png
+Assets\Items\Scene\ConspiracyPanel\conspiracy_table_018.png
+Assets\Items\Scene\ConspiracyPanel\conspiracy_table_019.png
+Assets\Items\Scene\ConspiracyPanel\conspiracy_table_020.png
+Assets\Items\Scene\ConspiracyPanel\conspiracy_table_021.png
+Assets\Items\Scene\ConspiracyPanel\conspiracy_table_022.png
+Assets\Items\Scene\ConspiracyPanel\conspiracy_table_023.png
+Assets\Items\Scene\ConspiracyPanel\conspiracy_table_024.png
+Assets\Items\Scene\ConspiracyPanel\conspiracy_table_025.png
+Assets\Items\Scene\ConspiracyPanel\conspiracy_table_026.png
+Assets\Items\Scene\ConspiracyPanel\conspiracy_table_027.png
+Assets\Items\Scene\ConspiracyPanel\conspiracy_table_028.png
+Assets\Items\Scene\ConspiracyPanel\conspiracy_table_029.png
+Assets\Items\Scene\ConspiracyPanel\conspiracy_table_030.png
+Assets\Items\Scene\ConspiracyPanel\conspiracy_table_031.png
+Assets\Items\Scene\ConspiracyPanel\conspiracy_table_032.png
+Assets\Items\Scene\ConspiracyPanel\conspiracy_table_033.png
+Assets\Items\Scene\ConspiracyPanel\conspiracy_table_034.png
+Assets\Items\Scene\ConspiracyPanel\conspiracy_table_035.png
+Assets\Items\Scene\ConspiracyPanel\conspiracy_table_036.png
+Assets\Items\Scene\ConspiracyPanel\conspiracy_table_037.png
+Assets\Items\Scene\ConspiracyPanel\conspiracy_table_038.png
+Assets\Items\Scene\ConspiracyPanel\conspiracy_table_039.png
+Assets\Items\Scene\ConspiracyPanel\conspiracy_table_040.png
+Assets\Items\Scene\ConspiracyPanel\conspiracy_table_041.png
+Assets\Items\Scene\ConspiracyPanel\conspiracy_table_042.png
+Assets\Items\Scene\ConspiracyPanel\conspiracy_table_043.png
+Assets\Items\Scene\ConspiracyPanel\conspiracy_table_044.png
+Assets\Items\Scene\ConspiracyPanel\conspiracy_table_045.png
+Assets\Items\Scene\ConspiracyPanel\conspiracy_table_046.png
+Assets\Items\Scene\ConspiracyPanel\conspiracy_table_047.png
+Assets\Items\Scene\concept_prop_05.png
+Assets\Items\Scene\s_office_carpet.png
+Assets\Rooms\MierinsOffice\closet_with_bottle.png
+Assets\Rooms\MierinsOffice\closet_without_bottle.png
+Assets\Items\Scene\papers.png
+Assets\SFX\door_open.ogg
+Assets\SFX\door_close.ogg
+--------------------------------------------------------------------------------
+Container 'C:\Users\Zoé González\Documents\GitHub\AustraNlia\AustraNlia\Build\Scene004.vs'
+-------------------------------------------------------------------------------
+Assets\Rooms\CentralTaramar\Central_Taramar.png
+Assets\Rooms\CentralTaramar\Central_TaramarDelante.png
+Assets\Rooms\CentralTaramar\casamedio.png
+--------------------------------------------------------------------------------
+Container 'C:\Users\Zoé González\Documents\GitHub\AustraNlia\AustraNlia\Build\Video000.vv'
+-------------------------------------------------------------------------------
+Assets\Video\logo_screen.mkv
+--------------------------------------------------------------------------------
+Container 'C:\Users\Zoé González\Documents\GitHub\AustraNlia\AustraNlia\Build\Character000.vc'
+-------------------------------------------------------------------------------
+Assets\Characters\Chad\Walk\Right\walk_chad_000.png
+Assets\Characters\Chad\Walk\Right\walk_chad_001.png
+Assets\Characters\Chad\Walk\Right\walk_chad_002.png
+Assets\Characters\Chad\Walk\Right\walk_chad_003.png
+Assets\Characters\Chad\Walk\Right\walk_chad_004.png
+Assets\Characters\Chad\Walk\Right\walk_chad_005.png
+Assets\Characters\Chad\Walk\Right\walk_chad_006.png
+Assets\Characters\Chad\Walk\Right\walk_chad_007.png
+Assets\Characters\Chad\Walk\Right\walk_chad_008.png
+Assets\Characters\Chad\Walk\Right\walk_chad_009.png
+Assets\Characters\Chad\Walk\Right\walk_chad_010.png
+Assets\Characters\Chad\Walk\Right\walk_chad_011.png
+Assets\Characters\Chad\Walk\Right\walk_chad_012.png
+Assets\Characters\Chad\Walk\Right\walk_chad_013.png
+Assets\Characters\Chad\Walk\Right\walk_chad_014.png
+Assets\SFX\chad_step.ogg
+Assets\Characters\Chad\Standing\Front\chad_idle_000.png
+Assets\Characters\Chad\Standing\Front\chad_idle_001.png
+Assets\Characters\Chad\Standing\Front\chad_idle_002.png
+Assets\Characters\Chad\Standing\Front\chad_idle_003.png
+Assets\Characters\Chad\Standing\Front\chad_idle_004.png
+Assets\Characters\Chad\Standing\Front\chad_idle_005.png
+Assets\Characters\Chad\Standing\Front\chad_idle_006.png
+Assets\Characters\Chad\Standing\Front\chad_idle_007.png
+Assets\Characters\Chad\Standing\Front\chad_idle_008.png
+Assets\Characters\Chad\Standing\Front\chad_idle_009.png
+Assets\Characters\Chad\Standing\Front\chad_idle_010.png
+Assets\Characters\Chad\Standing\Front\chad_idle_011.png
+Assets\Characters\Chad\Standing\Front\chad_idle_012.png
+Assets\Characters\Chad\Standing\Front\chad_idle_013.png
+Assets\Characters\Chad\Standing\Front\chad_idle_014.png
+Assets\Characters\Chad\Standing\Front\chad_idle_015.png
+Assets\Characters\Chad\Standing\Front\chad_idle_016.png
+Assets\Characters\Chad\Standing\Front\chad_idle_017.png
+Assets\Characters\Chad\Standing\Front\chad_idle_018.png
+Assets\Characters\Chad\Standing\Front\chad_idle_019.png
+Assets\Characters\Chad\Standing\Front\chad_idle_020.png
+Assets\Characters\Chad\Standing\Front\chad_idle_021.png
+Assets\Characters\Chad\Standing\Front\chad_idle_022.png
+Assets\Characters\Chad\Standing\Front\chad_idle_023.png
+Assets\Characters\Chad\Standing\Front\chad_idle_024.png
+Assets\Characters\Chad\Standing\Front\chad_idle_025.png
+Assets\Characters\Chad\Standing\Front\chad_idle_026.png
+Assets\Characters\Chad\Standing\Front\chad_idle_027.png
+Assets\Characters\Chad\Standing\Front\chad_idle_028.png
+Assets\Characters\Chad\Standing\Front\chad_idle_029.png
+Assets\Characters\Chad\Standing\Front\chad_idle_030.png
+Assets\Characters\Chad\Standing\Front\chad_idle_031.png
+Assets\Characters\Chad\Standing\Front\chad_idle_032.png
+Assets\Characters\Chad\Standing\Front\chad_idle_033.png
+Assets\Characters\Chad\Standing\Front\chad_idle_034.png
+Assets\UI\GUI\chad_arrow_up.png
+Assets\UI\GUI\chad_arrow_down.png
+Assets\UI\GUI\dialog_box_01.png
+--------------------------------------------------------------------------------
+Container 'C:\Users\Zoé González\Documents\GitHub\AustraNlia\AustraNlia\Build\Scene005.vs'
+-------------------------------------------------------------------------------
+Assets\Rooms\BubbleForest\concept_environment_02.png
+--------------------------------------------------------------------------------
+Container 'C:\Users\Zoé González\Documents\GitHub\AustraNlia\AustraNlia\Build\Interfaces.vi'
+-------------------------------------------------------------------------------
+Assets\UI\GUI\inventory_01.png
+Assets\UI\GUI\mouse_wheel_chad.png
+Assets\UI\Cursors\take_give.png
+Assets\UI\Cursors\talk.png
+Assets\UI\Cursors\eye.png
+Assets\UI\GUI\icon_char_change_01.png
+Assets\UI\GUI\inventory_02.png
+Assets\UI\GUI\icon_char_change_02.png
+Assets\UI\GUI\mouse_wheel_ica.png
+Assets\UI\GUI\IcaBar_100.png
+--------------------------------------------------------------------------------
+Container 'C:\Users\Zoé González\Documents\GitHub\AustraNlia\AustraNlia\Build\austranlia.vis'
+-------------------------------------------------------------------------------
+Assets\UI\Fonts\SadanaSquare.ttf
+Assets\Items\Inventory\inv_old_cigarette.png
+Assets\Items\Inventory\inv_lighter.png
+Assets\Items\Inventory\inv_bottle_whiskey.png
+Assets\Items\Inventory\inv_office_carpet.png
+Assets\Items\Inventory\inv_office_key.png
+Assets\Items\Inventory\inv_pamflets.png
+Assets\UI\Cursors\cursor.png
+Assets\UI\Cursors\door.png
+tmp\game.veb
+--------------------------------------------------------------------------------
+Container 'C:\Users\Zoé González\Documents\GitHub\AustraNlia\AustraNlia\Build\Character002.vc'
+-------------------------------------------------------------------------------
+Assets\Characters\Gaed\concept_character_03.png
+--------------------------------------------------------------------------------
+Container 'C:\Users\Zoé González\Documents\GitHub\AustraNlia\AustraNlia\Build\Scene002.vs'
+-------------------------------------------------------------------------------
+Assets\UI\Buttons\OptionsMenu\resolution_eng.png
+Assets\UI\Buttons\OptionsMenu\resolution_esp.png
+Assets\UI\Buttons\OptionsMenu\resolution_normal.png
+Assets\SFX\button_mouseover_sfx.ogg
+Assets\SFX\button_sfx.ogg
+Assets\UI\Buttons\OptionsMenu\1920x1080 Normal\1920x1080_normal_000.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Normal\1920x1080_normal_001.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Normal\1920x1080_normal_002.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Normal\1920x1080_normal_003.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Normal\1920x1080_normal_004.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Normal\1920x1080_normal_005.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Normal\1920x1080_normal_006.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Normal\1920x1080_normal_007.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Normal\1920x1080_normal_008.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Normal\1920x1080_normal_009.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Normal\1920x1080_normal_010.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Normal\1920x1080_normal_011.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Normal\1920x1080_normal_012.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Normal\1920x1080_normal_013.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Normal\1920x1080_normal_014.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Normal\1920x1080_normal_015.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Normal\1920x1080_normal_016.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Normal\1920x1080_normal_017.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Normal\1920x1080_normal_018.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Normal\1920x1080_normal_019.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Normal\1920x1080_normal_020.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Normal\1920x1080_normal_021.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Normal\1920x1080_normal_022.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Normal\1920x1080_normal_023.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Normal\1920x1080_normal_024.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Normal\1920x1080_normal_025.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Normal\1920x1080_normal_026.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Normal\1920x1080_normal_027.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Normal\1920x1080_normal_028.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Normal\1920x1080_normal_029.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Normal\1920x1080_normal_030.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Normal\1920x1080_normal_031.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Highlight\1920x1080_highlight_000.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Highlight\1920x1080_highlight_001.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Highlight\1920x1080_highlight_002.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Highlight\1920x1080_highlight_003.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Highlight\1920x1080_highlight_004.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Highlight\1920x1080_highlight_005.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Highlight\1920x1080_highlight_006.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Highlight\1920x1080_highlight_007.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Highlight\1920x1080_highlight_008.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Highlight\1920x1080_highlight_009.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Highlight\1920x1080_highlight_010.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Highlight\1920x1080_highlight_011.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Highlight\1920x1080_highlight_012.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Highlight\1920x1080_highlight_013.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Highlight\1920x1080_highlight_014.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Highlight\1920x1080_highlight_015.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Highlight\1920x1080_highlight_016.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Highlight\1920x1080_highlight_017.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Highlight\1920x1080_highlight_018.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Highlight\1920x1080_highlight_019.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Highlight\1920x1080_highlight_020.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Highlight\1920x1080_highlight_021.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Highlight\1920x1080_highlight_022.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Highlight\1920x1080_highlight_023.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Highlight\1920x1080_highlight_024.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Highlight\1920x1080_highlight_025.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Highlight\1920x1080_highlight_026.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Highlight\1920x1080_highlight_027.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Highlight\1920x1080_highlight_028.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Highlight\1920x1080_highlight_029.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Highlight\1920x1080_highlight_030.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Highlight\1920x1080_highlight_031.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Highlight\1920x1080_highlight_032.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Click\1920x1080_click_000.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Click\1920x1080_click_001.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Click\1920x1080_click_002.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Click\1920x1080_click_003.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Click\1920x1080_click_004.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Click\1920x1080_click_005.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Click\1920x1080_click_006.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Click\1920x1080_click_007.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Click\1920x1080_click_008.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Click\1920x1080_click_009.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Click\1920x1080_click_010.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Click\1920x1080_click_011.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Click\1920x1080_click_012.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Click\1920x1080_click_013.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Click\1920x1080_click_014.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Click\1920x1080_click_015.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Click\1920x1080_click_016.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Click\1920x1080_click_017.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Click\1920x1080_click_018.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Click\1920x1080_click_019.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Click\1920x1080_click_020.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Click\1920x1080_click_021.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Click\1920x1080_click_022.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Click\1920x1080_click_023.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Click\1920x1080_click_024.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Click\1920x1080_click_025.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Click\1920x1080_click_026.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Click\1920x1080_click_027.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Click\1920x1080_click_028.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Click\1920x1080_click_029.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Click\1920x1080_click_030.png
+Assets\UI\Buttons\OptionsMenu\1920x1080 Click\1920x1080_click_031.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Normal\1820x720_normal_000.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Normal\1820x720_normal_001.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Normal\1820x720_normal_002.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Normal\1820x720_normal_003.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Normal\1820x720_normal_004.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Normal\1820x720_normal_005.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Normal\1820x720_normal_006.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Normal\1820x720_normal_007.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Normal\1820x720_normal_008.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Normal\1820x720_normal_009.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Normal\1820x720_normal_010.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Normal\1820x720_normal_011.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Normal\1820x720_normal_012.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Normal\1820x720_normal_013.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Normal\1820x720_normal_014.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Normal\1820x720_normal_015.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Normal\1820x720_normal_016.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Normal\1820x720_normal_017.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Normal\1820x720_normal_018.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Normal\1820x720_normal_019.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Normal\1820x720_normal_020.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Normal\1820x720_normal_021.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Normal\1820x720_normal_022.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Normal\1820x720_normal_023.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Normal\1820x720_normal_024.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Normal\1820x720_normal_025.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Normal\1820x720_normal_026.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Normal\1820x720_normal_027.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Normal\1820x720_normal_028.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Normal\1820x720_normal_029.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Normal\1820x720_normal_030.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Normal\1820x720_normal_031.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Highlight\1280x720_highlight_000.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Highlight\1280x720_highlight_001.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Highlight\1280x720_highlight_002.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Highlight\1280x720_highlight_003.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Highlight\1280x720_highlight_004.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Highlight\1280x720_highlight_005.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Highlight\1280x720_highlight_006.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Highlight\1280x720_highlight_007.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Highlight\1280x720_highlight_008.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Highlight\1280x720_highlight_009.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Highlight\1280x720_highlight_010.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Highlight\1280x720_highlight_011.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Highlight\1280x720_highlight_012.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Highlight\1280x720_highlight_013.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Highlight\1280x720_highlight_014.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Highlight\1280x720_highlight_015.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Highlight\1280x720_highlight_016.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Highlight\1280x720_highlight_017.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Highlight\1280x720_highlight_018.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Highlight\1280x720_highlight_019.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Highlight\1280x720_highlight_020.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Highlight\1280x720_highlight_021.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Highlight\1280x720_highlight_022.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Highlight\1280x720_highlight_023.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Highlight\1280x720_highlight_024.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Highlight\1280x720_highlight_025.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Highlight\1280x720_highlight_026.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Highlight\1280x720_highlight_027.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Highlight\1280x720_highlight_028.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Highlight\1280x720_highlight_029.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Highlight\1280x720_highlight_030.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Highlight\1280x720_highlight_031.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Highlight\1280x720_highlight_032.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Click\1280x720_click_000.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Click\1280x720_click_001.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Click\1280x720_click_002.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Click\1280x720_click_003.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Click\1280x720_click_004.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Click\1280x720_click_005.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Click\1280x720_click_006.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Click\1280x720_click_007.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Click\1280x720_click_008.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Click\1280x720_click_009.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Click\1280x720_click_010.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Click\1280x720_click_011.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Click\1280x720_click_012.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Click\1280x720_click_013.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Click\1280x720_click_014.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Click\1280x720_click_015.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Click\1280x720_click_016.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Click\1280x720_click_017.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Click\1280x720_click_018.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Click\1280x720_click_019.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Click\1280x720_click_020.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Click\1280x720_click_021.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Click\1280x720_click_022.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Click\1280x720_click_023.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Click\1280x720_click_024.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Click\1280x720_click_025.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Click\1280x720_click_026.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Click\1280x720_click_027.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Click\1280x720_click_028.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Click\1280x720_click_029.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Click\1280x720_click_030.png
+Assets\UI\Buttons\OptionsMenu\1280x720 Click\1280x720_click_031.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Normal\1600x1200_normal_000.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Normal\1600x1200_normal_001.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Normal\1600x1200_normal_002.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Normal\1600x1200_normal_003.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Normal\1600x1200_normal_004.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Normal\1600x1200_normal_005.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Normal\1600x1200_normal_006.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Normal\1600x1200_normal_007.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Normal\1600x1200_normal_008.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Normal\1600x1200_normal_009.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Normal\1600x1200_normal_010.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Normal\1600x1200_normal_011.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Normal\1600x1200_normal_012.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Normal\1600x1200_normal_013.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Normal\1600x1200_normal_014.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Normal\1600x1200_normal_015.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Normal\1600x1200_normal_016.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Normal\1600x1200_normal_017.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Normal\1600x1200_normal_018.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Normal\1600x1200_normal_019.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Normal\1600x1200_normal_020.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Normal\1600x1200_normal_021.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Normal\1600x1200_normal_022.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Normal\1600x1200_normal_023.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Normal\1600x1200_normal_024.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Normal\1600x1200_normal_025.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Normal\1600x1200_normal_026.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Normal\1600x1200_normal_027.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Normal\1600x1200_normal_028.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Normal\1600x1200_normal_029.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Normal\1600x1200_normal_030.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Normal\1600x1200_normal_031.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Highlight\1600x1200_highlight_000.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Highlight\1600x1200_highlight_001.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Highlight\1600x1200_highlight_002.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Highlight\1600x1200_highlight_003.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Highlight\1600x1200_highlight_004.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Highlight\1600x1200_highlight_005.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Highlight\1600x1200_highlight_006.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Highlight\1600x1200_highlight_007.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Highlight\1600x1200_highlight_008.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Highlight\1600x1200_highlight_009.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Highlight\1600x1200_highlight_010.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Highlight\1600x1200_highlight_011.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Highlight\1600x1200_highlight_012.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Highlight\1600x1200_highlight_013.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Highlight\1600x1200_highlight_014.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Highlight\1600x1200_highlight_015.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Highlight\1600x1200_highlight_016.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Highlight\1600x1200_highlight_017.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Highlight\1600x1200_highlight_018.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Highlight\1600x1200_highlight_019.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Highlight\1600x1200_highlight_020.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Highlight\1600x1200_highlight_021.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Highlight\1600x1200_highlight_022.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Highlight\1600x1200_highlight_023.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Highlight\1600x1200_highlight_024.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Highlight\1600x1200_highlight_025.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Highlight\1600x1200_highlight_026.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Highlight\1600x1200_highlight_027.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Highlight\1600x1200_highlight_028.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Highlight\1600x1200_highlight_029.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Highlight\1600x1200_highlight_030.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Highlight\1600x1200_highlight_031.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Highlight\1600x1200_highlight_032.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Click\1600x1200_click_000.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Click\1600x1200_click_001.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Click\1600x1200_click_002.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Click\1600x1200_click_003.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Click\1600x1200_click_004.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Click\1600x1200_click_005.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Click\1600x1200_click_006.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Click\1600x1200_click_007.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Click\1600x1200_click_008.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Click\1600x1200_click_009.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Click\1600x1200_click_010.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Click\1600x1200_click_011.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Click\1600x1200_click_012.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Click\1600x1200_click_013.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Click\1600x1200_click_014.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Click\1600x1200_click_015.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Click\1600x1200_click_016.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Click\1600x1200_click_017.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Click\1600x1200_click_018.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Click\1600x1200_click_019.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Click\1600x1200_click_020.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Click\1600x1200_click_021.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Click\1600x1200_click_022.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Click\1600x1200_click_023.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Click\1600x1200_click_024.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Click\1600x1200_click_025.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Click\1600x1200_click_026.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Click\1600x1200_click_027.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Click\1600x1200_click_028.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Click\1600x1200_click_029.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Click\1600x1200_click_030.png
+Assets\UI\Buttons\OptionsMenu\1600x1200 Click\1600x1200_click_031.png
+Assets\UI\Buttons\OptionsMenu\fullscreen_eng.png
+Assets\UI\Buttons\OptionsMenu\fullscreen_esp.png
+Assets\UI\Buttons\OptionsMenu\fullscreen_circle.png
+Assets\UI\Buttons\OptionsMenu\to_false_anim\fullscreen_anim_to_false_00000.png
+Assets\UI\Buttons\OptionsMenu\to_false_anim\fullscreen_anim_to_false_00001.png
+Assets\UI\Buttons\OptionsMenu\to_false_anim\fullscreen_anim_to_false_00002.png
+Assets\UI\Buttons\OptionsMenu\to_false_anim\fullscreen_anim_to_false_00003.png
+Assets\UI\Buttons\OptionsMenu\to_false_anim\fullscreen_anim_to_false_00004.png
+Assets\UI\Buttons\OptionsMenu\to_false_anim\fullscreen_anim_to_false_00005.png
+Assets\UI\Buttons\OptionsMenu\to_false_anim\fullscreen_anim_to_false_00006.png
+Assets\UI\Buttons\OptionsMenu\to_false_anim\fullscreen_anim_to_false_00007.png
+Assets\UI\Buttons\OptionsMenu\to_true_anim\fullscreen_anim_to_true_00000.png
+Assets\UI\Buttons\OptionsMenu\to_true_anim\fullscreen_anim_to_true_00001.png
+Assets\UI\Buttons\OptionsMenu\to_true_anim\fullscreen_anim_to_true_00002.png
+Assets\UI\Buttons\OptionsMenu\to_true_anim\fullscreen_anim_to_true_00003.png
+Assets\UI\Buttons\OptionsMenu\to_true_anim\fullscreen_anim_to_true_00004.png
+Assets\UI\Buttons\OptionsMenu\to_true_anim\fullscreen_anim_to_true_00005.png
+Assets\UI\Buttons\OptionsMenu\to_true_anim\fullscreen_anim_to_true_00006.png
+Assets\UI\Buttons\OptionsMenu\to_true_anim\fullscreen_anim_to_true_00007.png
+Assets\UI\Buttons\OptionsMenu\fullscreen_bar.png
+Assets\UI\Buttons\OptionsMenu\on.png
+Assets\UI\Buttons\OptionsMenu\off.png
+Assets\UI\Buttons\OptionsMenu\sound_eng.png
+Assets\UI\Buttons\OptionsMenu\sound_esp.png
+Assets\UI\Buttons\OptionsMenu\minus_normal.png
+Assets\UI\Buttons\OptionsMenu\minus_highlight.png
+Assets\UI\Buttons\OptionsMenu\minus_pressed.png
+Assets\UI\Buttons\OptionsMenu\00.png
+Assets\UI\Buttons\OptionsMenu\01.png
+Assets\UI\Buttons\OptionsMenu\02.png
+Assets\UI\Buttons\OptionsMenu\03.png
+Assets\UI\Buttons\OptionsMenu\04.png
+Assets\UI\Buttons\OptionsMenu\05.png
+Assets\UI\Buttons\OptionsMenu\06.png
+Assets\UI\Buttons\OptionsMenu\07.png
+Assets\UI\Buttons\OptionsMenu\08.png
+Assets\UI\Buttons\OptionsMenu\09.png
+Assets\UI\Buttons\OptionsMenu\10.png
+Assets\UI\Buttons\OptionsMenu\plus_normal.png
+Assets\UI\Buttons\OptionsMenu\plus_highlight.png
+Assets\UI\Buttons\OptionsMenu\plus_pressed.png
+Assets\UI\Buttons\OptionsMenu\music_eng.png
+Assets\UI\Buttons\OptionsMenu\music_esp.png
+Assets\UI\Buttons\OptionsMenu\global.png
+Assets\UI\Buttons\OptionsMenu\language_eng.png
+Assets\UI\Buttons\OptionsMenu\language_esp.png
+Assets\UI\Buttons\OptionsMenu\general_button_normal.png
+Assets\UI\Buttons\OptionsMenu\English Normal\english_normal_000.png
+Assets\UI\Buttons\OptionsMenu\English Normal\english_normal_001.png
+Assets\UI\Buttons\OptionsMenu\English Normal\english_normal_002.png
+Assets\UI\Buttons\OptionsMenu\English Normal\english_normal_003.png
+Assets\UI\Buttons\OptionsMenu\English Normal\english_normal_004.png
+Assets\UI\Buttons\OptionsMenu\English Normal\english_normal_005.png
+Assets\UI\Buttons\OptionsMenu\English Normal\english_normal_006.png
+Assets\UI\Buttons\OptionsMenu\English Normal\english_normal_007.png
+Assets\UI\Buttons\OptionsMenu\English Normal\english_normal_008.png
+Assets\UI\Buttons\OptionsMenu\English Normal\english_normal_009.png
+Assets\UI\Buttons\OptionsMenu\English Normal\english_normal_010.png
+Assets\UI\Buttons\OptionsMenu\English Normal\english_normal_011.png
+Assets\UI\Buttons\OptionsMenu\English Normal\english_normal_012.png
+Assets\UI\Buttons\OptionsMenu\English Normal\english_normal_013.png
+Assets\UI\Buttons\OptionsMenu\English Normal\english_normal_014.png
+Assets\UI\Buttons\OptionsMenu\English Normal\english_normal_015.png
+Assets\UI\Buttons\OptionsMenu\English Normal\english_normal_016.png
+Assets\UI\Buttons\OptionsMenu\English Normal\english_normal_017.png
+Assets\UI\Buttons\OptionsMenu\English Normal\english_normal_018.png
+Assets\UI\Buttons\OptionsMenu\English Normal\english_normal_019.png
+Assets\UI\Buttons\OptionsMenu\English Normal\english_normal_020.png
+Assets\UI\Buttons\OptionsMenu\English Normal\english_normal_021.png
+Assets\UI\Buttons\OptionsMenu\English Normal\english_normal_022.png
+Assets\UI\Buttons\OptionsMenu\English Normal\english_normal_023.png
+Assets\UI\Buttons\OptionsMenu\English Normal\english_normal_024.png
+Assets\UI\Buttons\OptionsMenu\English Normal\english_normal_025.png
+Assets\UI\Buttons\OptionsMenu\English Normal\english_normal_026.png
+Assets\UI\Buttons\OptionsMenu\English Normal\english_normal_027.png
+Assets\UI\Buttons\OptionsMenu\English Normal\english_normal_028.png
+Assets\UI\Buttons\OptionsMenu\English Normal\english_normal_029.png
+Assets\UI\Buttons\OptionsMenu\English Normal\english_normal_030.png
+Assets\UI\Buttons\OptionsMenu\English Normal\english_normal_031.png
+Assets\UI\Buttons\OptionsMenu\English Highlight\english_highlight_000.png
+Assets\UI\Buttons\OptionsMenu\English Highlight\english_highlight_001.png
+Assets\UI\Buttons\OptionsMenu\English Highlight\english_highlight_002.png
+Assets\UI\Buttons\OptionsMenu\English Highlight\english_highlight_003.png
+Assets\UI\Buttons\OptionsMenu\English Highlight\english_highlight_004.png
+Assets\UI\Buttons\OptionsMenu\English Highlight\english_highlight_005.png
+Assets\UI\Buttons\OptionsMenu\English Highlight\english_highlight_006.png
+Assets\UI\Buttons\OptionsMenu\English Highlight\english_highlight_007.png
+Assets\UI\Buttons\OptionsMenu\English Highlight\english_highlight_008.png
+Assets\UI\Buttons\OptionsMenu\English Highlight\english_highlight_009.png
+Assets\UI\Buttons\OptionsMenu\English Highlight\english_highlight_010.png
+Assets\UI\Buttons\OptionsMenu\English Highlight\english_highlight_011.png
+Assets\UI\Buttons\OptionsMenu\English Highlight\english_highlight_012.png
+Assets\UI\Buttons\OptionsMenu\English Highlight\english_highlight_013.png
+Assets\UI\Buttons\OptionsMenu\English Highlight\english_highlight_014.png
+Assets\UI\Buttons\OptionsMenu\English Highlight\english_highlight_015.png
+Assets\UI\Buttons\OptionsMenu\English Highlight\english_highlight_016.png
+Assets\UI\Buttons\OptionsMenu\English Highlight\english_highlight_017.png
+Assets\UI\Buttons\OptionsMenu\English Highlight\english_highlight_018.png
+Assets\UI\Buttons\OptionsMenu\English Highlight\english_highlight_019.png
+Assets\UI\Buttons\OptionsMenu\English Highlight\english_highlight_020.png
+Assets\UI\Buttons\OptionsMenu\English Highlight\english_highlight_021.png
+Assets\UI\Buttons\OptionsMenu\English Highlight\english_highlight_022.png
+Assets\UI\Buttons\OptionsMenu\English Highlight\english_highlight_023.png
+Assets\UI\Buttons\OptionsMenu\English Highlight\english_highlight_024.png
+Assets\UI\Buttons\OptionsMenu\English Highlight\english_highlight_025.png
+Assets\UI\Buttons\OptionsMenu\English Highlight\english_highlight_026.png
+Assets\UI\Buttons\OptionsMenu\English Highlight\english_highlight_027.png
+Assets\UI\Buttons\OptionsMenu\English Highlight\english_highlight_028.png
+Assets\UI\Buttons\OptionsMenu\English Highlight\english_highlight_029.png
+Assets\UI\Buttons\OptionsMenu\English Highlight\english_highlight_030.png
+Assets\UI\Buttons\OptionsMenu\English Highlight\english_highlight_031.png
+Assets\UI\Buttons\OptionsMenu\English Click\english_click_000.png
+Assets\UI\Buttons\OptionsMenu\English Click\english_click_001.png
+Assets\UI\Buttons\OptionsMenu\English Click\english_click_002.png
+Assets\UI\Buttons\OptionsMenu\English Click\english_click_003.png
+Assets\UI\Buttons\OptionsMenu\English Click\english_click_004.png
+Assets\UI\Buttons\OptionsMenu\English Click\english_click_005.png
+Assets\UI\Buttons\OptionsMenu\English Click\english_click_006.png
+Assets\UI\Buttons\OptionsMenu\English Click\english_click_007.png
+Assets\UI\Buttons\OptionsMenu\English Click\english_click_008.png
+Assets\UI\Buttons\OptionsMenu\English Click\english_click_009.png
+Assets\UI\Buttons\OptionsMenu\English Click\english_click_010.png
+Assets\UI\Buttons\OptionsMenu\English Click\english_click_011.png
+Assets\UI\Buttons\OptionsMenu\English Click\english_click_012.png
+Assets\UI\Buttons\OptionsMenu\English Click\english_click_013.png
+Assets\UI\Buttons\OptionsMenu\English Click\english_click_014.png
+Assets\UI\Buttons\OptionsMenu\English Click\english_click_015.png
+Assets\UI\Buttons\OptionsMenu\English Click\english_click_016.png
+Assets\UI\Buttons\OptionsMenu\English Click\english_click_017.png
+Assets\UI\Buttons\OptionsMenu\English Click\english_click_018.png
+Assets\UI\Buttons\OptionsMenu\English Click\english_click_019.png
+Assets\UI\Buttons\OptionsMenu\English Click\english_click_020.png
+Assets\UI\Buttons\OptionsMenu\English Click\english_click_021.png
+Assets\UI\Buttons\OptionsMenu\English Click\english_click_022.png
+Assets\UI\Buttons\OptionsMenu\English Click\english_click_023.png
+Assets\UI\Buttons\OptionsMenu\English Click\english_click_024.png
+Assets\UI\Buttons\OptionsMenu\English Click\english_click_025.png
+Assets\UI\Buttons\OptionsMenu\English Click\english_click_026.png
+Assets\UI\Buttons\OptionsMenu\English Click\english_click_027.png
+Assets\UI\Buttons\OptionsMenu\English Click\english_click_028.png
+Assets\UI\Buttons\OptionsMenu\English Click\english_click_029.png
+Assets\UI\Buttons\OptionsMenu\English Click\english_click_030.png
+Assets\UI\Buttons\OptionsMenu\English Click\english_click_031.png
+Assets\UI\Buttons\OptionsMenu\Castellano Normal\castellano_normal_000.png
+Assets\UI\Buttons\OptionsMenu\Castellano Normal\castellano_normal_001.png
+Assets\UI\Buttons\OptionsMenu\Castellano Normal\castellano_normal_002.png
+Assets\UI\Buttons\OptionsMenu\Castellano Normal\castellano_normal_003.png
+Assets\UI\Buttons\OptionsMenu\Castellano Normal\castellano_normal_004.png
+Assets\UI\Buttons\OptionsMenu\Castellano Normal\castellano_normal_005.png
+Assets\UI\Buttons\OptionsMenu\Castellano Normal\castellano_normal_006.png
+Assets\UI\Buttons\OptionsMenu\Castellano Normal\castellano_normal_007.png
+Assets\UI\Buttons\OptionsMenu\Castellano Normal\castellano_normal_008.png
+Assets\UI\Buttons\OptionsMenu\Castellano Normal\castellano_normal_009.png
+Assets\UI\Buttons\OptionsMenu\Castellano Normal\castellano_normal_010.png
+Assets\UI\Buttons\OptionsMenu\Castellano Normal\castellano_normal_011.png
+Assets\UI\Buttons\OptionsMenu\Castellano Normal\castellano_normal_012.png
+Assets\UI\Buttons\OptionsMenu\Castellano Normal\castellano_normal_013.png
+Assets\UI\Buttons\OptionsMenu\Castellano Normal\castellano_normal_014.png
+Assets\UI\Buttons\OptionsMenu\Castellano Normal\castellano_normal_015.png
+Assets\UI\Buttons\OptionsMenu\Castellano Normal\castellano_normal_016.png
+Assets\UI\Buttons\OptionsMenu\Castellano Normal\castellano_normal_017.png
+Assets\UI\Buttons\OptionsMenu\Castellano Normal\castellano_normal_018.png
+Assets\UI\Buttons\OptionsMenu\Castellano Normal\castellano_normal_019.png
+Assets\UI\Buttons\OptionsMenu\Castellano Normal\castellano_normal_020.png
+Assets\UI\Buttons\OptionsMenu\Castellano Normal\castellano_normal_021.png
+Assets\UI\Buttons\OptionsMenu\Castellano Normal\castellano_normal_022.png
+Assets\UI\Buttons\OptionsMenu\Castellano Normal\castellano_normal_023.png
+Assets\UI\Buttons\OptionsMenu\Castellano Normal\castellano_normal_024.png
+Assets\UI\Buttons\OptionsMenu\Castellano Normal\castellano_normal_025.png
+Assets\UI\Buttons\OptionsMenu\Castellano Normal\castellano_normal_026.png
+Assets\UI\Buttons\OptionsMenu\Castellano Normal\castellano_normal_027.png
+Assets\UI\Buttons\OptionsMenu\Castellano Normal\castellano_normal_028.png
+Assets\UI\Buttons\OptionsMenu\Castellano Normal\castellano_normal_029.png
+Assets\UI\Buttons\OptionsMenu\Castellano Normal\castellano_normal_030.png
+Assets\UI\Buttons\OptionsMenu\Castellano Normal\castellano_normal_031.png
+Assets\UI\Buttons\OptionsMenu\Castellano Highlight\castellano_highlight_000.png
+Assets\UI\Buttons\OptionsMenu\Castellano Highlight\castellano_highlight_001.png
+Assets\UI\Buttons\OptionsMenu\Castellano Highlight\castellano_highlight_002.png
+Assets\UI\Buttons\OptionsMenu\Castellano Highlight\castellano_highlight_003.png
+Assets\UI\Buttons\OptionsMenu\Castellano Highlight\castellano_highlight_004.png
+Assets\UI\Buttons\OptionsMenu\Castellano Highlight\castellano_highlight_005.png
+Assets\UI\Buttons\OptionsMenu\Castellano Highlight\castellano_highlight_006.png
+Assets\UI\Buttons\OptionsMenu\Castellano Highlight\castellano_highlight_007.png
+Assets\UI\Buttons\OptionsMenu\Castellano Highlight\castellano_highlight_008.png
+Assets\UI\Buttons\OptionsMenu\Castellano Highlight\castellano_highlight_009.png
+Assets\UI\Buttons\OptionsMenu\Castellano Highlight\castellano_highlight_010.png
+Assets\UI\Buttons\OptionsMenu\Castellano Highlight\castellano_highlight_011.png
+Assets\UI\Buttons\OptionsMenu\Castellano Highlight\castellano_highlight_012.png
+Assets\UI\Buttons\OptionsMenu\Castellano Highlight\castellano_highlight_013.png
+Assets\UI\Buttons\OptionsMenu\Castellano Highlight\castellano_highlight_014.png
+Assets\UI\Buttons\OptionsMenu\Castellano Highlight\castellano_highlight_015.png
+Assets\UI\Buttons\OptionsMenu\Castellano Highlight\castellano_highlight_016.png
+Assets\UI\Buttons\OptionsMenu\Castellano Highlight\castellano_highlight_017.png
+Assets\UI\Buttons\OptionsMenu\Castellano Highlight\castellano_highlight_018.png
+Assets\UI\Buttons\OptionsMenu\Castellano Highlight\castellano_highlight_019.png
+Assets\UI\Buttons\OptionsMenu\Castellano Highlight\castellano_highlight_020.png
+Assets\UI\Buttons\OptionsMenu\Castellano Highlight\castellano_highlight_021.png
+Assets\UI\Buttons\OptionsMenu\Castellano Highlight\castellano_highlight_022.png
+Assets\UI\Buttons\OptionsMenu\Castellano Highlight\castellano_highlight_023.png
+Assets\UI\Buttons\OptionsMenu\Castellano Highlight\castellano_highlight_024.png
+Assets\UI\Buttons\OptionsMenu\Castellano Highlight\castellano_highlight_025.png
+Assets\UI\Buttons\OptionsMenu\Castellano Highlight\castellano_highlight_026.png
+Assets\UI\Buttons\OptionsMenu\Castellano Highlight\castellano_highlight_027.png
+Assets\UI\Buttons\OptionsMenu\Castellano Highlight\castellano_highlight_028.png
+Assets\UI\Buttons\OptionsMenu\Castellano Highlight\castellano_highlight_029.png
+Assets\UI\Buttons\OptionsMenu\Castellano Highlight\castellano_highlight_030.png
+Assets\UI\Buttons\OptionsMenu\Castellano Highlight\castellano_highlight_031.png
+Assets\UI\Buttons\OptionsMenu\Castellano Click\castellano_click_000.png
+Assets\UI\Buttons\OptionsMenu\Castellano Click\castellano_click_001.png
+Assets\UI\Buttons\OptionsMenu\Castellano Click\castellano_click_002.png
+Assets\UI\Buttons\OptionsMenu\Castellano Click\castellano_click_003.png
+Assets\UI\Buttons\OptionsMenu\Castellano Click\castellano_click_004.png
+Assets\UI\Buttons\OptionsMenu\Castellano Click\castellano_click_005.png
+Assets\UI\Buttons\OptionsMenu\Castellano Click\castellano_click_006.png
+Assets\UI\Buttons\OptionsMenu\Castellano Click\castellano_click_007.png
+Assets\UI\Buttons\OptionsMenu\Castellano Click\castellano_click_008.png
+Assets\UI\Buttons\OptionsMenu\Castellano Click\castellano_click_009.png
+Assets\UI\Buttons\OptionsMenu\Castellano Click\castellano_click_010.png
+Assets\UI\Buttons\OptionsMenu\Castellano Click\castellano_click_011.png
+Assets\UI\Buttons\OptionsMenu\Castellano Click\castellano_click_012.png
+Assets\UI\Buttons\OptionsMenu\Castellano Click\castellano_click_013.png
+Assets\UI\Buttons\OptionsMenu\Castellano Click\castellano_click_014.png
+Assets\UI\Buttons\OptionsMenu\Castellano Click\castellano_click_015.png
+Assets\UI\Buttons\OptionsMenu\Castellano Click\castellano_click_016.png
+Assets\UI\Buttons\OptionsMenu\Castellano Click\castellano_click_017.png
+Assets\UI\Buttons\OptionsMenu\Castellano Click\castellano_click_018.png
+Assets\UI\Buttons\OptionsMenu\Castellano Click\castellano_click_019.png
+Assets\UI\Buttons\OptionsMenu\Castellano Click\castellano_click_020.png
+Assets\UI\Buttons\OptionsMenu\Castellano Click\castellano_click_021.png
+Assets\UI\Buttons\OptionsMenu\Castellano Click\castellano_click_022.png
+Assets\UI\Buttons\OptionsMenu\Castellano Click\castellano_click_023.png
+Assets\UI\Buttons\OptionsMenu\Castellano Click\castellano_click_024.png
+Assets\UI\Buttons\OptionsMenu\Castellano Click\castellano_click_025.png
+Assets\UI\Buttons\OptionsMenu\Castellano Click\castellano_click_026.png
+Assets\UI\Buttons\OptionsMenu\Castellano Click\castellano_click_027.png
+Assets\UI\Buttons\OptionsMenu\Castellano Click\castellano_click_028.png
+Assets\UI\Buttons\OptionsMenu\Castellano Click\castellano_click_029.png
+Assets\UI\Buttons\OptionsMenu\Castellano Click\castellano_click_030.png
+Assets\UI\Buttons\OptionsMenu\Castellano Click\castellano_click_031.png
+Assets\UI\Buttons\OptionsMenu\return_normal.png
+Assets\UI\Buttons\OptionsMenu\return_highlight.png
+Assets\UI\Buttons\OptionsMenu\return_pressed.png
+Assets\UI\Buttons\OptionsMenu\volver_normal.png
+Assets\UI\Buttons\OptionsMenu\volver_highlight.png
+Assets\UI\Buttons\OptionsMenu\volver_pressed.png
+Assets\Rooms\MainMenu\options_menu_background\options_menu_background_enter_anim_00000.png
+Assets\Rooms\MainMenu\options_menu_background\options_menu_background_enter_anim_00001.png
+Assets\Rooms\MainMenu\options_menu_background\options_menu_background_enter_anim_00002.png
+Assets\Rooms\MainMenu\options_menu_background\options_menu_background_enter_anim_00003.png
+Assets\Rooms\MainMenu\options_menu_background\options_menu_background_enter_anim_00004.png
+Assets\Rooms\MainMenu\options_menu_background\options_menu_background_enter_anim_00005.png
+Assets\Rooms\MainMenu\options_menu_background\options_menu_background_enter_anim_00006.png
+Assets\Rooms\MainMenu\options_menu_background\options_menu_background_enter_anim_00007.png
+Assets\Rooms\MainMenu\options_menu_background\options_menu_background_enter_anim_00008.png
+Assets\Rooms\MainMenu\options_menu_background\options_menu_background_enter_anim_00009.png
+Assets\Rooms\MainMenu\options_menu_background\options_menu_background_enter_anim_00010.png
+Assets\Rooms\MainMenu\options_menu_background\options_menu_background_enter_anim_00011.png
+Assets\Rooms\MainMenu\options_menu_background\options_menu_background_enter_anim_00012.png
+Assets\Rooms\MainMenu\options_menu_background\options_menu_background_enter_anim_00013.png
+Assets\Rooms\MainMenu\options_menu_background\options_menu_background_enter_anim_00014.png
+Assets\Rooms\MainMenu\options_menu_background\options_menu_background_enter_anim_00015.png
+Assets\Rooms\MainMenu\options_menu_background\options_menu_background_enter_anim_00016.png
+Assets\Rooms\MainMenu\options_menu_background\options_menu_background_enter_anim_00017.png
+Assets\Rooms\MainMenu\options_menu_background\options_menu_background_enter_anim_00018.png
+Assets\Rooms\MainMenu\options_menu_background\options_menu_background_enter_anim_00019.png
+Assets\Rooms\MainMenu\options_menu_background\options_menu_background_enter_anim_00020.png
+Assets\Rooms\MainMenu\options_menu_background\options_menu_background_enter_anim_00021.png
+Assets\Rooms\MainMenu\options_menu_background\options_menu_background_enter_anim_00022.png
+Assets\Rooms\MainMenu\options_menu_background\options_menu_background_enter_anim_00023.png
+Assets\Rooms\MainMenu\options_menu_background\options_menu_background_enter_anim_00024.png
+Assets\Rooms\MainMenu\options_menu_background\options_menu_background_anim_exit_00000.png
+Assets\Rooms\MainMenu\options_menu_background\options_menu_background_anim_exit_00001.png
+Assets\Rooms\MainMenu\options_menu_background\options_menu_background_anim_exit_00002.png
+Assets\Rooms\MainMenu\options_menu_background\options_menu_background_anim_exit_00003.png
+Assets\Rooms\MainMenu\options_menu_background\options_menu_background_anim_exit_00004.png
+Assets\Rooms\MainMenu\options_menu_background\options_menu_background_anim_exit_00005.png
+Assets\Rooms\MainMenu\options_menu_background\options_menu_background_anim_exit_00006.png
+Assets\Rooms\MainMenu\options_menu_background\options_menu_background_anim_exit_00007.png
+Assets\Rooms\MainMenu\options_menu_background\options_menu_background_anim_exit_00008.png
+Assets\Rooms\MainMenu\options_menu_background\options_menu_background_anim_exit_00009.png
+Assets\Rooms\MainMenu\options_menu_background\options_menu_background_anim_exit_00010.png
+Assets\Rooms\MainMenu\options_menu_background\options_menu_background_anim_exit_00011.png
+Assets\Rooms\MainMenu\options_menu_background\options_menu_background_anim_exit_00012.png
+Assets\Rooms\MainMenu\options_menu_background\options_menu_background_anim_exit_00013.png
+Assets\Rooms\MainMenu\options_menu_background\options_menu_background_anim_exit_00014.png
+Assets\Rooms\MainMenu\options_menu_background\options_menu_background_anim_exit_00015.png
+Assets\Rooms\MainMenu\options_menu_background\options_menu_background_anim_exit_00016.png
+Assets\Rooms\MainMenu\options_menu_background\options_menu_background_anim_exit_00017.png
+Assets\Rooms\MainMenu\options_menu_background\options_menu_background_anim_exit_00018.png
+Assets\Rooms\MainMenu\options_menu_background\options_menu_background_anim_exit_00019.png
+Assets\Rooms\MainMenu\options_menu_background\options_menu_background_anim_exit_00020.png
+Assets\Rooms\MainMenu\options_menu_background\options_menu_background_anim_exit_00021.png
+Assets\Rooms\MainMenu\options_menu_background\options_menu_background_anim_exit_00022.png
+Assets\Rooms\MainMenu\options_menu_background\options_menu_background_anim_exit_00023.png
+Assets\Rooms\MainMenu\options_menu_background\options_menu_background_anim_exit_00024.png
+--------------------------------------------------------------------------------
+Container 'C:\Users\Zoé González\Documents\GitHub\AustraNlia\AustraNlia\Build\Scene001.vs'
+-------------------------------------------------------------------------------
+Assets\Rooms\MainMenu\main_menu_background.png
+Assets\Music\main_menu.ogg
+Assets\UI\Buttons\MainMenu\button_normal.png
+Assets\UI\Buttons\MainMenu\Normal New Game\NewGame_000.png
+Assets\UI\Buttons\MainMenu\Normal New Game\NewGame_001.png
+Assets\UI\Buttons\MainMenu\Normal New Game\NewGame_002.png
+Assets\UI\Buttons\MainMenu\Normal New Game\NewGame_003.png
+Assets\UI\Buttons\MainMenu\Normal New Game\NewGame_004.png
+Assets\UI\Buttons\MainMenu\Normal New Game\NewGame_005.png
+Assets\UI\Buttons\MainMenu\Normal New Game\NewGame_006.png
+Assets\UI\Buttons\MainMenu\Normal New Game\NewGame_007.png
+Assets\UI\Buttons\MainMenu\Normal New Game\NewGame_008.png
+Assets\UI\Buttons\MainMenu\Normal New Game\NewGame_009.png
+Assets\UI\Buttons\MainMenu\Normal New Game\NewGame_010.png
+Assets\UI\Buttons\MainMenu\Normal New Game\NewGame_011.png
+Assets\UI\Buttons\MainMenu\Normal New Game\NewGame_012.png
+Assets\UI\Buttons\MainMenu\Normal New Game\NewGame_013.png
+Assets\UI\Buttons\MainMenu\Normal New Game\NewGame_014.png
+Assets\UI\Buttons\MainMenu\Normal New Game\NewGame_015.png
+Assets\UI\Buttons\MainMenu\Normal New Game\NewGame_016.png
+Assets\UI\Buttons\MainMenu\Normal New Game\NewGame_017.png
+Assets\UI\Buttons\MainMenu\Normal New Game\NewGame_018.png
+Assets\UI\Buttons\MainMenu\Normal New Game\NewGame_019.png
+Assets\UI\Buttons\MainMenu\Normal New Game\NewGame_020.png
+Assets\UI\Buttons\MainMenu\Normal New Game\NewGame_021.png
+Assets\UI\Buttons\MainMenu\Normal New Game\NewGame_022.png
+Assets\UI\Buttons\MainMenu\Normal New Game\NewGame_023.png
+Assets\UI\Buttons\MainMenu\Normal New Game\NewGame_024.png
+Assets\UI\Buttons\MainMenu\Normal New Game\NewGame_025.png
+Assets\UI\Buttons\MainMenu\Normal New Game\NewGame_026.png
+Assets\UI\Buttons\MainMenu\Normal New Game\NewGame_027.png
+Assets\UI\Buttons\MainMenu\Normal New Game\NewGame_028.png
+Assets\UI\Buttons\MainMenu\Normal New Game\NewGame_029.png
+Assets\UI\Buttons\MainMenu\Normal New Game\NewGame_030.png
+Assets\UI\Buttons\MainMenu\Normal New Game\NewGame_031.png
+Assets\UI\Buttons\MainMenu\Highlight New Game\NewGame_000.png
+Assets\UI\Buttons\MainMenu\Highlight New Game\NewGame_001.png
+Assets\UI\Buttons\MainMenu\Highlight New Game\NewGame_002.png
+Assets\UI\Buttons\MainMenu\Highlight New Game\NewGame_003.png
+Assets\UI\Buttons\MainMenu\Highlight New Game\NewGame_004.png
+Assets\UI\Buttons\MainMenu\Highlight New Game\NewGame_005.png
+Assets\UI\Buttons\MainMenu\Highlight New Game\NewGame_006.png
+Assets\UI\Buttons\MainMenu\Highlight New Game\NewGame_007.png
+Assets\UI\Buttons\MainMenu\Highlight New Game\NewGame_008.png
+Assets\UI\Buttons\MainMenu\Highlight New Game\NewGame_009.png
+Assets\UI\Buttons\MainMenu\Highlight New Game\NewGame_010.png
+Assets\UI\Buttons\MainMenu\Highlight New Game\NewGame_011.png
+Assets\UI\Buttons\MainMenu\Highlight New Game\NewGame_012.png
+Assets\UI\Buttons\MainMenu\Highlight New Game\NewGame_013.png
+Assets\UI\Buttons\MainMenu\Highlight New Game\NewGame_014.png
+Assets\UI\Buttons\MainMenu\Highlight New Game\NewGame_015.png
+Assets\UI\Buttons\MainMenu\Highlight New Game\NewGame_016.png
+Assets\UI\Buttons\MainMenu\Highlight New Game\NewGame_017.png
+Assets\UI\Buttons\MainMenu\Highlight New Game\NewGame_018.png
+Assets\UI\Buttons\MainMenu\Highlight New Game\NewGame_019.png
+Assets\UI\Buttons\MainMenu\Highlight New Game\NewGame_020.png
+Assets\UI\Buttons\MainMenu\Highlight New Game\NewGame_021.png
+Assets\UI\Buttons\MainMenu\Highlight New Game\NewGame_022.png
+Assets\UI\Buttons\MainMenu\Highlight New Game\NewGame_023.png
+Assets\UI\Buttons\MainMenu\Highlight New Game\NewGame_024.png
+Assets\UI\Buttons\MainMenu\Highlight New Game\NewGame_025.png
+Assets\UI\Buttons\MainMenu\Highlight New Game\NewGame_026.png
+Assets\UI\Buttons\MainMenu\Highlight New Game\NewGame_027.png
+Assets\UI\Buttons\MainMenu\Highlight New Game\NewGame_028.png
+Assets\UI\Buttons\MainMenu\Highlight New Game\NewGame_029.png
+Assets\UI\Buttons\MainMenu\Highlight New Game\NewGame_030.png
+Assets\UI\Buttons\MainMenu\Highlight New Game\NewGame_031.png
+Assets\UI\Buttons\MainMenu\Highlight New Game\NewGame_032.png
+Assets\UI\Buttons\MainMenu\Highlight New Game\NewGame_033.png
+Assets\UI\Buttons\MainMenu\Click New Game\NewGame_000.png
+Assets\UI\Buttons\MainMenu\Click New Game\NewGame_001.png
+Assets\UI\Buttons\MainMenu\Click New Game\NewGame_002.png
+Assets\UI\Buttons\MainMenu\Click New Game\NewGame_003.png
+Assets\UI\Buttons\MainMenu\Click New Game\NewGame_004.png
+Assets\UI\Buttons\MainMenu\Click New Game\NewGame_005.png
+Assets\UI\Buttons\MainMenu\Click New Game\NewGame_006.png
+Assets\UI\Buttons\MainMenu\Click New Game\NewGame_007.png
+Assets\UI\Buttons\MainMenu\Click New Game\NewGame_008.png
+Assets\UI\Buttons\MainMenu\Click New Game\NewGame_009.png
+Assets\UI\Buttons\MainMenu\Click New Game\NewGame_010.png
+Assets\UI\Buttons\MainMenu\Click New Game\NewGame_011.png
+Assets\UI\Buttons\MainMenu\Click New Game\NewGame_012.png
+Assets\UI\Buttons\MainMenu\Click New Game\NewGame_013.png
+Assets\UI\Buttons\MainMenu\Click New Game\NewGame_014.png
+Assets\UI\Buttons\MainMenu\Click New Game\NewGame_015.png
+Assets\UI\Buttons\MainMenu\Click New Game\NewGame_016.png
+Assets\UI\Buttons\MainMenu\Click New Game\NewGame_017.png
+Assets\UI\Buttons\MainMenu\Click New Game\NewGame_018.png
+Assets\UI\Buttons\MainMenu\Click New Game\NewGame_019.png
+Assets\UI\Buttons\MainMenu\Click New Game\NewGame_020.png
+Assets\UI\Buttons\MainMenu\Click New Game\NewGame_021.png
+Assets\UI\Buttons\MainMenu\Click New Game\NewGame_022.png
+Assets\UI\Buttons\MainMenu\Click New Game\NewGame_023.png
+Assets\UI\Buttons\MainMenu\Click New Game\NewGame_024.png
+Assets\UI\Buttons\MainMenu\Click New Game\NewGame_025.png
+Assets\UI\Buttons\MainMenu\Click New Game\NewGame_026.png
+Assets\UI\Buttons\MainMenu\Click New Game\NewGame_027.png
+Assets\UI\Buttons\MainMenu\Click New Game\NewGame_028.png
+Assets\UI\Buttons\MainMenu\Click New Game\NewGame_029.png
+Assets\UI\Buttons\MainMenu\Click New Game\NewGame_030.png
+Assets\UI\Buttons\MainMenu\Click New Game\NewGame_031.png
+Assets\UI\Buttons\MainMenu\Nueva Normal\nueva_normal_000.png
+Assets\UI\Buttons\MainMenu\Nueva Normal\nueva_normal_001.png
+Assets\UI\Buttons\MainMenu\Nueva Normal\nueva_normal_002.png
+Assets\UI\Buttons\MainMenu\Nueva Normal\nueva_normal_003.png
+Assets\UI\Buttons\MainMenu\Nueva Normal\nueva_normal_004.png
+Assets\UI\Buttons\MainMenu\Nueva Normal\nueva_normal_005.png
+Assets\UI\Buttons\MainMenu\Nueva Normal\nueva_normal_006.png
+Assets\UI\Buttons\MainMenu\Nueva Normal\nueva_normal_007.png
+Assets\UI\Buttons\MainMenu\Nueva Normal\nueva_normal_008.png
+Assets\UI\Buttons\MainMenu\Nueva Normal\nueva_normal_009.png
+Assets\UI\Buttons\MainMenu\Nueva Normal\nueva_normal_010.png
+Assets\UI\Buttons\MainMenu\Nueva Normal\nueva_normal_011.png
+Assets\UI\Buttons\MainMenu\Nueva Normal\nueva_normal_012.png
+Assets\UI\Buttons\MainMenu\Nueva Normal\nueva_normal_013.png
+Assets\UI\Buttons\MainMenu\Nueva Normal\nueva_normal_014.png
+Assets\UI\Buttons\MainMenu\Nueva Normal\nueva_normal_015.png
+Assets\UI\Buttons\MainMenu\Nueva Normal\nueva_normal_016.png
+Assets\UI\Buttons\MainMenu\Nueva Normal\nueva_normal_017.png
+Assets\UI\Buttons\MainMenu\Nueva Normal\nueva_normal_018.png
+Assets\UI\Buttons\MainMenu\Nueva Normal\nueva_normal_019.png
+Assets\UI\Buttons\MainMenu\Nueva Normal\nueva_normal_020.png
+Assets\UI\Buttons\MainMenu\Nueva Normal\nueva_normal_021.png
+Assets\UI\Buttons\MainMenu\Nueva Normal\nueva_normal_022.png
+Assets\UI\Buttons\MainMenu\Nueva Normal\nueva_normal_023.png
+Assets\UI\Buttons\MainMenu\Nueva Normal\nueva_normal_024.png
+Assets\UI\Buttons\MainMenu\Nueva Normal\nueva_normal_025.png
+Assets\UI\Buttons\MainMenu\Nueva Normal\nueva_normal_026.png
+Assets\UI\Buttons\MainMenu\Nueva Normal\nueva_normal_027.png
+Assets\UI\Buttons\MainMenu\Nueva Normal\nueva_normal_028.png
+Assets\UI\Buttons\MainMenu\Nueva Normal\nueva_normal_029.png
+Assets\UI\Buttons\MainMenu\Nueva Normal\nueva_normal_030.png
+Assets\UI\Buttons\MainMenu\Nueva Normal\nueva_normal_031.png
+Assets\UI\Buttons\MainMenu\Nueva Highlight\nueva_highlight_011.png
+Assets\UI\Buttons\MainMenu\Nueva Highlight\nueva_highlight_012.png
+Assets\UI\Buttons\MainMenu\Nueva Highlight\nueva_highlight_013.png
+Assets\UI\Buttons\MainMenu\Nueva Highlight\nueva_highlight_014.png
+Assets\UI\Buttons\MainMenu\Nueva Highlight\nueva_highlight_015.png
+Assets\UI\Buttons\MainMenu\Nueva Highlight\nueva_highlight_016.png
+Assets\UI\Buttons\MainMenu\Nueva Highlight\nueva_highlight_017.png
+Assets\UI\Buttons\MainMenu\Nueva Highlight\nueva_highlight_018.png
+Assets\UI\Buttons\MainMenu\Nueva Highlight\nueva_highlight_019.png
+Assets\UI\Buttons\MainMenu\Nueva Highlight\nueva_highlight_020.png
+Assets\UI\Buttons\MainMenu\Nueva Highlight\nueva_highlight_021.png
+Assets\UI\Buttons\MainMenu\Nueva Highlight\nueva_highlight_022.png
+Assets\UI\Buttons\MainMenu\Nueva Highlight\nueva_highlight_023.png
+Assets\UI\Buttons\MainMenu\Nueva Highlight\nueva_highlight_024.png
+Assets\UI\Buttons\MainMenu\Nueva Highlight\nueva_highlight_025.png
+Assets\UI\Buttons\MainMenu\Nueva Highlight\nueva_highlight_026.png
+Assets\UI\Buttons\MainMenu\Nueva Highlight\nueva_highlight_027.png
+Assets\UI\Buttons\MainMenu\Nueva Highlight\nueva_highlight_028.png
+Assets\UI\Buttons\MainMenu\Nueva Highlight\nueva_highlight_029.png
+Assets\UI\Buttons\MainMenu\Nueva Highlight\nueva_highlight_030.png
+Assets\UI\Buttons\MainMenu\Nueva Highlight\nueva_highlight_031.png
+Assets\UI\Buttons\MainMenu\Nueva Highlight\nueva_highlight_032.png
+Assets\UI\Buttons\MainMenu\Nueva Highlight\nueva_highlight_033.png
+Assets\UI\Buttons\MainMenu\Nueva Click\nueva_click_000.png
+Assets\UI\Buttons\MainMenu\Nueva Click\nueva_click_001.png
+Assets\UI\Buttons\MainMenu\Nueva Click\nueva_click_002.png
+Assets\UI\Buttons\MainMenu\Nueva Click\nueva_click_003.png
+Assets\UI\Buttons\MainMenu\Nueva Click\nueva_click_004.png
+Assets\UI\Buttons\MainMenu\Nueva Click\nueva_click_005.png
+Assets\UI\Buttons\MainMenu\Nueva Click\nueva_click_006.png
+Assets\UI\Buttons\MainMenu\Nueva Click\nueva_click_007.png
+Assets\UI\Buttons\MainMenu\Nueva Click\nueva_click_008.png
+Assets\UI\Buttons\MainMenu\Nueva Click\nueva_click_009.png
+Assets\UI\Buttons\MainMenu\Nueva Click\nueva_click_010.png
+Assets\UI\Buttons\MainMenu\Nueva Click\nueva_click_011.png
+Assets\UI\Buttons\MainMenu\Nueva Click\nueva_click_012.png
+Assets\UI\Buttons\MainMenu\Nueva Click\nueva_click_013.png
+Assets\UI\Buttons\MainMenu\Nueva Click\nueva_click_014.png
+Assets\UI\Buttons\MainMenu\Nueva Click\nueva_click_015.png
+Assets\UI\Buttons\MainMenu\Nueva Click\nueva_click_016.png
+Assets\UI\Buttons\MainMenu\Nueva Click\nueva_click_017.png
+Assets\UI\Buttons\MainMenu\Nueva Click\nueva_click_018.png
+Assets\UI\Buttons\MainMenu\Nueva Click\nueva_click_019.png
+Assets\UI\Buttons\MainMenu\Nueva Click\nueva_click_020.png
+Assets\UI\Buttons\MainMenu\Nueva Click\nueva_click_021.png
+Assets\UI\Buttons\MainMenu\Nueva Click\nueva_click_022.png
+Assets\UI\Buttons\MainMenu\Nueva Click\nueva_click_023.png
+Assets\UI\Buttons\MainMenu\Nueva Click\nueva_click_024.png
+Assets\UI\Buttons\MainMenu\Nueva Click\nueva_click_025.png
+Assets\UI\Buttons\MainMenu\Nueva Click\nueva_click_026.png
+Assets\UI\Buttons\MainMenu\Nueva Click\nueva_click_027.png
+Assets\UI\Buttons\MainMenu\Nueva Click\nueva_click_028.png
+Assets\UI\Buttons\MainMenu\Nueva Click\nueva_click_029.png
+Assets\UI\Buttons\MainMenu\Nueva Click\nueva_click_030.png
+Assets\UI\Buttons\MainMenu\Nueva Click\nueva_click_031.png
+Assets\UI\Buttons\MainMenu\Continue Normal\continue_normal_000.png
+Assets\UI\Buttons\MainMenu\Continue Normal\continue_normal_001.png
+Assets\UI\Buttons\MainMenu\Continue Normal\continue_normal_002.png
+Assets\UI\Buttons\MainMenu\Continue Normal\continue_normal_003.png
+Assets\UI\Buttons\MainMenu\Continue Normal\continue_normal_004.png
+Assets\UI\Buttons\MainMenu\Continue Normal\continue_normal_005.png
+Assets\UI\Buttons\MainMenu\Continue Normal\continue_normal_006.png
+Assets\UI\Buttons\MainMenu\Continue Normal\continue_normal_007.png
+Assets\UI\Buttons\MainMenu\Continue Normal\continue_normal_008.png
+Assets\UI\Buttons\MainMenu\Continue Normal\continue_normal_009.png
+Assets\UI\Buttons\MainMenu\Continue Normal\continue_normal_010.png
+Assets\UI\Buttons\MainMenu\Continue Normal\continue_normal_011.png
+Assets\UI\Buttons\MainMenu\Continue Normal\continue_normal_012.png
+Assets\UI\Buttons\MainMenu\Continue Normal\continue_normal_013.png
+Assets\UI\Buttons\MainMenu\Continue Normal\continue_normal_014.png
+Assets\UI\Buttons\MainMenu\Continue Normal\continue_normal_015.png
+Assets\UI\Buttons\MainMenu\Continue Normal\continue_normal_016.png
+Assets\UI\Buttons\MainMenu\Continue Normal\continue_normal_017.png
+Assets\UI\Buttons\MainMenu\Continue Normal\continue_normal_018.png
+Assets\UI\Buttons\MainMenu\Continue Normal\continue_normal_019.png
+Assets\UI\Buttons\MainMenu\Continue Normal\continue_normal_020.png
+Assets\UI\Buttons\MainMenu\Continue Normal\continue_normal_021.png
+Assets\UI\Buttons\MainMenu\Continue Normal\continue_normal_022.png
+Assets\UI\Buttons\MainMenu\Continue Normal\continue_normal_023.png
+Assets\UI\Buttons\MainMenu\Continue Normal\continue_normal_024.png
+Assets\UI\Buttons\MainMenu\Continue Normal\continue_normal_025.png
+Assets\UI\Buttons\MainMenu\Continue Normal\continue_normal_026.png
+Assets\UI\Buttons\MainMenu\Continue Normal\continue_normal_027.png
+Assets\UI\Buttons\MainMenu\Continue Normal\continue_normal_028.png
+Assets\UI\Buttons\MainMenu\Continue Normal\continue_normal_029.png
+Assets\UI\Buttons\MainMenu\Continue Normal\continue_normal_030.png
+Assets\UI\Buttons\MainMenu\Continue Normal\continue_normal_031.png
+Assets\UI\Buttons\MainMenu\Continue Highlight\continue_highlight_000.png
+Assets\UI\Buttons\MainMenu\Continue Highlight\continue_highlight_001.png
+Assets\UI\Buttons\MainMenu\Continue Highlight\continue_highlight_002.png
+Assets\UI\Buttons\MainMenu\Continue Highlight\continue_highlight_003.png
+Assets\UI\Buttons\MainMenu\Continue Highlight\continue_highlight_004.png
+Assets\UI\Buttons\MainMenu\Continue Highlight\continue_highlight_005.png
+Assets\UI\Buttons\MainMenu\Continue Highlight\continue_highlight_006.png
+Assets\UI\Buttons\MainMenu\Continue Highlight\continue_highlight_007.png
+Assets\UI\Buttons\MainMenu\Continue Highlight\continue_highlight_008.png
+Assets\UI\Buttons\MainMenu\Continue Highlight\continue_highlight_009.png
+Assets\UI\Buttons\MainMenu\Continue Highlight\continue_highlight_010.png
+Assets\UI\Buttons\MainMenu\Continue Highlight\continue_highlight_011.png
+Assets\UI\Buttons\MainMenu\Continue Highlight\continue_highlight_012.png
+Assets\UI\Buttons\MainMenu\Continue Highlight\continue_highlight_013.png
+Assets\UI\Buttons\MainMenu\Continue Highlight\continue_highlight_014.png
+Assets\UI\Buttons\MainMenu\Continue Highlight\continue_highlight_015.png
+Assets\UI\Buttons\MainMenu\Continue Highlight\continue_highlight_016.png
+Assets\UI\Buttons\MainMenu\Continue Highlight\continue_highlight_017.png
+Assets\UI\Buttons\MainMenu\Continue Highlight\continue_highlight_018.png
+Assets\UI\Buttons\MainMenu\Continue Highlight\continue_highlight_019.png
+Assets\UI\Buttons\MainMenu\Continue Highlight\continue_highlight_020.png
+Assets\UI\Buttons\MainMenu\Continue Highlight\continue_highlight_021.png
+Assets\UI\Buttons\MainMenu\Continue Highlight\continue_highlight_022.png
+Assets\UI\Buttons\MainMenu\Continue Highlight\continue_highlight_023.png
+Assets\UI\Buttons\MainMenu\Continue Highlight\continue_highlight_024.png
+Assets\UI\Buttons\MainMenu\Continue Highlight\continue_highlight_025.png
+Assets\UI\Buttons\MainMenu\Continue Highlight\continue_highlight_026.png
+Assets\UI\Buttons\MainMenu\Continue Highlight\continue_highlight_027.png
+Assets\UI\Buttons\MainMenu\Continue Highlight\continue_highlight_028.png
+Assets\UI\Buttons\MainMenu\Continue Highlight\continue_highlight_029.png
+Assets\UI\Buttons\MainMenu\Continue Highlight\continue_highlight_030.png
+Assets\UI\Buttons\MainMenu\Continue Highlight\continue_highlight_031.png
+Assets\UI\Buttons\MainMenu\Continue Highlight\continue_highlight_032.png
+Assets\UI\Buttons\MainMenu\Continue Highlight\continue_highlight_033.png
+Assets\UI\Buttons\MainMenu\Continue Click\continue_click_000.png
+Assets\UI\Buttons\MainMenu\Continue Click\continue_click_001.png
+Assets\UI\Buttons\MainMenu\Continue Click\continue_click_002.png
+Assets\UI\Buttons\MainMenu\Continue Click\continue_click_003.png
+Assets\UI\Buttons\MainMenu\Continue Click\continue_click_004.png
+Assets\UI\Buttons\MainMenu\Continue Click\continue_click_005.png
+Assets\UI\Buttons\MainMenu\Continue Click\continue_click_006.png
+Assets\UI\Buttons\MainMenu\Continue Click\continue_click_007.png
+Assets\UI\Buttons\MainMenu\Continue Click\continue_click_008.png
+Assets\UI\Buttons\MainMenu\Continue Click\continue_click_009.png
+Assets\UI\Buttons\MainMenu\Continue Click\continue_click_010.png
+Assets\UI\Buttons\MainMenu\Continue Click\continue_click_011.png
+Assets\UI\Buttons\MainMenu\Continue Click\continue_click_012.png
+Assets\UI\Buttons\MainMenu\Continue Click\continue_click_013.png
+Assets\UI\Buttons\MainMenu\Continue Click\continue_click_014.png
+Assets\UI\Buttons\MainMenu\Continue Click\continue_click_015.png
+Assets\UI\Buttons\MainMenu\Continue Click\continue_click_016.png
+Assets\UI\Buttons\MainMenu\Continue Click\continue_click_017.png
+Assets\UI\Buttons\MainMenu\Continue Click\continue_click_018.png
+Assets\UI\Buttons\MainMenu\Continue Click\continue_click_019.png
+Assets\UI\Buttons\MainMenu\Continue Click\continue_click_020.png
+Assets\UI\Buttons\MainMenu\Continue Click\continue_click_021.png
+Assets\UI\Buttons\MainMenu\Continue Click\continue_click_022.png
+Assets\UI\Buttons\MainMenu\Continue Click\continue_click_023.png
+Assets\UI\Buttons\MainMenu\Continue Click\continue_click_024.png
+Assets\UI\Buttons\MainMenu\Continue Click\continue_click_025.png
+Assets\UI\Buttons\MainMenu\Continue Click\continue_click_026.png
+Assets\UI\Buttons\MainMenu\Continue Click\continue_click_027.png
+Assets\UI\Buttons\MainMenu\Continue Click\continue_click_028.png
+Assets\UI\Buttons\MainMenu\Continue Click\continue_click_029.png
+Assets\UI\Buttons\MainMenu\Continue Click\continue_click_030.png
+Assets\UI\Buttons\MainMenu\Continue Click\continue_click_031.png
+Assets\UI\Buttons\MainMenu\Continuar Normal\continuar_normal_000.png
+Assets\UI\Buttons\MainMenu\Continuar Normal\continuar_normal_001.png
+Assets\UI\Buttons\MainMenu\Continuar Normal\continuar_normal_002.png
+Assets\UI\Buttons\MainMenu\Continuar Normal\continuar_normal_003.png
+Assets\UI\Buttons\MainMenu\Continuar Normal\continuar_normal_004.png
+Assets\UI\Buttons\MainMenu\Continuar Normal\continuar_normal_005.png
+Assets\UI\Buttons\MainMenu\Continuar Normal\continuar_normal_006.png
+Assets\UI\Buttons\MainMenu\Continuar Normal\continuar_normal_007.png
+Assets\UI\Buttons\MainMenu\Continuar Normal\continuar_normal_008.png
+Assets\UI\Buttons\MainMenu\Continuar Normal\continuar_normal_009.png
+Assets\UI\Buttons\MainMenu\Continuar Normal\continuar_normal_010.png
+Assets\UI\Buttons\MainMenu\Continuar Normal\continuar_normal_011.png
+Assets\UI\Buttons\MainMenu\Continuar Normal\continuar_normal_012.png
+Assets\UI\Buttons\MainMenu\Continuar Normal\continuar_normal_013.png
+Assets\UI\Buttons\MainMenu\Continuar Normal\continuar_normal_014.png
+Assets\UI\Buttons\MainMenu\Continuar Normal\continuar_normal_015.png
+Assets\UI\Buttons\MainMenu\Continuar Normal\continuar_normal_016.png
+Assets\UI\Buttons\MainMenu\Continuar Normal\continuar_normal_017.png
+Assets\UI\Buttons\MainMenu\Continuar Normal\continuar_normal_018.png
+Assets\UI\Buttons\MainMenu\Continuar Normal\continuar_normal_019.png
+Assets\UI\Buttons\MainMenu\Continuar Normal\continuar_normal_020.png
+Assets\UI\Buttons\MainMenu\Continuar Normal\continuar_normal_021.png
+Assets\UI\Buttons\MainMenu\Continuar Normal\continuar_normal_022.png
+Assets\UI\Buttons\MainMenu\Continuar Normal\continuar_normal_023.png
+Assets\UI\Buttons\MainMenu\Continuar Normal\continuar_normal_024.png
+Assets\UI\Buttons\MainMenu\Continuar Normal\continuar_normal_025.png
+Assets\UI\Buttons\MainMenu\Continuar Normal\continuar_normal_026.png
+Assets\UI\Buttons\MainMenu\Continuar Normal\continuar_normal_027.png
+Assets\UI\Buttons\MainMenu\Continuar Normal\continuar_normal_028.png
+Assets\UI\Buttons\MainMenu\Continuar Normal\continuar_normal_029.png
+Assets\UI\Buttons\MainMenu\Continuar Normal\continuar_normal_030.png
+Assets\UI\Buttons\MainMenu\Continuar Normal\continuar_normal_031.png
+Assets\UI\Buttons\MainMenu\Continuar Highlight\continuar_highlight_000.png
+Assets\UI\Buttons\MainMenu\Continuar Highlight\continuar_highlight_001.png
+Assets\UI\Buttons\MainMenu\Continuar Highlight\continuar_highlight_002.png
+Assets\UI\Buttons\MainMenu\Continuar Highlight\continuar_highlight_003.png
+Assets\UI\Buttons\MainMenu\Continuar Highlight\continuar_highlight_004.png
+Assets\UI\Buttons\MainMenu\Continuar Highlight\continuar_highlight_005.png
+Assets\UI\Buttons\MainMenu\Continuar Highlight\continuar_highlight_006.png
+Assets\UI\Buttons\MainMenu\Continuar Highlight\continuar_highlight_007.png
+Assets\UI\Buttons\MainMenu\Continuar Highlight\continuar_highlight_008.png
+Assets\UI\Buttons\MainMenu\Continuar Highlight\continuar_highlight_009.png
+Assets\UI\Buttons\MainMenu\Continuar Highlight\continuar_highlight_010.png
+Assets\UI\Buttons\MainMenu\Continuar Highlight\continuar_highlight_011.png
+Assets\UI\Buttons\MainMenu\Continuar Highlight\continuar_highlight_012.png
+Assets\UI\Buttons\MainMenu\Continuar Highlight\continuar_highlight_013.png
+Assets\UI\Buttons\MainMenu\Continuar Highlight\continuar_highlight_014.png
+Assets\UI\Buttons\MainMenu\Continuar Highlight\continuar_highlight_015.png
+Assets\UI\Buttons\MainMenu\Continuar Highlight\continuar_highlight_016.png
+Assets\UI\Buttons\MainMenu\Continuar Highlight\continuar_highlight_017.png
+Assets\UI\Buttons\MainMenu\Continuar Highlight\continuar_highlight_018.png
+Assets\UI\Buttons\MainMenu\Continuar Highlight\continuar_highlight_019.png
+Assets\UI\Buttons\MainMenu\Continuar Highlight\continuar_highlight_020.png
+Assets\UI\Buttons\MainMenu\Continuar Highlight\continuar_highlight_021.png
+Assets\UI\Buttons\MainMenu\Continuar Highlight\continuar_highlight_022.png
+Assets\UI\Buttons\MainMenu\Continuar Highlight\continuar_highlight_023.png
+Assets\UI\Buttons\MainMenu\Continuar Highlight\continuar_highlight_024.png
+Assets\UI\Buttons\MainMenu\Continuar Highlight\continuar_highlight_025.png
+Assets\UI\Buttons\MainMenu\Continuar Highlight\continuar_highlight_026.png
+Assets\UI\Buttons\MainMenu\Continuar Highlight\continuar_highlight_027.png
+Assets\UI\Buttons\MainMenu\Continuar Highlight\continuar_highlight_028.png
+Assets\UI\Buttons\MainMenu\Continuar Highlight\continuar_highlight_029.png
+Assets\UI\Buttons\MainMenu\Continuar Highlight\continuar_highlight_030.png
+Assets\UI\Buttons\MainMenu\Continuar Highlight\continuar_highlight_031.png
+Assets\UI\Buttons\MainMenu\Continuar Highlight\continuar_highlight_032.png
+Assets\UI\Buttons\MainMenu\Continuar Highlight\continuar_highlight_033.png
+Assets\UI\Buttons\MainMenu\Continuar Click\continuar_click_000.png
+Assets\UI\Buttons\MainMenu\Continuar Click\continuar_click_001.png
+Assets\UI\Buttons\MainMenu\Continuar Click\continuar_click_002.png
+Assets\UI\Buttons\MainMenu\Continuar Click\continuar_click_003.png
+Assets\UI\Buttons\MainMenu\Continuar Click\continuar_click_004.png
+Assets\UI\Buttons\MainMenu\Continuar Click\continuar_click_005.png
+Assets\UI\Buttons\MainMenu\Continuar Click\continuar_click_006.png
+Assets\UI\Buttons\MainMenu\Continuar Click\continuar_click_007.png
+Assets\UI\Buttons\MainMenu\Continuar Click\continuar_click_008.png
+Assets\UI\Buttons\MainMenu\Continuar Click\continuar_click_009.png
+Assets\UI\Buttons\MainMenu\Continuar Click\continuar_click_010.png
+Assets\UI\Buttons\MainMenu\Continuar Click\continuar_click_011.png
+Assets\UI\Buttons\MainMenu\Continuar Click\continuar_click_012.png
+Assets\UI\Buttons\MainMenu\Continuar Click\continuar_click_013.png
+Assets\UI\Buttons\MainMenu\Continuar Click\continuar_click_014.png
+Assets\UI\Buttons\MainMenu\Continuar Click\continuar_click_015.png
+Assets\UI\Buttons\MainMenu\Continuar Click\continuar_click_016.png
+Assets\UI\Buttons\MainMenu\Continuar Click\continuar_click_017.png
+Assets\UI\Buttons\MainMenu\Continuar Click\continuar_click_018.png
+Assets\UI\Buttons\MainMenu\Continuar Click\continuar_click_019.png
+Assets\UI\Buttons\MainMenu\Continuar Click\continuar_click_020.png
+Assets\UI\Buttons\MainMenu\Continuar Click\continuar_click_021.png
+Assets\UI\Buttons\MainMenu\Continuar Click\continuar_click_022.png
+Assets\UI\Buttons\MainMenu\Continuar Click\continuar_click_023.png
+Assets\UI\Buttons\MainMenu\Continuar Click\continuar_click_024.png
+Assets\UI\Buttons\MainMenu\Continuar Click\continuar_click_025.png
+Assets\UI\Buttons\MainMenu\Continuar Click\continuar_click_026.png
+Assets\UI\Buttons\MainMenu\Continuar Click\continuar_click_027.png
+Assets\UI\Buttons\MainMenu\Continuar Click\continuar_click_028.png
+Assets\UI\Buttons\MainMenu\Continuar Click\continuar_click_029.png
+Assets\UI\Buttons\MainMenu\Continuar Click\continuar_click_030.png
+Assets\UI\Buttons\MainMenu\Continuar Click\continuar_click_031.png
+Assets\UI\Buttons\MainMenu\Normal Options\Options_000.png
+Assets\UI\Buttons\MainMenu\Normal Options\Options_001.png
+Assets\UI\Buttons\MainMenu\Normal Options\Options_002.png
+Assets\UI\Buttons\MainMenu\Normal Options\Options_003.png
+Assets\UI\Buttons\MainMenu\Normal Options\Options_004.png
+Assets\UI\Buttons\MainMenu\Normal Options\Options_005.png
+Assets\UI\Buttons\MainMenu\Normal Options\Options_006.png
+Assets\UI\Buttons\MainMenu\Normal Options\Options_007.png
+Assets\UI\Buttons\MainMenu\Normal Options\Options_008.png
+Assets\UI\Buttons\MainMenu\Normal Options\Options_009.png
+Assets\UI\Buttons\MainMenu\Normal Options\Options_010.png
+Assets\UI\Buttons\MainMenu\Normal Options\Options_011.png
+Assets\UI\Buttons\MainMenu\Normal Options\Options_012.png
+Assets\UI\Buttons\MainMenu\Normal Options\Options_013.png
+Assets\UI\Buttons\MainMenu\Normal Options\Options_014.png
+Assets\UI\Buttons\MainMenu\Normal Options\Options_015.png
+Assets\UI\Buttons\MainMenu\Normal Options\Options_016.png
+Assets\UI\Buttons\MainMenu\Normal Options\Options_017.png
+Assets\UI\Buttons\MainMenu\Normal Options\Options_018.png
+Assets\UI\Buttons\MainMenu\Normal Options\Options_019.png
+Assets\UI\Buttons\MainMenu\Normal Options\Options_020.png
+Assets\UI\Buttons\MainMenu\Normal Options\Options_021.png
+Assets\UI\Buttons\MainMenu\Normal Options\Options_022.png
+Assets\UI\Buttons\MainMenu\Normal Options\Options_023.png
+Assets\UI\Buttons\MainMenu\Normal Options\Options_024.png
+Assets\UI\Buttons\MainMenu\Normal Options\Options_025.png
+Assets\UI\Buttons\MainMenu\Normal Options\Options_026.png
+Assets\UI\Buttons\MainMenu\Normal Options\Options_027.png
+Assets\UI\Buttons\MainMenu\Normal Options\Options_028.png
+Assets\UI\Buttons\MainMenu\Normal Options\Options_029.png
+Assets\UI\Buttons\MainMenu\Normal Options\Options_030.png
+Assets\UI\Buttons\MainMenu\Normal Options\Options_031.png
+Assets\UI\Buttons\MainMenu\Highlight Options\Options_000.png
+Assets\UI\Buttons\MainMenu\Highlight Options\Options_001.png
+Assets\UI\Buttons\MainMenu\Highlight Options\Options_002.png
+Assets\UI\Buttons\MainMenu\Highlight Options\Options_003.png
+Assets\UI\Buttons\MainMenu\Highlight Options\Options_004.png
+Assets\UI\Buttons\MainMenu\Highlight Options\Options_005.png
+Assets\UI\Buttons\MainMenu\Highlight Options\Options_006.png
+Assets\UI\Buttons\MainMenu\Highlight Options\Options_007.png
+Assets\UI\Buttons\MainMenu\Highlight Options\Options_008.png
+Assets\UI\Buttons\MainMenu\Highlight Options\Options_009.png
+Assets\UI\Buttons\MainMenu\Highlight Options\Options_010.png
+Assets\UI\Buttons\MainMenu\Highlight Options\Options_011.png
+Assets\UI\Buttons\MainMenu\Highlight Options\Options_012.png
+Assets\UI\Buttons\MainMenu\Highlight Options\Options_013.png
+Assets\UI\Buttons\MainMenu\Highlight Options\Options_014.png
+Assets\UI\Buttons\MainMenu\Highlight Options\Options_015.png
+Assets\UI\Buttons\MainMenu\Highlight Options\Options_016.png
+Assets\UI\Buttons\MainMenu\Highlight Options\Options_017.png
+Assets\UI\Buttons\MainMenu\Highlight Options\Options_018.png
+Assets\UI\Buttons\MainMenu\Highlight Options\Options_019.png
+Assets\UI\Buttons\MainMenu\Highlight Options\Options_020.png
+Assets\UI\Buttons\MainMenu\Highlight Options\Options_021.png
+Assets\UI\Buttons\MainMenu\Highlight Options\Options_022.png
+Assets\UI\Buttons\MainMenu\Highlight Options\Options_023.png
+Assets\UI\Buttons\MainMenu\Highlight Options\Options_024.png
+Assets\UI\Buttons\MainMenu\Highlight Options\Options_025.png
+Assets\UI\Buttons\MainMenu\Highlight Options\Options_026.png
+Assets\UI\Buttons\MainMenu\Highlight Options\Options_027.png
+Assets\UI\Buttons\MainMenu\Highlight Options\Options_028.png
+Assets\UI\Buttons\MainMenu\Highlight Options\Options_029.png
+Assets\UI\Buttons\MainMenu\Highlight Options\Options_030.png
+Assets\UI\Buttons\MainMenu\Highlight Options\Options_031.png
+Assets\UI\Buttons\MainMenu\Highlight Options\Options_032.png
+Assets\UI\Buttons\MainMenu\Highlight Options\Options_033.png
+Assets\UI\Buttons\MainMenu\Click Options\Options_000.png
+Assets\UI\Buttons\MainMenu\Click Options\Options_001.png
+Assets\UI\Buttons\MainMenu\Click Options\Options_002.png
+Assets\UI\Buttons\MainMenu\Click Options\Options_003.png
+Assets\UI\Buttons\MainMenu\Click Options\Options_004.png
+Assets\UI\Buttons\MainMenu\Click Options\Options_005.png
+Assets\UI\Buttons\MainMenu\Click Options\Options_006.png
+Assets\UI\Buttons\MainMenu\Click Options\Options_007.png
+Assets\UI\Buttons\MainMenu\Click Options\Options_008.png
+Assets\UI\Buttons\MainMenu\Click Options\Options_009.png
+Assets\UI\Buttons\MainMenu\Click Options\Options_010.png
+Assets\UI\Buttons\MainMenu\Click Options\Options_011.png
+Assets\UI\Buttons\MainMenu\Click Options\Options_012.png
+Assets\UI\Buttons\MainMenu\Click Options\Options_013.png
+Assets\UI\Buttons\MainMenu\Click Options\Options_014.png
+Assets\UI\Buttons\MainMenu\Click Options\Options_015.png
+Assets\UI\Buttons\MainMenu\Click Options\Options_016.png
+Assets\UI\Buttons\MainMenu\Click Options\Options_017.png
+Assets\UI\Buttons\MainMenu\Click Options\Options_018.png
+Assets\UI\Buttons\MainMenu\Click Options\Options_019.png
+Assets\UI\Buttons\MainMenu\Click Options\Options_020.png
+Assets\UI\Buttons\MainMenu\Click Options\Options_021.png
+Assets\UI\Buttons\MainMenu\Click Options\Options_022.png
+Assets\UI\Buttons\MainMenu\Click Options\Options_023.png
+Assets\UI\Buttons\MainMenu\Click Options\Options_024.png
+Assets\UI\Buttons\MainMenu\Click Options\Options_025.png
+Assets\UI\Buttons\MainMenu\Click Options\Options_026.png
+Assets\UI\Buttons\MainMenu\Click Options\Options_027.png
+Assets\UI\Buttons\MainMenu\Click Options\Options_028.png
+Assets\UI\Buttons\MainMenu\Click Options\Options_029.png
+Assets\UI\Buttons\MainMenu\Click Options\Options_030.png
+Assets\UI\Buttons\MainMenu\Click Options\Options_031.png
+Assets\UI\Buttons\MainMenu\Opciones Normal\opciones_normal_000.png
+Assets\UI\Buttons\MainMenu\Opciones Normal\opciones_normal_001.png
+Assets\UI\Buttons\MainMenu\Opciones Normal\opciones_normal_002.png
+Assets\UI\Buttons\MainMenu\Opciones Normal\opciones_normal_003.png
+Assets\UI\Buttons\MainMenu\Opciones Normal\opciones_normal_004.png
+Assets\UI\Buttons\MainMenu\Opciones Normal\opciones_normal_005.png
+Assets\UI\Buttons\MainMenu\Opciones Normal\opciones_normal_006.png
+Assets\UI\Buttons\MainMenu\Opciones Normal\opciones_normal_007.png
+Assets\UI\Buttons\MainMenu\Opciones Normal\opciones_normal_008.png
+Assets\UI\Buttons\MainMenu\Opciones Normal\opciones_normal_009.png
+Assets\UI\Buttons\MainMenu\Opciones Normal\opciones_normal_010.png
+Assets\UI\Buttons\MainMenu\Opciones Normal\opciones_normal_011.png
+Assets\UI\Buttons\MainMenu\Opciones Normal\opciones_normal_012.png
+Assets\UI\Buttons\MainMenu\Opciones Normal\opciones_normal_013.png
+Assets\UI\Buttons\MainMenu\Opciones Normal\opciones_normal_014.png
+Assets\UI\Buttons\MainMenu\Opciones Normal\opciones_normal_015.png
+Assets\UI\Buttons\MainMenu\Opciones Normal\opciones_normal_016.png
+Assets\UI\Buttons\MainMenu\Opciones Normal\opciones_normal_017.png
+Assets\UI\Buttons\MainMenu\Opciones Normal\opciones_normal_018.png
+Assets\UI\Buttons\MainMenu\Opciones Normal\opciones_normal_019.png
+Assets\UI\Buttons\MainMenu\Opciones Normal\opciones_normal_020.png
+Assets\UI\Buttons\MainMenu\Opciones Normal\opciones_normal_021.png
+Assets\UI\Buttons\MainMenu\Opciones Normal\opciones_normal_022.png
+Assets\UI\Buttons\MainMenu\Opciones Normal\opciones_normal_023.png
+Assets\UI\Buttons\MainMenu\Opciones Normal\opciones_normal_024.png
+Assets\UI\Buttons\MainMenu\Opciones Normal\opciones_normal_025.png
+Assets\UI\Buttons\MainMenu\Opciones Normal\opciones_normal_026.png
+Assets\UI\Buttons\MainMenu\Opciones Normal\opciones_normal_027.png
+Assets\UI\Buttons\MainMenu\Opciones Normal\opciones_normal_028.png
+Assets\UI\Buttons\MainMenu\Opciones Normal\opciones_normal_029.png
+Assets\UI\Buttons\MainMenu\Opciones Normal\opciones_normal_030.png
+Assets\UI\Buttons\MainMenu\Opciones Normal\opciones_normal_031.png
+Assets\UI\Buttons\MainMenu\Opciones Highlight\opciones_highlight_000.png
+Assets\UI\Buttons\MainMenu\Opciones Highlight\opciones_highlight_001.png
+Assets\UI\Buttons\MainMenu\Opciones Highlight\opciones_highlight_002.png
+Assets\UI\Buttons\MainMenu\Opciones Highlight\opciones_highlight_003.png
+Assets\UI\Buttons\MainMenu\Opciones Highlight\opciones_highlight_004.png
+Assets\UI\Buttons\MainMenu\Opciones Highlight\opciones_highlight_005.png
+Assets\UI\Buttons\MainMenu\Opciones Highlight\opciones_highlight_006.png
+Assets\UI\Buttons\MainMenu\Opciones Highlight\opciones_highlight_007.png
+Assets\UI\Buttons\MainMenu\Opciones Highlight\opciones_highlight_008.png
+Assets\UI\Buttons\MainMenu\Opciones Highlight\opciones_highlight_009.png
+Assets\UI\Buttons\MainMenu\Opciones Highlight\opciones_highlight_010.png
+Assets\UI\Buttons\MainMenu\Opciones Highlight\opciones_highlight_011.png
+Assets\UI\Buttons\MainMenu\Opciones Highlight\opciones_highlight_012.png
+Assets\UI\Buttons\MainMenu\Opciones Highlight\opciones_highlight_013.png
+Assets\UI\Buttons\MainMenu\Opciones Highlight\opciones_highlight_014.png
+Assets\UI\Buttons\MainMenu\Opciones Highlight\opciones_highlight_015.png
+Assets\UI\Buttons\MainMenu\Opciones Highlight\opciones_highlight_016.png
+Assets\UI\Buttons\MainMenu\Opciones Highlight\opciones_highlight_017.png
+Assets\UI\Buttons\MainMenu\Opciones Highlight\opciones_highlight_018.png
+Assets\UI\Buttons\MainMenu\Opciones Highlight\opciones_highlight_019.png
+Assets\UI\Buttons\MainMenu\Opciones Highlight\opciones_highlight_020.png
+Assets\UI\Buttons\MainMenu\Opciones Highlight\opciones_highlight_021.png
+Assets\UI\Buttons\MainMenu\Opciones Highlight\opciones_highlight_022.png
+Assets\UI\Buttons\MainMenu\Opciones Highlight\opciones_highlight_023.png
+Assets\UI\Buttons\MainMenu\Opciones Highlight\opciones_highlight_024.png
+Assets\UI\Buttons\MainMenu\Opciones Highlight\opciones_highlight_025.png
+Assets\UI\Buttons\MainMenu\Opciones Highlight\opciones_highlight_026.png
+Assets\UI\Buttons\MainMenu\Opciones Highlight\opciones_highlight_027.png
+Assets\UI\Buttons\MainMenu\Opciones Highlight\opciones_highlight_028.png
+Assets\UI\Buttons\MainMenu\Opciones Highlight\opciones_highlight_029.png
+Assets\UI\Buttons\MainMenu\Opciones Highlight\opciones_highlight_030.png
+Assets\UI\Buttons\MainMenu\Opciones Highlight\opciones_highlight_031.png
+Assets\UI\Buttons\MainMenu\Opciones Highlight\opciones_highlight_032.png
+Assets\UI\Buttons\MainMenu\Opciones Highlight\opciones_highlight_033.png
+Assets\UI\Buttons\MainMenu\Opciones Click\opciones_click_000.png
+Assets\UI\Buttons\MainMenu\Opciones Click\opciones_click_001.png
+Assets\UI\Buttons\MainMenu\Opciones Click\opciones_click_002.png
+Assets\UI\Buttons\MainMenu\Opciones Click\opciones_click_003.png
+Assets\UI\Buttons\MainMenu\Opciones Click\opciones_click_004.png
+Assets\UI\Buttons\MainMenu\Opciones Click\opciones_click_005.png
+Assets\UI\Buttons\MainMenu\Opciones Click\opciones_click_006.png
+Assets\UI\Buttons\MainMenu\Opciones Click\opciones_click_007.png
+Assets\UI\Buttons\MainMenu\Opciones Click\opciones_click_008.png
+Assets\UI\Buttons\MainMenu\Opciones Click\opciones_click_009.png
+Assets\UI\Buttons\MainMenu\Opciones Click\opciones_click_010.png
+Assets\UI\Buttons\MainMenu\Opciones Click\opciones_click_011.png
+Assets\UI\Buttons\MainMenu\Opciones Click\opciones_click_012.png
+Assets\UI\Buttons\MainMenu\Opciones Click\opciones_click_013.png
+Assets\UI\Buttons\MainMenu\Opciones Click\opciones_click_014.png
+Assets\UI\Buttons\MainMenu\Opciones Click\opciones_click_015.png
+Assets\UI\Buttons\MainMenu\Opciones Click\opciones_click_016.png
+Assets\UI\Buttons\MainMenu\Opciones Click\opciones_click_017.png
+Assets\UI\Buttons\MainMenu\Opciones Click\opciones_click_018.png
+Assets\UI\Buttons\MainMenu\Opciones Click\opciones_click_019.png
+Assets\UI\Buttons\MainMenu\Opciones Click\opciones_click_020.png
+Assets\UI\Buttons\MainMenu\Opciones Click\opciones_click_021.png
+Assets\UI\Buttons\MainMenu\Opciones Click\opciones_click_022.png
+Assets\UI\Buttons\MainMenu\Opciones Click\opciones_click_023.png
+Assets\UI\Buttons\MainMenu\Opciones Click\opciones_click_024.png
+Assets\UI\Buttons\MainMenu\Opciones Click\opciones_click_025.png
+Assets\UI\Buttons\MainMenu\Opciones Click\opciones_click_026.png
+Assets\UI\Buttons\MainMenu\Opciones Click\opciones_click_027.png
+Assets\UI\Buttons\MainMenu\Opciones Click\opciones_click_028.png
+Assets\UI\Buttons\MainMenu\Opciones Click\opciones_click_029.png
+Assets\UI\Buttons\MainMenu\Opciones Click\opciones_click_030.png
+Assets\UI\Buttons\MainMenu\Opciones Click\opciones_click_031.png
+Assets\UI\Buttons\MainMenu\Normal Credits\Credits_000.png
+Assets\UI\Buttons\MainMenu\Normal Credits\Credits_001.png
+Assets\UI\Buttons\MainMenu\Normal Credits\Credits_002.png
+Assets\UI\Buttons\MainMenu\Normal Credits\Credits_003.png
+Assets\UI\Buttons\MainMenu\Normal Credits\Credits_004.png
+Assets\UI\Buttons\MainMenu\Normal Credits\Credits_005.png
+Assets\UI\Buttons\MainMenu\Normal Credits\Credits_006.png
+Assets\UI\Buttons\MainMenu\Normal Credits\Credits_007.png
+Assets\UI\Buttons\MainMenu\Normal Credits\Credits_008.png
+Assets\UI\Buttons\MainMenu\Normal Credits\Credits_009.png
+Assets\UI\Buttons\MainMenu\Normal Credits\Credits_010.png
+Assets\UI\Buttons\MainMenu\Normal Credits\Credits_011.png
+Assets\UI\Buttons\MainMenu\Normal Credits\Credits_012.png
+Assets\UI\Buttons\MainMenu\Normal Credits\Credits_013.png
+Assets\UI\Buttons\MainMenu\Normal Credits\Credits_014.png
+Assets\UI\Buttons\MainMenu\Normal Credits\Credits_015.png
+Assets\UI\Buttons\MainMenu\Normal Credits\Credits_016.png
+Assets\UI\Buttons\MainMenu\Normal Credits\Credits_017.png
+Assets\UI\Buttons\MainMenu\Normal Credits\Credits_018.png
+Assets\UI\Buttons\MainMenu\Normal Credits\Credits_019.png
+Assets\UI\Buttons\MainMenu\Normal Credits\Credits_020.png
+Assets\UI\Buttons\MainMenu\Normal Credits\Credits_021.png
+Assets\UI\Buttons\MainMenu\Normal Credits\Credits_022.png
+Assets\UI\Buttons\MainMenu\Normal Credits\Credits_023.png
+Assets\UI\Buttons\MainMenu\Normal Credits\Credits_024.png
+Assets\UI\Buttons\MainMenu\Normal Credits\Credits_025.png
+Assets\UI\Buttons\MainMenu\Normal Credits\Credits_026.png
+Assets\UI\Buttons\MainMenu\Normal Credits\Credits_027.png
+Assets\UI\Buttons\MainMenu\Normal Credits\Credits_028.png
+Assets\UI\Buttons\MainMenu\Normal Credits\Credits_029.png
+Assets\UI\Buttons\MainMenu\Normal Credits\Credits_030.png
+Assets\UI\Buttons\MainMenu\Normal Credits\Credits_031.png
+Assets\UI\Buttons\MainMenu\Highlight Credits\Credits_000.png
+Assets\UI\Buttons\MainMenu\Highlight Credits\Credits_001.png
+Assets\UI\Buttons\MainMenu\Highlight Credits\Credits_002.png
+Assets\UI\Buttons\MainMenu\Highlight Credits\Credits_003.png
+Assets\UI\Buttons\MainMenu\Highlight Credits\Credits_004.png
+Assets\UI\Buttons\MainMenu\Highlight Credits\Credits_005.png
+Assets\UI\Buttons\MainMenu\Highlight Credits\Credits_006.png
+Assets\UI\Buttons\MainMenu\Highlight Credits\Credits_007.png
+Assets\UI\Buttons\MainMenu\Highlight Credits\Credits_008.png
+Assets\UI\Buttons\MainMenu\Highlight Credits\Credits_009.png
+Assets\UI\Buttons\MainMenu\Highlight Credits\Credits_010.png
+Assets\UI\Buttons\MainMenu\Highlight Credits\Credits_011.png
+Assets\UI\Buttons\MainMenu\Highlight Credits\Credits_012.png
+Assets\UI\Buttons\MainMenu\Highlight Credits\Credits_013.png
+Assets\UI\Buttons\MainMenu\Highlight Credits\Credits_014.png
+Assets\UI\Buttons\MainMenu\Highlight Credits\Credits_015.png
+Assets\UI\Buttons\MainMenu\Highlight Credits\Credits_016.png
+Assets\UI\Buttons\MainMenu\Highlight Credits\Credits_017.png
+Assets\UI\Buttons\MainMenu\Highlight Credits\Credits_018.png
+Assets\UI\Buttons\MainMenu\Highlight Credits\Credits_019.png
+Assets\UI\Buttons\MainMenu\Highlight Credits\Credits_020.png
+Assets\UI\Buttons\MainMenu\Highlight Credits\Credits_021.png
+Assets\UI\Buttons\MainMenu\Highlight Credits\Credits_022.png
+Assets\UI\Buttons\MainMenu\Highlight Credits\Credits_023.png
+Assets\UI\Buttons\MainMenu\Highlight Credits\Credits_024.png
+Assets\UI\Buttons\MainMenu\Highlight Credits\Credits_025.png
+Assets\UI\Buttons\MainMenu\Highlight Credits\Credits_026.png
+Assets\UI\Buttons\MainMenu\Highlight Credits\Credits_027.png
+Assets\UI\Buttons\MainMenu\Highlight Credits\Credits_028.png
+Assets\UI\Buttons\MainMenu\Highlight Credits\Credits_029.png
+Assets\UI\Buttons\MainMenu\Highlight Credits\Credits_030.png
+Assets\UI\Buttons\MainMenu\Highlight Credits\Credits_031.png
+Assets\UI\Buttons\MainMenu\Highlight Credits\Credits_032.png
+Assets\UI\Buttons\MainMenu\Highlight Credits\Credits_033.png
+Assets\UI\Buttons\MainMenu\Click Credits\Credits_000.png
+Assets\UI\Buttons\MainMenu\Click Credits\Credits_001.png
+Assets\UI\Buttons\MainMenu\Click Credits\Credits_002.png
+Assets\UI\Buttons\MainMenu\Click Credits\Credits_003.png
+Assets\UI\Buttons\MainMenu\Click Credits\Credits_004.png
+Assets\UI\Buttons\MainMenu\Click Credits\Credits_005.png
+Assets\UI\Buttons\MainMenu\Click Credits\Credits_006.png
+Assets\UI\Buttons\MainMenu\Click Credits\Credits_007.png
+Assets\UI\Buttons\MainMenu\Click Credits\Credits_008.png
+Assets\UI\Buttons\MainMenu\Click Credits\Credits_009.png
+Assets\UI\Buttons\MainMenu\Click Credits\Credits_010.png
+Assets\UI\Buttons\MainMenu\Click Credits\Credits_011.png
+Assets\UI\Buttons\MainMenu\Click Credits\Credits_012.png
+Assets\UI\Buttons\MainMenu\Click Credits\Credits_013.png
+Assets\UI\Buttons\MainMenu\Click Credits\Credits_014.png
+Assets\UI\Buttons\MainMenu\Click Credits\Credits_015.png
+Assets\UI\Buttons\MainMenu\Click Credits\Credits_016.png
+Assets\UI\Buttons\MainMenu\Click Credits\Credits_017.png
+Assets\UI\Buttons\MainMenu\Click Credits\Credits_018.png
+Assets\UI\Buttons\MainMenu\Click Credits\Credits_019.png
+Assets\UI\Buttons\MainMenu\Click Credits\Credits_020.png
+Assets\UI\Buttons\MainMenu\Click Credits\Credits_021.png
+Assets\UI\Buttons\MainMenu\Click Credits\Credits_022.png
+Assets\UI\Buttons\MainMenu\Click Credits\Credits_023.png
+Assets\UI\Buttons\MainMenu\Click Credits\Credits_024.png
+Assets\UI\Buttons\MainMenu\Click Credits\Credits_025.png
+Assets\UI\Buttons\MainMenu\Click Credits\Credits_026.png
+Assets\UI\Buttons\MainMenu\Click Credits\Credits_027.png
+Assets\UI\Buttons\MainMenu\Click Credits\Credits_028.png
+Assets\UI\Buttons\MainMenu\Click Credits\Credits_029.png
+Assets\UI\Buttons\MainMenu\Click Credits\Credits_030.png
+Assets\UI\Buttons\MainMenu\Click Credits\Credits_031.png
+Assets\UI\Buttons\MainMenu\Creditos Normal\creditos_normal_000.png
+Assets\UI\Buttons\MainMenu\Creditos Normal\creditos_normal_001.png
+Assets\UI\Buttons\MainMenu\Creditos Normal\creditos_normal_002.png
+Assets\UI\Buttons\MainMenu\Creditos Normal\creditos_normal_003.png
+Assets\UI\Buttons\MainMenu\Creditos Normal\creditos_normal_004.png
+Assets\UI\Buttons\MainMenu\Creditos Normal\creditos_normal_005.png
+Assets\UI\Buttons\MainMenu\Creditos Normal\creditos_normal_006.png
+Assets\UI\Buttons\MainMenu\Creditos Normal\creditos_normal_007.png
+Assets\UI\Buttons\MainMenu\Creditos Normal\creditos_normal_008.png
+Assets\UI\Buttons\MainMenu\Creditos Normal\creditos_normal_009.png
+Assets\UI\Buttons\MainMenu\Creditos Normal\creditos_normal_010.png
+Assets\UI\Buttons\MainMenu\Creditos Normal\creditos_normal_011.png
+Assets\UI\Buttons\MainMenu\Creditos Normal\creditos_normal_012.png
+Assets\UI\Buttons\MainMenu\Creditos Normal\creditos_normal_013.png
+Assets\UI\Buttons\MainMenu\Creditos Normal\creditos_normal_014.png
+Assets\UI\Buttons\MainMenu\Creditos Normal\creditos_normal_015.png
+Assets\UI\Buttons\MainMenu\Creditos Normal\creditos_normal_016.png
+Assets\UI\Buttons\MainMenu\Creditos Normal\creditos_normal_017.png
+Assets\UI\Buttons\MainMenu\Creditos Normal\creditos_normal_018.png
+Assets\UI\Buttons\MainMenu\Creditos Normal\creditos_normal_019.png
+Assets\UI\Buttons\MainMenu\Creditos Normal\creditos_normal_020.png
+Assets\UI\Buttons\MainMenu\Creditos Normal\creditos_normal_021.png
+Assets\UI\Buttons\MainMenu\Creditos Normal\creditos_normal_022.png
+Assets\UI\Buttons\MainMenu\Creditos Normal\creditos_normal_023.png
+Assets\UI\Buttons\MainMenu\Creditos Normal\creditos_normal_024.png
+Assets\UI\Buttons\MainMenu\Creditos Normal\creditos_normal_025.png
+Assets\UI\Buttons\MainMenu\Creditos Normal\creditos_normal_026.png
+Assets\UI\Buttons\MainMenu\Creditos Normal\creditos_normal_027.png
+Assets\UI\Buttons\MainMenu\Creditos Normal\creditos_normal_028.png
+Assets\UI\Buttons\MainMenu\Creditos Normal\creditos_normal_029.png
+Assets\UI\Buttons\MainMenu\Creditos Normal\creditos_normal_030.png
+Assets\UI\Buttons\MainMenu\Creditos Normal\creditos_normal_031.png
+Assets\UI\Buttons\MainMenu\Credito Highlight\creditos_highlight_000.png
+Assets\UI\Buttons\MainMenu\Credito Highlight\creditos_highlight_001.png
+Assets\UI\Buttons\MainMenu\Credito Highlight\creditos_highlight_002.png
+Assets\UI\Buttons\MainMenu\Credito Highlight\creditos_highlight_003.png
+Assets\UI\Buttons\MainMenu\Credito Highlight\creditos_highlight_004.png
+Assets\UI\Buttons\MainMenu\Credito Highlight\creditos_highlight_005.png
+Assets\UI\Buttons\MainMenu\Credito Highlight\creditos_highlight_006.png
+Assets\UI\Buttons\MainMenu\Credito Highlight\creditos_highlight_007.png
+Assets\UI\Buttons\MainMenu\Credito Highlight\creditos_highlight_008.png
+Assets\UI\Buttons\MainMenu\Credito Highlight\creditos_highlight_009.png
+Assets\UI\Buttons\MainMenu\Credito Highlight\creditos_highlight_010.png
+Assets\UI\Buttons\MainMenu\Credito Highlight\creditos_highlight_011.png
+Assets\UI\Buttons\MainMenu\Credito Highlight\creditos_highlight_012.png
+Assets\UI\Buttons\MainMenu\Credito Highlight\creditos_highlight_013.png
+Assets\UI\Buttons\MainMenu\Credito Highlight\creditos_highlight_014.png
+Assets\UI\Buttons\MainMenu\Credito Highlight\creditos_highlight_015.png
+Assets\UI\Buttons\MainMenu\Credito Highlight\creditos_highlight_016.png
+Assets\UI\Buttons\MainMenu\Credito Highlight\creditos_highlight_017.png
+Assets\UI\Buttons\MainMenu\Credito Highlight\creditos_highlight_018.png
+Assets\UI\Buttons\MainMenu\Credito Highlight\creditos_highlight_019.png
+Assets\UI\Buttons\MainMenu\Credito Highlight\creditos_highlight_020.png
+Assets\UI\Buttons\MainMenu\Credito Highlight\creditos_highlight_021.png
+Assets\UI\Buttons\MainMenu\Credito Highlight\creditos_highlight_022.png
+Assets\UI\Buttons\MainMenu\Credito Highlight\creditos_highlight_023.png
+Assets\UI\Buttons\MainMenu\Credito Highlight\creditos_highlight_024.png
+Assets\UI\Buttons\MainMenu\Credito Highlight\creditos_highlight_025.png
+Assets\UI\Buttons\MainMenu\Credito Highlight\creditos_highlight_026.png
+Assets\UI\Buttons\MainMenu\Credito Highlight\creditos_highlight_027.png
+Assets\UI\Buttons\MainMenu\Credito Highlight\creditos_highlight_028.png
+Assets\UI\Buttons\MainMenu\Credito Highlight\creditos_highlight_029.png
+Assets\UI\Buttons\MainMenu\Credito Highlight\creditos_highlight_030.png
+Assets\UI\Buttons\MainMenu\Credito Highlight\creditos_highlight_031.png
+Assets\UI\Buttons\MainMenu\Credito Highlight\creditos_highlight_032.png
+Assets\UI\Buttons\MainMenu\Credito Highlight\creditos_highlight_033.png
+Assets\UI\Buttons\MainMenu\Creditos Click\creditos_click_000.png
+Assets\UI\Buttons\MainMenu\Creditos Click\creditos_click_001.png
+Assets\UI\Buttons\MainMenu\Creditos Click\creditos_click_002.png
+Assets\UI\Buttons\MainMenu\Creditos Click\creditos_click_003.png
+Assets\UI\Buttons\MainMenu\Creditos Click\creditos_click_004.png
+Assets\UI\Buttons\MainMenu\Creditos Click\creditos_click_005.png
+Assets\UI\Buttons\MainMenu\Creditos Click\creditos_click_006.png
+Assets\UI\Buttons\MainMenu\Creditos Click\creditos_click_007.png
+Assets\UI\Buttons\MainMenu\Creditos Click\creditos_click_008.png
+Assets\UI\Buttons\MainMenu\Creditos Click\creditos_click_009.png
+Assets\UI\Buttons\MainMenu\Creditos Click\creditos_click_010.png
+Assets\UI\Buttons\MainMenu\Creditos Click\creditos_click_011.png
+Assets\UI\Buttons\MainMenu\Creditos Click\creditos_click_012.png
+Assets\UI\Buttons\MainMenu\Creditos Click\creditos_click_013.png
+Assets\UI\Buttons\MainMenu\Creditos Click\creditos_click_014.png
+Assets\UI\Buttons\MainMenu\Creditos Click\creditos_click_015.png
+Assets\UI\Buttons\MainMenu\Creditos Click\creditos_click_016.png
+Assets\UI\Buttons\MainMenu\Creditos Click\creditos_click_017.png
+Assets\UI\Buttons\MainMenu\Creditos Click\creditos_click_018.png
+Assets\UI\Buttons\MainMenu\Creditos Click\creditos_click_019.png
+Assets\UI\Buttons\MainMenu\Creditos Click\creditos_click_020.png
+Assets\UI\Buttons\MainMenu\Creditos Click\creditos_click_021.png
+Assets\UI\Buttons\MainMenu\Creditos Click\creditos_click_022.png
+Assets\UI\Buttons\MainMenu\Creditos Click\creditos_click_023.png
+Assets\UI\Buttons\MainMenu\Creditos Click\creditos_click_024.png
+Assets\UI\Buttons\MainMenu\Creditos Click\creditos_click_025.png
+Assets\UI\Buttons\MainMenu\Creditos Click\creditos_click_026.png
+Assets\UI\Buttons\MainMenu\Creditos Click\creditos_click_027.png
+Assets\UI\Buttons\MainMenu\Creditos Click\creditos_click_028.png
+Assets\UI\Buttons\MainMenu\Creditos Click\creditos_click_029.png
+Assets\UI\Buttons\MainMenu\Creditos Click\creditos_click_030.png
+Assets\UI\Buttons\MainMenu\Creditos Click\creditos_click_031.png
+Assets\UI\Buttons\MainMenu\Normal Exit\Exit_000.png
+Assets\UI\Buttons\MainMenu\Normal Exit\Exit_001.png
+Assets\UI\Buttons\MainMenu\Normal Exit\Exit_002.png
+Assets\UI\Buttons\MainMenu\Normal Exit\Exit_003.png
+Assets\UI\Buttons\MainMenu\Normal Exit\Exit_004.png
+Assets\UI\Buttons\MainMenu\Normal Exit\Exit_005.png
+Assets\UI\Buttons\MainMenu\Normal Exit\Exit_006.png
+Assets\UI\Buttons\MainMenu\Normal Exit\Exit_007.png
+Assets\UI\Buttons\MainMenu\Normal Exit\Exit_008.png
+Assets\UI\Buttons\MainMenu\Normal Exit\Exit_009.png
+Assets\UI\Buttons\MainMenu\Normal Exit\Exit_010.png
+Assets\UI\Buttons\MainMenu\Normal Exit\Exit_011.png
+Assets\UI\Buttons\MainMenu\Normal Exit\Exit_012.png
+Assets\UI\Buttons\MainMenu\Normal Exit\Exit_013.png
+Assets\UI\Buttons\MainMenu\Normal Exit\Exit_014.png
+Assets\UI\Buttons\MainMenu\Normal Exit\Exit_015.png
+Assets\UI\Buttons\MainMenu\Normal Exit\Exit_016.png
+Assets\UI\Buttons\MainMenu\Normal Exit\Exit_017.png
+Assets\UI\Buttons\MainMenu\Normal Exit\Exit_018.png
+Assets\UI\Buttons\MainMenu\Normal Exit\Exit_019.png
+Assets\UI\Buttons\MainMenu\Normal Exit\Exit_020.png
+Assets\UI\Buttons\MainMenu\Normal Exit\Exit_021.png
+Assets\UI\Buttons\MainMenu\Normal Exit\Exit_022.png
+Assets\UI\Buttons\MainMenu\Normal Exit\Exit_023.png
+Assets\UI\Buttons\MainMenu\Normal Exit\Exit_024.png
+Assets\UI\Buttons\MainMenu\Normal Exit\Exit_025.png
+Assets\UI\Buttons\MainMenu\Normal Exit\Exit_026.png
+Assets\UI\Buttons\MainMenu\Normal Exit\Exit_027.png
+Assets\UI\Buttons\MainMenu\Normal Exit\Exit_028.png
+Assets\UI\Buttons\MainMenu\Normal Exit\Exit_029.png
+Assets\UI\Buttons\MainMenu\Normal Exit\Exit_030.png
+Assets\UI\Buttons\MainMenu\Normal Exit\Exit_031.png
+Assets\UI\Buttons\MainMenu\Highlight Exit\Exit_000.png
+Assets\UI\Buttons\MainMenu\Highlight Exit\Exit_001.png
+Assets\UI\Buttons\MainMenu\Highlight Exit\Exit_002.png
+Assets\UI\Buttons\MainMenu\Highlight Exit\Exit_003.png
+Assets\UI\Buttons\MainMenu\Highlight Exit\Exit_004.png
+Assets\UI\Buttons\MainMenu\Highlight Exit\Exit_005.png
+Assets\UI\Buttons\MainMenu\Highlight Exit\Exit_006.png
+Assets\UI\Buttons\MainMenu\Highlight Exit\Exit_007.png
+Assets\UI\Buttons\MainMenu\Highlight Exit\Exit_008.png
+Assets\UI\Buttons\MainMenu\Highlight Exit\Exit_009.png
+Assets\UI\Buttons\MainMenu\Highlight Exit\Exit_010.png
+Assets\UI\Buttons\MainMenu\Highlight Exit\Exit_011.png
+Assets\UI\Buttons\MainMenu\Highlight Exit\Exit_012.png
+Assets\UI\Buttons\MainMenu\Highlight Exit\Exit_013.png
+Assets\UI\Buttons\MainMenu\Highlight Exit\Exit_014.png
+Assets\UI\Buttons\MainMenu\Highlight Exit\Exit_015.png
+Assets\UI\Buttons\MainMenu\Highlight Exit\Exit_016.png
+Assets\UI\Buttons\MainMenu\Highlight Exit\Exit_017.png
+Assets\UI\Buttons\MainMenu\Highlight Exit\Exit_018.png
+Assets\UI\Buttons\MainMenu\Highlight Exit\Exit_019.png
+Assets\UI\Buttons\MainMenu\Highlight Exit\Exit_020.png
+Assets\UI\Buttons\MainMenu\Highlight Exit\Exit_021.png
+Assets\UI\Buttons\MainMenu\Highlight Exit\Exit_022.png
+Assets\UI\Buttons\MainMenu\Highlight Exit\Exit_023.png
+Assets\UI\Buttons\MainMenu\Highlight Exit\Exit_024.png
+Assets\UI\Buttons\MainMenu\Highlight Exit\Exit_025.png
+Assets\UI\Buttons\MainMenu\Highlight Exit\Exit_026.png
+Assets\UI\Buttons\MainMenu\Highlight Exit\Exit_027.png
+Assets\UI\Buttons\MainMenu\Highlight Exit\Exit_028.png
+Assets\UI\Buttons\MainMenu\Highlight Exit\Exit_029.png
+Assets\UI\Buttons\MainMenu\Highlight Exit\Exit_030.png
+Assets\UI\Buttons\MainMenu\Highlight Exit\Exit_031.png
+Assets\UI\Buttons\MainMenu\Highlight Exit\Exit_032.png
+Assets\UI\Buttons\MainMenu\Highlight Exit\Exit_033.png
+Assets\UI\Buttons\MainMenu\Click Exit\Exit_000.png
+Assets\UI\Buttons\MainMenu\Click Exit\Exit_001.png
+Assets\UI\Buttons\MainMenu\Click Exit\Exit_002.png
+Assets\UI\Buttons\MainMenu\Click Exit\Exit_003.png
+Assets\UI\Buttons\MainMenu\Click Exit\Exit_004.png
+Assets\UI\Buttons\MainMenu\Click Exit\Exit_005.png
+Assets\UI\Buttons\MainMenu\Click Exit\Exit_006.png
+Assets\UI\Buttons\MainMenu\Click Exit\Exit_007.png
+Assets\UI\Buttons\MainMenu\Click Exit\Exit_008.png
+Assets\UI\Buttons\MainMenu\Click Exit\Exit_009.png
+Assets\UI\Buttons\MainMenu\Click Exit\Exit_010.png
+Assets\UI\Buttons\MainMenu\Click Exit\Exit_011.png
+Assets\UI\Buttons\MainMenu\Click Exit\Exit_012.png
+Assets\UI\Buttons\MainMenu\Click Exit\Exit_013.png
+Assets\UI\Buttons\MainMenu\Click Exit\Exit_014.png
+Assets\UI\Buttons\MainMenu\Click Exit\Exit_015.png
+Assets\UI\Buttons\MainMenu\Click Exit\Exit_016.png
+Assets\UI\Buttons\MainMenu\Click Exit\Exit_017.png
+Assets\UI\Buttons\MainMenu\Click Exit\Exit_018.png
+Assets\UI\Buttons\MainMenu\Click Exit\Exit_019.png
+Assets\UI\Buttons\MainMenu\Click Exit\Exit_020.png
+Assets\UI\Buttons\MainMenu\Click Exit\Exit_021.png
+Assets\UI\Buttons\MainMenu\Click Exit\Exit_022.png
+Assets\UI\Buttons\MainMenu\Click Exit\Exit_023.png
+Assets\UI\Buttons\MainMenu\Click Exit\Exit_024.png
+Assets\UI\Buttons\MainMenu\Click Exit\Exit_025.png
+Assets\UI\Buttons\MainMenu\Click Exit\Exit_026.png
+Assets\UI\Buttons\MainMenu\Click Exit\Exit_027.png
+Assets\UI\Buttons\MainMenu\Click Exit\Exit_028.png
+Assets\UI\Buttons\MainMenu\Click Exit\Exit_029.png
+Assets\UI\Buttons\MainMenu\Click Exit\Exit_030.png
+Assets\UI\Buttons\MainMenu\Click Exit\Exit_031.png
+Assets\UI\Buttons\MainMenu\Salir Normal\salir_normal_000.png
+Assets\UI\Buttons\MainMenu\Salir Normal\salir_normal_001.png
+Assets\UI\Buttons\MainMenu\Salir Normal\salir_normal_002.png
+Assets\UI\Buttons\MainMenu\Salir Normal\salir_normal_003.png
+Assets\UI\Buttons\MainMenu\Salir Normal\salir_normal_004.png
+Assets\UI\Buttons\MainMenu\Salir Normal\salir_normal_005.png
+Assets\UI\Buttons\MainMenu\Salir Normal\salir_normal_006.png
+Assets\UI\Buttons\MainMenu\Salir Normal\salir_normal_007.png
+Assets\UI\Buttons\MainMenu\Salir Normal\salir_normal_008.png
+Assets\UI\Buttons\MainMenu\Salir Normal\salir_normal_009.png
+Assets\UI\Buttons\MainMenu\Salir Normal\salir_normal_010.png
+Assets\UI\Buttons\MainMenu\Salir Normal\salir_normal_011.png
+Assets\UI\Buttons\MainMenu\Salir Normal\salir_normal_012.png
+Assets\UI\Buttons\MainMenu\Salir Normal\salir_normal_013.png
+Assets\UI\Buttons\MainMenu\Salir Normal\salir_normal_014.png
+Assets\UI\Buttons\MainMenu\Salir Normal\salir_normal_015.png
+Assets\UI\Buttons\MainMenu\Salir Normal\salir_normal_016.png
+Assets\UI\Buttons\MainMenu\Salir Normal\salir_normal_017.png
+Assets\UI\Buttons\MainMenu\Salir Normal\salir_normal_018.png
+Assets\UI\Buttons\MainMenu\Salir Normal\salir_normal_019.png
+Assets\UI\Buttons\MainMenu\Salir Normal\salir_normal_020.png
+Assets\UI\Buttons\MainMenu\Salir Normal\salir_normal_021.png
+Assets\UI\Buttons\MainMenu\Salir Normal\salir_normal_022.png
+Assets\UI\Buttons\MainMenu\Salir Normal\salir_normal_023.png
+Assets\UI\Buttons\MainMenu\Salir Normal\salir_normal_024.png
+Assets\UI\Buttons\MainMenu\Salir Normal\salir_normal_025.png
+Assets\UI\Buttons\MainMenu\Salir Normal\salir_normal_026.png
+Assets\UI\Buttons\MainMenu\Salir Normal\salir_normal_027.png
+Assets\UI\Buttons\MainMenu\Salir Normal\salir_normal_028.png
+Assets\UI\Buttons\MainMenu\Salir Normal\salir_normal_029.png
+Assets\UI\Buttons\MainMenu\Salir Normal\salir_normal_030.png
+Assets\UI\Buttons\MainMenu\Salir Normal\salir_normal_031.png
+Assets\UI\Buttons\MainMenu\Salir Highlight\salir_highlight_000.png
+Assets\UI\Buttons\MainMenu\Salir Highlight\salir_highlight_001.png
+Assets\UI\Buttons\MainMenu\Salir Highlight\salir_highlight_002.png
+Assets\UI\Buttons\MainMenu\Salir Highlight\salir_highlight_003.png
+Assets\UI\Buttons\MainMenu\Salir Highlight\salir_highlight_004.png
+Assets\UI\Buttons\MainMenu\Salir Highlight\salir_highlight_005.png
+Assets\UI\Buttons\MainMenu\Salir Highlight\salir_highlight_006.png
+Assets\UI\Buttons\MainMenu\Salir Highlight\salir_highlight_007.png
+Assets\UI\Buttons\MainMenu\Salir Highlight\salir_highlight_008.png
+Assets\UI\Buttons\MainMenu\Salir Highlight\salir_highlight_009.png
+Assets\UI\Buttons\MainMenu\Salir Highlight\salir_highlight_010.png
+Assets\UI\Buttons\MainMenu\Salir Highlight\salir_highlight_011.png
+Assets\UI\Buttons\MainMenu\Salir Highlight\salir_highlight_012.png
+Assets\UI\Buttons\MainMenu\Salir Highlight\salir_highlight_013.png
+Assets\UI\Buttons\MainMenu\Salir Highlight\salir_highlight_014.png
+Assets\UI\Buttons\MainMenu\Salir Highlight\salir_highlight_015.png
+Assets\UI\Buttons\MainMenu\Salir Highlight\salir_highlight_016.png
+Assets\UI\Buttons\MainMenu\Salir Highlight\salir_highlight_017.png
+Assets\UI\Buttons\MainMenu\Salir Highlight\salir_highlight_018.png
+Assets\UI\Buttons\MainMenu\Salir Highlight\salir_highlight_019.png
+Assets\UI\Buttons\MainMenu\Salir Highlight\salir_highlight_020.png
+Assets\UI\Buttons\MainMenu\Salir Highlight\salir_highlight_021.png
+Assets\UI\Buttons\MainMenu\Salir Highlight\salir_highlight_022.png
+Assets\UI\Buttons\MainMenu\Salir Highlight\salir_highlight_023.png
+Assets\UI\Buttons\MainMenu\Salir Highlight\salir_highlight_024.png
+Assets\UI\Buttons\MainMenu\Salir Highlight\salir_highlight_025.png
+Assets\UI\Buttons\MainMenu\Salir Highlight\salir_highlight_026.png
+Assets\UI\Buttons\MainMenu\Salir Highlight\salir_highlight_027.png
+Assets\UI\Buttons\MainMenu\Salir Highlight\salir_highlight_028.png
+Assets\UI\Buttons\MainMenu\Salir Highlight\salir_highlight_029.png
+Assets\UI\Buttons\MainMenu\Salir Highlight\salir_highlight_030.png
+Assets\UI\Buttons\MainMenu\Salir Highlight\salir_highlight_031.png
+Assets\UI\Buttons\MainMenu\Salir Highlight\salir_highlight_032.png
+Assets\UI\Buttons\MainMenu\Salir Highlight\salir_highlight_033.png
+Assets\UI\Buttons\MainMenu\Salir Click\salir_click_000.png
+Assets\UI\Buttons\MainMenu\Salir Click\salir_click_001.png
+Assets\UI\Buttons\MainMenu\Salir Click\salir_click_002.png
+Assets\UI\Buttons\MainMenu\Salir Click\salir_click_003.png
+Assets\UI\Buttons\MainMenu\Salir Click\salir_click_004.png
+Assets\UI\Buttons\MainMenu\Salir Click\salir_click_005.png
+Assets\UI\Buttons\MainMenu\Salir Click\salir_click_006.png
+Assets\UI\Buttons\MainMenu\Salir Click\salir_click_007.png
+Assets\UI\Buttons\MainMenu\Salir Click\salir_click_008.png
+Assets\UI\Buttons\MainMenu\Salir Click\salir_click_009.png
+Assets\UI\Buttons\MainMenu\Salir Click\salir_click_010.png
+Assets\UI\Buttons\MainMenu\Salir Click\salir_click_011.png
+Assets\UI\Buttons\MainMenu\Salir Click\salir_click_012.png
+Assets\UI\Buttons\MainMenu\Salir Click\salir_click_013.png
+Assets\UI\Buttons\MainMenu\Salir Click\salir_click_014.png
+Assets\UI\Buttons\MainMenu\Salir Click\salir_click_015.png
+Assets\UI\Buttons\MainMenu\Salir Click\salir_click_016.png
+Assets\UI\Buttons\MainMenu\Salir Click\salir_click_017.png
+Assets\UI\Buttons\MainMenu\Salir Click\salir_click_018.png
+Assets\UI\Buttons\MainMenu\Salir Click\salir_click_019.png
+Assets\UI\Buttons\MainMenu\Salir Click\salir_click_020.png
+Assets\UI\Buttons\MainMenu\Salir Click\salir_click_021.png
+Assets\UI\Buttons\MainMenu\Salir Click\salir_click_022.png
+Assets\UI\Buttons\MainMenu\Salir Click\salir_click_023.png
+Assets\UI\Buttons\MainMenu\Salir Click\salir_click_024.png
+Assets\UI\Buttons\MainMenu\Salir Click\salir_click_025.png
+Assets\UI\Buttons\MainMenu\Salir Click\salir_click_026.png
+Assets\UI\Buttons\MainMenu\Salir Click\salir_click_027.png
+Assets\UI\Buttons\MainMenu\Salir Click\salir_click_028.png
+Assets\UI\Buttons\MainMenu\Salir Click\salir_click_029.png
+Assets\UI\Buttons\MainMenu\Salir Click\salir_click_030.png
+Assets\UI\Buttons\MainMenu\Salir Click\salir_click_031.png
+Assets\Rooms\MainMenu\options_menu_background.png
+Assets\Rooms\MainMenu\concept_header_02.png
+--------------------------------------------------------------------------------
+Container 'C:\Users\Zoé González\Documents\GitHub\AustraNlia\AustraNlia\Build\Scene008.vs'
+-------------------------------------------------------------------------------
+Assets\Rooms\Ending\ending_screen_2.png
+--------------------------------------------------------------------------------
+Container 'C:\Users\Zoé González\Documents\GitHub\AustraNlia\AustraNlia\Build\Character001.vc'
+-------------------------------------------------------------------------------
+Assets\Characters\Ica\Walk\walk_cycle_ica_000.png
+Assets\Characters\Ica\Walk\walk_cycle_ica_001.png
+Assets\Characters\Ica\Walk\walk_cycle_ica_002.png
+Assets\Characters\Ica\Walk\walk_cycle_ica_003.png
+Assets\Characters\Ica\Walk\walk_cycle_ica_004.png
+Assets\Characters\Ica\Walk\walk_cycle_ica_005.png
+Assets\Characters\Ica\Walk\walk_cycle_ica_006.png
+Assets\Characters\Ica\Walk\walk_cycle_ica_007.png
+Assets\Characters\Ica\Walk\walk_cycle_ica_008.png
+Assets\Characters\Ica\Walk\walk_cycle_ica_009.png
+Assets\Characters\Ica\Walk\walk_cycle_ica_010.png
+Assets\Characters\Ica\Walk\walk_cycle_ica_011.png
+Assets\SFX\ica_step.ogg
+Assets\Characters\Ica\Standing\Front\ica_idle_500px_000.png
+Assets\Characters\Ica\Standing\Front\ica_idle_500px_001.png
+Assets\Characters\Ica\Standing\Front\ica_idle_500px_002.png
+Assets\Characters\Ica\Standing\Front\ica_idle_500px_003.png
+Assets\Characters\Ica\Standing\Front\ica_idle_500px_004.png
+Assets\Characters\Ica\Standing\Front\ica_idle_500px_005.png
+Assets\Characters\Ica\Standing\Front\ica_idle_500px_006.png
+Assets\Characters\Ica\Standing\Front\ica_idle_500px_007.png
+Assets\Characters\Ica\Standing\Front\ica_idle_500px_008.png
+Assets\Characters\Ica\Standing\Front\ica_idle_500px_009.png
+Assets\Characters\Ica\Standing\Front\ica_idle_500px_010.png
+Assets\Characters\Ica\Standing\Front\ica_idle_500px_011.png
+Assets\Characters\Ica\Standing\Front\ica_idle_500px_012.png
+Assets\Characters\Ica\Standing\Front\ica_idle_500px_013.png
+Assets\Characters\Ica\Standing\Front\ica_idle_500px_014.png
+Assets\Characters\Ica\Standing\Front\ica_idle_500px_015.png
+Assets\Characters\Ica\Standing\Front\ica_idle_500px_016.png
+Assets\Characters\Ica\Standing\Front\ica_idle_500px_017.png
+Assets\Characters\Ica\Standing\Front\ica_idle_500px_018.png
+Assets\Characters\Ica\Standing\Front\ica_idle_500px_019.png
+Assets\Characters\Ica\Standing\Front\ica_idle_500px_020.png
+Assets\Characters\Ica\Standing\Front\ica_idle_500px_021.png
+Assets\Characters\Ica\Standing\Front\ica_idle_500px_022.png
+Assets\Characters\Ica\Standing\Front\ica_idle_500px_023.png
+Assets\Characters\Ica\Standing\Front\ica_idle_500px_024.png
+Assets\Characters\Ica\Standing\Front\ica_idle_500px_025.png
+Assets\Characters\Ica\Standing\Front\ica_idle_500px_026.png
+Assets\Characters\Ica\Standing\Front\ica_idle_500px_027.png
+Assets\Characters\Ica\Standing\Front\ica_idle_500px_028.png
+Assets\Characters\Ica\Standing\Front\ica_idle_500px_029.png
+Assets\Characters\Ica\Standing\Front\ica_idle_500px_030.png
+Assets\Characters\Ica\Standing\Front\ica_idle_500px_031.png
+Assets\Characters\Ica\Standing\Front\ica_idle_500px_032.png
+Assets\Characters\Ica\Standing\Front\ica_idle_500px_033.png
+Assets\Characters\Ica\Standing\Front\ica_idle_500px_034.png
+Assets\Characters\Ica\Standing\Front\ica_idle_500px_035.png
+Assets\Characters\Ica\Standing\Front\ica_idle_500px_036.png
+Assets\Characters\Ica\Standing\Front\ica_idle_500px_037.png
+Assets\UI\GUI\ica_up_highlight.png
+Assets\UI\GUI\ica_up.png
+Assets\UI\GUI\ica_down_highlight.png
+Assets\UI\GUI\ica_down.png
+Assets\UI\GUI\dialog_box_02.png
+--------------------------------------------------------------------------------
+Container 'C:\Users\Zoé González\Documents\GitHub\AustraNlia\AustraNlia\Build\Character004.vc'
+-------------------------------------------------------------------------------
+Assets\Characters\Mierins\idle_mierins_000.png
+Assets\Characters\Mierins\idle_mierins_001.png
+Assets\Characters\Mierins\idle_mierins_002.png
+Assets\Characters\Mierins\idle_mierins_003.png
+Assets\Characters\Mierins\idle_mierins_004.png
+Assets\Characters\Mierins\idle_mierins_005.png
+Assets\Characters\Mierins\idle_mierins_006.png
+Assets\Characters\Mierins\idle_mierins_007.png
+Assets\Characters\Mierins\idle_mierins_008.png
+Assets\Characters\Mierins\idle_mierins_009.png
+Assets\Characters\Mierins\idle_mierins_010.png
+Assets\Characters\Mierins\idle_mierins_011.png
+Assets\Characters\Mierins\idle_mierins_012.png
+Assets\Characters\Mierins\idle_mierins_013.png
+Assets\Characters\Mierins\idle_mierins_014.png
+Assets\Characters\Mierins\idle_mierins_015.png
+Assets\Characters\Mierins\idle_mierins_016.png
+Assets\Characters\Mierins\idle_mierins_017.png
+Assets\Characters\Mierins\idle_mierins_018.png
+Assets\Characters\Mierins\idle_mierins_019.png
+Assets\Characters\Mierins\idle_mierins_020.png
+Assets\Characters\Mierins\idle_mierins_021.png
+Assets\Characters\Mierins\idle_mierins_022.png
+Assets\Characters\Mierins\idle_mierins_023.png
+Assets\Characters\Mierins\idle_mierins_024.png
+Assets\Characters\Mierins\idle_mierins_025.png
+Assets\Characters\Mierins\idle_mierins_026.png
+Assets\Characters\Mierins\idle_mierins_027.png
+Assets\Characters\Mierins\idle_mierins_028.png
+Assets\Characters\Mierins\idle_mierins_029.png
+Assets\Characters\Mierins\idle_mierins_030.png
+Assets\Characters\Mierins\idle_mierins_031.png
+Assets\Characters\Mierins\idle_mierins_032.png
+Assets\Characters\Mierins\idle_mierins_033.png
+Assets\Characters\Mierins\idle_mierins_034.png
+Assets\Characters\Mierins\idle_mierins_035.png
+--------------------------------------------------------------------------------
+Container 'C:\Users\Zoé González\Documents\GitHub\AustraNlia\AustraNlia\Build\Character003.vc'
+-------------------------------------------------------------------------------
+Assets\Characters\Jinrus\concept_character_05.png
+--------------------------------------------------------------------------------
+Container 'C:\Users\Zoé González\Documents\GitHub\AustraNlia\AustraNlia\Build\Scene007.vs'
+-------------------------------------------------------------------------------
+Assets\Rooms\PauseMenu\anim\pausa_000.png
+Assets\Rooms\PauseMenu\anim\pausa_001.png
+Assets\Rooms\PauseMenu\anim\pausa_002.png
+Assets\Rooms\PauseMenu\anim\pausa_003.png
+Assets\Rooms\PauseMenu\anim\pausa_004.png
+Assets\Rooms\PauseMenu\anim\pausa_005.png
+Assets\Rooms\PauseMenu\anim\pausa_006.png
+Assets\Rooms\PauseMenu\anim\pausa_007.png
+Assets\Rooms\PauseMenu\anim\pausa_008.png
+Assets\Rooms\PauseMenu\anim\pausa_009.png
+Assets\Rooms\PauseMenu\anim\pausa_010.png
+Assets\Rooms\PauseMenu\anim\pausa_011.png
+Assets\Rooms\PauseMenu\anim\pausa_012.png
+Assets\Rooms\PauseMenu\anim\pausa_013.png
+Assets\Rooms\PauseMenu\anim\pausa_014.png
+Assets\Rooms\PauseMenu\anim\pausa_015.png
+Assets\Rooms\PauseMenu\anim\pausa_016.png
+Assets\Rooms\PauseMenu\anim\pausa_017.png
+Assets\Rooms\PauseMenu\anim\pausa_018.png
+Assets\Rooms\PauseMenu\anim\pausa_019.png
+Assets\Rooms\PauseMenu\anim\pausa_020.png
+Assets\Rooms\PauseMenu\anim\pausa_021.png
+Assets\Rooms\PauseMenu\anim\pausa_022.png
+Assets\Rooms\PauseMenu\anim\pausa_023.png
+Assets\Rooms\PauseMenu\anim\pausa_024.png
+Assets\Rooms\PauseMenu\anim\pausa_025.png
+Assets\Rooms\PauseMenu\anim\pausa_026.png
+Assets\Rooms\PauseMenu\anim\pausa_027.png
+Assets\Rooms\PauseMenu\anim\pausa_028.png
+Assets\Rooms\PauseMenu\anim\pausa_029.png
+Assets\Rooms\PauseMenu\anim\pausa_030.png
+Assets\Rooms\PauseMenu\anim\pausa_031.png
+Assets\Rooms\PauseMenu\overlay.png
+Assets\Rooms\PauseMenu\background_office_blur_v2.png
+Assets\Rooms\PauseMenu\concept_environment_03.png
+Assets\Rooms\PauseMenu\concept_environment_02.png
+--------------------------------------------------------------------------------
+Container 'C:\Users\Zoé González\Documents\GitHub\AustraNlia\AustraNlia\Build\Scene006.vs'
+-------------------------------------------------------------------------------
+Assets\Rooms\OldPort\concept_environment_03.png
+--------------------------------------------------------------------------------
+
+Containers:
+
+
+Character000.vc 0 pc_chad
+
+Character001.vc 4 pc_ica
+
+Character002.vc 6 npc_gaed
+
+Character003.vc 7 npc_jinrus
+
+Character004.vc 2 npc_mierins
+
+Interfaces.vi 0 
+
+Scene001.vs 2 main_menu
+
+Scene002.vs 4 options_menu
+
+Scene003.vs 0 mierins_office
+
+Scene004.vs 10 central_taramar
+
+Scene005.vs 1 bubble_forest
+
+Scene006.vs 8 old_port
+
+Scene007.vs 9 pause_menu
+
+Scene008.vs 11 ending_screen
+
+Video000.vv 588 Play video 'logo_screen.mkv'
+
+austranlia.vis 0 
+
