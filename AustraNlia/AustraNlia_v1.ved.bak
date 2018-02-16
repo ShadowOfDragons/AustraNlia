@@ -1185,8 +1185,8 @@
 			<FontShadowOffset x="1" y="1"/>
 		</Font>
 	</Fonts>
-	<Scenes newId="12" versionedId="-1" tableId="4">
-		<Scene name="mierins_office" id="0" order="5" lastModified="-1" SceneBackgroundMusic="Assets\Music\mierins_office.ogg" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+	<Scenes newId="11" versionedId="-1" tableId="4">
+		<Scene name="mierins_office" id="0" order="5" lastModified="-1" SceneBackgroundMusic="Assets/Music/mierins_office.ogg" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="Assets/Rooms/MierinsOffice/empty_office.png" Transparency="2">
 				<position x="0" y="0"/>
 			</SceneSprite>
@@ -1282,7 +1282,7 @@
 			<SceneAudioBusses>
 			</SceneAudioBusses>
 		</Scene>
-		<Scene name="main_menu" id="2" order="3" lastModified="-1" SceneBackgroundMusic="Assets\Music\main_menu.ogg" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="T" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+		<Scene name="main_menu" id="2" order="3" lastModified="-1" SceneBackgroundMusic="Assets/Music/main_menu.ogg" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="T" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="Assets/Rooms/MainMenu/main_menu_background.png" Transparency="2">
 				<position x="0" y="0"/>
 			</SceneSprite>
@@ -1495,6 +1495,8 @@
 				<Link parentLink="T" id="100" tableId="6" LinkAny="F"/>
 				<Link parentLink="T" id="102" tableId="6" LinkAny="F"/>
 				<Link parentLink="T" id="106" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="110" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="111" tableId="6" LinkAny="F"/>
 			</SceneObjects>
 			<SceneCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<SceneSavegameAreas>
@@ -1518,7 +1520,7 @@
 			</SceneAudioBusses>
 		</Scene>
 	</Scenes>
-	<Points newId="126" versionedId="-1" tableId="5">
+	<Points newId="124" versionedId="-1" tableId="5">
 		<Point name="Point0" id="62" order="0" lastModified="-1" PointSize="90">
 			<PointPosition x="1243" y="619"/>
 			<PointRelations>
@@ -1912,7 +1914,7 @@
 			</PointRelations>
 		</Point>
 	</Points>
-	<Objects newId="110" versionedId="-1" tableId="6">
+	<Objects newId="112" versionedId="-1" tableId="6">
 		<Object name="mierins_office_start_point" id="0" order="4" lastModified="-1" ObjectDirection="-1" ObjectCenter="0" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="25" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
@@ -3501,7 +3503,7 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="overlay" id="82" order="0" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="overlay" id="82" order="2" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="586" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -4088,7 +4090,7 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="tablet" id="108" order="2" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="tablet" id="108" order="1" lastModified="-1" ObjectDirection="-1" ObjectCenter="1025" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="714" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -4110,7 +4112,7 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="botón return" id="109" order="1" lastModified="-1" ObjectDirection="-1" ObjectCenter="867" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="botón return" id="109" order="0" lastModified="-1" ObjectDirection="-1" ObjectCenter="867" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="716" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 				<point x="758" y="752"/>
@@ -4139,8 +4141,50 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
+		<Object name="front_houses" id="110" order="4" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+			<ObjectName parentLink="T" id="717" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="138" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Object>
+		<Object name="middle_houses" id="111" order="5" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+			<ObjectName parentLink="T" id="718" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="139" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Object>
 	</Objects>
-	<Actions newId="297" versionedId="-1" tableId="7">
+	<Actions newId="295" versionedId="-1" tableId="7">
 		<Action name="Action" id="0" order="0" lastModified="-1" ActionExecutionType="-1">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -10030,7 +10074,7 @@
 			<ActionPartLink parentLink="T" id="671" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="2" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Play sound &apos;step_on_glass.ogg&apos;" id="1472" order="0" lastModified="-1" ActionPartCommand="24" ActionPartPath="Assets\SFX\step_on_glass.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Play sound &apos;step_on_glass.ogg&apos;" id="1472" order="0" lastModified="-1" ActionPartCommand="24" ActionPartPath="Assets/SFX/step_on_glass.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -10038,7 +10082,7 @@
 			<ActionPartLink parentLink="F" id="279" tableId="7" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Play sound &apos;step_on_glass.ogg&apos;" id="1474" order="1" lastModified="-1" ActionPartCommand="24" ActionPartPath="Assets\SFX\step_on_glass.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Play sound &apos;step_on_glass.ogg&apos;" id="1474" order="1" lastModified="-1" ActionPartCommand="24" ActionPartPath="Assets/SFX/step_on_glass.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -10050,15 +10094,15 @@
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Play sound &apos;bubbles.ogg&apos;" id="1477" order="4" lastModified="-1" ActionPartCommand="24" ActionPartPath="Assets\SFX\bubbles.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Play sound &apos;bubbles.ogg&apos;" id="1477" order="4" lastModified="-1" ActionPartCommand="24" ActionPartPath="Assets/SFX/bubbles.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Play sound &apos;lock.ogg&apos;" id="1478" order="2" lastModified="-1" ActionPartCommand="24" ActionPartPath="Assets\SFX\lock.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Play sound &apos;lock.ogg&apos;" id="1478" order="2" lastModified="-1" ActionPartCommand="24" ActionPartPath="Assets/SFX/lock.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Play sound &apos;door_open.ogg&apos;" id="1479" order="10" lastModified="-1" ActionPartCommand="24" ActionPartPath="Assets\SFX\door_open.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Play sound &apos;door_open.ogg&apos;" id="1479" order="10" lastModified="-1" ActionPartCommand="24" ActionPartPath="Assets/SFX/door_open.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -10074,7 +10118,7 @@
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Play sound &apos;door_close.ogg&apos;" id="1483" order="2" lastModified="-1" ActionPartCommand="24" ActionPartPath="Assets\SFX\door_close.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Play sound &apos;door_close.ogg&apos;" id="1483" order="2" lastModified="-1" ActionPartCommand="24" ActionPartPath="Assets/SFX/door_close.ogg" ActionPartInt="100" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -10159,7 +10203,7 @@
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 	</ActionParts>
-	<Animations newId="271" versionedId="-1" tableId="9">
+	<Animations newId="272" versionedId="-1" tableId="9">
 		<Animation name="walk_front" id="1" order="3" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="270" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -17533,10 +17577,106 @@
 			<AnimationPauses>
 			</AnimationPauses>
 		</Animation>
-		<Animation name="tablet_anim" id="267" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
-			<AnimationPosition x="0" y="0"/>
+		<Animation name="tablet_anim" id="267" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="360" y="25"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
+				<sprite name="" pause="-1" path="Assets/Rooms/PauseMenu/anim/pausa_000.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Rooms/PauseMenu/anim/pausa_001.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Rooms/PauseMenu/anim/pausa_002.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Rooms/PauseMenu/anim/pausa_003.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Rooms/PauseMenu/anim/pausa_004.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Rooms/PauseMenu/anim/pausa_005.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Rooms/PauseMenu/anim/pausa_006.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Rooms/PauseMenu/anim/pausa_007.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Rooms/PauseMenu/anim/pausa_008.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Rooms/PauseMenu/anim/pausa_009.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Rooms/PauseMenu/anim/pausa_010.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Rooms/PauseMenu/anim/pausa_011.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Rooms/PauseMenu/anim/pausa_012.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Rooms/PauseMenu/anim/pausa_013.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Rooms/PauseMenu/anim/pausa_014.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Rooms/PauseMenu/anim/pausa_015.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Rooms/PauseMenu/anim/pausa_016.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Rooms/PauseMenu/anim/pausa_017.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Rooms/PauseMenu/anim/pausa_018.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Rooms/PauseMenu/anim/pausa_019.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Rooms/PauseMenu/anim/pausa_020.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Rooms/PauseMenu/anim/pausa_021.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Rooms/PauseMenu/anim/pausa_022.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Rooms/PauseMenu/anim/pausa_023.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Rooms/PauseMenu/anim/pausa_024.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Rooms/PauseMenu/anim/pausa_025.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Rooms/PauseMenu/anim/pausa_026.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Rooms/PauseMenu/anim/pausa_027.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Rooms/PauseMenu/anim/pausa_028.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Rooms/PauseMenu/anim/pausa_029.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Rooms/PauseMenu/anim/pausa_030.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Rooms/PauseMenu/anim/pausa_031.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationCenter x="0" y="0"/>
@@ -17956,7 +18096,7 @@
 			<DialogPartAltText parentLink="T" id="430" tableId="14" LinkAny="F"/>
 		</DialogPart>
 	</DialogParts>
-	<Sprites newId="138" versionedId="-1" tableId="13">
+	<Sprites newId="140" versionedId="-1" tableId="13">
 		<Sprite name="Unnamed" id="2" order="2" lastModified="-1">
 			<SpriteSprite name="" pause="-1" path="" Transparency="2">
 				<position x="0" y="0"/>
@@ -18392,8 +18532,18 @@
 				<position x="754" y="750"/>
 			</SpriteSprite>
 		</Sprite>
+		<Sprite name="Image" id="138" order="138" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="Assets/Rooms/CentralTaramar/Central_TaramarDelante.png" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Image" id="139" order="139" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="Assets/Rooms/CentralTaramar/casamedio.png" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
 	</Sprites>
-	<Texts newId="722" versionedId="-1" tableId="14">
+	<Texts newId="719" versionedId="-1" tableId="14">
 		<Text name="new_game_txt" id="1" order="1" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
@@ -19819,6 +19969,16 @@
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
+		<Text name="Unnamed" id="717" order="717" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="718" order="718" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
 	</Texts>
 	<Cursors newId="5" versionedId="-1" tableId="15">
 		<Cursor name="cursor_arrow" id="0" order="0" lastModified="-1">
@@ -20032,17 +20192,17 @@
 	</ParticleContainers>
 	<CommentSetEntries newId="0" versionedId="-1" tableId="27">
 	</CommentSetEntries>
-	<AnimationFrames newId="23" versionedId="-1" tableId="28">
-		<AnimationFrame name="walk_right - Property Frame" id="3" order="0" lastModified="-1" AnimationFrameIndex="0" AnimationFrameSound="Assets\SFX\chad_step.ogg" AnimationFrameSoundVolume="100" AnimationFrameSoundBalance="0">
+	<AnimationFrames newId="7" versionedId="-1" tableId="28">
+		<AnimationFrame name="walk_right - Property Frame" id="3" order="0" lastModified="-1" AnimationFrameIndex="0" AnimationFrameSound="Assets/SFX/chad_step.ogg" AnimationFrameSoundVolume="100" AnimationFrameSoundBalance="0">
 			<AnimationFrameAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</AnimationFrame>
-		<AnimationFrame name="walk_right - Property Frame" id="4" order="1" lastModified="-1" AnimationFrameIndex="7" AnimationFrameSound="Assets\SFX\chad_step.ogg" AnimationFrameSoundVolume="100" AnimationFrameSoundBalance="0">
+		<AnimationFrame name="walk_right - Property Frame" id="4" order="1" lastModified="-1" AnimationFrameIndex="7" AnimationFrameSound="Assets/SFX/chad_step.ogg" AnimationFrameSoundVolume="100" AnimationFrameSoundBalance="0">
 			<AnimationFrameAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</AnimationFrame>
-		<AnimationFrame name="walk_right - Property Frame" id="5" order="0" lastModified="-1" AnimationFrameIndex="0" AnimationFrameSound="Assets\SFX\ica_step.ogg" AnimationFrameSoundVolume="100" AnimationFrameSoundBalance="0">
+		<AnimationFrame name="walk_right - Property Frame" id="5" order="0" lastModified="-1" AnimationFrameIndex="0" AnimationFrameSound="Assets/SFX/ica_step.ogg" AnimationFrameSoundVolume="100" AnimationFrameSoundBalance="0">
 			<AnimationFrameAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</AnimationFrame>
-		<AnimationFrame name="walk_right - Property Frame" id="6" order="1" lastModified="-1" AnimationFrameIndex="7" AnimationFrameSound="Assets\SFX\ica_step.ogg" AnimationFrameSoundVolume="100" AnimationFrameSoundBalance="0">
+		<AnimationFrame name="walk_right - Property Frame" id="6" order="1" lastModified="-1" AnimationFrameIndex="7" AnimationFrameSound="Assets/SFX/ica_step.ogg" AnimationFrameSoundVolume="100" AnimationFrameSoundBalance="0">
 			<AnimationFrameAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</AnimationFrame>
 	</AnimationFrames>
@@ -20263,9 +20423,9 @@
 		<InterfaceClass name="Miscellaneous" id="4" order="4" lastModified="-1" InterfaceClassName="Miscellaneous">
 		</InterfaceClass>
 	</InterfaceClasses>
-	<ActionAreas newId="2" versionedId="-1" tableId="32">
+	<ActionAreas newId="0" versionedId="-1" tableId="32">
 	</ActionAreas>
-	<AreaActions newId="3" versionedId="-1" tableId="33">
+	<AreaActions newId="0" versionedId="-1" tableId="33">
 	</AreaActions>
 	<Shaders newId="0" versionedId="-1" tableId="36">
 	</Shaders>
