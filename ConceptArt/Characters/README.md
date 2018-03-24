@@ -15,6 +15,9 @@
 ### Jinrus Salbun
 ![Jinrus Salbun](https://github.com/ShadowOfDragons/AustraNlia/blob/master/ConceptArt/Characters/concept_character_05.png)
 
+### Félix Gremore
+![Félix Gremore](https://github.com/ShadowOfDragons/AustraNlia/blob/master/ConceptArt/Characters/concept_character_06.png)
+
 ![Character Thumbnails](https://github.com/ShadowOfDragons/AustraNlia/blob/master/ConceptArt/Characters/character_thumbnails.png)
 
 ![Characters Size Chart](https://github.com/ShadowOfDragons/AustraNlia/blob/master/ConceptArt/Characters/characters_size_chart.png)
