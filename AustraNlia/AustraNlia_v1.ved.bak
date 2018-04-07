@@ -1856,7 +1856,7 @@
 			</PointRelations>
 		</Point>
 		<Point name="Point1" id="140" order="1" lastModified="-1" PointSize="35">
-			<PointPosition x="381" y="1030"/>
+			<PointPosition x="463" y="1022"/>
 			<PointRelations>
 				<Link parentLink="F" id="139" tableId="5" LinkAny="F"/>
 				<Link parentLink="F" id="141" tableId="5" LinkAny="F"/>
