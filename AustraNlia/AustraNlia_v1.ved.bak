@@ -21146,7 +21146,7 @@
 			</ConditionConditions>
 		</Condition>
 	</Conditions>
-	<Dialogs newId="19" versionedId="-1" tableId="11">
+	<Dialogs newId="20" versionedId="-1" tableId="11">
 		<Dialog name="enter_mierins_office" id="0" order="0" lastModified="-1">
 			<DialogDialogParts>
 				<Link parentLink="T" id="0" tableId="12" LinkAny="F"/>
@@ -21230,8 +21230,14 @@
 			</DialogDialogParts>
 			<DialogCharacter parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Dialog>
+		<Dialog name="2. Heard anything interesting around?" id="19" order="19" lastModified="-1">
+			<DialogDialogParts>
+				<Link parentLink="T" id="49" tableId="12" LinkAny="F"/>
+			</DialogDialogParts>
+			<DialogCharacter parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Dialog>
 	</Dialogs>
-	<DialogParts newId="49" versionedId="-1" tableId="12">
+	<DialogParts newId="50" versionedId="-1" tableId="12">
 		<DialogPart name="1. Soy yo Sr.Sprüd, Chad Cosay. Usted me ha llamado." id="0" order="0" lastModified="-1" DialogPartConditionNegate="F" DialogPartReturn="2" DialogPartRemove="F" DialogPartUseAltText="T" DialogPartValueOperator="-1" DialogPartValueInt="-1">
 			<DialogPartCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<DialogPartText parentLink="T" id="102" tableId="14" LinkAny="F"/>
@@ -21558,8 +21564,18 @@
 			<DialogPartAction parentLink="T" id="323" tableId="7" LinkAny="F"/>
 			<DialogPartLinkedAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<DialogPartAnswerText parentLink="T" id="914" tableId="14" LinkAny="F"/>
-			<DialogPartNextDialog parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<DialogPartNextDialog parentLink="T" id="19" tableId="11" LinkAny="F"/>
 			<DialogPartAltText parentLink="T" id="915" tableId="14" LinkAny="F"/>
+			<DialogPartValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</DialogPart>
+		<DialogPart name="2.1. " id="49" order="0" lastModified="-1" DialogPartConditionNegate="F" DialogPartReturn="0" DialogPartRemove="F" DialogPartUseAltText="F" DialogPartValueOperator="-1" DialogPartValueInt="-1">
+			<DialogPartCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<DialogPartText parentLink="T" id="923" tableId="14" LinkAny="F"/>
+			<DialogPartAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<DialogPartLinkedAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<DialogPartAnswerText parentLink="T" id="924" tableId="14" LinkAny="F"/>
+			<DialogPartNextDialog parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<DialogPartAltText parentLink="T" id="925" tableId="14" LinkAny="F"/>
 			<DialogPartValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</DialogPart>
 	</DialogParts>
@@ -21910,7 +21926,7 @@
 			</SpriteSprite>
 		</Sprite>
 	</Sprites>
-	<Texts newId="923" versionedId="-1" tableId="14">
+	<Texts newId="926" versionedId="-1" tableId="14">
 		<Text name="new_game_txt" id="1" order="1" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
@@ -23716,6 +23732,21 @@
 		<Text name="Unnamed" id="919" order="919" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Kids these days! Do you really not know who is the great Dan Moirom?" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="923" order="923" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="924" order="924" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="925" order="925" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
 	</Texts>

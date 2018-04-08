@@ -21146,7 +21146,7 @@
 			</ConditionConditions>
 		</Condition>
 	</Conditions>
-	<Dialogs newId="19" versionedId="-1" tableId="11">
+	<Dialogs newId="20" versionedId="-1" tableId="11">
 		<Dialog name="enter_mierins_office" id="0" order="0" lastModified="-1">
 			<DialogDialogParts>
 				<Link parentLink="T" id="0" tableId="12" LinkAny="F"/>
@@ -21231,7 +21231,7 @@
 			<DialogCharacter parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Dialog>
 	</Dialogs>
-	<DialogParts newId="49" versionedId="-1" tableId="12">
+	<DialogParts newId="50" versionedId="-1" tableId="12">
 		<DialogPart name="1. Soy yo Sr.Sprüd, Chad Cosay. Usted me ha llamado." id="0" order="0" lastModified="-1" DialogPartConditionNegate="F" DialogPartReturn="2" DialogPartRemove="F" DialogPartUseAltText="T" DialogPartValueOperator="-1" DialogPartValueInt="-1">
 			<DialogPartCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<DialogPartText parentLink="T" id="102" tableId="14" LinkAny="F"/>
@@ -21910,7 +21910,7 @@
 			</SpriteSprite>
 		</Sprite>
 	</Sprites>
-	<Texts newId="923" versionedId="-1" tableId="14">
+	<Texts newId="926" versionedId="-1" tableId="14">
 		<Text name="new_game_txt" id="1" order="1" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
