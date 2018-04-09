@@ -1364,7 +1364,7 @@
 			<SceneTestCharacter parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Scene>
 		<Scene name="old_port" id="8" order="10" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
-			<SceneSprite name="" pause="-1" path="Assets/Rooms/OldPort/concept_environment_03.png" Transparency="2">
+			<SceneSprite name="" pause="-1" path="Assets/Rooms/OldPort/GremoreHouse.png" Transparency="2">
 				<position x="0" y="0"/>
 			</SceneSprite>
 			<SceneName parentLink="T" id="579" tableId="14" LinkAny="F"/>
@@ -1789,36 +1789,36 @@
 				<Link parentLink="F" id="100" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
-		<Point name="Point1" id="100" order="1" lastModified="-1" PointSize="40">
-			<PointPosition x="297" y="1241"/>
+		<Point name="Point1" id="100" order="1" lastModified="-1" PointSize="37">
+			<PointPosition x="345" y="1233"/>
 			<PointRelations>
 				<Link parentLink="F" id="99" tableId="5" LinkAny="F"/>
 				<Link parentLink="F" id="104" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
 		<Point name="Point2" id="104" order="2" lastModified="-1" PointSize="-1">
-			<PointPosition x="566" y="1257"/>
+			<PointPosition x="602" y="1257"/>
 			<PointRelations>
 				<Link parentLink="F" id="100" tableId="5" LinkAny="F"/>
 				<Link parentLink="F" id="105" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
-		<Point name="Point3" id="105" order="3" lastModified="-1" PointSize="-1">
-			<PointPosition x="769" y="1307"/>
+		<Point name="Point3" id="105" order="3" lastModified="-1" PointSize="60">
+			<PointPosition x="839" y="1285"/>
 			<PointRelations>
 				<Link parentLink="F" id="104" tableId="5" LinkAny="F"/>
 				<Link parentLink="F" id="106" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
-		<Point name="Point4" id="106" order="4" lastModified="-1" PointSize="-1">
-			<PointPosition x="919" y="1305"/>
+		<Point name="Point4" id="106" order="4" lastModified="-1" PointSize="65">
+			<PointPosition x="1023" y="1317"/>
 			<PointRelations>
 				<Link parentLink="F" id="105" tableId="5" LinkAny="F"/>
 				<Link parentLink="F" id="107" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
 		<Point name="Point5" id="107" order="5" lastModified="-1" PointSize="-1">
-			<PointPosition x="1125" y="1475"/>
+			<PointPosition x="1193" y="1477"/>
 			<PointRelations>
 				<Link parentLink="F" id="106" tableId="5" LinkAny="F"/>
 				<Link parentLink="F" id="108" tableId="5" LinkAny="F"/>
@@ -1831,22 +1831,22 @@
 				<Link parentLink="F" id="109" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
-		<Point name="Point7" id="109" order="7" lastModified="-1" PointSize="-1">
+		<Point name="Point7" id="109" order="7" lastModified="-1" PointSize="90">
 			<PointPosition x="2605" y="1645"/>
 			<PointRelations>
 				<Link parentLink="F" id="108" tableId="5" LinkAny="F"/>
 				<Link parentLink="F" id="110" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
-		<Point name="Point8" id="110" order="8" lastModified="-1" PointSize="-1">
+		<Point name="Point8" id="110" order="8" lastModified="-1" PointSize="80">
 			<PointPosition x="3103" y="1574"/>
 			<PointRelations>
 				<Link parentLink="F" id="109" tableId="5" LinkAny="F"/>
 				<Link parentLink="F" id="111" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
-		<Point name="Point9" id="111" order="9" lastModified="-1" PointSize="80">
-			<PointPosition x="3118" y="1533"/>
+		<Point name="Point9" id="111" order="9" lastModified="-1" PointSize="65">
+			<PointPosition x="3134" y="1509"/>
 			<PointRelations>
 				<Link parentLink="F" id="110" tableId="5" LinkAny="F"/>
 			</PointRelations>
@@ -4400,7 +4400,7 @@
 			</ObjectAnimations>
 			<ObjectValues>
 			</ObjectValues>
-			<ObjectPosition x="1128" y="1543"/>
+			<ObjectPosition x="1169" y="1535"/>
 			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
@@ -10352,7 +10352,7 @@
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
 	</ActionParts>
-	<Animations newId="332" versionedId="-1" tableId="9">
+	<Animations newId="333" versionedId="-1" tableId="9">
 		<Animation name="walk_front" id="1" order="3" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="270" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -20181,12 +20181,393 @@
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
-				<sprite name="" pause="0" path="Assets/Characters/testing/abuela_testing.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_000.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_001.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_002.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_003.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_004.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_005.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_006.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_007.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_008.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_009.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_010.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_011.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_012.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_013.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_014.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_015.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_016.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_017.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_018.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_019.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_020.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_021.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_022.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_023.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_024.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_025.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_026.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_027.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_028.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_029.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_030.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_031.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_032.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_033.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_034.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_035.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_036.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_037.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_038.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_039.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_040.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_041.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_042.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_043.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_044.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_045.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_046.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_047.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_048.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_049.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_050.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_051.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_052.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_053.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_054.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_055.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_056.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_057.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_058.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_059.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_060.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_061.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_062.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_063.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_064.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_065.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_066.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_067.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_068.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_069.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_070.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_071.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_072.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_073.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_074.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_075.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_076.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_077.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_078.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_079.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_080.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_081.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_082.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_083.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_084.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_085.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_086.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_087.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_088.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_089.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_090.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_091.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_092.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_093.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_094.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_095.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_096.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_097.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_098.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_099.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_100.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_101.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_102.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_103.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_104.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_105.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_106.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_107.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_108.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_109.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_110.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_111.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_112.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_113.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_114.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_115.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_116.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_117.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_118.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_119.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_120.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_121.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_122.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_123.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_124.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_125.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_126.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Granny/old_one/old_one_127.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="112" y="501"/>
+			<AnimationCenter x="153" y="559"/>
 			<AnimationPropertyFrames>
 			</AnimationPropertyFrames>
 			<AnimationWalkSteps>
@@ -24790,31 +25171,35 @@
 		<WaySystem name="normal" id="6" order="0" lastModified="-1">
 			<WaySystemBorder>
 				<point x="1538" y="1698"/>
-				<point x="942" y="1493"/>
-				<point x="1018" y="1480"/>
-				<point x="893" y="1330"/>
-				<point x="772" y="1338"/>
-				<point x="553" y="1277"/>
-				<point x="350" y="1267"/>
-				<point x="2" y="1376"/>
-				<point x="0" y="1282"/>
-				<point x="279" y="1213"/>
-				<point x="396" y="1208"/>
-				<point x="416" y="1226"/>
-				<point x="594" y="1244"/>
-				<point x="645" y="1259"/>
-				<point x="680" y="1251"/>
-				<point x="1117" y="1318"/>
-				<point x="1053" y="1323"/>
-				<point x="1185" y="1452"/>
-				<point x="1234" y="1442"/>
+				<point x="969" y="1494"/>
+				<point x="1046" y="1482"/>
+				<point x="950" y="1346"/>
+				<point x="836" y="1361"/>
+				<point x="577" y="1281"/>
+				<point x="404" y="1274"/>
+				<point x="3" y="1383"/>
+				<point x="3" y="1251"/>
+				<point x="259" y="1195"/>
+				<point x="330" y="1181"/>
+				<point x="439" y="1183"/>
+				<point x="452" y="1207"/>
+				<point x="604" y="1217"/>
+				<point x="691" y="1232"/>
+				<point x="1271" y="1319"/>
+				<point x="1169" y="1331"/>
+				<point x="1274" y="1447"/>
+				<point x="1310" y="1437"/>
 				<point x="1772" y="1493"/>
-				<point x="2460" y="1582"/>
-				<point x="2511" y="1526"/>
-				<point x="2859" y="1541"/>
-				<point x="2892" y="1505"/>
-				<point x="3273" y="1503"/>
-				<point x="3268" y="1696"/>
+				<point x="1878" y="1502"/>
+				<point x="1954" y="1477"/>
+				<point x="2416" y="1521"/>
+				<point x="2417" y="1555"/>
+				<point x="2508" y="1562"/>
+				<point x="2580" y="1510"/>
+				<point x="2880" y="1528"/>
+				<point x="2931" y="1483"/>
+				<point x="3275" y="1486"/>
+				<point x="3275" y="1696"/>
 			</WaySystemBorder>
 			<WaySystemPoints>
 				<Link parentLink="T" id="99" tableId="5" LinkAny="F"/>
