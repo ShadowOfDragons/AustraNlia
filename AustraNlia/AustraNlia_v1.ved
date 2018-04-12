@@ -12,6 +12,7 @@
 			<Link parentLink="T" id="10" tableId="4" LinkAny="F"/>
 			<Link parentLink="T" id="11" tableId="4" LinkAny="F"/>
 			<Link parentLink="T" id="12" tableId="4" LinkAny="F"/>
+			<Link parentLink="T" id="13" tableId="4" LinkAny="F"/>
 		</GameSceneLinks>
 		<GameCharacterLinks>
 			<Link parentLink="T" id="0" tableId="0" LinkAny="F"/>
@@ -434,8 +435,10 @@
 			<CharacterCurrentCommentSet parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<CharacterDialogCursor parentLink="F" id="0" tableId="15" LinkAny="F"/>
 			<CharacterDialogs>
+				<Link parentLink="T" id="26" tableId="11" LinkAny="F"/>
 			</CharacterDialogs>
 			<CharacterActions>
+				<Link parentLink="T" id="356" tableId="7" LinkAny="F"/>
 			</CharacterActions>
 			<CharacterOutfits>
 				<Link parentLink="T" id="8" tableId="17" LinkAny="F"/>
@@ -446,6 +449,7 @@
 			<CharacterValues>
 			</CharacterValues>
 			<CharacterConditions>
+				<Link parentLink="T" id="78" tableId="10" LinkAny="F"/>
 			</CharacterConditions>
 			<CharacterActiveDialogFont parentLink="F" id="4" tableId="3" LinkAny="F"/>
 			<CharacterInactiveDialogFont parentLink="F" id="4" tableId="3" LinkAny="F"/>
@@ -749,6 +753,9 @@
 			<CharacterDialogs>
 			</CharacterDialogs>
 			<CharacterActions>
+				<Link parentLink="T" id="353" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="354" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="355" tableId="7" LinkAny="F"/>
 			</CharacterActions>
 			<CharacterOutfits>
 				<Link parentLink="T" id="15" tableId="17" LinkAny="F"/>
@@ -1179,7 +1186,7 @@
 			<FontShadowOffset x="1" y="1"/>
 		</Font>
 	</Fonts>
-	<Scenes newId="13" versionedId="-1" tableId="4">
+	<Scenes newId="14" versionedId="-1" tableId="4">
 		<Scene name="mierins_office" id="0" order="5" lastModified="-1" SceneBackgroundMusic="Assets/Music/mierins_office.ogg" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="Assets/Rooms/MierinsOffice/empty_office.png" Transparency="2">
 				<position x="0" y="0"/>
@@ -1245,7 +1252,7 @@
 			</SceneAudioBusses>
 			<SceneTestCharacter parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Scene>
-		<Scene name="bubble_forest" id="1" order="9" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+		<Scene name="bubble_forest" id="1" order="10" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="Assets/Rooms/BubbleForest/detras.png" Transparency="2">
 				<position x="0" y="0"/>
 			</SceneSprite>
@@ -1257,6 +1264,8 @@
 				<Link parentLink="T" id="117" tableId="6" LinkAny="F"/>
 				<Link parentLink="T" id="118" tableId="6" LinkAny="F"/>
 				<Link parentLink="T" id="132" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="135" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="136" tableId="6" LinkAny="F"/>
 			</SceneObjects>
 			<SceneCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<SceneSavegameAreas>
@@ -1417,7 +1426,7 @@
 			</SceneAudioBusses>
 			<SceneTestCharacter parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Scene>
-		<Scene name="old_port" id="8" order="10" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+		<Scene name="old_port" id="8" order="11" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="Assets/Rooms/OldPort/try2.png" Transparency="2">
 				<position x="0" y="0"/>
 			</SceneSprite>
@@ -1425,9 +1434,9 @@
 			<SceneObjects>
 				<Link parentLink="T" id="107" tableId="6" LinkAny="F"/>
 				<Link parentLink="T" id="119" tableId="6" LinkAny="F"/>
-				<Link parentLink="T" id="124" tableId="6" LinkAny="F"/>
 				<Link parentLink="T" id="125" tableId="6" LinkAny="F"/>
 				<Link parentLink="T" id="133" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="124" tableId="6" LinkAny="F"/>
 			</SceneObjects>
 			<SceneCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<SceneSavegameAreas>
@@ -1454,7 +1463,7 @@
 			</SceneAudioBusses>
 			<SceneTestCharacter parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Scene>
-		<Scene name="pause_menu" id="9" order="11" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="T" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+		<Scene name="pause_menu" id="9" order="12" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="T" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="" Transparency="2">
 				<position x="0" y="0"/>
 			</SceneSprite>
@@ -1495,8 +1504,8 @@
 			</SceneAudioBusses>
 			<SceneTestCharacter parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Scene>
-		<Scene name="central_taramar" id="10" order="8" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
-			<SceneSprite name="" pause="-1" path="Assets/Rooms/CentralTaramar/Central_Taramar.png" Transparency="2">
+		<Scene name="central_taramar" id="10" order="9" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+			<SceneSprite name="" pause="-1" path="Assets/Rooms/CentralTaramar/atras.png" Transparency="2">
 				<position x="0" y="0"/>
 			</SceneSprite>
 			<SceneName parentLink="T" id="672" tableId="14" LinkAny="F"/>
@@ -1535,7 +1544,7 @@
 			</SceneAudioBusses>
 			<SceneTestCharacter parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Scene>
-		<Scene name="ending_screen" id="11" order="12" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+		<Scene name="ending_screen" id="11" order="13" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="Assets/Rooms/Ending/ending_screen_2.png" Transparency="2">
 				<position x="0" y="0"/>
 			</SceneSprite>
@@ -1565,7 +1574,7 @@
 			</SceneAudioBusses>
 			<SceneTestCharacter parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Scene>
-		<Scene name="TESTING_SCREEN" id="12" order="13" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+		<Scene name="TESTING_SCREEN" id="12" order="14" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="Assets/Rooms/BubbleForest/concept_environment_02.png" Transparency="2">
 				<position x="0" y="0"/>
 			</SceneSprite>
@@ -1591,6 +1600,34 @@
 				<Link parentLink="T" id="9" tableId="29" LinkAny="F"/>
 			</SceneWaySystems>
 			<SceneCurrentWaySystem parentLink="F" id="9" tableId="29" LinkAny="F"/>
+			<SceneActionAreas>
+			</SceneActionAreas>
+			<SceneAudioBusses>
+			</SceneAudioBusses>
+			<SceneTestCharacter parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Scene>
+		<Scene name="secretary" id="13" order="8" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+			<SceneSprite name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</SceneSprite>
+			<SceneName parentLink="T" id="1156" tableId="14" LinkAny="F"/>
+			<SceneObjects>
+			</SceneObjects>
+			<SceneCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneSavegameAreas>
+			</SceneSavegameAreas>
+			<SceneValues>
+			</SceneValues>
+			<SceneConditions>
+			</SceneConditions>
+			<SceneActions>
+			</SceneActions>
+			<SceneSavegameFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneScrollableArea top="0" left="0" bottom="-1" right="-1"/>
+			<SceneWaySystems>
+			</SceneWaySystems>
+			<SceneCurrentWaySystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<SceneActionAreas>
 			</SceneActionAreas>
 			<SceneAudioBusses>
@@ -2062,7 +2099,7 @@
 			</PointRelations>
 		</Point>
 	</Points>
-	<Objects newId="134" versionedId="-1" tableId="6">
+	<Objects newId="137" versionedId="-1" tableId="6">
 		<Object name="mierins_office_start_point" id="0" order="4" lastModified="-1" ObjectDirection="-1" ObjectCenter="0" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="25" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
@@ -4086,7 +4123,7 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="jinrus_pos" id="101" order="1" lastModified="-1" ObjectDirection="-1" ObjectCenter="610" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="jinrus_pos" id="101" order="5" lastModified="-1" ObjectDirection="-1" ObjectCenter="610" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="695" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -4136,7 +4173,7 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="start_pos" id="103" order="2" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="start_pos" id="103" order="6" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="700" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -4157,7 +4194,7 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="exit_central_taramar" id="104" order="4" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="exit_central_taramar" id="104" order="7" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="701" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 				<point x="1" y="386"/>
@@ -4301,7 +4338,7 @@
 			<ObjectPolygon>
 			</ObjectPolygon>
 			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectSprite parentLink="T" id="138" tableId="13" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="178" tableId="13" LinkAny="F"/>
 			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectActions>
 			</ObjectActions>
@@ -4322,7 +4359,7 @@
 			<ObjectPolygon>
 			</ObjectPolygon>
 			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectSprite parentLink="T" id="139" tableId="13" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="179" tableId="13" LinkAny="F"/>
 			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectActions>
 			</ObjectActions>
@@ -4417,7 +4454,7 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="koala" id="117" order="5" lastModified="-1" ObjectDirection="-1" ObjectCenter="483" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="koala" id="117" order="8" lastModified="-1" ObjectDirection="-1" ObjectCenter="483" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="797" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -4438,12 +4475,12 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="barandilla_delante" id="118" order="0" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="barandilla_delante" id="118" order="4" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="829" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
 			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectSprite parentLink="T" id="153" tableId="13" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="166" tableId="13" LinkAny="F"/>
 			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectActions>
 			</ObjectActions>
@@ -4504,10 +4541,6 @@
 		<Object name="fanboy_pos" id="122" order="4" lastModified="-1" ObjectDirection="-1" ObjectCenter="998" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="990" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
-				<point x="518" y="797"/>
-				<point x="520" y="959"/>
-				<point x="608" y="977"/>
-				<point x="608" y="809"/>
 			</ObjectPolygon>
 			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -4534,9 +4567,6 @@
 			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectActions>
-				<Link parentLink="T" id="332" tableId="7" LinkAny="F"/>
-				<Link parentLink="T" id="333" tableId="7" LinkAny="F"/>
-				<Link parentLink="T" id="334" tableId="7" LinkAny="F"/>
 			</ObjectActions>
 			<ObjectConditions>
 			</ObjectConditions>
@@ -4550,12 +4580,16 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="gancho" id="125" order="3" lastModified="-1" ObjectDirection="-1" ObjectCenter="580" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="gancho" id="125" order="3" lastModified="-1" ObjectDirection="-1" ObjectCenter="914" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="993" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
+				<point x="1404" y="463"/>
+				<point x="1446" y="456"/>
+				<point x="1458" y="870"/>
+				<point x="1407" y="871"/>
 			</ObjectPolygon>
 			<ObjectCondition parentLink="F" id="71" tableId="10" LinkAny="F"/>
-			<ObjectSprite parentLink="T" id="155" tableId="13" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="169" tableId="13" LinkAny="F"/>
 			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectActions>
 				<Link parentLink="T" id="330" tableId="7" LinkAny="F"/>
@@ -4579,7 +4613,7 @@
 			<ObjectPolygon>
 			</ObjectPolygon>
 			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectSprite parentLink="T" id="159" tableId="13" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="177" tableId="13" LinkAny="F"/>
 			<ObjectAnimation parentLink="F" id="333" tableId="9" LinkAny="F"/>
 			<ObjectActions>
 				<Link parentLink="T" id="340" tableId="7" LinkAny="F"/>
@@ -4602,7 +4636,7 @@
 			<ObjectPolygon>
 			</ObjectPolygon>
 			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectSprite parentLink="T" id="160" tableId="13" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="170" tableId="13" LinkAny="F"/>
 			<ObjectAnimation parentLink="F" id="334" tableId="9" LinkAny="F"/>
 			<ObjectActions>
 				<Link parentLink="T" id="338" tableId="7" LinkAny="F"/>
@@ -4625,7 +4659,7 @@
 			<ObjectPolygon>
 			</ObjectPolygon>
 			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectSprite parentLink="T" id="161" tableId="13" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="171" tableId="13" LinkAny="F"/>
 			<ObjectAnimation parentLink="F" id="335" tableId="9" LinkAny="F"/>
 			<ObjectActions>
 				<Link parentLink="T" id="339" tableId="7" LinkAny="F"/>
@@ -4670,7 +4704,7 @@
 			<ObjectPolygon>
 			</ObjectPolygon>
 			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectSprite parentLink="T" id="163" tableId="13" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="176" tableId="13" LinkAny="F"/>
 			<ObjectAnimation parentLink="F" id="345" tableId="9" LinkAny="F"/>
 			<ObjectActions>
 				<Link parentLink="T" id="337" tableId="7" LinkAny="F"/>
@@ -4693,7 +4727,7 @@
 			<ObjectPolygon>
 			</ObjectPolygon>
 			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectSprite parentLink="T" id="164" tableId="13" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="175" tableId="13" LinkAny="F"/>
 			<ObjectAnimation parentLink="F" id="346" tableId="9" LinkAny="F"/>
 			<ObjectActions>
 			</ObjectActions>
@@ -4710,7 +4744,7 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="tape" id="132" order="6" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="tape" id="132" order="2" lastModified="-1" ObjectDirection="-1" ObjectCenter="746" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="1098" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 				<point x="633" y="654"/>
@@ -4719,7 +4753,7 @@
 				<point x="696" y="688"/>
 			</ObjectPolygon>
 			<ObjectCondition parentLink="F" id="73" tableId="10" LinkAny="F"/>
-			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="167" tableId="13" LinkAny="F"/>
 			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectActions>
 				<Link parentLink="T" id="347" tableId="7" LinkAny="F"/>
@@ -4759,8 +4793,52 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
+		<Object name="cintas_atras" id="135" order="9" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+			<ObjectName parentLink="T" id="1140" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+				<Link parentLink="T" id="348" tableId="9" LinkAny="F"/>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Object>
+		<Object name="cintas_delante" id="136" order="0" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+			<ObjectName parentLink="T" id="1141" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+				<Link parentLink="T" id="349" tableId="9" LinkAny="F"/>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Object>
 	</Objects>
-	<Actions newId="353" versionedId="-1" tableId="7">
+	<Actions newId="358" versionedId="-1" tableId="7">
 		<Action name="'chad_look' executed" id="14" order="0" lastModified="-1" ActionExecutionType="6">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -6821,39 +6899,6 @@
 				<Link parentLink="T" id="1694" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
-		<Action name="'Look at' executed" id="332" order="0" lastModified="-1" ActionExecutionType="6">
-			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ActionCommand parentLink="F" id="29" tableId="2" LinkAny="F"/>
-			<ActionActionParts>
-				<Link parentLink="T" id="1701" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="1702" tableId="8" LinkAny="F"/>
-			</ActionActionParts>
-		</Action>
-		<Action name="'Interact with' executed" id="333" order="1" lastModified="-1" ActionExecutionType="6">
-			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ActionCommand parentLink="F" id="30" tableId="2" LinkAny="F"/>
-			<ActionActionParts>
-				<Link parentLink="T" id="1700" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="1703" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="1704" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="1705" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="1706" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="1707" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="1708" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="1709" tableId="8" LinkAny="F"/>
-			</ActionActionParts>
-		</Action>
-		<Action name="'item_fish' dropped" id="334" order="2" lastModified="-1" ActionExecutionType="3">
-			<ActionFixture parentLink="F" id="129" tableId="6" LinkAny="F"/>
-			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ActionActionParts>
-				<Link parentLink="T" id="1710" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="1711" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="1712" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="1713" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="1714" tableId="8" LinkAny="F"/>
-			</ActionActionParts>
-		</Action>
 		<Action name="'item_tape' dropped &lt;-&gt;" id="337" order="0" lastModified="-1" ActionExecutionType="25">
 			<ActionFixture parentLink="F" id="126" tableId="6" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -7000,8 +7045,64 @@
 				<Link parentLink="T" id="1805" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
+		<Action name="'Look at' executed" id="353" order="0" lastModified="-1" ActionExecutionType="6">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="29" tableId="2" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="1806" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1807" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="'Interact with' executed" id="354" order="1" lastModified="-1" ActionExecutionType="6">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="30" tableId="2" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="1808" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1809" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1810" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1811" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1812" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1813" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1814" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1815" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="'item_fish' dropped" id="355" order="2" lastModified="-1" ActionExecutionType="3">
+			<ActionFixture parentLink="F" id="129" tableId="6" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="1816" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1817" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1818" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1819" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1820" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="'Talk to' executed" id="356" order="0" lastModified="-1" ActionExecutionType="6">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="31" tableId="2" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="1821" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1822" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1823" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1824" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1825" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1826" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1827" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1828" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1829" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Action" id="357" order="357" lastModified="-1" ActionExecutionType="-1">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="1830" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1831" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
 	</Actions>
-	<ActionParts newId="1806" versionedId="-1" tableId="8">
+	<ActionParts newId="1832" versionedId="-1" tableId="8">
 		<ActionPart name="pc_chad: Six times seven equals  forty-two." id="34" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="43" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
@@ -10774,66 +10875,6 @@
 			<ActionPartLink parentLink="F" id="71" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="pc_chad: Here, kitty, kitty..." id="1700" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="T" id="1017" tableId="14" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="pc_chad: That stick is just what I need." id="1701" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="T" id="1018" tableId="14" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="pc_chad: But that cat doesn't look very friendly..." id="1702" order="1" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="T" id="1019" tableId="14" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="npc_cat_dumpster: Meow?" id="1703" order="1" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="T" id="1020" tableId="14" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="15" tableId="0" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="pc_chad: Good kitty..." id="1704" order="2" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="T" id="1022" tableId="14" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="pc_chad: Let me just get a bit closer..." id="1705" order="3" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="T" id="1023" tableId="14" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="pc_chad: I just want that stick, and I will leave you alone..." id="1706" order="4" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="T" id="1024" tableId="14" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="npc_cat_dumpster: *hiss*" id="1707" order="5" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="T" id="1025" tableId="14" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="15" tableId="0" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="pc_chad: Ouch!!" id="1708" order="6" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="T" id="1026" tableId="14" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="pc_chad: I'm not going to be able to get it like this..." id="1709" order="7" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="T" id="1027" tableId="14" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="pc_chad: Here, kitty, kitty... I got a fish for you..." id="1710" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="T" id="1029" tableId="14" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="npc_cat_dumpster: Meow? Meow!!" id="1711" order="1" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="T" id="1030" tableId="14" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="15" tableId="0" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="npc_cat_dumpster: *purr* *purr*" id="1712" order="2" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="T" id="1031" tableId="14" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="15" tableId="0" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="pc_chad: There you go." id="1713" order="3" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="T" id="1032" tableId="14" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="Add item 'item_stick' to character 'pc_chad'" id="1714" order="4" lastModified="-1" ActionPartCommand="150" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="1" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="127" tableId="6" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
-		</ActionPart>
 		<ActionPart name="If condition 'roboguard_present' is false" id="1715" order="0" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="72" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -11106,7 +11147,7 @@
 			<ActionPartLink parentLink="F" id="76" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="If condition 'gremore_out' is true" id="1799" order="0" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="If condition 'gremore_out' is false" id="1799" order="0" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="76" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -11134,8 +11175,112 @@
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
+		<ActionPart name="pc_chad: That stick is just what I need." id="1806" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1142" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="pc_chad: But that cat doesn't look very friendly..." id="1807" order="1" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1143" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="pc_chad: Here, kitty, kitty..." id="1808" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1144" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="npc_cat_dumpster: Meow?" id="1809" order="1" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1145" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="15" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="pc_chad: Good kitty..." id="1810" order="2" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1146" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="pc_chad: Let me just get a bit closer..." id="1811" order="3" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1147" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="pc_chad: I just want that stick, and I will leave you alone..." id="1812" order="4" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1148" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="npc_cat_dumpster: *hiss*" id="1813" order="5" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1149" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="15" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="pc_chad: Ouch!!" id="1814" order="6" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1150" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="pc_chad: I'm not going to be able to get it like this..." id="1815" order="7" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1151" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="pc_chad: Here, kitty, kitty... I got a fish for you..." id="1816" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1152" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="npc_cat_dumpster: Meow? Meow!!" id="1817" order="1" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1153" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="15" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="npc_cat_dumpster: *purr* *purr*" id="1818" order="2" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1154" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="15" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="pc_chad: There you go." id="1819" order="3" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1155" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Add item 'item_stick' to character 'pc_chad'" id="1820" order="4" lastModified="-1" ActionPartCommand="150" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="1" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="127" tableId="6" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If condition 'introduction' is false" id="1821" order="0" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="78" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="npc_gremore: You better stay away from my house If you know what's good for you!" id="1822" order="1" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1158" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="8" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="pc_chad: Are you the owner?" id="1823" order="2" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1159" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="npc_gremore: Don't look so suprised. You know who I am." id="1824" order="3" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1160" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="8" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="npc_gremore: You and your crazy friends have been a real bother lately and I'm sick of it." id="1825" order="4" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1161" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="8" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="pc_chad: Wait, wait, you mean the people of the club? I'm not really with them!" id="1826" order="5" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1162" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="pc_chad: I just wanted some information and... well, kinda got it but at the cost of having to help them." id="1827" order="6" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1163" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="npc_gremore: And why sould I believe you?" id="1828" order="7" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1164" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="8" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Start dialog 'first_conver'" id="1829" order="8" lastModified="-1" ActionPartCommand="13" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="26" tableId="11" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="npc_gremore: That's not a reason I should trust you." id="1830" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1181" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="8" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="npc_gremore: If you don't have a better excuse, then get out of my sight." id="1831" order="1" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1182" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="8" tableId="0" LinkAny="F"/>
+		</ActionPart>
 	</ActionParts>
-	<Animations newId="348" versionedId="-1" tableId="9">
+	<Animations newId="350" versionedId="-1" tableId="9">
 		<Animation name="walk_front" id="1" order="3" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="270" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -22836,8 +22981,336 @@
 			<AnimationPauses>
 			</AnimationPauses>
 		</Animation>
+		<Animation name="cintas_atras_idle" id="348" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="70" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasAtras/cuerdasAtras_000.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasAtras/cuerdasAtras_001.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasAtras/cuerdasAtras_002.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasAtras/cuerdasAtras_003.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasAtras/cuerdasAtras_004.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasAtras/cuerdasAtras_005.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasAtras/cuerdasAtras_006.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasAtras/cuerdasAtras_007.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasAtras/cuerdasAtras_008.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasAtras/cuerdasAtras_009.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasAtras/cuerdasAtras_010.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasAtras/cuerdasAtras_011.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasAtras/cuerdasAtras_012.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasAtras/cuerdasAtras_013.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasAtras/cuerdasAtras_014.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasAtras/cuerdasAtras_015.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasAtras/cuerdasAtras_016.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasAtras/cuerdasAtras_017.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasAtras/cuerdasAtras_018.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasAtras/cuerdasAtras_019.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasAtras/cuerdasAtras_020.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasAtras/cuerdasAtras_021.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasAtras/cuerdasAtras_022.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasAtras/cuerdasAtras_023.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasAtras/cuerdasAtras_024.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasAtras/cuerdasAtras_025.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasAtras/cuerdasAtras_026.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasAtras/cuerdasAtras_027.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasAtras/cuerdasAtras_028.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasAtras/cuerdasAtras_029.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasAtras/cuerdasAtras_030.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasAtras/cuerdasAtras_031.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasAtras/cuerdasAtras_032.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasAtras/cuerdasAtras_033.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasAtras/cuerdasAtras_034.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasAtras/cuerdasAtras_035.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasAtras/cuerdasAtras_036.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasAtras/cuerdasAtras_037.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasAtras/cuerdasAtras_038.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasAtras/cuerdasAtras_039.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasAtras/cuerdasAtras_040.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasAtras/cuerdasAtras_041.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasAtras/cuerdasAtras_042.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasAtras/cuerdasAtras_043.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasAtras/cuerdasAtras_044.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasAtras/cuerdasAtras_045.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasAtras/cuerdasAtras_046.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasAtras/cuerdasAtras_047.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasAtras/cuerdasAtras_048.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasAtras/cuerdasAtras_049.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="cintas_delante_idle" id="349" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="70" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasDelante/cuerdasDelante_000.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasDelante/cuerdasDelante_001.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasDelante/cuerdasDelante_002.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasDelante/cuerdasDelante_003.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasDelante/cuerdasDelante_004.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasDelante/cuerdasDelante_005.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasDelante/cuerdasDelante_006.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasDelante/cuerdasDelante_007.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasDelante/cuerdasDelante_008.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasDelante/cuerdasDelante_009.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasDelante/cuerdasDelante_010.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasDelante/cuerdasDelante_011.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasDelante/cuerdasDelante_012.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasDelante/cuerdasDelante_013.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasDelante/cuerdasDelante_014.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasDelante/cuerdasDelante_015.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasDelante/cuerdasDelante_016.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasDelante/cuerdasDelante_017.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasDelante/cuerdasDelante_018.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasDelante/cuerdasDelante_019.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasDelante/cuerdasDelante_020.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasDelante/cuerdasDelante_021.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasDelante/cuerdasDelante_022.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasDelante/cuerdasDelante_023.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasDelante/cuerdasDelante_024.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasDelante/cuerdasDelante_025.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasDelante/cuerdasDelante_026.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasDelante/cuerdasDelante_027.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasDelante/cuerdasDelante_028.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasDelante/cuerdasDelante_029.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasDelante/cuerdasDelante_030.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasDelante/cuerdasDelante_031.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasDelante/cuerdasDelante_032.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasDelante/cuerdasDelante_033.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasDelante/cuerdasDelante_034.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasDelante/cuerdasDelante_035.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasDelante/cuerdasDelante_036.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasDelante/cuerdasDelante_037.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasDelante/cuerdasDelante_038.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasDelante/cuerdasDelante_039.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasDelante/cuerdasDelante_040.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasDelante/cuerdasDelante_041.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasDelante/cuerdasDelante_042.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasDelante/cuerdasDelante_043.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasDelante/cuerdasDelante_044.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasDelante/cuerdasDelante_045.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasDelante/cuerdasDelante_046.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasDelante/cuerdasDelante_047.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasDelante/cuerdasDelante_048.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Items/Scene/BB_cuerdasDelante/cuerdasDelante_049.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
 	</Animations>
-	<Conditions newId="77" versionedId="-1" tableId="10">
+	<Conditions newId="79" versionedId="-1" tableId="10">
 		<Condition name="cigarette_visible" id="1" order="0" lastModified="-1" ConditionIsVariable="T" ConditionValue="T" ConditionReturnNegate="F" ConditionOperator="0">
 			<ConditionConditions>
 			</ConditionConditions>
@@ -23010,8 +23483,12 @@
 			<ConditionConditions>
 			</ConditionConditions>
 		</Condition>
+		<Condition name="introduction" id="78" order="0" lastModified="-1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionOperator="0">
+			<ConditionConditions>
+			</ConditionConditions>
+		</Condition>
 	</Conditions>
-	<Dialogs newId="26" versionedId="-1" tableId="11">
+	<Dialogs newId="28" versionedId="-1" tableId="11">
 		<Dialog name="enter_mierins_office" id="0" order="0" lastModified="-1">
 			<DialogDialogParts>
 				<Link parentLink="T" id="0" tableId="12" LinkAny="F"/>
@@ -23137,8 +23614,16 @@
 			</DialogDialogParts>
 			<DialogCharacter parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Dialog>
+		<Dialog name="first_conver" id="26" order="0" lastModified="-1">
+			<DialogDialogParts>
+				<Link parentLink="T" id="66" tableId="12" LinkAny="F"/>
+				<Link parentLink="T" id="69" tableId="12" LinkAny="F"/>
+				<Link parentLink="T" id="70" tableId="12" LinkAny="F"/>
+			</DialogDialogParts>
+			<DialogCharacter parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</Dialog>
 	</Dialogs>
-	<DialogParts newId="66" versionedId="-1" tableId="12">
+	<DialogParts newId="71" versionedId="-1" tableId="12">
 		<DialogPart name="1. Soy yo Sr.Sprüd, Chad Cosay. Usted me ha llamado." id="0" order="0" lastModified="-1" DialogPartConditionNegate="F" DialogPartReturn="2" DialogPartRemove="F" DialogPartUseAltText="T" DialogPartValueOperator="-1" DialogPartValueInt="-1">
 			<DialogPartCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<DialogPartText parentLink="T" id="102" tableId="14" LinkAny="F"/>
@@ -23589,8 +24074,38 @@
 			<DialogPartAltText parentLink="T" id="1113" tableId="14" LinkAny="F"/>
 			<DialogPartValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</DialogPart>
+		<DialogPart name="1. I'm Chad Cosay." id="66" order="0" lastModified="-1" DialogPartConditionNegate="F" DialogPartReturn="0" DialogPartRemove="F" DialogPartUseAltText="F" DialogPartValueOperator="-1" DialogPartValueInt="-1">
+			<DialogPartCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<DialogPartText parentLink="T" id="1166" tableId="14" LinkAny="F"/>
+			<DialogPartAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<DialogPartLinkedAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<DialogPartAnswerText parentLink="T" id="1167" tableId="14" LinkAny="F"/>
+			<DialogPartNextDialog parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<DialogPartAltText parentLink="T" id="1168" tableId="14" LinkAny="F"/>
+			<DialogPartValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</DialogPart>
+		<DialogPart name="2. You're friends with my dad, right?" id="69" order="1" lastModified="-1" DialogPartConditionNegate="F" DialogPartReturn="0" DialogPartRemove="F" DialogPartUseAltText="F" DialogPartValueOperator="-1" DialogPartValueInt="-1">
+			<DialogPartCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<DialogPartText parentLink="T" id="1175" tableId="14" LinkAny="F"/>
+			<DialogPartAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<DialogPartLinkedAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<DialogPartAnswerText parentLink="T" id="1176" tableId="14" LinkAny="F"/>
+			<DialogPartNextDialog parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<DialogPartAltText parentLink="T" id="1177" tableId="14" LinkAny="F"/>
+			<DialogPartValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</DialogPart>
+		<DialogPart name="3. I don't really look like one of those fanatics." id="70" order="2" lastModified="-1" DialogPartConditionNegate="F" DialogPartReturn="0" DialogPartRemove="F" DialogPartUseAltText="F" DialogPartValueOperator="-1" DialogPartValueInt="-1">
+			<DialogPartCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<DialogPartText parentLink="T" id="1178" tableId="14" LinkAny="F"/>
+			<DialogPartAction parentLink="T" id="357" tableId="7" LinkAny="F"/>
+			<DialogPartLinkedAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<DialogPartAnswerText parentLink="T" id="1179" tableId="14" LinkAny="F"/>
+			<DialogPartNextDialog parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<DialogPartAltText parentLink="T" id="1180" tableId="14" LinkAny="F"/>
+			<DialogPartValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</DialogPart>
 	</DialogParts>
-	<Sprites newId="166" versionedId="-1" tableId="13">
+	<Sprites newId="180" versionedId="-1" tableId="13">
 		<Sprite name="Unnamed" id="4" order="4" lastModified="-1">
 			<SpriteSprite name="" pause="-1" path="" Transparency="2">
 				<position x="0" y="0"/>
@@ -23856,16 +24371,6 @@
 				<position x="754" y="750"/>
 			</SpriteSprite>
 		</Sprite>
-		<Sprite name="Image" id="138" order="138" lastModified="-1">
-			<SpriteSprite name="" pause="-1" path="Assets/Rooms/CentralTaramar/Central_TaramarDelante.png" Transparency="2">
-				<position x="0" y="0"/>
-			</SpriteSprite>
-		</Sprite>
-		<Sprite name="Image" id="139" order="139" lastModified="-1">
-			<SpriteSprite name="" pause="-1" path="Assets/Rooms/CentralTaramar/casamedio.png" Transparency="2">
-				<position x="0" y="0"/>
-			</SpriteSprite>
-		</Sprite>
 		<Sprite name="Image" id="140" order="140" lastModified="-1">
 			<SpriteSprite name="" pause="-1" path="Assets/Items/Inventory/cobrepapu.png" Transparency="2">
 				<position x="1688" y="819"/>
@@ -23931,43 +24436,8 @@
 				<position x="0" y="0"/>
 			</SpriteSprite>
 		</Sprite>
-		<Sprite name="Image" id="153" order="153" lastModified="-1">
-			<SpriteSprite name="" pause="-1" path="Assets/Rooms/BubbleForest/delante.png" Transparency="2">
-				<position x="0" y="0"/>
-			</SpriteSprite>
-		</Sprite>
-		<Sprite name="Image" id="155" order="155" lastModified="-1">
-			<SpriteSprite name="" pause="-1" path="Assets/Characters/testing/gancho.png" Transparency="2">
-				<position x="1191" y="442"/>
-			</SpriteSprite>
-		</Sprite>
-		<Sprite name="Image" id="159" order="159" lastModified="-1">
-			<SpriteSprite name="" pause="-1" path="Assets/Items/Inventory/cinta.png" Transparency="2">
-				<position x="0" y="0"/>
-			</SpriteSprite>
-		</Sprite>
-		<Sprite name="Image" id="160" order="160" lastModified="-1">
-			<SpriteSprite name="" pause="-1" path="Assets/Items/Inventory/madera.png" Transparency="2">
-				<position x="0" y="0"/>
-			</SpriteSprite>
-		</Sprite>
-		<Sprite name="Image" id="161" order="161" lastModified="-1">
-			<SpriteSprite name="" pause="-1" path="Assets/Characters/testing/gancho.png" Transparency="2">
-				<position x="0" y="0"/>
-			</SpriteSprite>
-		</Sprite>
 		<Sprite name="Image" id="162" order="162" lastModified="-1">
 			<SpriteSprite name="" pause="-1" path="Assets/Characters/testing/pez.png" Transparency="2">
-				<position x="0" y="0"/>
-			</SpriteSprite>
-		</Sprite>
-		<Sprite name="Image" id="163" order="163" lastModified="-1">
-			<SpriteSprite name="" pause="-1" path="Assets/Characters/testing/stick+hook.png" Transparency="2">
-				<position x="0" y="0"/>
-			</SpriteSprite>
-		</Sprite>
-		<Sprite name="Image" id="164" order="164" lastModified="-1">
-			<SpriteSprite name="" pause="-1" path="Assets/Characters/testing/improvised_fishing_rod.png" Transparency="2">
 				<position x="0" y="0"/>
 			</SpriteSprite>
 		</Sprite>
@@ -23976,8 +24446,58 @@
 				<position x="0" y="0"/>
 			</SpriteSprite>
 		</Sprite>
+		<Sprite name="Image" id="166" order="166" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="Assets/Rooms/BubbleForest/bb_delantesincelo.png" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Image" id="167" order="167" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="Assets/Items/Scene/bb_celo.png" Transparency="2">
+				<position x="635" y="650"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Image" id="169" order="169" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="Assets/Items/Scene/gancho.png" Transparency="2">
+				<position x="1178" y="414"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Image" id="170" order="170" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="Assets/Items/Scene/palo.png" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Image" id="171" order="171" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="Assets/Items/Scene/ganchoinventario.png" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Image" id="175" order="175" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="Assets/Items/Scene/ganchopaloycelo.png" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Image" id="176" order="176" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="Assets/Items/Scene/ganchoypalo.png" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Image" id="177" order="177" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="Assets/Items/Inventory/cinta.png" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Image" id="178" order="178" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="Assets/Rooms/CentralTaramar/delante.png" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Image" id="179" order="179" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="Assets/Rooms/CentralTaramar/medio.png" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
 	</Sprites>
-	<Texts newId="1148" versionedId="-1" tableId="14">
+	<Texts newId="1183" versionedId="-1" tableId="14">
 		<Text name="new_game_txt" id="1" order="1" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
@@ -25944,84 +26464,14 @@
 				<text Text="Perfect for fishing." path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="1017" order="1017" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="Here, kitty, kitty..." path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Unnamed" id="1018" order="1018" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="That stick is just what I need." path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Unnamed" id="1019" order="1019" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="But that cat doesn't look very friendly..." path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Unnamed" id="1020" order="1020" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="Meow?" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
 		<Text name="Unnamed" id="1021" order="1021" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="1022" order="1022" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="Good kitty..." path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Unnamed" id="1023" order="1023" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="Let me just get a bit closer..." path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Unnamed" id="1024" order="1024" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="I just want that stick, and I will leave you alone..." path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Unnamed" id="1025" order="1025" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="*hiss*" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Unnamed" id="1026" order="1026" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="Ouch!!" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Unnamed" id="1027" order="1027" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="I'm not going to be able to get it like this..." path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
 		<Text name="Unnamed" id="1028" order="1028" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Fish" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Unnamed" id="1029" order="1029" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="Here, kitty, kitty... I got a fish for you..." path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Unnamed" id="1030" order="1030" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="Meow? Meow!!" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Unnamed" id="1031" order="1031" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="*purr* *purr*" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Unnamed" id="1032" order="1032" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="There you go." path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="1037" order="1037" lastModified="-1">
@@ -26226,7 +26676,7 @@
 		</Text>
 		<Text name="Unnamed" id="1098" order="1098" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="" path="" int="0"/>
+				<text Text="Tape" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="1099" order="1099" lastModified="-1">
@@ -26332,6 +26782,181 @@
 		<Text name="Unnamed" id="1138" order="1138" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1140" order="1140" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1141" order="1141" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1142" order="1018" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="That stick is just what I need." path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1143" order="1019" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="But that cat doesn't look very friendly..." path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1144" order="1017" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Here, kitty, kitty..." path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1145" order="1020" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Meow?" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1146" order="1022" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Good kitty..." path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1147" order="1023" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Let me just get a bit closer..." path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1148" order="1024" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="I just want that stick, and I will leave you alone..." path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1149" order="1025" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="*hiss*" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1150" order="1026" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Ouch!!" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1151" order="1027" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="I'm not going to be able to get it like this..." path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1152" order="1029" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Here, kitty, kitty... I got a fish for you..." path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1153" order="1030" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Meow? Meow!!" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1154" order="1031" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="*purr* *purr*" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1155" order="1032" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="There you go." path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1156" order="1156" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1158" order="1158" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="You better stay away from my house If you know what's good for you!" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1159" order="1159" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Are you the owner?" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1160" order="1160" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Don't look so suprised. You know who I am." path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1161" order="1161" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="You and your crazy friends have been a real bother lately and I'm sick of it." path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1162" order="1162" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Wait, wait, you mean the people of the club? I'm not really with them!" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1163" order="1163" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="I just wanted some information and... well, kinda got it but at the cost of having to help them." path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1164" order="1164" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="And why sould I believe you?" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1166" order="1166" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="I'm Chad Cosay." path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1167" order="1167" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1168" order="1168" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1175" order="1175" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="You're friends with my dad, right?" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1176" order="1176" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1177" order="1177" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1178" order="1178" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="I don't really look like one of those fanatics." path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1179" order="1179" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1180" order="1180" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1181" order="1181" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="That's not a reason I should trust you." path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1182" order="1182" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="If you don't have a better excuse, then get out of my sight." path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
 	</Texts>
