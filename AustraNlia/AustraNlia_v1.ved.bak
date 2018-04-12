@@ -64,6 +64,7 @@
 			<Link parentLink="T" id="129" tableId="6" LinkAny="F"/>
 			<Link parentLink="T" id="130" tableId="6" LinkAny="F"/>
 			<Link parentLink="T" id="131" tableId="6" LinkAny="F"/>
+			<Link parentLink="T" id="137" tableId="6" LinkAny="F"/>
 		</GameItems>
 		<GameLoading parentLink="T" id="0" tableId="21" LinkAny="F"/>
 		<GameWindowResolution x="1920" y="1080"/>
@@ -180,17 +181,17 @@
 			<CharacterActiveDialogFont parentLink="F" id="1" tableId="3" LinkAny="F"/>
 			<CharacterInactiveDialogFont parentLink="F" id="6" tableId="3" LinkAny="F"/>
 			<CharacterDialogArea top="929" left="489" bottom="1079" right="1436"/>
-			<CharacterDialogActiveScrollUp name="" pause="-1" path="Assets/UI/GUI/chad_arrow_up.png" Transparency="2">
+			<CharacterDialogActiveScrollUp name="" pause="-1" path="Assets/UI/GUI/chad_up_highlight.png" Transparency="2">
 				<position x="1400" y="950"/>
 			</CharacterDialogActiveScrollUp>
-			<CharacterDialogInactiveScrollUp name="" pause="-1" path="Assets/UI/GUI/chad_arrow_up.png" Transparency="2">
+			<CharacterDialogInactiveScrollUp name="" pause="-1" path="Assets/UI/GUI/chad_up.png" Transparency="2">
 				<position x="1400" y="950"/>
 			</CharacterDialogInactiveScrollUp>
-			<CharacterDialogActiveScrollDown name="" pause="-1" path="Assets/UI/GUI/chad_arrow_down.png" Transparency="2">
-				<position x="1400" y="1020"/>
+			<CharacterDialogActiveScrollDown name="" pause="-1" path="Assets/UI/GUI/chad_down_highlight.png" Transparency="2">
+				<position x="1400" y="1010"/>
 			</CharacterDialogActiveScrollDown>
-			<CharacterDialogInactiveScrollDown name="" pause="-1" path="Assets/UI/GUI/chad_arrow_down.png" Transparency="2">
-				<position x="1400" y="1020"/>
+			<CharacterDialogInactiveScrollDown name="" pause="-1" path="Assets/UI/GUI/chad_down.png" Transparency="2">
+				<position x="1400" y="1010"/>
 			</CharacterDialogInactiveScrollDown>
 			<CharacterDialogSprite name="" pause="-1" path="Assets/UI/GUI/dialog_box_01.png" Transparency="2">
 				<position x="452" y="884"/>
@@ -392,8 +393,10 @@
 			<CharacterCurrentCommentSet parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<CharacterDialogCursor parentLink="F" id="0" tableId="15" LinkAny="F"/>
 			<CharacterDialogs>
+				<Link parentLink="T" id="27" tableId="11" LinkAny="F"/>
 			</CharacterDialogs>
 			<CharacterActions>
+				<Link parentLink="T" id="360" tableId="7" LinkAny="F"/>
 			</CharacterActions>
 			<CharacterOutfits>
 				<Link parentLink="T" id="7" tableId="17" LinkAny="F"/>
@@ -710,6 +713,7 @@
 			</CharacterDialogs>
 			<CharacterActions>
 				<Link parentLink="T" id="325" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="359" tableId="7" LinkAny="F"/>
 			</CharacterActions>
 			<CharacterOutfits>
 				<Link parentLink="T" id="14" tableId="17" LinkAny="F"/>
@@ -2099,7 +2103,7 @@
 			</PointRelations>
 		</Point>
 	</Points>
-	<Objects newId="137" versionedId="-1" tableId="6">
+	<Objects newId="138" versionedId="-1" tableId="6">
 		<Object name="mierins_office_start_point" id="0" order="4" lastModified="-1" ObjectDirection="-1" ObjectCenter="0" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="25" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
@@ -4799,7 +4803,7 @@
 			</ObjectPolygon>
 			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="348" tableId="9" LinkAny="F"/>
 			<ObjectActions>
 			</ObjectActions>
 			<ObjectConditions>
@@ -4821,7 +4825,7 @@
 			</ObjectPolygon>
 			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="349" tableId="9" LinkAny="F"/>
 			<ObjectActions>
 			</ObjectActions>
 			<ObjectConditions>
@@ -4837,8 +4841,30 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
+		<Object name="item_inividor" id="137" order="12" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="T" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+			<ObjectName parentLink="T" id="1194" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="180" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="351" tableId="9" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+				<Link parentLink="T" id="351" tableId="9" LinkAny="F"/>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Object>
 	</Objects>
-	<Actions newId="357" versionedId="-1" tableId="7">
+	<Actions newId="361" versionedId="-1" tableId="7">
 		<Action name="'chad_look' executed" id="14" order="0" lastModified="-1" ActionExecutionType="6">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -7093,8 +7119,53 @@
 				<Link parentLink="T" id="1829" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
+		<Action name="Action" id="357" order="357" lastModified="-1" ActionExecutionType="-1">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="1830" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1831" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Action" id="358" order="358" lastModified="-1" ActionExecutionType="-1">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="1832" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1833" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1834" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1835" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1836" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1837" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1838" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1839" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1840" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1841" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1842" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1843" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1844" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1845" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="'item_inividor' dropped" id="359" order="1" lastModified="-1" ActionExecutionType="3">
+			<ActionFixture parentLink="F" id="137" tableId="6" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="1846" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1847" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="'Talk to' executed" id="360" order="0" lastModified="-1" ActionExecutionType="6">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="31" tableId="2" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="1849" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1850" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1851" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
 	</Actions>
-	<ActionParts newId="1830" versionedId="-1" tableId="8">
+	<ActionParts newId="1852" versionedId="-1" tableId="8">
 		<ActionPart name="pc_chad: Six times seven equals  forty-two." id="34" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="43" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
@@ -11263,8 +11334,92 @@
 			<ActionPartLink parentLink="F" id="26" tableId="11" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
+		<ActionPart name="npc_gremore: That's not a reason I should trust you." id="1830" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1181" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="8" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="npc_gremore: If you don't have a better excuse, then get out of my sight." id="1831" order="1" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1182" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="8" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="pc_chad: I'm looking for my father, and I've been told that you know where my father is." id="1832" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1183" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="pc_chad: His name is Jinrus Salbun." id="1833" order="1" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1184" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="npc_gremore: Salbun, uh?" id="1834" order="2" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1185" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="8" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="pc_chad: Yes, I need to speak to him about the Bubble Forests." id="1835" order="3" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1186" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="npc_gremore: Well, you should find him at his workplace. I can't say much more." id="1836" order="4" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1187" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="8" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="pc_chad: I tried going there but, the path is blocked by a security robot..." id="1837" order="5" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1188" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="npc_gremore: I might be able to help with that, but only under one condition." id="1838" order="6" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1189" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="8" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="pc_chad: Sure, what is it?" id="1839" order="7" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1190" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="npc_gremore: I don't want to see you near my house ever again!" id="1840" order="8" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1191" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="8" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="pc_chad: Okay, I don't think I will need to come back either..." id="1841" order="9" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1192" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="npc_gremore: Well then. Take this. When you get near the robot it will deactivate it." id="1842" order="10" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1193" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="8" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Add item 'item_inividor' to character 'pc_chad'" id="1843" order="11" lastModified="-1" ActionPartCommand="150" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="1" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="137" tableId="6" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="pc_chad: I will be going then." id="1844" order="12" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1196" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="npc_gremore: And don't come back!" id="1845" order="13" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1197" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="8" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="npc_roboGuard: WE ARE UNDEBTZZZ... BTZZNANCE..." id="1846" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1198" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="14" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="npc_roboGuard: THE BTZZZ BTZZ FORBTZZ IS CLOBTZZZ..." id="1847" order="1" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1199" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="14" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="pc_chad: Hey dad!" id="1849" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1201" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="npc_jinrus: Chad? What are you doing here?" id="1850" order="1" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1202" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="7" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Start dialog '[empty]'" id="1851" order="2" lastModified="-1" ActionPartCommand="13" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
 	</ActionParts>
-	<Animations newId="350" versionedId="-1" tableId="9">
+	<Animations newId="353" versionedId="-1" tableId="9">
 		<Animation name="walk_front" id="1" order="3" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="270" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -23293,6 +23448,20 @@
 			<AnimationPauses>
 			</AnimationPauses>
 		</Animation>
+		<Animation name="item_inividor" id="351" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
 	</Animations>
 	<Conditions newId="79" versionedId="-1" tableId="10">
 		<Condition name="cigarette_visible" id="1" order="0" lastModified="-1" ConditionIsVariable="T" ConditionValue="T" ConditionReturnNegate="F" ConditionOperator="0">
@@ -23603,6 +23772,11 @@
 				<Link parentLink="T" id="66" tableId="12" LinkAny="F"/>
 				<Link parentLink="T" id="69" tableId="12" LinkAny="F"/>
 				<Link parentLink="T" id="70" tableId="12" LinkAny="F"/>
+			</DialogDialogParts>
+			<DialogCharacter parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</Dialog>
+		<Dialog name="first_talk" id="27" order="0" lastModified="-1">
+			<DialogDialogParts>
 			</DialogDialogParts>
 			<DialogCharacter parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</Dialog>
@@ -24061,7 +24235,7 @@
 		<DialogPart name="1. I'm Chad Cosay." id="66" order="0" lastModified="-1" DialogPartConditionNegate="F" DialogPartReturn="0" DialogPartRemove="F" DialogPartUseAltText="F" DialogPartValueOperator="-1" DialogPartValueInt="-1">
 			<DialogPartCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<DialogPartText parentLink="T" id="1166" tableId="14" LinkAny="F"/>
-			<DialogPartAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<DialogPartAction parentLink="T" id="358" tableId="7" LinkAny="F"/>
 			<DialogPartLinkedAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<DialogPartAnswerText parentLink="T" id="1167" tableId="14" LinkAny="F"/>
 			<DialogPartNextDialog parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -24081,7 +24255,7 @@
 		<DialogPart name="3. I don't really look like one of those fanatics." id="70" order="2" lastModified="-1" DialogPartConditionNegate="F" DialogPartReturn="0" DialogPartRemove="F" DialogPartUseAltText="F" DialogPartValueOperator="-1" DialogPartValueInt="-1">
 			<DialogPartCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<DialogPartText parentLink="T" id="1178" tableId="14" LinkAny="F"/>
-			<DialogPartAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<DialogPartAction parentLink="T" id="357" tableId="7" LinkAny="F"/>
 			<DialogPartLinkedAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<DialogPartAnswerText parentLink="T" id="1179" tableId="14" LinkAny="F"/>
 			<DialogPartNextDialog parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -24089,7 +24263,7 @@
 			<DialogPartValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</DialogPart>
 	</DialogParts>
-	<Sprites newId="180" versionedId="-1" tableId="13">
+	<Sprites newId="181" versionedId="-1" tableId="13">
 		<Sprite name="Unnamed" id="4" order="4" lastModified="-1">
 			<SpriteSprite name="" pause="-1" path="" Transparency="2">
 				<position x="0" y="0"/>
@@ -24480,8 +24654,13 @@
 				<position x="0" y="0"/>
 			</SpriteSprite>
 		</Sprite>
+		<Sprite name="Image" id="180" order="180" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="Assets/Characters/testing/inividior.png" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
 	</Sprites>
-	<Texts newId="1181" versionedId="-1" tableId="14">
+	<Texts newId="1204" versionedId="-1" tableId="14">
 		<Text name="new_game_txt" id="1" order="1" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
@@ -26931,6 +27110,106 @@
 		<Text name="Unnamed" id="1180" order="1180" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1181" order="1181" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="That's not a reason I should trust you." path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1182" order="1182" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="If you don't have a better excuse, then get out of my sight." path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1183" order="1183" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="I'm looking for my father, and I've been told that you know where my father is." path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1184" order="1184" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="His name is Jinrus Salbun." path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1185" order="1185" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Salbun, uh?" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1186" order="1186" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Yes, I need to speak to him about the Bubble Forests." path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1187" order="1187" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Well, you should find him at his workplace. I can't say much more." path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1188" order="1188" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="I tried going there but, the path is blocked by a security robot..." path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1189" order="1189" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="I might be able to help with that, but only under one condition." path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1190" order="1190" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Sure, what is it?" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1191" order="1191" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="I don't want to see you near my house ever again!" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1192" order="1192" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Okay, I don't think I will need to come back either..." path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1193" order="1193" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Well then. Take this. When you get near the robot it will deactivate it." path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1194" order="1194" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Inivitor" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1196" order="1196" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="I will be going then." path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1197" order="1197" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="And don't come back!" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1198" order="1198" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="WE ARE UNDEBTZZZ... BTZZNANCE..." path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1199" order="1199" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="THE BTZZZ BTZZ FORBTZZ IS CLOBTZZZ..." path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1201" order="1201" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Hey dad!" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1202" order="1202" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Chad? What are you doing here?" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
 	</Texts>
