@@ -66,6 +66,7 @@
 			<Link parentLink="T" id="130" tableId="6" LinkAny="F"/>
 			<Link parentLink="T" id="131" tableId="6" LinkAny="F"/>
 			<Link parentLink="T" id="137" tableId="6" LinkAny="F"/>
+			<Link parentLink="T" id="144" tableId="6" LinkAny="F"/>
 		</GameItems>
 		<GameLoading parentLink="T" id="0" tableId="21" LinkAny="F"/>
 		<GameWindowResolution x="1920" y="1080"/>
@@ -2159,7 +2160,7 @@
 			</PointRelations>
 		</Point>
 	</Points>
-	<Objects newId="144" versionedId="-1" tableId="6">
+	<Objects newId="145" versionedId="-1" tableId="6">
 		<Object name="mierins_office_start_point" id="0" order="4" lastModified="-1" ObjectDirection="-1" ObjectCenter="0" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="25" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
@@ -4742,7 +4743,7 @@
 			<ObjectPolygon>
 			</ObjectPolygon>
 			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectSprite parentLink="T" id="162" tableId="13" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="182" tableId="13" LinkAny="F"/>
 			<ObjectAnimation parentLink="F" id="344" tableId="9" LinkAny="F"/>
 			<ObjectActions>
 			</ObjectActions>
@@ -5044,6 +5045,28 @@
 			<ObjectConditions>
 			</ObjectConditions>
 			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Object>
+		<Object name="item_alarm" id="144" order="13" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="T" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+			<ObjectName parentLink="T" id="1264" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="362" tableId="9" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+				<Link parentLink="T" id="362" tableId="9" LinkAny="F"/>
 			</ObjectAnimations>
 			<ObjectValues>
 			</ObjectValues>
@@ -7304,6 +7327,7 @@
 				<Link parentLink="T" id="1818" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="1819" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="1820" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1886" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="'Talk to' executed" id="356" order="0" lastModified="-1" ActionExecutionType="6">
@@ -7439,7 +7463,7 @@
 			</ActionActionParts>
 		</Action>
 	</Actions>
-	<ActionParts newId="1886" versionedId="-1" tableId="8">
+	<ActionParts newId="1887" versionedId="-1" tableId="8">
 		<ActionPart name="pc_chad: Six times seven equals  forty-two." id="34" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="43" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
@@ -11556,15 +11580,15 @@
 			<ActionPartLink parentLink="T" id="1153" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="15" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="npc_cat_dumpster: *purr* *purr*" id="1818" order="2" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="npc_cat_dumpster: *purr* *purr*" id="1818" order="3" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="1154" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="15" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="pc_chad: There you go." id="1819" order="3" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="pc_chad: There you go." id="1819" order="4" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="1155" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Add item 'item_stick' to character 'pc_chad'" id="1820" order="4" lastModified="-1" ActionPartCommand="150" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="1" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Add item 'item_stick' to character 'pc_chad'" id="1820" order="5" lastModified="-1" ActionPartCommand="150" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="1" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="127" tableId="6" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
@@ -11812,8 +11836,12 @@
 			<ActionPartLink parentLink="F" id="99" tableId="6" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
+		<ActionPart name="Align character 'npc_cat_dumpster' to the back" id="1886" order="2" lastModified="-1" ActionPartCommand="58" ActionPartPath="" ActionPartInt="90" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="15" tableId="0" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
 	</ActionParts>
-	<Animations newId="361" versionedId="-1" tableId="9">
+	<Animations newId="363" versionedId="-1" tableId="9">
 		<Animation name="walk_front" id="1" order="3" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="270" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -23602,16 +23630,253 @@
 			<AnimationPauses>
 			</AnimationPauses>
 		</Animation>
-		<Animation name="front" id="340" order="3" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="270" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+		<Animation name="front" id="340" order="3" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="35" AnimationDirection="270" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
-				<sprite name="" pause="1" path="Assets/Characters/testing/gato_basura_palo.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_000.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_001.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_002.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_003.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_004.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_005.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_006.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_007.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_008.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_009.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_010.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_011.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_012.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_013.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_014.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_015.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_016.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_017.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_018.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_019.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_020.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_021.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_022.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_023.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_024.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_025.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_026.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_027.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_028.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_029.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_030.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_031.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_032.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_033.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_034.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_035.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_036.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_037.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_038.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_039.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_040.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_041.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_042.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_043.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_044.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_045.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_046.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_047.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_048.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_049.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_050.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_051.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_052.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_053.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_054.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_055.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_056.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_057.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_058.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_059.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_060.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_061.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_062.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_063.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_064.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_065.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_066.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_067.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_068.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_069.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_070.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_071.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_072.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_073.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_074.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_075.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_076.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_077.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_078.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty/kitty_079.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="153" y="283"/>
+			<AnimationCenter x="120" y="350"/>
 			<AnimationPropertyFrames>
 			</AnimationPropertyFrames>
 			<AnimationWalkSteps>
@@ -23619,13 +23884,253 @@
 			<AnimationPauses>
 			</AnimationPauses>
 		</Animation>
-		<Animation name="back" id="341" order="1" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="90" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+		<Animation name="back" id="341" order="1" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="35" AnimationDirection="90" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish000.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish001.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish002.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish003.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish004.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish005.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish006.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish007.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish008.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish009.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish010.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish011.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish012.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish013.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish014.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish015.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish016.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish017.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish018.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish019.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish020.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish021.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish022.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish023.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish024.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish025.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish026.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish027.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish028.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish029.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish030.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish031.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish032.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish033.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish034.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish035.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish036.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish037.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish038.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish039.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish040.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish041.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish042.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish043.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish044.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish045.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish046.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish047.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish048.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish049.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish050.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish051.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish052.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish053.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish054.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish055.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish056.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish057.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish058.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish059.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish060.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish061.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish062.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish063.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish064.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish065.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish066.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish067.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish068.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish069.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish070.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish071.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish072.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish073.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish074.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish075.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish076.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish077.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish078.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/KittyTrash/kitty_fish/kitty_fish079.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="0" y="0"/>
+			<AnimationCenter x="120" y="350"/>
 			<AnimationPropertyFrames>
 			</AnimationPropertyFrames>
 			<AnimationWalkSteps>
@@ -24105,9 +24610,12 @@
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
+				<sprite name="" pause="0" path="Assets/Characters/Tatiana/tati.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="0" y="0"/>
+			<AnimationCenter x="104" y="286"/>
 			<AnimationPropertyFrames>
 			</AnimationPropertyFrames>
 			<AnimationWalkSteps>
@@ -24144,6 +24652,20 @@
 			</AnimationPauses>
 		</Animation>
 		<Animation name="right" id="360" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="0" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="item_alarm" id="362" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
@@ -24344,7 +24866,7 @@
 			</ConditionConditions>
 		</Condition>
 	</Conditions>
-	<Dialogs newId="30" versionedId="-1" tableId="11">
+	<Dialogs newId="29" versionedId="-1" tableId="11">
 		<Dialog name="enter_mierins_office" id="0" order="0" lastModified="-1">
 			<DialogDialogParts>
 				<Link parentLink="T" id="0" tableId="12" LinkAny="F"/>
@@ -25026,7 +25548,7 @@
 			<DialogPartValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</DialogPart>
 	</DialogParts>
-	<Sprites newId="182" versionedId="-1" tableId="13">
+	<Sprites newId="183" versionedId="-1" tableId="13">
 		<Sprite name="Unnamed" id="4" order="4" lastModified="-1">
 			<SpriteSprite name="" pause="-1" path="" Transparency="2">
 				<position x="0" y="0"/>
@@ -25357,11 +25879,6 @@
 				<position x="0" y="0"/>
 			</SpriteSprite>
 		</Sprite>
-		<Sprite name="Image" id="162" order="162" lastModified="-1">
-			<SpriteSprite name="" pause="-1" path="Assets/Characters/testing/pez.png" Transparency="2">
-				<position x="0" y="0"/>
-			</SpriteSprite>
-		</Sprite>
 		<Sprite name="Image" id="165" order="165" lastModified="-1">
 			<SpriteSprite name="" pause="-1" path="Assets/Rooms/CentralTaramar/Central_Taramar.png" Transparency="2">
 				<position x="0" y="0"/>
@@ -25383,22 +25900,22 @@
 			</SpriteSprite>
 		</Sprite>
 		<Sprite name="Image" id="170" order="170" lastModified="-1">
-			<SpriteSprite name="" pause="-1" path="Assets/Items/Scene/palo.png" Transparency="2">
+			<SpriteSprite name="" pause="-1" path="Assets/Items/Inventory/Scene/palo.png" Transparency="2">
 				<position x="0" y="0"/>
 			</SpriteSprite>
 		</Sprite>
 		<Sprite name="Image" id="171" order="171" lastModified="-1">
-			<SpriteSprite name="" pause="-1" path="Assets/Items/Scene/ganchoinventario.png" Transparency="2">
+			<SpriteSprite name="" pause="-1" path="Assets/Items/Inventory/Scene/ganchoinventario.png" Transparency="2">
 				<position x="0" y="0"/>
 			</SpriteSprite>
 		</Sprite>
 		<Sprite name="Image" id="175" order="175" lastModified="-1">
-			<SpriteSprite name="" pause="-1" path="Assets/Items/Scene/ganchopaloycelo.png" Transparency="2">
+			<SpriteSprite name="" pause="-1" path="Assets/Items/Inventory/Scene/ganchopaloycelo.png" Transparency="2">
 				<position x="0" y="0"/>
 			</SpriteSprite>
 		</Sprite>
 		<Sprite name="Image" id="176" order="176" lastModified="-1">
-			<SpriteSprite name="" pause="-1" path="Assets/Items/Scene/ganchoypalo.png" Transparency="2">
+			<SpriteSprite name="" pause="-1" path="Assets/Items/Inventory/Scene/ganchoypalo.png" Transparency="2">
 				<position x="0" y="0"/>
 			</SpriteSprite>
 		</Sprite>
@@ -25418,7 +25935,7 @@
 			</SpriteSprite>
 		</Sprite>
 		<Sprite name="Image" id="180" order="180" lastModified="-1">
-			<SpriteSprite name="" pause="-1" path="Assets/Characters/testing/inividior.png" Transparency="2">
+			<SpriteSprite name="" pause="-1" path="Assets/Items/Inventory/inhibitor.png" Transparency="2">
 				<position x="0" y="0"/>
 			</SpriteSprite>
 		</Sprite>
@@ -25427,8 +25944,13 @@
 				<position x="0" y="0"/>
 			</SpriteSprite>
 		</Sprite>
+		<Sprite name="Image" id="182" order="182" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="Assets/Items/Inventory/fish.png" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
 	</Sprites>
-	<Texts newId="1268" versionedId="-1" tableId="14">
+	<Texts newId="1266" versionedId="-1" tableId="14">
 		<Text name="new_game_txt" id="1" order="1" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
@@ -28160,6 +28682,11 @@
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
+		<Text name="Unnamed" id="1264" order="1264" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Alarm" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
 	</Texts>
 	<Cursors newId="5" versionedId="-1" tableId="15">
 		<Cursor name="cursor_arrow" id="0" order="0" lastModified="-1">
@@ -28607,7 +29134,7 @@
 	</ParticleContainers>
 	<CommentSetEntries newId="0" versionedId="-1" tableId="27">
 	</CommentSetEntries>
-	<AnimationFrames newId="10" versionedId="-1" tableId="28">
+	<AnimationFrames newId="11" versionedId="-1" tableId="28">
 		<AnimationFrame name="walk_right - Property Frame" id="5" order="0" lastModified="-1" AnimationFrameIndex="0" AnimationFrameSound="Assets/SFX/ica_step.ogg" AnimationFrameSoundVolume="0" AnimationFrameSoundBalance="0">
 			<AnimationFrameAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</AnimationFrame>
