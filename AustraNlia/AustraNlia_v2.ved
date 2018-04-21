@@ -1,0 +1,1391 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<VisionaireAdventure projectType="-1" revision="-1" version="194">
+	<Game name="" id="1" order="1" lastModified="-1" GameId="27996" GameDescription="" GameAbout="" GameIntro="" GameCommandBehaviour="1" GameFadeDelay="600" GameScrollSpeed="300" GameFullScreenIntro="F" GameDraggableItems="T" GameReserved="" GameHoldTime="600" GameFadeEffect="3" GameMinificationFilter="0" GameMagnificationFilter="0" GameAutoHideInterfacesInMenu="T" GameAlwaysAllowSkipText="F" GameExecuteActionsDuringDialog="F" GameAlignCharacterOnImExecution="T" GameComposedFile="" GameSceneComposedFiles="0" GameSceneComposedFile="" GameCharacterComposedFiles="0" GameCharacterComposedFile="" GameMovieComposedFiles="2" GameMovieComposedFile="" GameVersion="" GameDrawActionText="1" GameQuake="F" GameSpeakerTextAlignment="0" GameTextAlignment="2" GameKeepCharacterSpritesDuringMenus="F" GameDisableInteractionDuringAnim="0" GamePictureCacheSize="40" GameInterfaceComposedFiles="0" GameInterfaceComposedFile="" GameGameComposedFiles="0" GameGameComposedFile="" GameVideosEncrypted="F" GameCompanyName="Totem Tree Games" GameGameName="AustraNlia" GamePreloadPicThreads="3" GamePreloadedPicBufferSize="16384" GamePicBufferSize="120000" GameVideoSubtitleLanguage="" GameVideoAudioLanguage="" GamePreallocatedTextures="-1" GameNearestNeighborInterpolation="F" SpeakerSoundPanFactor="8" GameShowBlackScreenAfterVideo="F" GameSavegameScreenshot="" GameLeftHoldBehaviour="0" GameMiddleClickBehaviour="0" GameRightClickBehaviour="0" GameVideoPauseScreen="" GameExecuteCalledActionImmediately="T" GameIconFile="" GameBuildOptions="" GameSmoothScrolling="F" GameSaveNameOffsetY="-1">
+		<GameSceneLinks>
+			<Link parentLink="T" id="0" tableId="4" LinkAny="F"/>
+			<Link parentLink="T" id="2" tableId="4" LinkAny="F"/>
+			<Link parentLink="T" id="3" tableId="4" LinkAny="F"/>
+			<Link parentLink="T" id="4" tableId="4" LinkAny="F"/>
+		</GameSceneLinks>
+		<GameCharacterLinks>
+			<Link parentLink="T" id="0" tableId="0" LinkAny="F"/>
+		</GameCharacterLinks>
+		<GameInterfaces>
+			<Link parentLink="T" id="0" tableId="1" LinkAny="F"/>
+			<Link parentLink="T" id="1" tableId="1" LinkAny="F"/>
+		</GameInterfaces>
+		<GameFontLinks>
+			<Link parentLink="T" id="0" tableId="3" LinkAny="F"/>
+			<Link parentLink="T" id="4" tableId="3" LinkAny="F"/>
+			<Link parentLink="T" id="5" tableId="3" LinkAny="F"/>
+		</GameFontLinks>
+		<GameLanguages>
+			<Link parentLink="T" id="0" tableId="18" LinkAny="F"/>
+			<Link parentLink="T" id="1" tableId="18" LinkAny="F"/>
+		</GameLanguages>
+		<GameFirstScene parentLink="F" id="4" tableId="4" LinkAny="F"/>
+		<GameItems>
+		</GameItems>
+		<GameLoading parentLink="T" id="0" tableId="21" LinkAny="F"/>
+		<GameWindowResolution x="1920" y="1080"/>
+		<GameCursors>
+			<Link parentLink="T" id="0" tableId="15" LinkAny="F"/>
+		</GameCursors>
+		<GameFirstCharacter parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		<GameStandardLanguage parentLink="F" id="0" tableId="18" LinkAny="F"/>
+		<GameActions>
+		</GameActions>
+		<GameStartAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		<GameRightClickAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		<GameLeftDblClickAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		<GameLeftHoldAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		<GameLeftHoldingAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		<GameParticleContainerLinks>
+		</GameParticleContainerLinks>
+		<GameLeftClickAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		<GameActionTextFont parentLink="F" id="0" tableId="3" LinkAny="F"/>
+		<GameActionTextRect top="-1" left="-1" bottom="-3" right="-3"/>
+		<GameScriptLinks>
+			<Link parentLink="T" id="0" tableId="30" LinkAny="F"/>
+			<Link parentLink="T" id="1" tableId="30" LinkAny="F"/>
+			<Link parentLink="T" id="2" tableId="30" LinkAny="F"/>
+			<Link parentLink="T" id="3" tableId="30" LinkAny="F"/>
+		</GameScriptLinks>
+		<GameInterfaceClasses>
+			<Link parentLink="T" id="0" tableId="31" LinkAny="F"/>
+			<Link parentLink="T" id="1" tableId="31" LinkAny="F"/>
+			<Link parentLink="T" id="2" tableId="31" LinkAny="F"/>
+			<Link parentLink="T" id="3" tableId="31" LinkAny="F"/>
+			<Link parentLink="T" id="4" tableId="31" LinkAny="F"/>
+		</GameInterfaceClasses>
+		<GameObjectFont parentLink="F" id="0" tableId="3" LinkAny="F"/>
+		<GameVideoSubtitleFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		<GameVideoSubtitlePosition x="-1" y="-1"/>
+		<GameMiddleClickAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		<GameMouseWheelUpAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		<GameMouseWheelDownAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		<GameContainers>
+		</GameContainers>
+		<GameBuildRules>
+		</GameBuildRules>
+		<GameShaderLinks>
+		</GameShaderLinks>
+		<GameAudioMixLinks>
+			<Link parentLink="T" id="0" tableId="37" LinkAny="F"/>
+			<Link parentLink="T" id="1" tableId="37" LinkAny="F"/>
+			<Link parentLink="T" id="2" tableId="37" LinkAny="F"/>
+		</GameAudioMixLinks>
+		<GameAudioContainerLinks>
+		</GameAudioContainerLinks>
+		<GameDefaultSpeechBus parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		<GameDefaultSoundBus parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		<GameWalksoundBus parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		<GameDefaultMusicBus parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		<GameCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		<GameCustomActionParts>
+		</GameCustomActionParts>
+		<GamePlugins>
+		</GamePlugins>
+		<GameBlockContainers>
+		</GameBlockContainers>
+		<GameWaitCursor parentLink="F" id="0" tableId="15" LinkAny="F"/>
+	</Game>
+	<Loadings newId="1" versionedId="-1" tableId="21">
+		<Loading name="Unnamed" id="0" order="0" lastModified="-1" LoadingMusic="" LoadingStatusCover="F">
+			<LoadingSprite name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</LoadingSprite>
+			<LoadingStatusSprite name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</LoadingStatusSprite>
+		</Loading>
+	</Loadings>
+	<Characters newId="1" versionedId="-1" tableId="0">
+		<Character name="pc_chad" id="0" order="0" lastModified="-1" CharacterWalkingSound="" CharacterScale="T" CharacterDialogVerticalSpace="10" CharacterScaleFactor="100" CharacterHarmonizeWalkAnimations="F">
+			<CharacterName parentLink="T" id="2" tableId="14" LinkAny="F"/>
+			<CharacterInterfaces>
+				<Link parentLink="F" id="0" tableId="1" LinkAny="F"/>
+				<Link parentLink="F" id="1" tableId="1" LinkAny="F"/>
+			</CharacterInterfaces>
+			<CharacterFont parentLink="F" id="0" tableId="3" LinkAny="F"/>
+			<CharacterCurrentOutfit parentLink="F" id="0" tableId="17" LinkAny="F"/>
+			<CharacterCurrentCommentSet parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<CharacterDialogCursor parentLink="F" id="0" tableId="15" LinkAny="F"/>
+			<CharacterDialogs>
+			</CharacterDialogs>
+			<CharacterActions>
+			</CharacterActions>
+			<CharacterOutfits>
+				<Link parentLink="T" id="0" tableId="17" LinkAny="F"/>
+			</CharacterOutfits>
+			<CharacterCommentSets>
+			</CharacterCommentSets>
+			<CharacterStartObject parentLink="F" id="4" tableId="6" LinkAny="F"/>
+			<CharacterValues>
+			</CharacterValues>
+			<CharacterConditions>
+			</CharacterConditions>
+			<CharacterActiveDialogFont parentLink="F" id="4" tableId="3" LinkAny="F"/>
+			<CharacterInactiveDialogFont parentLink="F" id="5" tableId="3" LinkAny="F"/>
+			<CharacterDialogArea top="934" left="492" bottom="1066" right="1390"/>
+			<CharacterDialogActiveScrollUp name="" pause="-1" path="Assets/UI/GUI/DialogBox/up_highlight.png" Transparency="2">
+				<position x="1400" y="950"/>
+			</CharacterDialogActiveScrollUp>
+			<CharacterDialogInactiveScrollUp name="" pause="-1" path="Assets/UI/GUI/DialogBox/up.png" Transparency="2">
+				<position x="1400" y="950"/>
+			</CharacterDialogInactiveScrollUp>
+			<CharacterDialogActiveScrollDown name="" pause="-1" path="Assets/UI/GUI/DialogBox/down_highlight.png" Transparency="2">
+				<position x="1400" y="1010"/>
+			</CharacterDialogActiveScrollDown>
+			<CharacterDialogInactiveScrollDown name="" pause="-1" path="Assets/UI/GUI/DialogBox/down.png" Transparency="2">
+				<position x="1400" y="1010"/>
+			</CharacterDialogInactiveScrollDown>
+			<CharacterDialogSprite name="" pause="-1" path="Assets/UI/GUI/DialogBox/dialog_box.png" Transparency="2">
+				<position x="452" y="884"/>
+			</CharacterDialogSprite>
+			<CharacterActionDestPosition x="-1" y="-1"/>
+			<CharacterAudioBus parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Character>
+	</Characters>
+	<Interfaces newId="2" versionedId="-1" tableId="1">
+		<Interface name="inventory" id="0" order="0" lastModified="-1" InterfaceScrollStepSize="1" InterfaceDisplacement="4" InterfaceSize="-1" InterfaceDrawActionText="F" InterfaceShowAlways="T">
+			<InterfaceSprite name="" pause="-1" path="Assets/UI/GUI/Inventory/template_inventory.png" Transparency="2">
+				<position x="0" y="0"/>
+			</InterfaceSprite>
+			<InterfaceButtons>
+				<Link parentLink="T" id="0" tableId="2" LinkAny="F"/>
+				<Link parentLink="T" id="1" tableId="2" LinkAny="F"/>
+				<Link parentLink="T" id="2" tableId="2" LinkAny="F"/>
+				<Link parentLink="T" id="3" tableId="2" LinkAny="F"/>
+				<Link parentLink="T" id="4" tableId="2" LinkAny="F"/>
+				<Link parentLink="T" id="5" tableId="2" LinkAny="F"/>
+				<Link parentLink="T" id="6" tableId="2" LinkAny="F"/>
+				<Link parentLink="T" id="7" tableId="2" LinkAny="F"/>
+			</InterfaceButtons>
+			<InterfaceStandardCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<InterfaceOffset x="560" y="1035"/>
+			<InterfaceActionTextFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<InterfaceActionTextRect top="0" left="0" bottom="-1" right="-1"/>
+			<InterfaceBorder>
+			</InterfaceBorder>
+			<InterfaceLeaveAction parentLink="T" id="5" tableId="7" LinkAny="F"/>
+			<InterfaceConditions>
+				<Link parentLink="T" id="3" tableId="10" LinkAny="F"/>
+				<Link parentLink="T" id="4" tableId="10" LinkAny="F"/>
+				<Link parentLink="T" id="5" tableId="10" LinkAny="F"/>
+			</InterfaceConditions>
+			<InterfaceValues>
+			</InterfaceValues>
+			<InterfaceInterfaceClass parentLink="F" id="1" tableId="31" LinkAny="F"/>
+		</Interface>
+		<Interface name="inventory_base" id="1" order="1" lastModified="-1" InterfaceScrollStepSize="1" InterfaceDisplacement="4" InterfaceSize="-1" InterfaceDrawActionText="F" InterfaceShowAlways="T">
+			<InterfaceSprite name="" pause="-1" path="Assets/UI/GUI/Inventory/base_template.png" Transparency="2">
+				<position x="0" y="0"/>
+			</InterfaceSprite>
+			<InterfaceButtons>
+			</InterfaceButtons>
+			<InterfaceStandardCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<InterfaceOffset x="560" y="910"/>
+			<InterfaceActionTextFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<InterfaceActionTextRect top="0" left="0" bottom="-1" right="-1"/>
+			<InterfaceBorder>
+			</InterfaceBorder>
+			<InterfaceLeaveAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<InterfaceConditions>
+			</InterfaceConditions>
+			<InterfaceValues>
+			</InterfaceValues>
+			<InterfaceInterfaceClass parentLink="F" id="1" tableId="31" LinkAny="F"/>
+		</Interface>
+	</Interfaces>
+	<Buttons newId="8" versionedId="-1" tableId="2">
+		<Button name="arrow_left" id="0" order="0" lastModified="-1" ButtonType="1" ButtonCommandType="0" ButtonUse="2" ButtonUseOnCurrentCharacter="F" ButtonConditionNegate="F" ButtonDraggable="F" ButtonValueOperator="-1" ButtonValueInt="-1">
+			<ButtonActiveSprite parentLink="T" id="3" tableId="13" LinkAny="F"/>
+			<ButtonInactiveSprite parentLink="T" id="4" tableId="13" LinkAny="F"/>
+			<ButtonCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonName parentLink="T" id="12" tableId="14" LinkAny="F"/>
+			<ButtonConjunction parentLink="T" id="13" tableId="14" LinkAny="F"/>
+			<ButtonPolygon>
+				<point x="52" y="61"/>
+				<point x="31" y="84"/>
+				<point x="52" y="108"/>
+			</ButtonPolygon>
+			<ButtonActions>
+			</ButtonActions>
+			<ButtonCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonAnimations>
+			</ButtonAnimations>
+			<ButtonGroup>
+			</ButtonGroup>
+			<ButtonValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Button>
+		<Button name="arrow_right" id="1" order="1" lastModified="-1" ButtonType="2" ButtonCommandType="0" ButtonUse="2" ButtonUseOnCurrentCharacter="F" ButtonConditionNegate="F" ButtonDraggable="F" ButtonValueOperator="-1" ButtonValueInt="-1">
+			<ButtonActiveSprite parentLink="T" id="5" tableId="13" LinkAny="F"/>
+			<ButtonInactiveSprite parentLink="T" id="6" tableId="13" LinkAny="F"/>
+			<ButtonCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonName parentLink="T" id="14" tableId="14" LinkAny="F"/>
+			<ButtonConjunction parentLink="T" id="15" tableId="14" LinkAny="F"/>
+			<ButtonPolygon>
+				<point x="780" y="60"/>
+				<point x="780" y="109"/>
+				<point x="805" y="84"/>
+			</ButtonPolygon>
+			<ButtonActions>
+			</ButtonActions>
+			<ButtonCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonAnimations>
+			</ButtonAnimations>
+			<ButtonGroup>
+			</ButtonGroup>
+			<ButtonValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Button>
+		<Button name="slot_01" id="2" order="2" lastModified="-1" ButtonType="0" ButtonCommandType="0" ButtonUse="2" ButtonUseOnCurrentCharacter="F" ButtonConditionNegate="F" ButtonDraggable="F" ButtonValueOperator="-1" ButtonValueInt="-1">
+			<ButtonActiveSprite parentLink="T" id="7" tableId="13" LinkAny="F"/>
+			<ButtonInactiveSprite parentLink="T" id="8" tableId="13" LinkAny="F"/>
+			<ButtonCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonName parentLink="T" id="16" tableId="14" LinkAny="F"/>
+			<ButtonConjunction parentLink="T" id="17" tableId="14" LinkAny="F"/>
+			<ButtonPolygon>
+				<point x="79" y="34"/>
+				<point x="79" y="138"/>
+				<point x="184" y="139"/>
+				<point x="183" y="34"/>
+			</ButtonPolygon>
+			<ButtonActions>
+			</ButtonActions>
+			<ButtonCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonAnimations>
+			</ButtonAnimations>
+			<ButtonGroup>
+			</ButtonGroup>
+			<ButtonValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Button>
+		<Button name="slot_02" id="3" order="3" lastModified="-1" ButtonType="0" ButtonCommandType="0" ButtonUse="2" ButtonUseOnCurrentCharacter="F" ButtonConditionNegate="F" ButtonDraggable="F" ButtonValueOperator="-1" ButtonValueInt="-1">
+			<ButtonActiveSprite parentLink="T" id="9" tableId="13" LinkAny="F"/>
+			<ButtonInactiveSprite parentLink="T" id="10" tableId="13" LinkAny="F"/>
+			<ButtonCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonName parentLink="T" id="18" tableId="14" LinkAny="F"/>
+			<ButtonConjunction parentLink="T" id="19" tableId="14" LinkAny="F"/>
+			<ButtonPolygon>
+				<point x="222" y="35"/>
+				<point x="222" y="141"/>
+				<point x="328" y="140"/>
+				<point x="328" y="36"/>
+			</ButtonPolygon>
+			<ButtonActions>
+			</ButtonActions>
+			<ButtonCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonAnimations>
+			</ButtonAnimations>
+			<ButtonGroup>
+			</ButtonGroup>
+			<ButtonValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Button>
+		<Button name="slot_03" id="4" order="4" lastModified="-1" ButtonType="0" ButtonCommandType="0" ButtonUse="2" ButtonUseOnCurrentCharacter="F" ButtonConditionNegate="F" ButtonDraggable="F" ButtonValueOperator="-1" ButtonValueInt="-1">
+			<ButtonActiveSprite parentLink="T" id="11" tableId="13" LinkAny="F"/>
+			<ButtonInactiveSprite parentLink="T" id="12" tableId="13" LinkAny="F"/>
+			<ButtonCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonName parentLink="T" id="20" tableId="14" LinkAny="F"/>
+			<ButtonConjunction parentLink="T" id="21" tableId="14" LinkAny="F"/>
+			<ButtonPolygon>
+				<point x="365" y="34"/>
+				<point x="365" y="142"/>
+				<point x="472" y="142"/>
+				<point x="471" y="33"/>
+			</ButtonPolygon>
+			<ButtonActions>
+			</ButtonActions>
+			<ButtonCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonAnimations>
+			</ButtonAnimations>
+			<ButtonGroup>
+			</ButtonGroup>
+			<ButtonValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Button>
+		<Button name="slot_04" id="5" order="5" lastModified="-1" ButtonType="0" ButtonCommandType="0" ButtonUse="2" ButtonUseOnCurrentCharacter="F" ButtonConditionNegate="F" ButtonDraggable="F" ButtonValueOperator="-1" ButtonValueInt="-1">
+			<ButtonActiveSprite parentLink="T" id="13" tableId="13" LinkAny="F"/>
+			<ButtonInactiveSprite parentLink="T" id="14" tableId="13" LinkAny="F"/>
+			<ButtonCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonName parentLink="T" id="22" tableId="14" LinkAny="F"/>
+			<ButtonConjunction parentLink="T" id="23" tableId="14" LinkAny="F"/>
+			<ButtonPolygon>
+				<point x="514" y="35"/>
+				<point x="513" y="140"/>
+				<point x="620" y="140"/>
+				<point x="619" y="34"/>
+			</ButtonPolygon>
+			<ButtonActions>
+			</ButtonActions>
+			<ButtonCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonAnimations>
+			</ButtonAnimations>
+			<ButtonGroup>
+			</ButtonGroup>
+			<ButtonValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Button>
+		<Button name="slot_05" id="6" order="6" lastModified="-1" ButtonType="0" ButtonCommandType="0" ButtonUse="2" ButtonUseOnCurrentCharacter="F" ButtonConditionNegate="F" ButtonDraggable="F" ButtonValueOperator="-1" ButtonValueInt="-1">
+			<ButtonActiveSprite parentLink="T" id="15" tableId="13" LinkAny="F"/>
+			<ButtonInactiveSprite parentLink="T" id="16" tableId="13" LinkAny="F"/>
+			<ButtonCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonName parentLink="T" id="24" tableId="14" LinkAny="F"/>
+			<ButtonConjunction parentLink="T" id="25" tableId="14" LinkAny="F"/>
+			<ButtonPolygon>
+				<point x="655" y="35"/>
+				<point x="655" y="139"/>
+				<point x="757" y="139"/>
+				<point x="758" y="35"/>
+			</ButtonPolygon>
+			<ButtonActions>
+			</ButtonActions>
+			<ButtonCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonAnimations>
+			</ButtonAnimations>
+			<ButtonGroup>
+			</ButtonGroup>
+			<ButtonValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Button>
+		<Button name="action_area" id="7" order="7" lastModified="-1" ButtonType="4" ButtonCommandType="0" ButtonUse="2" ButtonUseOnCurrentCharacter="F" ButtonConditionNegate="F" ButtonDraggable="F" ButtonValueOperator="-1" ButtonValueInt="-1">
+			<ButtonActiveSprite parentLink="T" id="17" tableId="13" LinkAny="F"/>
+			<ButtonInactiveSprite parentLink="T" id="18" tableId="13" LinkAny="F"/>
+			<ButtonCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonName parentLink="T" id="26" tableId="14" LinkAny="F"/>
+			<ButtonConjunction parentLink="T" id="27" tableId="14" LinkAny="F"/>
+			<ButtonPolygon>
+				<point x="1" y="23"/>
+				<point x="2" y="1"/>
+				<point x="873" y="1"/>
+				<point x="873" y="25"/>
+			</ButtonPolygon>
+			<ButtonActions>
+				<Link parentLink="T" id="6" tableId="7" LinkAny="F"/>
+			</ButtonActions>
+			<ButtonCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonAnimations>
+			</ButtonAnimations>
+			<ButtonGroup>
+			</ButtonGroup>
+			<ButtonValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Button>
+	</Buttons>
+	<Fonts newId="6" versionedId="-1" tableId="3">
+		<Font name="font_basic" id="0" order="0" lastModified="-1" FontAlphabet="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789" FontLetterSpacing="2" VerticalLetterSpacing="3" FontSpaceWidth="10" FontAutoLineBreak="T" FontLineWidth="750" FontKerning="" FontTrueTypeFont="T" FontTrueTypeFontPath="Assets/UI/Fonts/SadanaSquare.ttf" FontSize="40.000000" FontColor="16777215" FontBorder="T" FontBorderColor="0" FontBorderSize="2.000000" FontShadow="T">
+			<FontSprite name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</FontSprite>
+			<FontLetters>
+			</FontLetters>
+			<FontFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<FontShadowOffset x="1" y="1"/>
+		</Font>
+		<Font name="font_chad_active" id="4" order="1" lastModified="-1" FontAlphabet="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789" FontLetterSpacing="-4" VerticalLetterSpacing="3" FontSpaceWidth="10" FontAutoLineBreak="T" FontLineWidth="100" FontKerning="" FontTrueTypeFont="T" FontTrueTypeFontPath="" FontSize="12.000000" FontColor="4753128" FontBorder="T" FontBorderColor="0" FontBorderSize="2.000000" FontShadow="T">
+			<FontSprite name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</FontSprite>
+			<FontLetters>
+			</FontLetters>
+			<FontFont parentLink="F" id="0" tableId="3" LinkAny="F"/>
+			<FontShadowOffset x="1" y="1"/>
+		</Font>
+		<Font name="font_chad_inactive" id="5" order="2" lastModified="-1" FontAlphabet="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789" FontLetterSpacing="-4" VerticalLetterSpacing="3" FontSpaceWidth="10" FontAutoLineBreak="T" FontLineWidth="100" FontKerning="" FontTrueTypeFont="T" FontTrueTypeFontPath="" FontSize="12.000000" FontColor="1658529" FontBorder="T" FontBorderColor="0" FontBorderSize="2.000000" FontShadow="T">
+			<FontSprite name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</FontSprite>
+			<FontLetters>
+			</FontLetters>
+			<FontFont parentLink="F" id="0" tableId="3" LinkAny="F"/>
+			<FontShadowOffset x="1" y="1"/>
+		</Font>
+	</Fonts>
+	<Scenes newId="5" versionedId="-1" tableId="4">
+		<Scene name="logo_screen" id="0" order="0" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="T" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+			<SceneSprite name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</SceneSprite>
+			<SceneName parentLink="T" id="0" tableId="14" LinkAny="F"/>
+			<SceneObjects>
+			</SceneObjects>
+			<SceneCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneSavegameAreas>
+			</SceneSavegameAreas>
+			<SceneValues>
+			</SceneValues>
+			<SceneConditions>
+			</SceneConditions>
+			<SceneActions>
+				<Link parentLink="T" id="0" tableId="7" LinkAny="F"/>
+			</SceneActions>
+			<SceneSavegameFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneScrollableArea top="0" left="0" bottom="-1" right="-1"/>
+			<SceneWaySystems>
+			</SceneWaySystems>
+			<SceneCurrentWaySystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneActionAreas>
+			</SceneActionAreas>
+			<SceneAudioBusses>
+			</SceneAudioBusses>
+			<SceneTestCharacter parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Scene>
+		<Scene name="main_menu" id="2" order="1" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="T" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+			<SceneSprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/main_menu_background.png" Transparency="2">
+				<position x="0" y="0"/>
+			</SceneSprite>
+			<SceneName parentLink="T" id="3" tableId="14" LinkAny="F"/>
+			<SceneObjects>
+				<Link parentLink="T" id="1" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="2" tableId="6" LinkAny="F"/>
+			</SceneObjects>
+			<SceneCursor parentLink="F" id="0" tableId="15" LinkAny="F"/>
+			<SceneSavegameAreas>
+			</SceneSavegameAreas>
+			<SceneValues>
+			</SceneValues>
+			<SceneConditions>
+			</SceneConditions>
+			<SceneActions>
+				<Link parentLink="T" id="4" tableId="7" LinkAny="F"/>
+			</SceneActions>
+			<SceneSavegameFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneScrollableArea top="0" left="0" bottom="-1" right="-1"/>
+			<SceneWaySystems>
+			</SceneWaySystems>
+			<SceneCurrentWaySystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneActionAreas>
+			</SceneActionAreas>
+			<SceneAudioBusses>
+			</SceneAudioBusses>
+			<SceneTestCharacter parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Scene>
+		<Scene name="options_menu" id="3" order="2" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="T" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+			<SceneSprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/main_menu_background.png" Transparency="2">
+				<position x="0" y="0"/>
+			</SceneSprite>
+			<SceneName parentLink="T" id="4" tableId="14" LinkAny="F"/>
+			<SceneObjects>
+				<Link parentLink="T" id="0" tableId="6" LinkAny="F"/>
+			</SceneObjects>
+			<SceneCursor parentLink="F" id="0" tableId="15" LinkAny="F"/>
+			<SceneSavegameAreas>
+			</SceneSavegameAreas>
+			<SceneValues>
+				<Link parentLink="T" id="0" tableId="20" LinkAny="F"/>
+				<Link parentLink="T" id="1" tableId="20" LinkAny="F"/>
+			</SceneValues>
+			<SceneConditions>
+				<Link parentLink="T" id="0" tableId="10" LinkAny="F"/>
+				<Link parentLink="T" id="1" tableId="10" LinkAny="F"/>
+				<Link parentLink="T" id="2" tableId="10" LinkAny="F"/>
+			</SceneConditions>
+			<SceneActions>
+			</SceneActions>
+			<SceneSavegameFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneScrollableArea top="0" left="0" bottom="-1" right="-1"/>
+			<SceneWaySystems>
+			</SceneWaySystems>
+			<SceneCurrentWaySystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneActionAreas>
+			</SceneActionAreas>
+			<SceneAudioBusses>
+			</SceneAudioBusses>
+			<SceneTestCharacter parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Scene>
+		<Scene name="secretary" id="4" order="3" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+			<SceneSprite name="" pause="-1" path="Assets/Scenes/Secretary/atras.png" Transparency="2">
+				<position x="0" y="0"/>
+			</SceneSprite>
+			<SceneName parentLink="T" id="32" tableId="14" LinkAny="F"/>
+			<SceneObjects>
+				<Link parentLink="T" id="3" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="4" tableId="6" LinkAny="F"/>
+			</SceneObjects>
+			<SceneCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneSavegameAreas>
+			</SceneSavegameAreas>
+			<SceneValues>
+			</SceneValues>
+			<SceneConditions>
+			</SceneConditions>
+			<SceneActions>
+			</SceneActions>
+			<SceneSavegameFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneScrollableArea top="0" left="0" bottom="-1" right="-1"/>
+			<SceneWaySystems>
+				<Link parentLink="T" id="0" tableId="29" LinkAny="F"/>
+			</SceneWaySystems>
+			<SceneCurrentWaySystem parentLink="F" id="0" tableId="29" LinkAny="F"/>
+			<SceneActionAreas>
+			</SceneActionAreas>
+			<SceneAudioBusses>
+			</SceneAudioBusses>
+			<SceneTestCharacter parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Scene>
+	</Scenes>
+	<Points newId="0" versionedId="-1" tableId="5">
+	</Points>
+	<Objects newId="5" versionedId="-1" tableId="6">
+		<Object name="tablet" id="0" order="0" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+			<ObjectName parentLink="T" id="5" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="0" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Object>
+		<Object name="mm_title" id="1" order="1" lastModified="-1" ObjectDirection="-1" ObjectCenter="1076" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+			<ObjectName parentLink="T" id="8" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="1" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Object>
+		<Object name="mm_tablet" id="2" order="0" lastModified="-1" ObjectDirection="-1" ObjectCenter="1080" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+			<ObjectName parentLink="T" id="9" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="2" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+				<Link parentLink="T" id="2" tableId="7" LinkAny="F"/>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+				<Link parentLink="T" id="13" tableId="9" LinkAny="F"/>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Object>
+		<Object name="receptionist" id="3" order="1" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+			<ObjectName parentLink="T" id="33" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="19" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Object>
+		<Object name="start_position" id="4" order="0" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+			<ObjectName parentLink="T" id="34" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="470" y="939"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Object>
+	</Objects>
+	<Actions newId="7" versionedId="-1" tableId="7">
+		<Action name="At beginning of scene" id="0" order="0" lastModified="-1" ActionExecutionType="31">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="0" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="tablet_easing_main" id="2" order="0" lastModified="-1" ActionExecutionType="5">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="2" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="At beginning of scene" id="4" order="0" lastModified="-1" ActionExecutionType="31">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="3" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Action" id="5" order="5" lastModified="-1" ActionExecutionType="-1">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="7" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Cursor enters button area" id="6" order="0" lastModified="-1" ActionExecutionType="1">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="4" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="5" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="6" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+	</Actions>
+	<ActionParts newId="8" versionedId="-1" tableId="8">
+		<ActionPart name="Play video 'logo_screen.mkv'" id="0" order="0" lastModified="-1" ActionPartCommand="66" ActionPartPath="Assets/Video/logo_screen.mkv" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Show menu 'main_menu'" id="1" order="1" lastModified="-1" ActionPartCommand="46" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="2" tableId="4" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Execute script 'local object = Objects[&quot;m...'" id="2" order="0" lastModified="-1" ActionPartCommand="138" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="local object = Objects[&quot;mm_tablet&quot;]&lt;br/&gt;object:to(1500, {ObjectOffset = {x = 575, y = 0}}, easeBackInOut)">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Call action 'tablet_easing_main'" id="3" order="0" lastModified="-1" ActionPartCommand="148" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="2" tableId="7" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If condition 'mwheel' is false" id="4" order="0" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="4" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition 'hover' to true" id="5" order="1" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="3" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="End if" id="6" order="2" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition 'hover' to false" id="7" order="0" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="3" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+	</ActionParts>
+	<Animations newId="15" versionedId="-1" tableId="9">
+		<Animation name="Unnamed" id="1" order="1" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="8192" path="Assets/UI/Cursors/cursor.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="Unnamed" id="2" order="2" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="27216" path="Assets/UI/Cursors/cursor.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="front" id="3" order="3" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="270" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="back" id="4" order="1" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="90" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="left" id="5" order="2" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="180" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="right" id="6" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="0" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="front" id="7" order="3" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="70" AnimationDirection="270" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="-1" path="Assets/Characters/Chad/Idle/front/chad_idle_000.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Chad/Idle/front/chad_idle_001.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Chad/Idle/front/chad_idle_002.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Chad/Idle/front/chad_idle_003.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Chad/Idle/front/chad_idle_004.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Chad/Idle/front/chad_idle_005.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Chad/Idle/front/chad_idle_006.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Chad/Idle/front/chad_idle_007.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Chad/Idle/front/chad_idle_008.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Chad/Idle/front/chad_idle_009.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Chad/Idle/front/chad_idle_010.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Chad/Idle/front/chad_idle_011.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Chad/Idle/front/chad_idle_012.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Chad/Idle/front/chad_idle_013.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Chad/Idle/front/chad_idle_014.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Chad/Idle/front/chad_idle_015.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Chad/Idle/front/chad_idle_016.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Chad/Idle/front/chad_idle_017.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Chad/Idle/front/chad_idle_018.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Chad/Idle/front/chad_idle_019.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Chad/Idle/front/chad_idle_020.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Chad/Idle/front/chad_idle_021.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Chad/Idle/front/chad_idle_022.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Chad/Idle/front/chad_idle_023.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Chad/Idle/front/chad_idle_024.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Chad/Idle/front/chad_idle_025.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Chad/Idle/front/chad_idle_026.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Chad/Idle/front/chad_idle_027.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Chad/Idle/front/chad_idle_028.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Chad/Idle/front/chad_idle_029.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Chad/Idle/front/chad_idle_030.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Chad/Idle/front/chad_idle_031.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Chad/Idle/front/chad_idle_032.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Chad/Idle/front/chad_idle_033.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/Chad/Idle/front/chad_idle_034.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="80" y="460"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="back" id="8" order="1" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="90" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="left" id="9" order="2" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="180" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="right" id="10" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="0" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="mm_tablet_idle" id="13" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+	</Animations>
+	<Conditions newId="6" versionedId="-1" tableId="10">
+		<Condition name="fullscreen?" id="0" order="0" lastModified="-1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionOperator="0">
+			<ConditionConditions>
+			</ConditionConditions>
+		</Condition>
+		<Condition name="edited_config?" id="1" order="1" lastModified="-1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionOperator="0">
+			<ConditionConditions>
+			</ConditionConditions>
+		</Condition>
+		<Condition name="saving?" id="2" order="2" lastModified="-1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionOperator="0">
+			<ConditionConditions>
+			</ConditionConditions>
+		</Condition>
+		<Condition name="hover" id="3" order="0" lastModified="-1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionOperator="0">
+			<ConditionConditions>
+			</ConditionConditions>
+		</Condition>
+		<Condition name="mwheel" id="4" order="1" lastModified="-1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionOperator="0">
+			<ConditionConditions>
+			</ConditionConditions>
+		</Condition>
+		<Condition name="mwtoggle" id="5" order="2" lastModified="-1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionOperator="0">
+			<ConditionConditions>
+			</ConditionConditions>
+		</Condition>
+	</Conditions>
+	<Dialogs newId="0" versionedId="-1" tableId="11">
+	</Dialogs>
+	<DialogParts newId="0" versionedId="-1" tableId="12">
+	</DialogParts>
+	<Sprites newId="20" versionedId="-1" tableId="13">
+		<Sprite name="Image" id="0" order="0" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/options_menu_background.png" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Image" id="1" order="1" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="Assets/Scenes/MainMenu/concept_header_koala.png" Transparency="2">
+				<position x="605" y="750"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Image" id="2" order="2" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="Assets/Scenes/MainMenu/options_menu_background.png" Transparency="2">
+				<position x="-2000" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Unnamed" id="3" order="3" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Unnamed" id="4" order="4" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Unnamed" id="5" order="5" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Unnamed" id="6" order="6" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Unnamed" id="7" order="7" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Unnamed" id="8" order="8" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Unnamed" id="9" order="9" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Unnamed" id="10" order="10" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Unnamed" id="11" order="11" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Unnamed" id="12" order="12" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Unnamed" id="13" order="13" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Unnamed" id="14" order="14" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Unnamed" id="15" order="15" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Unnamed" id="16" order="16" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Unnamed" id="17" order="17" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Unnamed" id="18" order="18" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Image" id="19" order="19" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="Assets/Scenes/Secretary/mesa.png" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+	</Sprites>
+	<Texts newId="35" versionedId="-1" tableId="14">
+		<Text name="Unnamed" id="0" order="0" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="2" order="2" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="3" order="3" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="4" order="4" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="5" order="5" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="8" order="8" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="9" order="9" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="12" order="12" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="13" order="13" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="14" order="14" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="15" order="15" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="16" order="16" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="17" order="17" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="18" order="18" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="19" order="19" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="20" order="20" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="21" order="21" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="22" order="22" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="23" order="23" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="24" order="24" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="25" order="25" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="26" order="26" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="27" order="27" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="32" order="32" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="33" order="33" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="34" order="34" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+	</Texts>
+	<Cursors newId="1" versionedId="-1" tableId="15">
+		<Cursor name="cursors_arrow" id="0" order="0" lastModified="-1">
+			<CursorActiveAnimation parentLink="T" id="1" tableId="9" LinkAny="F"/>
+			<CursorInactiveAnimation parentLink="T" id="2" tableId="9" LinkAny="F"/>
+		</Cursor>
+	</Cursors>
+	<CommentSets newId="0" versionedId="-1" tableId="16">
+	</CommentSets>
+	<Outfits newId="1" versionedId="-1" tableId="17">
+		<Outfit name="Unnamed" id="0" order="0" lastModified="-1" OutfitCharacterSpeed="350" OutfitModel="" OutfitCameraHeight="0" OutfitCameraAngle="0" OutfitUseLight="F" OutfitLightPosX="1.000000" OutfitLightPosY="1.000000" OutfitLightPosZ="1.000000" OutfitLightColor="9345433" OutfitModelScaleFactor="100" OutfitModelUseToonShading="F" OutfitModelToonNuances="3" OutfitModelShowOutline="F" OutfitModelOutlineColor="0" OutfitModelOutlineWidth="5" OutfitAmbientLightColor="6717311" OutfitModelShadowVisibility="50" OutfitRandomMinTime="10000" OutfitRandomMaxTime="30000" OutfitModelShadow="2" OutfitModelAmbientOcclusion="50" OutfitSlideWalkAnimation="T" OutfitModelTurnSpeed="100">
+			<OutfitWalkAnimations>
+				<Link parentLink="T" id="3" tableId="9" LinkAny="F"/>
+				<Link parentLink="T" id="4" tableId="9" LinkAny="F"/>
+				<Link parentLink="T" id="5" tableId="9" LinkAny="F"/>
+				<Link parentLink="T" id="6" tableId="9" LinkAny="F"/>
+			</OutfitWalkAnimations>
+			<OutfitTalkAnimations>
+			</OutfitTalkAnimations>
+			<OutfitRandomAnimations>
+			</OutfitRandomAnimations>
+			<OutfitCharacterAnimations>
+			</OutfitCharacterAnimations>
+			<OutfitStandingAnimations>
+				<Link parentLink="T" id="7" tableId="9" LinkAny="F"/>
+				<Link parentLink="T" id="8" tableId="9" LinkAny="F"/>
+				<Link parentLink="T" id="9" tableId="9" LinkAny="F"/>
+				<Link parentLink="T" id="10" tableId="9" LinkAny="F"/>
+			</OutfitStandingAnimations>
+			<OutfitModelTextures>
+			</OutfitModelTextures>
+			<OutfitModelFiles>
+			</OutfitModelFiles>
+			<OutfitTurnAnimations>
+			</OutfitTurnAnimations>
+		</Outfit>
+	</Outfits>
+	<Languages newId="2" versionedId="-1" tableId="18">
+		<Language name="English" id="0" order="0" lastModified="-1">
+		</Language>
+		<Language name="Spanish" id="1" order="1" lastModified="-1">
+		</Language>
+	</Languages>
+	<Values newId="2" versionedId="-1" tableId="20">
+		<Value name="resolution?" id="0" order="0" lastModified="-1" ValueInt="0" ValueRandom="F" ValueRandomMin="-1" ValueRandomMax="-1" ValueString="" ValueFloat="0.000000">
+		</Value>
+		<Value name="language?" id="1" order="1" lastModified="-1" ValueInt="0" ValueRandom="F" ValueRandomMin="-1" ValueRandomMax="-1" ValueString="" ValueFloat="0.000000">
+		</Value>
+	</Values>
+	<Particles newId="0" versionedId="-1" tableId="22">
+	</Particles>
+	<ParticleContainers newId="0" versionedId="-1" tableId="23">
+	</ParticleContainers>
+	<CommentSetEntries newId="0" versionedId="-1" tableId="27">
+	</CommentSetEntries>
+	<AnimationFrames newId="0" versionedId="-1" tableId="28">
+	</AnimationFrames>
+	<WaySystems newId="1" versionedId="-1" tableId="29">
+		<WaySystem name="normal" id="0" order="0" lastModified="-1">
+			<WaySystemBorder>
+				<point x="6" y="963"/>
+				<point x="876" y="864"/>
+				<point x="980" y="899"/>
+				<point x="973" y="997"/>
+				<point x="1157" y="1076"/>
+				<point x="3" y="1078"/>
+			</WaySystemBorder>
+			<WaySystemPoints>
+			</WaySystemPoints>
+		</WaySystem>
+	</WaySystems>
+	<Scripts newId="4" versionedId="-1" tableId="30">
+		<Script name="read_ini" id="0" order="0" lastModified="-1" ScriptScript="-- * globals * -- (used by read_ini and delete_ini)&lt;br/&gt;    local iniFilename = 'config.ini'&lt;br/&gt;    local iniFile = io.open(iniFilename, 'r')&lt;br/&gt;     &lt;br/&gt;    -- * retrieves game settings from config.ini + sets condit?ions | values appropriately! * --&lt;br/&gt;    function read_ini()&lt;br/&gt;     &lt;br/&gt;    -- * locals * --&lt;br/&gt;    local r_fullscreen = getObject('Scenes[options_menu].SceneConditions[fullscreen?]')&lt;br/&gt;    local r_resolution = getObject('Scenes[options_menu].SceneValues[resolution?]')&lt;br/&gt;    local r_language = getObject('Scenes[options_menu].SceneValues[language?]')&lt;br/&gt;     &lt;br/&gt;    -- * script * --&lt;br/&gt;     if iniFile then&lt;br/&gt;     local line = iniFile:read()&lt;br/&gt;     print('-- * --')&lt;br/&gt;     print(iniFilename .. ' exists!')&lt;br/&gt;     print('retrieving settings from ' .. iniFilename .. '!')&lt;br/&gt;     for line in io.lines(iniFilename) do&lt;br/&gt;    -- * begin if else * --&lt;br/&gt;      if line == 'Fullscreen = No' then&lt;br/&gt;       r_fullscreen:setValue(VConditionValue, false)&lt;br/&gt;       print('fullscreen mode is off!')&lt;br/&gt;      else&lt;br/&gt;      if line == 'Fullscreen = Yes' then&lt;br/&gt;       r_fullscreen:setValue(VConditionValue, true)&lt;br/&gt;       print('fullscreen mode is on!')&lt;br/&gt;      end end&lt;br/&gt;    -- * --&lt;br/&gt;      if line == 'Resolution = Auto' then&lt;br/&gt;       r_resolution:setValue(VValueInt, 0)&lt;br/&gt;       print('resolution is set to auto!')&lt;br/&gt;      else&lt;br/&gt;      if line == 'Resolution = 1920x1080' then&lt;br/&gt;       r_resolution:setValue(VValueInt, 3)&lt;br/&gt;       print('resolution is currently set at 1920x1080!')&lt;br/&gt;      else&lt;br/&gt;      if line == 'Resolution = 1280x720' then&lt;br/&gt;       r_resolution:setValue(VValueInt, 2)&lt;br/&gt;       print('resolution is currently set at 1280x720!')&lt;br/&gt;      else&lt;br/&gt;      if line == 'Resolution = 1600x1200' then&lt;br/&gt;       r_resolution:setValue(VValueInt, 1)&lt;br/&gt;       print('resolution is currently set at 1600x1200!')&lt;br/&gt;      end end end end&lt;br/&gt;    -- * --&lt;br/&gt;      if line == 'Language = English' then&lt;br/&gt;       r_language:setValue(VValueInt, 0)&lt;br/&gt;       print('Language is currently set to English!')&lt;br/&gt;      else&lt;br/&gt;      if line == 'Language = Spanish' then&lt;br/&gt;       r_language:setValue(VValueInt, 1)&lt;br/&gt;       print('Language is currently set to Spanish!')&lt;br/&gt;      else&lt;br/&gt;      if line == 'Language = Catalan' then&lt;br/&gt;       r_language:setValue(VValueInt, 2)&lt;br/&gt;       print('Language is currently set to Catalan!')&lt;br/&gt;      end end end&lt;br/&gt;      end&lt;br/&gt;       iniFile:close()&lt;br/&gt;       print('successfully retrieved settings from ' .. iniFilename .. '!')&lt;br/&gt;       print('-- * --')&lt;br/&gt;    -- * end if else * --&lt;br/&gt;     else&lt;br/&gt;      print(iniFilename  .. ' does not exist!')&lt;br/&gt;     end&lt;br/&gt;    end&lt;br/&gt;     &lt;br/&gt;    -- * removes the config.ini file so we can replace it with the temporary file! (only called if we have edited any of the settings) * --&lt;br/&gt;    function delete_ini()&lt;br/&gt;    if iniFile then&lt;br/&gt;     os.remove(iniFilename)&lt;br/&gt;    else&lt;br/&gt;    end&lt;br/&gt;    end" ScriptType="1">
+		</Script>
+		<Script name="write_ini" id="1" order="1" lastModified="-1" ScriptScript=" -- * creates a temporary file to store edited settings which is renamed once the original config.ini file has been removed! * --&lt;br/&gt;    function save_ini()&lt;br/&gt;     &lt;br/&gt;    -- * locals * --&lt;br/&gt;    local newIniFilename = 'config.ini.bak'&lt;br/&gt;    local newIniFile = io.open(newIniFilename, 'w')&lt;br/&gt;     &lt;br/&gt;    local fullscreen = getObject('Conditions[fullscreen?]'):getBool(VConditionValue)&lt;br/&gt;    local resolution = getObject('Values[resolution?]'):getInt(VValueInt)&lt;br/&gt;    local language = getObject('Values[language?]'):getInt(VValueInt)&lt;br/&gt;     &lt;br/&gt;    -- * convert resolution integer into a string * --&lt;br/&gt;    local res_str = 0&lt;br/&gt;    if resolution == 1 then res_str = '1600x1200'&lt;br/&gt;    else&lt;br/&gt;    if resolution == 2 then res_str = '1280x720'&lt;br/&gt;    else&lt;br/&gt;    if resolution == 3 then res_str = '1920x1080'&lt;br/&gt;    end end end&lt;br/&gt;     &lt;br/&gt;    -- * convert language integer into a string * --&lt;br/&gt;    local lang_str = 0&lt;br/&gt;    if language == 0 then lang_str = 'English'&lt;br/&gt;    else&lt;br/&gt;    if language == 1 then lang_str = 'Spanish'&lt;br/&gt;    else&lt;br/&gt;    if language == 2 then lang_str = 'Catalan'&lt;br/&gt;    end end end&lt;br/&gt;  &lt;br/&gt;    -- * write the data file * --&lt;br/&gt;    newIniFile:write('File = austranlia.vis\n')&lt;br/&gt;     &lt;br/&gt;    -- *  write the comments for fullscreen section! * --&lt;br/&gt;    newIniFile:write('# Fullscreen = {Yes|No}\n')&lt;br/&gt;    newIniFile:write('# Yes - starts the game in fullscreen\n')&lt;br/&gt;    newIniFile:write('# No - starts the game in a window\n')&lt;br/&gt;     &lt;br/&gt;    if fullscreen then&lt;br/&gt;     newIniFile:write('Fullscreen = Yes\n')&lt;br/&gt;     &lt;br/&gt;    -- * write comments for the resolution section! * --&lt;br/&gt;     newIniFile:write('#\n')&lt;br/&gt;     newIniFile:write('# Resolution = {Auto|Desktop|Custom}\n')&lt;br/&gt;     newIniFile:write('# Auto - wide-screen support is activated if a wide-screen display is detected\n')&lt;br/&gt;     newIniFile:write('# Desktop - current desktop resolution is used when game is started in full screen mode\n')&lt;br/&gt;     newIniFile:write('# Custom - enter a custom value eg: Resolution = 1920x1080\n')&lt;br/&gt;     &lt;br/&gt;    newIniFile:write('Resolution = Auto\n')&lt;br/&gt;    else&lt;br/&gt;     newIniFile:write('Fullscreen = No\n')&lt;br/&gt;     &lt;br/&gt;    -- * write comments for the resolution section! * --&lt;br/&gt;     newIniFile:write('#\n')&lt;br/&gt;     newIniFile:write('# Resolution = {Auto|Desktop|Custom}\n')&lt;br/&gt;     newIniFile:write('# Auto - wide-screen support is activated if a wide-screen display is detected\n')&lt;br/&gt;     newIniFile:write('# Desktop - current desktop resolution is used when game is started in full screen mode\n')&lt;br/&gt;     newIniFile:write('# Custom - enter a custom value eg: Resolution = 1920x1080\n')&lt;br/&gt;     &lt;br/&gt;    newIniFile:write('Resolution = ' .. res_str .. '\n')&lt;br/&gt;    end&lt;br/&gt;     &lt;br/&gt;    -- * write comments for the language section! * --&lt;br/&gt;     newIniFile:write('#\n')&lt;br/&gt;     newIniFile:write('# Language = {English|German|Spanish}\n')&lt;br/&gt;     newIniFile:write('# this will display subtitles in the specified language and will play the appropriate voice sample if available\n')&lt;br/&gt;     newIniFile:write('# default voice samples are in English\n')&lt;br/&gt;     &lt;br/&gt;    newIniFile:write('Language = ' .. lang_str .. '\n')&lt;br/&gt; &lt;br/&gt;    -- * write comments for the special fx section! * --&lt;br/&gt;     newIniFile:write('#\n')&lt;br/&gt;     newIniFile:write('# SFX = {Yes|No}\n')&lt;br/&gt;     newIniFile:write('# Yes - allow users to change animation and fx quality\n')&lt;br/&gt;     newIniFile:write('# No - only show the basic required game special fx and animations\n')&lt;br/&gt;     &lt;br/&gt;    -- * write comments for log section! * --&lt;br/&gt;     newIniFile:write('#\n')&lt;br/&gt;     newIniFile:write('# LogLevel = {Info|Warning|Error}\n')&lt;br/&gt;     &lt;br/&gt;    newIniFile:write('LogLevel = Error\n')&lt;br/&gt;     &lt;br/&gt;    -- * write comments for volume section! * --&lt;br/&gt;     newIniFile:write('#\n')&lt;br/&gt;     newIniFile:write('# MusicVolume|SoundVolume|SpeechVolume = int value {0-100}\n')&lt;br/&gt;     &lt;br/&gt;    -- * close the ini file! * --&lt;br/&gt;    newIniFile:close()&lt;br/&gt;     &lt;br/&gt;    -- * rename config.ini.bak to config.ini! * --&lt;br/&gt;    if os.rename(newIniFilename, 'config.ini') then&lt;br/&gt;     print(newIniFilename .. ' was sucessfully renamed to config.ini!')&lt;br/&gt;     print('saving new settings to config.ini!')&lt;br/&gt;    else&lt;br/&gt;     print('renaming ' .. newIniFilename .. ' to config.ini was unsuccessful!')&lt;br/&gt;    end&lt;br/&gt;     &lt;br/&gt;    -- * print various statements to the log file! * --&lt;br/&gt;    if fullscreen then&lt;br/&gt;     print('fullscreen has been set to on!')&lt;br/&gt;     print('resolution has been set to auto!')&lt;br/&gt;    else&lt;br/&gt;     print('fullscreen has been set to off!')&lt;br/&gt;     print('resolution has been set to ' .. res_str .. '!')&lt;br/&gt;    end&lt;br/&gt; &lt;br/&gt;    print('language has been set to ' .. lang_str .. '!')&lt;br/&gt;&lt;br/&gt;    print('new settings have successfully been saved to config.ini!') &lt;br/&gt;    print('-- * --')&lt;br/&gt; &lt;br/&gt;    end" ScriptType="1">
+		</Script>
+		<Script name="inventory_slide" id="2" order="2" lastModified="-1" ScriptScript="--[[&lt;br/&gt;Deponia Based Sliding Interface [v4] (18/03/2013)&lt;br/&gt;Written by AFRLme [Lee Clarke]&lt;br/&gt;-- + --&lt;br/&gt;alternatingfrequencies@hotmail.com | skype @ AFRLme&lt;br/&gt;-- + --&lt;br/&gt;This script is donation optional. In game credit is non-negotiable.&lt;br/&gt;You are free to: ¹ use it in your game(s). ² modify the script.&lt;br/&gt;Do not remove - or edit - this comment block.&lt;br/&gt;--]]&lt;br/&gt; &lt;br/&gt;-- * local variables * --&lt;br/&gt;local getInterface = getObject(&quot;Interfaces[inventory]&quot;) -- stores interface into a variable (replace &quot;inventory&quot; with your interface name)&lt;br/&gt; &lt;br/&gt;local minOffset = {x = 560, y = 1055} -- replace min offset values with current x,y absolute position of your interface&lt;br/&gt;local maxOffset = {x = 560, y = 910} -- replace max offset values with the x,y values that you want the interface to slide to&lt;br/&gt;local mwOffset = 0 -- this should be same value or slightly larger than the overlap amount of minOffset&lt;br/&gt;local checkOffset = getInterface:getPoint(VInterfaceOffset) -- stores current position of interface on start&lt;br/&gt; &lt;br/&gt;local inSpeed = 5 -- replace &quot;1&quot; with x number of squares you want interface to move back to start position on each loop&lt;br/&gt;local outSpeed = 5 -- replace &quot;2&quot; with x number of squares you want interface to move to max position on each loop&lt;br/&gt; &lt;br/&gt;local slideDirection = 4 -- set direction interface should slide from (1 = left, 2 = top, 3 = right, 4 = bottom) &lt;br/&gt; &lt;br/&gt;local hover = getObject(&quot;Conditions[hover]&quot;) -- store hover condition&lt;br/&gt;local mwheel = getObject(&quot;Conditions[mwheel]&quot;) -- store mouse mwheel condition&lt;br/&gt; &lt;br/&gt;-- * global variables * --&lt;br/&gt;mwUp = 0 -- this controls if mouse wheel up or down has been executed; by default &quot;0&quot; = nil (!important: do not edit)&lt;br/&gt; &lt;br/&gt;-- * function that moves the linked interface * --&lt;br/&gt;function intSlide()&lt;br/&gt; -- * let's create the on mouse over code * --&lt;br/&gt; if hover:getBool(VConditionValue) and not mwheel:getBool(VConditionValue) then -- check if &quot;hover&quot; = true &amp; &quot;mwheel&quot; = false&lt;br/&gt;  if mwUp ~= 0 then mwUp = 0 end -- check if mouse wheel is active; if it is, then set inactive&lt;br/&gt;  -- * let's slide the x position of the interface based on slideDirection (out) * --&lt;br/&gt;  if (slideDirection == 1 or slideDirection == 2) and checkOffset.x &lt; maxOffset.x then checkOffset.x = checkOffset.x + outSpeed setIntPos() end&lt;br/&gt;  if (slideDirection == 1 or slideDirection == 2) and checkOffset.x &gt; maxOffset.x then checkOffset.x = maxOffset.x setIntPos() end&lt;br/&gt;  if (slideDirection == 3 or slideDirection == 4) and checkOffset.x &gt; maxOffset.x then checkOffset.x = checkOffset.x - outSpeed setIntPos() end&lt;br/&gt;  if (slideDirection == 3 or slideDirection == 4) and checkOffset.x &lt; maxOffset.x then checkOffset.x = maxOffset.x setIntPos() end&lt;br/&gt;  -- * let's slide the y position of the interface based on SlideDirection (out) * --&lt;br/&gt;  if (slideDirection == 1 or slideDirection == 2) and checkOffset.y &lt; maxOffset.y then checkOffset.y = checkOffset.y + outSpeed setIntPos() end&lt;br/&gt;  if (slideDirection == 1 or slideDirection == 2) and checkOffset.y &gt; maxOffset.y then checkOffset.y = maxOffset.y setIntPos() end&lt;br/&gt;  if (slideDirection == 3 or slideDirection == 4) and checkOffset.y &gt; maxOffset.y then checkOffset.y = checkOffset.y - outSpeed setIntPos()  end&lt;br/&gt;  if (slideDirection == 3 or slideDirection == 4) and checkOffset.y &lt; maxOffset.y then checkOffset.y = maxOffset.y setIntPos() end&lt;br/&gt; elseif not hover:getBool(VConditionValue) and not mwheel:getBool(VConditionValue) then&lt;br/&gt;  if mwUp ~= 0 then mwUp = 0 end -- check if mouse wheel is active; if it is, then set inactive&lt;br/&gt;  -- * let's slide the x position of the interface based on slideDirection (in) * --&lt;br/&gt;  if (slideDirection == 1 or slideDirection == 2) and checkOffset.x &gt; minOffset.x then checkOffset.x = checkOffset.x - inSpeed setIntPos() end&lt;br/&gt;  if (slideDirection == 1 or slideDirection == 2) and checkOffset.x &lt; minOffset.x then checkOffset.x = minOffset.x setIntPos() end&lt;br/&gt;  if (slideDirection == 3 or slideDirection == 4) and checkOffset.x &lt; minOffset.x then checkOffset.x = checkOffset.x + inSpeed setIntPos() end&lt;br/&gt;  if (slideDirection == 3 or slideDirection == 4) and checkOffset.x &gt; minOffset.x then checkOffset.x = minOffset.x setIntPos() end&lt;br/&gt;  -- * let's slide the y position of the interface based on SlideDirection (in) * --&lt;br/&gt;  if (slideDirection == 1 or slideDirection == 2) and checkOffset.y &gt; minOffset.y then checkOffset.y = checkOffset.y - inSpeed setIntPos() end&lt;br/&gt;  if (slideDirection == 1 or slideDirection == 2) and checkOffset.y &lt; minOffset.y then checkOffset.y = minOffset.y setIntPos() end&lt;br/&gt;  if (slideDirection == 3 or slideDirection == 4) and checkOffset.y &lt; minOffset.y then checkOffset.y = checkOffset.y + inSpeed setIntPos() end&lt;br/&gt;  if (slideDirection == 3 or slideDirection == 4) and checkOffset.y &gt; minOffset.y then checkOffset.y = minOffset.y setIntPos() end&lt;br/&gt; end&lt;br/&gt; -- * let's create the mouse wheel code * --&lt;br/&gt; if not hover:getBool(VConditionValue) and mwheel:getBool(VConditionValue) and mwUp == 1 then -- check if mouse wheel up has been rotated&lt;br/&gt;  -- * let's slide the x position of the interface based on slideDirection (out) * --&lt;br/&gt;  if (slideDirection == 1 or slideDirection == 2) and checkOffset.x &lt; maxOffset.x then checkOffset.x = checkOffset.x + outSpeed setIntPos() end&lt;br/&gt;  if (slideDirection == 1 or slideDirection == 2) and checkOffset.x &gt; maxOffset.x then checkOffset.x = maxOffset.x setIntPos() end&lt;br/&gt;  if (slideDirection == 3 or slideDirection == 4) and checkOffset.x &gt; maxOffset.x then checkOffset.x = checkOffset.x - outSpeed setIntPos() end&lt;br/&gt;  if (slideDirection == 3 or slideDirection == 4) and checkOffset.x &lt; maxOffset.x then checkOffset.x = maxOffset.x setIntPos() end&lt;br/&gt;  -- * let's slide the y position of the interface based on SlideDirection (out) * --&lt;br/&gt;  if (slideDirection == 1 or slideDirection == 2) and checkOffset.y &lt; maxOffset.y then checkOffset.y = checkOffset.y + outSpeed setIntPos() end&lt;br/&gt;  if (slideDirection == 1 or slideDirection == 2) and checkOffset.y &gt; maxOffset.y then checkOffset.y = maxOffset.y setIntPos() end&lt;br/&gt;  if (slideDirection == 3 or slideDirection == 4) and checkOffset.y &gt; maxOffset.y then checkOffset.y = checkOffset.y - outSpeed setIntPos()  end&lt;br/&gt;  if (slideDirection == 3 or slideDirection == 4) and checkOffset.y &lt; maxOffset.y then checkOffset.y = maxOffset.y setIntPos() end&lt;br/&gt; end&lt;br/&gt; if not hover:getBool(VConditionValue) and mwheel:getBool(VConditionValue) and mwUp == 2 then -- check if mouse wheel down has been rotated&lt;br/&gt;  -- * let's slide the x position of the interface based on slideDirection (in) * --&lt;br/&gt;  if slideDirection == 1 and checkOffset.x &gt; minOffset.x - mwOffset then checkOffset.x = checkOffset.x - inSpeed setIntPos() end&lt;br/&gt;  if slideDirection == 1 and checkOffset.x &lt; minOffset.x - mwOffset then checkOffset.x = minOffset.x - mwOffset setIntPos() end&lt;br/&gt;  if slideDirection == 2 and checkOffset.x &gt; minOffset.x then checkOffset.x = checkOffset.x - inSpeed setIntPos() end&lt;br/&gt;  if slideDirection == 2 and checkOffset.x &lt; minOffset.x then checkOffset.x = minOffset.x setIntPos() end&lt;br/&gt;  if slideDirection == 3 and checkOffset.x &lt; minOffset.x + mwOffset then checkOffset.x = checkOffset.x + inSpeed setIntPos() end&lt;br/&gt;  if slideDirection == 3 and checkOffset.x &gt; minOffset.x + mwOffset then checkOffset.x = minOffset.x + mwOffset setIntPos() end&lt;br/&gt;  if slideDirection == 4 and checkOffset.x &lt; minOffset.x then checkOffset.x = checkOffset.x + inSpeed setIntPos() end&lt;br/&gt;  if slideDirection == 4 and checkOffset.x &gt; minOffset.x then checkOffset.x = minOffset.x setIntPos() end&lt;br/&gt;  -- * let's slide the y position of the interface based on SlideDirection (in) * --&lt;br/&gt;  if slideDirection == 1 and checkOffset.y &gt; minOffset.y then checkOffset.y = checkOffset.y - inSpeed setIntPos() end&lt;br/&gt;  if slideDirection == 1 and checkOffset.y &lt; minOffset.y then checkOffset.y = minOffset.y setIntPos() end&lt;br/&gt;  if slideDirection == 2 and checkOffset.y &gt; minOffset.y - mwOffset then checkOffset.y = checkOffset.y - inSpeed setIntPos() end&lt;br/&gt;  if slideDirection == 2 and checkOffset.y &lt; minOffset.y - mwOffset then checkOffset.y = minOffset.y - mwOffset setIntPos() end&lt;br/&gt;  if slideDirection == 3 and checkOffset.y &lt; minOffset.y then checkOffset.y = checkOffset.y + inSpeed setIntPos() end&lt;br/&gt;  if slideDirection == 3 and checkOffset.y &gt; minOffset.y then checkOffset.y = minOffset.y setIntPos() end&lt;br/&gt;  if slideDirection == 4 and checkOffset.y &lt; minOffset.y + mwOffset then checkOffset.y = checkOffset.y + inSpeed setIntPos() end&lt;br/&gt;  if slideDirection == 4 and checkOffset.y &gt; minOffset.y + mwOffset then checkOffset.y = minOffset.y + mwOffset setIntPos() end&lt;br/&gt; end&lt;br/&gt;end&lt;br/&gt; &lt;br/&gt; -- * updates the current position of the interface * --&lt;br/&gt;function setIntPos()&lt;br/&gt; getInterface:setValue(VInterfaceOffset, checkOffset)&lt;br/&gt;end&lt;br/&gt; &lt;br/&gt;-- * let's check if mouse wheel mode = true; if true then hide the interface else overlap interface slightly * --&lt;br/&gt;function mwMode()&lt;br/&gt; if mwheel:getBool(VConditionValue) then&lt;br/&gt;  if slideDirection == 1 then checkOffset = {x = minOffset.x - mwOffset, y = minOffset.y} setIntPos() end&lt;br/&gt;  if slideDirection == 2 then checkOffset = {x = minOffset.x, y = minOffset.y - mwOffset} setIntPos() end&lt;br/&gt;  if slideDirection == 3 then checkOffset = {x = minOffset.x + mwOffset, y = minOffset.y} setIntPos() end&lt;br/&gt;  if slideDirection == 4 then checkOffset = {x = minOffset.x, y = minOffset.y + mwOffset} setIntPos() end&lt;br/&gt; else&lt;br/&gt;  checkOffset = {x = minOffset.x, y = minOffset.y}&lt;br/&gt;  setIntPos()&lt;br/&gt; end&lt;br/&gt;end" ScriptType="1">
+		</Script>
+		<Script name="event_inventory_slide" id="3" order="3" lastModified="-1" ScriptScript="-- * this is the mainLoop event function (all loop events &amp; functions for looping should be added or linked here) * --&lt;br/&gt;function onMainLoop()&lt;br/&gt; intSlide() -- loop the function which checks if interface should be sliding in, out or at default position!&lt;br/&gt;end&lt;br/&gt; &lt;br/&gt;-- * this is the mouse event listener! (all mouse events &amp; functions should be added or linked here) * --&lt;br/&gt;function onMouseEvent(eventType)&lt;br/&gt; if not getObject(&quot;Conditions[mwtoggle]&quot;):getBool(VConditionValue) then -- if toggle is false then set default&lt;br/&gt;  if eventType == eEvtMouseWheelUp then mwUp = 1 end&lt;br/&gt;  if eventType == eEvtMouseWheelDown then mwUp = 2 end&lt;br/&gt; else -- invert mouse wheel&lt;br/&gt;  if eventType == eEvtMouseWheelUp then mwUp = 2 end&lt;br/&gt;  if eventType == eEvtMouseWheelDown then mwUp = 1 end&lt;br/&gt; end&lt;br/&gt;end&lt;br/&gt; &lt;br/&gt;-- * let's create the mouse event listener! * --&lt;br/&gt;registerEventHandler(&quot;mouseEvent&quot;, &quot;onMouseEvent&quot;, {eEvtMouseWheelUp, eEvtMouseWheelDown})&lt;br/&gt;-- * let's create the loop event handler! * --&lt;br/&gt;registerEventHandler(&quot;mainLoop&quot;, &quot;onMainLoop&quot;)" ScriptType="1">
+		</Script>
+	</Scripts>
+	<InterfaceClasses newId="5" versionedId="-1" tableId="31">
+		<InterfaceClass name="Main interface" id="0" order="0" lastModified="-1" InterfaceClassName="MainInterface">
+		</InterfaceClass>
+		<InterfaceClass name="Inventory" id="1" order="1" lastModified="-1" InterfaceClassName="Inventory">
+		</InterfaceClass>
+		<InterfaceClass name="Secondary interface" id="2" order="2" lastModified="-1" InterfaceClassName="SecondaryInterface">
+		</InterfaceClass>
+		<InterfaceClass name="Options interface" id="3" order="3" lastModified="-1" InterfaceClassName="OptionsInterface">
+		</InterfaceClass>
+		<InterfaceClass name="Miscellaneous" id="4" order="4" lastModified="-1" InterfaceClassName="Miscellaneous">
+		</InterfaceClass>
+	</InterfaceClasses>
+	<ActionAreas newId="0" versionedId="-1" tableId="32">
+	</ActionAreas>
+	<AreaActions newId="0" versionedId="-1" tableId="33">
+	</AreaActions>
+	<Shaders newId="0" versionedId="-1" tableId="36">
+	</Shaders>
+	<AudioBusses newId="3" versionedId="-1" tableId="37">
+		<AudioBus name="eMusicVolume" id="0" order="0" lastModified="-1" AudioBusType="1" AudioBusSettings="">
+			<AudioBusLinks>
+			</AudioBusLinks>
+			<AudioBusValues>
+			</AudioBusValues>
+			<AudioBusEvents>
+			</AudioBusEvents>
+			<AudioBusOutputBus parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AudioBusLinkedObjects>
+			</AudioBusLinkedObjects>
+		</AudioBus>
+		<AudioBus name="eSoundVolume" id="1" order="1" lastModified="-1" AudioBusType="1" AudioBusSettings="">
+			<AudioBusLinks>
+			</AudioBusLinks>
+			<AudioBusValues>
+			</AudioBusValues>
+			<AudioBusEvents>
+			</AudioBusEvents>
+			<AudioBusOutputBus parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AudioBusLinkedObjects>
+			</AudioBusLinkedObjects>
+		</AudioBus>
+		<AudioBus name="eSpeechVolume" id="2" order="2" lastModified="-1" AudioBusType="1" AudioBusSettings="">
+			<AudioBusLinks>
+			</AudioBusLinks>
+			<AudioBusValues>
+			</AudioBusValues>
+			<AudioBusEvents>
+			</AudioBusEvents>
+			<AudioBusOutputBus parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AudioBusLinkedObjects>
+			</AudioBusLinkedObjects>
+		</AudioBus>
+	</AudioBusses>
+	<Events newId="0" versionedId="-1" tableId="38">
+	</Events>
+	<Plugins newId="0" versionedId="-1" tableId="39">
+	</Plugins>
+	<BlockContainers newId="0" versionedId="-1" tableId="40">
+	</BlockContainers>
+	<Blocks newId="0" versionedId="-1" tableId="41">
+	</Blocks>
+</VisionaireAdventure>
