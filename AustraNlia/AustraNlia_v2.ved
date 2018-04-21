@@ -683,7 +683,7 @@
 		</Action>
 	</Actions>
 	<ActionParts newId="8" versionedId="-1" tableId="8">
-		<ActionPart name="Play video 'logo_screen.mkv'" id="0" order="0" lastModified="-1" ActionPartCommand="66" ActionPartPath="Assets/Video/logo_screen.mkv" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Play video 'logo_screen.mov'" id="0" order="0" lastModified="-1" ActionPartCommand="66" ActionPartPath="Assets\Video\logo_screen.mov" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
