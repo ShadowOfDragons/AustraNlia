@@ -34,7 +34,7 @@
 			<Link parentLink="T" id="0" tableId="18" LinkAny="F"/>
 			<Link parentLink="T" id="1" tableId="18" LinkAny="F"/>
 		</GameLanguages>
-		<GameFirstScene parentLink="F" id="0" tableId="4" LinkAny="F"/>
+		<GameFirstScene parentLink="F" id="2" tableId="4" LinkAny="F"/>
 		<GameItems>
 		</GameItems>
 		<GameLoading parentLink="T" id="0" tableId="21" LinkAny="F"/>
@@ -834,6 +834,11 @@
 			<SceneObjects>
 				<Link parentLink="T" id="0" tableId="6" LinkAny="F"/>
 				<Link parentLink="T" id="34" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="35" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="36" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="37" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="38" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="39" tableId="6" LinkAny="F"/>
 			</SceneObjects>
 			<SceneCursor parentLink="F" id="0" tableId="15" LinkAny="F"/>
 			<SceneSavegameAreas>
@@ -846,6 +851,7 @@
 				<Link parentLink="T" id="0" tableId="10" LinkAny="F"/>
 				<Link parentLink="T" id="1" tableId="10" LinkAny="F"/>
 				<Link parentLink="T" id="2" tableId="10" LinkAny="F"/>
+				<Link parentLink="T" id="13" tableId="10" LinkAny="F"/>
 			</SceneConditions>
 			<SceneActions>
 				<Link parentLink="T" id="26" tableId="7" LinkAny="F"/>
@@ -926,8 +932,10 @@
 			<SceneParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<SceneScrollableArea top="0" left="0" bottom="-1" right="-1"/>
 			<SceneWaySystems>
+				<Link parentLink="T" id="1" tableId="29" LinkAny="F"/>
+				<Link parentLink="T" id="2" tableId="29" LinkAny="F"/>
 			</SceneWaySystems>
-			<SceneCurrentWaySystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneCurrentWaySystem parentLink="F" id="1" tableId="29" LinkAny="F"/>
 			<SceneActionAreas>
 			</SceneActionAreas>
 			<SceneAudioBusses>
@@ -1005,8 +1013,8 @@
 	</Scenes>
 	<Points newId="0" versionedId="-1" tableId="5">
 	</Points>
-	<Objects newId="35" versionedId="9" tableId="6">
-		<Object name="opt_tablet" id="0" order="1" lastModified="1" ObjectDirection="-1" ObjectCenter="1080" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+	<Objects newId="40" versionedId="9" tableId="6">
+		<Object name="opt_tablet" id="0" order="6" lastModified="1" ObjectDirection="-1" ObjectCenter="1080" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="5" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -1015,6 +1023,7 @@
 			<ObjectAnimation parentLink="F" id="104" tableId="9" LinkAny="F"/>
 			<ObjectActions>
 				<Link parentLink="T" id="25" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="32" tableId="7" LinkAny="F"/>
 			</ObjectActions>
 			<ObjectConditions>
 			</ObjectConditions>
@@ -1252,6 +1261,7 @@
 			<ObjectActions>
 				<Link parentLink="T" id="21" tableId="7" LinkAny="F"/>
 				<Link parentLink="T" id="22" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="31" tableId="7" LinkAny="F"/>
 			</ObjectActions>
 			<ObjectConditions>
 				<Link parentLink="T" id="11" tableId="10" LinkAny="F"/>
@@ -1430,7 +1440,7 @@
 			</ObjectAnimations>
 			<ObjectValues>
 			</ObjectValues>
-			<ObjectPosition x="424" y="864"/>
+			<ObjectPosition x="500" y="864"/>
 			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
@@ -1808,8 +1818,151 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
+		<Object name="english_button" id="35" order="1" lastModified="1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+			<ObjectName parentLink="T" id="85" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+				<point x="1302" y="444"/>
+				<point x="1618" y="446"/>
+				<point x="1614" y="550"/>
+				<point x="1310" y="546"/>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+				<Link parentLink="T" id="33" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="34" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="35" tableId="7" LinkAny="F"/>
+			</ObjectActions>
+			<ObjectConditions>
+				<Link parentLink="T" id="14" tableId="10" LinkAny="F"/>
+			</ObjectConditions>
+			<ObjectAnimations>
+				<Link parentLink="T" id="109" tableId="9" LinkAny="F"/>
+				<Link parentLink="T" id="110" tableId="9" LinkAny="F"/>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Object>
+		<Object name="castellano_button" id="36" order="2" lastModified="1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+			<ObjectName parentLink="T" id="91" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+				<point x="1310" y="594"/>
+				<point x="1626" y="598"/>
+				<point x="1628" y="691"/>
+				<point x="1302" y="691"/>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+				<Link parentLink="T" id="36" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="37" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="38" tableId="7" LinkAny="F"/>
+			</ObjectActions>
+			<ObjectConditions>
+				<Link parentLink="T" id="15" tableId="10" LinkAny="F"/>
+			</ObjectConditions>
+			<ObjectAnimations>
+				<Link parentLink="T" id="111" tableId="9" LinkAny="F"/>
+				<Link parentLink="T" id="112" tableId="9" LinkAny="F"/>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Object>
+		<Object name="1920_button" id="37" order="3" lastModified="1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+			<ObjectName parentLink="T" id="125" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+				<Link parentLink="T" id="39" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="40" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="41" tableId="7" LinkAny="F"/>
+			</ObjectActions>
+			<ObjectConditions>
+				<Link parentLink="T" id="18" tableId="10" LinkAny="F"/>
+			</ObjectConditions>
+			<ObjectAnimations>
+				<Link parentLink="T" id="113" tableId="9" LinkAny="F"/>
+				<Link parentLink="T" id="114" tableId="9" LinkAny="F"/>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Object>
+		<Object name="1280_button" id="38" order="4" lastModified="1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+			<ObjectName parentLink="T" id="126" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+				<Link parentLink="T" id="45" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="46" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="47" tableId="7" LinkAny="F"/>
+			</ObjectActions>
+			<ObjectConditions>
+				<Link parentLink="T" id="17" tableId="10" LinkAny="F"/>
+			</ObjectConditions>
+			<ObjectAnimations>
+				<Link parentLink="T" id="115" tableId="9" LinkAny="F"/>
+				<Link parentLink="T" id="116" tableId="9" LinkAny="F"/>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Object>
+		<Object name="1600_button" id="39" order="5" lastModified="1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+			<ObjectName parentLink="T" id="127" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+				<Link parentLink="T" id="42" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="43" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="44" tableId="7" LinkAny="F"/>
+			</ObjectActions>
+			<ObjectConditions>
+				<Link parentLink="T" id="16" tableId="10" LinkAny="F"/>
+			</ObjectConditions>
+			<ObjectAnimations>
+				<Link parentLink="T" id="117" tableId="9" LinkAny="F"/>
+				<Link parentLink="T" id="118" tableId="9" LinkAny="F"/>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Object>
 	</Objects>
-	<Actions newId="31" versionedId="22" tableId="7">
+	<Actions newId="48" versionedId="22" tableId="7">
 		<Action name="At beginning of scene" id="0" order="0" lastModified="-1" ActionExecutionType="31">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -1902,6 +2055,22 @@
 				<Link parentLink="T" id="113" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="114" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="115" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="228" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="229" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="230" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="231" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="232" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="233" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="234" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="235" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="258" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="259" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="262" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="264" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="265" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="266" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="267" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="268" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Action" id="14" order="14" lastModified="-1" ActionExecutionType="-1">
@@ -1947,6 +2116,31 @@
 				<Link parentLink="T" id="152" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="154" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="155" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="237" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="238" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="239" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="240" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="241" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="242" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="243" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="244" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="245" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="246" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="247" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="269" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="270" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="271" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="272" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="274" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="275" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="276" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="277" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="278" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="279" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="280" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="281" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="282" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="283" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Cursor enters object area" id="15" order="0" lastModified="-1" ActionExecutionType="1">
@@ -2057,6 +2251,7 @@
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionActionParts>
 				<Link parentLink="T" id="210" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="226" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Left click" id="27" order="2" lastModified="1" ActionExecutionType="7">
@@ -2064,6 +2259,7 @@
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionActionParts>
 				<Link parentLink="T" id="211" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="227" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Cursor enters object area" id="28" order="0" lastModified="1" ActionExecutionType="1">
@@ -2091,10 +2287,143 @@
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionActionParts>
 				<Link parentLink="T" id="220" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="222" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="223" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Left click" id="31" order="2" lastModified="1" ActionExecutionType="7">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="221" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="opt_tablet_easing_exit" id="32" order="1" lastModified="1" ActionExecutionType="5">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="224" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Cursor enters object area" id="33" order="0" lastModified="1" ActionExecutionType="1">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="249" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="250" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Cursor leaves object area" id="34" order="1" lastModified="1" ActionExecutionType="2">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="251" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="252" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Left click" id="35" order="2" lastModified="1" ActionExecutionType="7">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="248" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Cursor enters object area" id="36" order="0" lastModified="1" ActionExecutionType="1">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="253" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="255" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Cursor leaves object area" id="37" order="1" lastModified="1" ActionExecutionType="2">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="254" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="256" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Left click" id="38" order="2" lastModified="1" ActionExecutionType="7">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="257" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Cursor enters object area" id="39" order="0" lastModified="1" ActionExecutionType="1">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="292" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="293" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Cursor leaves object area" id="40" order="1" lastModified="1" ActionExecutionType="2">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="294" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="295" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Left click" id="41" order="2" lastModified="1" ActionExecutionType="7">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="296" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="297" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="298" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="299" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="300" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Cursor enters object area" id="42" order="0" lastModified="1" ActionExecutionType="1">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="284" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="285" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Cursor leaves object area" id="43" order="1" lastModified="1" ActionExecutionType="2">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="286" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="287" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Left click" id="44" order="2" lastModified="1" ActionExecutionType="7">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+			</ActionActionParts>
+		</Action>
+		<Action name="Cursor enters object area" id="45" order="0" lastModified="1" ActionExecutionType="1">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="288" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="289" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Cursor leaves object area" id="46" order="1" lastModified="1" ActionExecutionType="2">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="290" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="291" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Left click" id="47" order="2" lastModified="1" ActionExecutionType="7">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
 			</ActionActionParts>
 		</Action>
 	</Actions>
-	<ActionParts newId="221" versionedId="207" tableId="8">
+	<ActionParts newId="301" versionedId="207" tableId="8">
 		<ActionPart name="Play video 'logo_screen.mov'" id="0" order="1" lastModified="-1" ActionPartCommand="66" ActionPartPath="Assets/Video/logo_screen.mov" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -2223,11 +2552,11 @@
 			<ActionPartLink parentLink="F" id="30" tableId="9" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="End if" id="51" order="28" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="End if" id="51" order="29" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="End if" id="52" order="29" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="End if" id="52" order="30" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -2235,7 +2564,7 @@
 			<ActionPartLink parentLink="F" id="0" tableId="18" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="End if" id="54" order="30" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="End if" id="54" order="31" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -2247,95 +2576,95 @@
 			<ActionPartLink parentLink="F" id="6" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="If 'English' is current language" id="58" order="1" lastModified="-1" ActionPartCommand="92" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="If 'English' is current language" id="58" order="2" lastModified="-1" ActionPartCommand="92" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="0" tableId="18" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="If condition 'newgame_hoover' is true" id="59" order="2" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="If condition 'newgame_hoover' is true" id="59" order="18" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="7" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Play animation 'newgame_highlight_eng'" id="60" order="18" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Play animation 'newgame_highlight_eng'" id="60" order="19" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="17" tableId="9" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="End if" id="61" order="20" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="End if" id="61" order="21" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="If condition 'continue_hoover' is true" id="62" order="21" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="If condition 'continue_hoover' is true" id="62" order="22" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="8" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Play animation 'continue_highlight_eng'" id="63" order="22" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Play animation 'continue_highlight_eng'" id="63" order="23" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="20" tableId="9" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="End if" id="64" order="24" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="End if" id="64" order="25" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="If condition 'options_hoover' is true" id="65" order="25" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="If condition 'options_hoover' is true" id="65" order="26" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="9" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Play animation 'options_highlight_eng'" id="66" order="26" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Play animation 'options_highlight_eng'" id="66" order="27" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="23" tableId="9" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="End if" id="67" order="28" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="End if" id="67" order="29" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="If condition 'credits_hoover' is true" id="68" order="29" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="If condition 'credits_hoover' is true" id="68" order="30" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="10" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Play animation 'credits_highlight_eng'" id="69" order="30" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Play animation 'credits_highlight_eng'" id="69" order="31" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="26" tableId="9" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="End if" id="70" order="47" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="End if" id="70" order="48" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="If condition 'exit_hoover' is true" id="71" order="48" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="If condition 'exit_hoover' is true" id="71" order="49" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="11" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Play animation 'exit_highlight_eng'" id="72" order="49" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Play animation 'exit_highlight_eng'" id="72" order="50" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="29" tableId="9" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="End if" id="73" order="51" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="End if" id="73" order="52" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="End if" id="74" order="71" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="End if" id="74" order="72" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="End if" id="75" order="73" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="End if" id="75" order="74" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Hide animation 'newgame_pressed_eng'" id="106" order="19" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="">
+		<ActionPart name="Hide animation 'newgame_pressed_eng'" id="106" order="20" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="">
 			<ActionPartLink parentLink="F" id="18" tableId="9" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Hide animation 'continue_pressed_eng'" id="107" order="23" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="">
+		<ActionPart name="Hide animation 'continue_pressed_eng'" id="107" order="24" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="">
 			<ActionPartLink parentLink="F" id="21" tableId="9" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Hide animation 'options_pressed_eng'" id="108" order="27" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="">
+		<ActionPart name="Hide animation 'options_pressed_eng'" id="108" order="28" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="">
 			<ActionPartLink parentLink="F" id="24" tableId="9" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Hide animation 'credits_pressed_eng'" id="109" order="31" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="">
+		<ActionPart name="Hide animation 'credits_pressed_eng'" id="109" order="47" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="">
 			<ActionPartLink parentLink="F" id="27" tableId="9" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Hide animation 'exit_pressed_eng'" id="110" order="50" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="">
+		<ActionPart name="Hide animation 'exit_pressed_eng'" id="110" order="51" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="">
 			<ActionPartLink parentLink="F" id="30" tableId="9" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -2355,67 +2684,67 @@
 			<ActionPartLink parentLink="F" id="26" tableId="9" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Hide animation 'exit_highlight_eng'" id="115" order="27" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="">
+		<ActionPart name="Hide animation 'exit_highlight_eng'" id="115" order="28" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="">
 			<ActionPartLink parentLink="F" id="29" tableId="9" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="If condition 'newgame_hoover' is false" id="136" order="52" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="If condition 'newgame_hoover' is false" id="136" order="54" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="7" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Hide animation 'newgame_pressed_eng'" id="138" order="54" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="">
+		<ActionPart name="Hide animation 'newgame_pressed_eng'" id="138" order="55" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="">
 			<ActionPartLink parentLink="F" id="18" tableId="9" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="End if" id="139" order="55" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="End if" id="139" order="56" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="If condition 'continue_hoover' is false" id="140" order="56" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="If condition 'continue_hoover' is false" id="140" order="58" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="8" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Hide animation 'continue_pressed_eng'" id="142" order="58" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="">
+		<ActionPart name="Hide animation 'continue_pressed_eng'" id="142" order="59" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="">
 			<ActionPartLink parentLink="F" id="21" tableId="9" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="End if" id="143" order="59" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="End if" id="143" order="60" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="If condition 'options_hoover' is false" id="144" order="60" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="If condition 'options_hoover' is false" id="144" order="62" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="9" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Hide animation 'options_pressed_eng'" id="146" order="62" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="">
+		<ActionPart name="Hide animation 'options_pressed_eng'" id="146" order="63" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="">
 			<ActionPartLink parentLink="F" id="24" tableId="9" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="End if" id="147" order="63" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="End if" id="147" order="64" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="If condition 'credits_hoover' is false" id="148" order="64" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="If condition 'credits_hoover' is false" id="148" order="66" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="10" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Hide animation 'credits_pressed_eng'" id="150" order="66" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="">
+		<ActionPart name="Hide animation 'credits_pressed_eng'" id="150" order="67" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="">
 			<ActionPartLink parentLink="F" id="27" tableId="9" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="End if" id="151" order="67" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="End if" id="151" order="68" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="If condition 'exit_hoover' is false" id="152" order="68" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="If condition 'exit_hoover' is false" id="152" order="70" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="11" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Hide animation 'exit_pressed_eng'" id="154" order="70" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="">
+		<ActionPart name="Hide animation 'exit_pressed_eng'" id="154" order="71" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="">
 			<ActionPartLink parentLink="F" id="30" tableId="9" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="End if" id="155" order="72" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="End if" id="155" order="73" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -2583,11 +2912,11 @@
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Call action 'opt_tablet_easing_enter'" id="210" order="0" lastModified="1" ActionPartCommand="148" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Call action 'opt_tablet_easing_enter'" id="210" order="1" lastModified="1" ActionPartCommand="148" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="25" tableId="7" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Show menu 'options_menu'" id="211" order="0" lastModified="1" ActionPartCommand="46" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Show menu 'options_menu'" id="211" order="1" lastModified="1" ActionPartCommand="46" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="3" tableId="4" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -2623,12 +2952,308 @@
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Show menu 'main_menu'" id="220" order="0" lastModified="1" ActionPartCommand="46" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Show menu 'main_menu'" id="220" order="4" lastModified="1" ActionPartCommand="46" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="2" tableId="4" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
+		<ActionPart name="Quit game" id="221" order="0" lastModified="1" ActionPartCommand="55" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Call action 'opt_tablet_easing_exit'" id="222" order="2" lastModified="1" ActionPartCommand="148" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="local object = Objects[&quot;opt_tablet&quot;]&lt;br/&gt;object:to(1500, {ObjectOffset = {x = -1425, y = 0}}, easeQuintOut)">
+			<ActionPartLink parentLink="F" id="32" tableId="7" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Pause for 1500 milliseconds" id="223" order="3" lastModified="1" ActionPartCommand="30" ActionPartPath="" ActionPartInt="1500" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Execute script 'local object = Objects[&quot;o...'" id="224" order="0" lastModified="1" ActionPartCommand="138" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="local object = Objects[&quot;opt_tablet&quot;]&lt;br/&gt;object:to(1500, {ObjectOffset = {x = 0, y = 0}}, easeQuintOut)">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition 'in_options_menu' to true" id="226" order="0" lastModified="1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="13" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition 'in_main_menu' to false" id="227" order="0" lastModified="1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="6" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If condition 'in_options_menu' is true" id="228" order="32" lastModified="1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="13" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If 'English' is current language" id="229" order="43" lastModified="1" ActionPartCommand="92" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="0" tableId="18" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If condition 'return_hoover' is true" id="230" order="44" lastModified="1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="12" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play animation 'return_pressed_eng'" id="231" order="45" lastModified="1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="106" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide animation 'return_highlight_eng'" id="232" order="46" lastModified="1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="107" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="End if" id="233" order="47" lastModified="1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="End if" id="234" order="48" lastModified="1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="End if" id="235" order="49" lastModified="1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If condition 'in_options_menu' is true" id="237" order="75" lastModified="1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="13" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If 'English' is current language" id="238" order="91" lastModified="1" ActionPartCommand="92" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="0" tableId="18" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If condition 'return_hoover' is true" id="239" order="92" lastModified="1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="12" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play animation 'return_highlight_eng'" id="240" order="93" lastModified="1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="107" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide animation 'return_pressed_eng'" id="241" order="94" lastModified="1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="106" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="End if" id="242" order="95" lastModified="1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If condition 'return_hoover' is false" id="243" order="96" lastModified="1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="12" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide animation 'return_pressed_eng'" id="244" order="97" lastModified="1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="106" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="End if" id="245" order="98" lastModified="1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="End if" id="246" order="99" lastModified="1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="End if" id="247" order="100" lastModified="1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change language to English" id="248" order="0" lastModified="1" ActionPartCommand="53" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="0" tableId="18" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition 'english_hoover' to true" id="249" order="0" lastModified="1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="14" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play animation 'english_highlight'" id="250" order="1" lastModified="1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="109" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition 'english_hoover' to false" id="251" order="0" lastModified="1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="14" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide animation 'english_highlight'" id="252" order="1" lastModified="1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="109" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition 'castellano_hoover' to true" id="253" order="0" lastModified="1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="15" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition 'castellano_hoover' to false" id="254" order="0" lastModified="1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="15" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play animation 'castellano_highlight'" id="255" order="1" lastModified="1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="111" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide animation 'castellano_highlight'" id="256" order="1" lastModified="1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="111" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change language to Spanish" id="257" order="0" lastModified="1" ActionPartCommand="53" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="1" tableId="18" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If condition 'english_hoover' is true" id="258" order="33" lastModified="1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="14" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play animation 'english_pressed'" id="259" order="34" lastModified="1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="110" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide animation 'english_highlight'" id="262" order="35" lastModified="1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="109" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="End if" id="264" order="38" lastModified="1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If condition 'castellano_hoover' is true" id="265" order="39" lastModified="1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="15" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play animation 'castellano_pressed'" id="266" order="40" lastModified="1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="112" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide animation 'castellano_highlight'" id="267" order="41" lastModified="1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="111" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="End if" id="268" order="42" lastModified="1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If condition 'english_hoover' is true" id="269" order="76" lastModified="1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="14" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play animation 'english_highlight'" id="270" order="77" lastModified="1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="109" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide animation 'english_pressed'" id="271" order="78" lastModified="1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="110" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="End if" id="272" order="79" lastModified="1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If condition 'castellano_hoover' is true" id="274" order="81" lastModified="1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="15" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play animation 'castellano_highlight'" id="275" order="82" lastModified="1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="111" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide animation 'castellano_pressed'" id="276" order="83" lastModified="1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="112" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="End if" id="277" order="84" lastModified="1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If condition 'english_hoover' is false" id="278" order="85" lastModified="1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="14" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide animation 'english_pressed'" id="279" order="86" lastModified="1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="110" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="End if" id="280" order="87" lastModified="1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If condition 'castellano_hoover' is false" id="281" order="88" lastModified="1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="15" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide animation 'castellano_pressed'" id="282" order="89" lastModified="1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="112" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="End if" id="283" order="90" lastModified="1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition '1600_hoover' to true" id="284" order="0" lastModified="1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="16" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play animation '1600_highlight'" id="285" order="1" lastModified="1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="117" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition '1600_hoover' to false" id="286" order="0" lastModified="1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="16" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide animation '1600_highlight'" id="287" order="1" lastModified="1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="117" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition '1280_hoover' to true" id="288" order="0" lastModified="1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="17" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play animation '1280_highlight'" id="289" order="1" lastModified="1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="115" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition '1280_hoover' to false" id="290" order="0" lastModified="1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="17" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide animation '1280_highlight'" id="291" order="1" lastModified="1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="115" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition '1920_hoover' to true" id="292" order="0" lastModified="1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="18" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play animation '1920_highlight'" id="293" order="1" lastModified="1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="113" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition '1920_hoover' to false" id="294" order="0" lastModified="1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="18" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide animation '1920_pressed'" id="295" order="1" lastModified="1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="114" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If condition 'fullscreen?' is false" id="296" order="0" lastModified="1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="0" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If value 'resolution?' != 3" id="297" order="1" lastModified="1" ActionPartCommand="69" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="3" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="0" tableId="20" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Value 'resolution?' = 3" id="298" order="2" lastModified="1" ActionPartCommand="70" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="3" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="0" tableId="20" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="End if" id="299" order="3" lastModified="1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="End if" id="300" order="4" lastModified="1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
 	</ActionParts>
-	<Animations newId="108" versionedId="31" tableId="9">
+	<Animations newId="120" versionedId="31" tableId="9">
 		<Animation name="Unnamed" id="1" order="1" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -4003,7 +4628,7 @@
 			<AnimationPauses>
 			</AnimationPauses>
 		</Animation>
-		<Animation name="closet_with_bottle" id="44" order="0" lastModified="1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+		<Animation name="closet_with_bottle" id="44" order="0" lastModified="1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
 			<AnimationPosition x="1102" y="241"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
@@ -4020,7 +4645,7 @@
 			<AnimationPauses>
 			</AnimationPauses>
 		</Animation>
-		<Animation name="closet_without_bottle" id="45" order="1" lastModified="1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+		<Animation name="closet_without_bottle" id="45" order="1" lastModified="1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
 			<AnimationPosition x="1102" y="241"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
@@ -6403,7 +7028,7 @@
 			</AnimationPauses>
 		</Animation>
 		<Animation name="opt_tablet_idle" id="104" order="0" lastModified="1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
-			<AnimationPosition x="-1425" y="0"/>
+			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
 				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/OptionsMenuBase/options_menu/options_menu_base_00000.png" Transparency="2">
@@ -6546,8 +7171,178 @@
 			<AnimationPauses>
 			</AnimationPauses>
 		</Animation>
+		<Animation name="english_highlight" id="109" order="0" lastModified="1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="1307" y="450"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="0" path="Assets/UI/Buttons/OptionsMenu/English/english_highlight.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="english_pressed" id="110" order="1" lastModified="1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="1307" y="450"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="96" path="Assets/UI/Buttons/OptionsMenu/English/english_pressed.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="castellano_highlight" id="111" order="0" lastModified="1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="1307" y="599"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="12288" path="Assets/UI/Buttons/OptionsMenu/Castellano/castellano_highlight.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="castellano_pressed" id="112" order="1" lastModified="1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="1307" y="599"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="65" path="Assets/UI/Buttons/OptionsMenu/Castellano/castellano_pressed.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="1920_highlight" id="113" order="0" lastModified="1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="246" y="459"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="0" path="Assets/UI/Buttons/OptionsMenu/1920x1080/1920_highlight.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="1920_pressed" id="114" order="1" lastModified="1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="246" y="459"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="0" path="Assets/UI/Buttons/OptionsMenu/1920x1080/1920_pressed.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="1280_highlight" id="115" order="0" lastModified="1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="246" y="609"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="96" path="Assets/UI/Buttons/OptionsMenu/1280x720/1280_highlight.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="1280_pressed" id="116" order="1" lastModified="1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="246" y="609"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="-1" path="Assets/UI/Buttons/OptionsMenu/1280x720/1280_pressed.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="1600_highlight" id="117" order="0" lastModified="1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="244" y="760"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="1" path="Assets/UI/Buttons/OptionsMenu/1600x1200/1600_highlight.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="1600_pressed" id="118" order="1" lastModified="1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="244" y="760"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="0" path="Assets/UI/Buttons/OptionsMenu/1600x1200/1600_pressed.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
 	</Animations>
-	<Conditions newId="13" versionedId="11" tableId="10">
+	<Conditions newId="19" versionedId="11" tableId="10">
 		<Condition name="fullscreen?" id="0" order="0" lastModified="-1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionOperator="0">
 			<ConditionConditions>
 			</ConditionConditions>
@@ -6597,6 +7392,30 @@
 			</ConditionConditions>
 		</Condition>
 		<Condition name="return_hoover" id="12" order="0" lastModified="1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionOperator="0">
+			<ConditionConditions>
+			</ConditionConditions>
+		</Condition>
+		<Condition name="in_options_menu" id="13" order="3" lastModified="1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionOperator="0">
+			<ConditionConditions>
+			</ConditionConditions>
+		</Condition>
+		<Condition name="english_hoover" id="14" order="0" lastModified="1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionOperator="0">
+			<ConditionConditions>
+			</ConditionConditions>
+		</Condition>
+		<Condition name="castellano_hoover" id="15" order="0" lastModified="1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionOperator="0">
+			<ConditionConditions>
+			</ConditionConditions>
+		</Condition>
+		<Condition name="1600_hoover" id="16" order="0" lastModified="1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionOperator="0">
+			<ConditionConditions>
+			</ConditionConditions>
+		</Condition>
+		<Condition name="1280_hoover" id="17" order="0" lastModified="1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionOperator="0">
+			<ConditionConditions>
+			</ConditionConditions>
+		</Condition>
+		<Condition name="1920_hoover" id="18" order="0" lastModified="1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionOperator="0">
 			<ConditionConditions>
 			</ConditionConditions>
 		</Condition>
@@ -6698,7 +7517,7 @@
 		</Sprite>
 		<Sprite name="Image" id="21" order="21" lastModified="1">
 			<SpriteSprite name="" pause="-1" path="Assets/Scenes/MierinsOffice/table.png" Transparency="2">
-				<position x="417" y="603"/>
+				<position x="489" y="603"/>
 			</SpriteSprite>
 		</Sprite>
 		<Sprite name="Image" id="22" order="22" lastModified="1">
@@ -6762,7 +7581,7 @@
 			</SpriteSprite>
 		</Sprite>
 	</Sprites>
-	<Texts newId="86" versionedId="39" tableId="14">
+	<Texts newId="128" versionedId="39" tableId="14">
 		<Text name="Unnamed" id="0" order="0" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
@@ -7098,6 +7917,31 @@
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
+		<Text name="Unnamed" id="85" order="85" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="91" order="91" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="125" order="125" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="126" order="126" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="127" order="127" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
 	</Texts>
 	<Cursors newId="1" versionedId="0" tableId="15">
 		<Cursor name="cursors_arrow" id="0" order="0" lastModified="-1">
@@ -7361,9 +8205,9 @@
 	</ParticleContainers>
 	<CommentSetEntries newId="0" versionedId="-1" tableId="27">
 	</CommentSetEntries>
-	<AnimationFrames newId="5" versionedId="-1" tableId="28">
+	<AnimationFrames newId="0" versionedId="-1" tableId="28">
 	</AnimationFrames>
-	<WaySystems newId="1" versionedId="0" tableId="29">
+	<WaySystems newId="3" versionedId="0" tableId="29">
 		<WaySystem name="normal" id="0" order="0" lastModified="-1">
 			<WaySystemBorder>
 				<point x="6" y="963"/>
@@ -7376,13 +8220,70 @@
 			<WaySystemPoints>
 			</WaySystemPoints>
 		</WaySystem>
+		<WaySystem name="mo_main_waysystem" id="1" order="0" lastModified="1">
+			<WaySystemBorder>
+				<point x="1147" y="594"/>
+				<point x="1362" y="593"/>
+				<point x="1395" y="612"/>
+				<point x="1468" y="610"/>
+				<point x="1534" y="670"/>
+				<point x="1429" y="668"/>
+				<point x="1584" y="839"/>
+				<point x="1710" y="838"/>
+				<point x="1731" y="857"/>
+				<point x="1723" y="915"/>
+				<point x="1649" y="973"/>
+				<point x="1428" y="980"/>
+				<point x="1424" y="1071"/>
+				<point x="216" y="1075"/>
+				<point x="251" y="1012"/>
+				<point x="833" y="1017"/>
+				<point x="934" y="810"/>
+				<point x="618" y="810"/>
+				<point x="656" y="773"/>
+				<point x="1080" y="770"/>
+				<point x="1175" y="723"/>
+				<point x="1173" y="670"/>
+				<point x="1147" y="652"/>
+			</WaySystemBorder>
+			<WaySystemPoints>
+			</WaySystemPoints>
+		</WaySystem>
+		<WaySystem name="mo_start_waysystem" id="2" order="1" lastModified="1">
+			<WaySystemBorder>
+				<point x="1355" y="591"/>
+				<point x="469" y="591"/>
+				<point x="465" y="668"/>
+				<point x="1168" y="664"/>
+				<point x="1184" y="702"/>
+				<point x="1121" y="772"/>
+				<point x="620" y="776"/>
+				<point x="615" y="807"/>
+				<point x="925" y="815"/>
+				<point x="826" y="1015"/>
+				<point x="267" y="1012"/>
+				<point x="214" y="1075"/>
+				<point x="1420" y="1070"/>
+				<point x="1455" y="973"/>
+				<point x="1673" y="978"/>
+				<point x="1761" y="902"/>
+				<point x="1713" y="831"/>
+				<point x="1566" y="834"/>
+				<point x="1429" y="665"/>
+				<point x="1518" y="662"/>
+				<point x="1449" y="591"/>
+				<point x="1392" y="612"/>
+			</WaySystemBorder>
+			<WaySystemPoints>
+			</WaySystemPoints>
+		</WaySystem>
 	</WaySystems>
 	<Scripts newId="4" versionedId="3" tableId="30">
 		<Script name="read_ini" id="0" order="0" lastModified="-1" ScriptScript="-- * globals * -- (used by read_ini and delete_ini)&lt;br/&gt;    local iniFilename = 'config.ini'&lt;br/&gt;    local iniFile = io.open(iniFilename, 'r')&lt;br/&gt;     &lt;br/&gt;    -- * retrieves game settings from config.ini + sets condit?ions | values appropriately! * --&lt;br/&gt;    function read_ini()&lt;br/&gt;     &lt;br/&gt;    -- * locals * --&lt;br/&gt;    local r_fullscreen = getObject('Scenes[options_menu].SceneConditions[fullscreen?]')&lt;br/&gt;    local r_resolution = getObject('Scenes[options_menu].SceneValues[resolution?]')&lt;br/&gt;    local r_language = getObject('Scenes[options_menu].SceneValues[language?]')&lt;br/&gt;     &lt;br/&gt;    -- * script * --&lt;br/&gt;     if iniFile then&lt;br/&gt;     local line = iniFile:read()&lt;br/&gt;     print('-- * --')&lt;br/&gt;     print(iniFilename .. ' exists!')&lt;br/&gt;     print('retrieving settings from ' .. iniFilename .. '!')&lt;br/&gt;     for line in io.lines(iniFilename) do&lt;br/&gt;    -- * begin if else * --&lt;br/&gt;      if line == 'Fullscreen = No' then&lt;br/&gt;       r_fullscreen:setValue(VConditionValue, false)&lt;br/&gt;       print('fullscreen mode is off!')&lt;br/&gt;      else&lt;br/&gt;      if line == 'Fullscreen = Yes' then&lt;br/&gt;       r_fullscreen:setValue(VConditionValue, true)&lt;br/&gt;       print('fullscreen mode is on!')&lt;br/&gt;      end end&lt;br/&gt;    -- * --&lt;br/&gt;      if line == 'Resolution = Auto' then&lt;br/&gt;       r_resolution:setValue(VValueInt, 0)&lt;br/&gt;       print('resolution is set to auto!')&lt;br/&gt;      else&lt;br/&gt;      if line == 'Resolution = 1920x1080' then&lt;br/&gt;       r_resolution:setValue(VValueInt, 3)&lt;br/&gt;       print('resolution is currently set at 1920x1080!')&lt;br/&gt;      else&lt;br/&gt;      if line == 'Resolution = 1280x720' then&lt;br/&gt;       r_resolution:setValue(VValueInt, 2)&lt;br/&gt;       print('resolution is currently set at 1280x720!')&lt;br/&gt;      else&lt;br/&gt;      if line == 'Resolution = 1600x1200' then&lt;br/&gt;       r_resolution:setValue(VValueInt, 1)&lt;br/&gt;       print('resolution is currently set at 1600x1200!')&lt;br/&gt;      end end end end&lt;br/&gt;    -- * --&lt;br/&gt;      if line == 'Language = English' then&lt;br/&gt;       r_language:setValue(VValueInt, 0)&lt;br/&gt;       print('Language is currently set to English!')&lt;br/&gt;      else&lt;br/&gt;      if line == 'Language = Spanish' then&lt;br/&gt;       r_language:setValue(VValueInt, 1)&lt;br/&gt;       print('Language is currently set to Spanish!')&lt;br/&gt;      else&lt;br/&gt;      if line == 'Language = Catalan' then&lt;br/&gt;       r_language:setValue(VValueInt, 2)&lt;br/&gt;       print('Language is currently set to Catalan!')&lt;br/&gt;      end end end&lt;br/&gt;      end&lt;br/&gt;       iniFile:close()&lt;br/&gt;       print('successfully retrieved settings from ' .. iniFilename .. '!')&lt;br/&gt;       print('-- * --')&lt;br/&gt;    -- * end if else * --&lt;br/&gt;     else&lt;br/&gt;      print(iniFilename  .. ' does not exist!')&lt;br/&gt;     end&lt;br/&gt;    end&lt;br/&gt;     &lt;br/&gt;    -- * removes the config.ini file so we can replace it with the temporary file! (only called if we have edited any of the settings) * --&lt;br/&gt;    function delete_ini()&lt;br/&gt;    if iniFile then&lt;br/&gt;     os.remove(iniFilename)&lt;br/&gt;    else&lt;br/&gt;    end&lt;br/&gt;    end" ScriptType="1">
 		</Script>
 		<Script name="write_ini" id="1" order="1" lastModified="-1" ScriptScript=" -- * creates a temporary file to store edited settings which is renamed once the original config.ini file has been removed! * --&lt;br/&gt;    function save_ini()&lt;br/&gt;     &lt;br/&gt;    -- * locals * --&lt;br/&gt;    local newIniFilename = 'config.ini.bak'&lt;br/&gt;    local newIniFile = io.open(newIniFilename, 'w')&lt;br/&gt;     &lt;br/&gt;    local fullscreen = getObject('Conditions[fullscreen?]'):getBool(VConditionValue)&lt;br/&gt;    local resolution = getObject('Values[resolution?]'):getInt(VValueInt)&lt;br/&gt;    local language = getObject('Values[language?]'):getInt(VValueInt)&lt;br/&gt;     &lt;br/&gt;    -- * convert resolution integer into a string * --&lt;br/&gt;    local res_str = 0&lt;br/&gt;    if resolution == 1 then res_str = '1600x1200'&lt;br/&gt;    else&lt;br/&gt;    if resolution == 2 then res_str = '1280x720'&lt;br/&gt;    else&lt;br/&gt;    if resolution == 3 then res_str = '1920x1080'&lt;br/&gt;    end end end&lt;br/&gt;     &lt;br/&gt;    -- * convert language integer into a string * --&lt;br/&gt;    local lang_str = 0&lt;br/&gt;    if language == 0 then lang_str = 'English'&lt;br/&gt;    else&lt;br/&gt;    if language == 1 then lang_str = 'Spanish'&lt;br/&gt;    else&lt;br/&gt;    if language == 2 then lang_str = 'Catalan'&lt;br/&gt;    end end end&lt;br/&gt;  &lt;br/&gt;    -- * write the data file * --&lt;br/&gt;    newIniFile:write('File = austranlia.vis\n')&lt;br/&gt;     &lt;br/&gt;    -- *  write the comments for fullscreen section! * --&lt;br/&gt;    newIniFile:write('# Fullscreen = {Yes|No}\n')&lt;br/&gt;    newIniFile:write('# Yes - starts the game in fullscreen\n')&lt;br/&gt;    newIniFile:write('# No - starts the game in a window\n')&lt;br/&gt;     &lt;br/&gt;    if fullscreen then&lt;br/&gt;     newIniFile:write('Fullscreen = Yes\n')&lt;br/&gt;     &lt;br/&gt;    -- * write comments for the resolution section! * --&lt;br/&gt;     newIniFile:write('#\n')&lt;br/&gt;     newIniFile:write('# Resolution = {Auto|Desktop|Custom}\n')&lt;br/&gt;     newIniFile:write('# Auto - wide-screen support is activated if a wide-screen display is detected\n')&lt;br/&gt;     newIniFile:write('# Desktop - current desktop resolution is used when game is started in full screen mode\n')&lt;br/&gt;     newIniFile:write('# Custom - enter a custom value eg: Resolution = 1920x1080\n')&lt;br/&gt;     &lt;br/&gt;    newIniFile:write('Resolution = Auto\n')&lt;br/&gt;    else&lt;br/&gt;     newIniFile:write('Fullscreen = No\n')&lt;br/&gt;     &lt;br/&gt;    -- * write comments for the resolution section! * --&lt;br/&gt;     newIniFile:write('#\n')&lt;br/&gt;     newIniFile:write('# Resolution = {Auto|Desktop|Custom}\n')&lt;br/&gt;     newIniFile:write('# Auto - wide-screen support is activated if a wide-screen display is detected\n')&lt;br/&gt;     newIniFile:write('# Desktop - current desktop resolution is used when game is started in full screen mode\n')&lt;br/&gt;     newIniFile:write('# Custom - enter a custom value eg: Resolution = 1920x1080\n')&lt;br/&gt;     &lt;br/&gt;    newIniFile:write('Resolution = ' .. res_str .. '\n')&lt;br/&gt;    end&lt;br/&gt;     &lt;br/&gt;    -- * write comments for the language section! * --&lt;br/&gt;     newIniFile:write('#\n')&lt;br/&gt;     newIniFile:write('# Language = {English|German|Spanish}\n')&lt;br/&gt;     newIniFile:write('# this will display subtitles in the specified language and will play the appropriate voice sample if available\n')&lt;br/&gt;     newIniFile:write('# default voice samples are in English\n')&lt;br/&gt;     &lt;br/&gt;    newIniFile:write('Language = ' .. lang_str .. '\n')&lt;br/&gt; &lt;br/&gt;    -- * write comments for the special fx section! * --&lt;br/&gt;     newIniFile:write('#\n')&lt;br/&gt;     newIniFile:write('# SFX = {Yes|No}\n')&lt;br/&gt;     newIniFile:write('# Yes - allow users to change animation and fx quality\n')&lt;br/&gt;     newIniFile:write('# No - only show the basic required game special fx and animations\n')&lt;br/&gt;     &lt;br/&gt;    -- * write comments for log section! * --&lt;br/&gt;     newIniFile:write('#\n')&lt;br/&gt;     newIniFile:write('# LogLevel = {Info|Warning|Error}\n')&lt;br/&gt;     &lt;br/&gt;    newIniFile:write('LogLevel = Error\n')&lt;br/&gt;     &lt;br/&gt;    -- * write comments for volume section! * --&lt;br/&gt;     newIniFile:write('#\n')&lt;br/&gt;     newIniFile:write('# MusicVolume|SoundVolume|SpeechVolume = int value {0-100}\n')&lt;br/&gt;     &lt;br/&gt;    -- * close the ini file! * --&lt;br/&gt;    newIniFile:close()&lt;br/&gt;     &lt;br/&gt;    -- * rename config.ini.bak to config.ini! * --&lt;br/&gt;    if os.rename(newIniFilename, 'config.ini') then&lt;br/&gt;     print(newIniFilename .. ' was sucessfully renamed to config.ini!')&lt;br/&gt;     print('saving new settings to config.ini!')&lt;br/&gt;    else&lt;br/&gt;     print('renaming ' .. newIniFilename .. ' to config.ini was unsuccessful!')&lt;br/&gt;    end&lt;br/&gt;     &lt;br/&gt;    -- * print various statements to the log file! * --&lt;br/&gt;    if fullscreen then&lt;br/&gt;     print('fullscreen has been set to on!')&lt;br/&gt;     print('resolution has been set to auto!')&lt;br/&gt;    else&lt;br/&gt;     print('fullscreen has been set to off!')&lt;br/&gt;     print('resolution has been set to ' .. res_str .. '!')&lt;br/&gt;    end&lt;br/&gt; &lt;br/&gt;    print('language has been set to ' .. lang_str .. '!')&lt;br/&gt;&lt;br/&gt;    print('new settings have successfully been saved to config.ini!') &lt;br/&gt;    print('-- * --')&lt;br/&gt; &lt;br/&gt;    end" ScriptType="1">
 		</Script>
-		<Script name="inventory_slide" id="2" order="2" lastModified="-1" ScriptScript="--[[&lt;br/&gt;Deponia Based Sliding Interface [v4] (18/03/2013)&lt;br/&gt;Written by AFRLme [Lee Clarke]&lt;br/&gt;-- + --&lt;br/&gt;alternatingfrequencies@hotmail.com | skype @ AFRLme&lt;br/&gt;-- + --&lt;br/&gt;This script is donation optional. In game credit is non-negotiable.&lt;br/&gt;You are free to: ¹ use it in your game(s). ² modify the script.&lt;br/&gt;Do not remove - or edit - this comment block.&lt;br/&gt;--]]&lt;br/&gt; &lt;br/&gt;-- * local variables * --&lt;br/&gt;local getInterface = getObject(&quot;Interfaces[inventory]&quot;) -- stores interface into a variable (replace &quot;inventory&quot; with your interface name)&lt;br/&gt; &lt;br/&gt;local minOffset = {x = 560, y = 1055} -- replace min offset values with current x,y absolute position of your interface&lt;br/&gt;local maxOffset = {x = 560, y = 910} -- replace max offset values with the x,y values that you want the interface to slide to&lt;br/&gt;local mwOffset = 0 -- this should be same value or slightly larger than the overlap amount of minOffset&lt;br/&gt;local checkOffset = getInterface:getPoint(VInterfaceOffset) -- stores current position of interface on start&lt;br/&gt; &lt;br/&gt;local inSpeed = 5 -- replace &quot;1&quot; with x number of squares you want interface to move back to start position on each loop&lt;br/&gt;local outSpeed = 5 -- replace &quot;2&quot; with x number of squares you want interface to move to max position on each loop&lt;br/&gt; &lt;br/&gt;local slideDirection = 4 -- set direction interface should slide from (1 = left, 2 = top, 3 = right, 4 = bottom) &lt;br/&gt; &lt;br/&gt;local hover = getObject(&quot;Conditions[hover]&quot;) -- store hover condition&lt;br/&gt;local mwheel = getObject(&quot;Conditions[mwheel]&quot;) -- store mouse mwheel condition&lt;br/&gt; &lt;br/&gt;-- * global variables * --&lt;br/&gt;mwUp = 0 -- this controls if mouse wheel up or down has been executed; by default &quot;0&quot; = nil (!important: do not edit)&lt;br/&gt; &lt;br/&gt;-- * function that moves the linked interface * --&lt;br/&gt;function intSlide()&lt;br/&gt; -- * let's create the on mouse over code * --&lt;br/&gt; if hover:getBool(VConditionValue) and not mwheel:getBool(VConditionValue) then -- check if &quot;hover&quot; = true &amp; &quot;mwheel&quot; = false&lt;br/&gt;  if mwUp ~= 0 then mwUp = 0 end -- check if mouse wheel is active; if it is, then set inactive&lt;br/&gt;  -- * let's slide the x position of the interface based on slideDirection (out) * --&lt;br/&gt;  if (slideDirection == 1 or slideDirection == 2) and checkOffset.x &lt; maxOffset.x then checkOffset.x = checkOffset.x + outSpeed setIntPos() end&lt;br/&gt;  if (slideDirection == 1 or slideDirection == 2) and checkOffset.x &gt; maxOffset.x then checkOffset.x = maxOffset.x setIntPos() end&lt;br/&gt;  if (slideDirection == 3 or slideDirection == 4) and checkOffset.x &gt; maxOffset.x then checkOffset.x = checkOffset.x - outSpeed setIntPos() end&lt;br/&gt;  if (slideDirection == 3 or slideDirection == 4) and checkOffset.x &lt; maxOffset.x then checkOffset.x = maxOffset.x setIntPos() end&lt;br/&gt;  -- * let's slide the y position of the interface based on SlideDirection (out) * --&lt;br/&gt;  if (slideDirection == 1 or slideDirection == 2) and checkOffset.y &lt; maxOffset.y then checkOffset.y = checkOffset.y + outSpeed setIntPos() end&lt;br/&gt;  if (slideDirection == 1 or slideDirection == 2) and checkOffset.y &gt; maxOffset.y then checkOffset.y = maxOffset.y setIntPos() end&lt;br/&gt;  if (slideDirection == 3 or slideDirection == 4) and checkOffset.y &gt; maxOffset.y then checkOffset.y = checkOffset.y - outSpeed setIntPos()  end&lt;br/&gt;  if (slideDirection == 3 or slideDirection == 4) and checkOffset.y &lt; maxOffset.y then checkOffset.y = maxOffset.y setIntPos() end&lt;br/&gt; elseif not hover:getBool(VConditionValue) and not mwheel:getBool(VConditionValue) then&lt;br/&gt;  if mwUp ~= 0 then mwUp = 0 end -- check if mouse wheel is active; if it is, then set inactive&lt;br/&gt;  -- * let's slide the x position of the interface based on slideDirection (in) * --&lt;br/&gt;  if (slideDirection == 1 or slideDirection == 2) and checkOffset.x &gt; minOffset.x then checkOffset.x = checkOffset.x - inSpeed setIntPos() end&lt;br/&gt;  if (slideDirection == 1 or slideDirection == 2) and checkOffset.x &lt; minOffset.x then checkOffset.x = minOffset.x setIntPos() end&lt;br/&gt;  if (slideDirection == 3 or slideDirection == 4) and checkOffset.x &lt; minOffset.x then checkOffset.x = checkOffset.x + inSpeed setIntPos() end&lt;br/&gt;  if (slideDirection == 3 or slideDirection == 4) and checkOffset.x &gt; minOffset.x then checkOffset.x = minOffset.x setIntPos() end&lt;br/&gt;  -- * let's slide the y position of the interface based on SlideDirection (in) * --&lt;br/&gt;  if (slideDirection == 1 or slideDirection == 2) and checkOffset.y &gt; minOffset.y then checkOffset.y = checkOffset.y - inSpeed setIntPos() end&lt;br/&gt;  if (slideDirection == 1 or slideDirection == 2) and checkOffset.y &lt; minOffset.y then checkOffset.y = minOffset.y setIntPos() end&lt;br/&gt;  if (slideDirection == 3 or slideDirection == 4) and checkOffset.y &lt; minOffset.y then checkOffset.y = checkOffset.y + inSpeed setIntPos() end&lt;br/&gt;  if (slideDirection == 3 or slideDirection == 4) and checkOffset.y &gt; minOffset.y then checkOffset.y = minOffset.y setIntPos() end&lt;br/&gt; end&lt;br/&gt; -- * let's create the mouse wheel code * --&lt;br/&gt; if not hover:getBool(VConditionValue) and mwheel:getBool(VConditionValue) and mwUp == 1 then -- check if mouse wheel up has been rotated&lt;br/&gt;  -- * let's slide the x position of the interface based on slideDirection (out) * --&lt;br/&gt;  if (slideDirection == 1 or slideDirection == 2) and checkOffset.x &lt; maxOffset.x then checkOffset.x = checkOffset.x + outSpeed setIntPos() end&lt;br/&gt;  if (slideDirection == 1 or slideDirection == 2) and checkOffset.x &gt; maxOffset.x then checkOffset.x = maxOffset.x setIntPos() end&lt;br/&gt;  if (slideDirection == 3 or slideDirection == 4) and checkOffset.x &gt; maxOffset.x then checkOffset.x = checkOffset.x - outSpeed setIntPos() end&lt;br/&gt;  if (slideDirection == 3 or slideDirection == 4) and checkOffset.x &lt; maxOffset.x then checkOffset.x = maxOffset.x setIntPos() end&lt;br/&gt;  -- * let's slide the y position of the interface based on SlideDirection (out) * --&lt;br/&gt;  if (slideDirection == 1 or slideDirection == 2) and checkOffset.y &lt; maxOffset.y then checkOffset.y = checkOffset.y + outSpeed setIntPos() end&lt;br/&gt;  if (slideDirection == 1 or slideDirection == 2) and checkOffset.y &gt; maxOffset.y then checkOffset.y = maxOffset.y setIntPos() end&lt;br/&gt;  if (slideDirection == 3 or slideDirection == 4) and checkOffset.y &gt; maxOffset.y then checkOffset.y = checkOffset.y - outSpeed setIntPos()  end&lt;br/&gt;  if (slideDirection == 3 or slideDirection == 4) and checkOffset.y &lt; maxOffset.y then checkOffset.y = maxOffset.y setIntPos() end&lt;br/&gt; end&lt;br/&gt; if not hover:getBool(VConditionValue) and mwheel:getBool(VConditionValue) and mwUp == 2 then -- check if mouse wheel down has been rotated&lt;br/&gt;  -- * let's slide the x position of the interface based on slideDirection (in) * --&lt;br/&gt;  if slideDirection == 1 and checkOffset.x &gt; minOffset.x - mwOffset then checkOffset.x = checkOffset.x - inSpeed setIntPos() end&lt;br/&gt;  if slideDirection == 1 and checkOffset.x &lt; minOffset.x - mwOffset then checkOffset.x = minOffset.x - mwOffset setIntPos() end&lt;br/&gt;  if slideDirection == 2 and checkOffset.x &gt; minOffset.x then checkOffset.x = checkOffset.x - inSpeed setIntPos() end&lt;br/&gt;  if slideDirection == 2 and checkOffset.x &lt; minOffset.x then checkOffset.x = minOffset.x setIntPos() end&lt;br/&gt;  if slideDirection == 3 and checkOffset.x &lt; minOffset.x + mwOffset then checkOffset.x = checkOffset.x + inSpeed setIntPos() end&lt;br/&gt;  if slideDirection == 3 and checkOffset.x &gt; minOffset.x + mwOffset then checkOffset.x = minOffset.x + mwOffset setIntPos() end&lt;br/&gt;  if slideDirection == 4 and checkOffset.x &lt; minOffset.x then checkOffset.x = checkOffset.x + inSpeed setIntPos() end&lt;br/&gt;  if slideDirection == 4 and checkOffset.x &gt; minOffset.x then checkOffset.x = minOffset.x setIntPos() end&lt;br/&gt;  -- * let's slide the y position of the interface based on SlideDirection (in) * --&lt;br/&gt;  if slideDirection == 1 and checkOffset.y &gt; minOffset.y then checkOffset.y = checkOffset.y - inSpeed setIntPos() end&lt;br/&gt;  if slideDirection == 1 and checkOffset.y &lt; minOffset.y then checkOffset.y = minOffset.y setIntPos() end&lt;br/&gt;  if slideDirection == 2 and checkOffset.y &gt; minOffset.y - mwOffset then checkOffset.y = checkOffset.y - inSpeed setIntPos() end&lt;br/&gt;  if slideDirection == 2 and checkOffset.y &lt; minOffset.y - mwOffset then checkOffset.y = minOffset.y - mwOffset setIntPos() end&lt;br/&gt;  if slideDirection == 3 and checkOffset.y &lt; minOffset.y then checkOffset.y = checkOffset.y + inSpeed setIntPos() end&lt;br/&gt;  if slideDirection == 3 and checkOffset.y &gt; minOffset.y then checkOffset.y = minOffset.y setIntPos() end&lt;br/&gt;  if slideDirection == 4 and checkOffset.y &lt; minOffset.y + mwOffset then checkOffset.y = checkOffset.y + inSpeed setIntPos() end&lt;br/&gt;  if slideDirection == 4 and checkOffset.y &gt; minOffset.y + mwOffset then checkOffset.y = minOffset.y + mwOffset setIntPos() end&lt;br/&gt; end&lt;br/&gt;end&lt;br/&gt; &lt;br/&gt; -- * updates the current position of the interface * --&lt;br/&gt;function setIntPos()&lt;br/&gt; getInterface:setValue(VInterfaceOffset, checkOffset)&lt;br/&gt;end&lt;br/&gt; &lt;br/&gt;-- * let's check if mouse wheel mode = true; if true then hide the interface else overlap interface slightly * --&lt;br/&gt;function mwMode()&lt;br/&gt; if mwheel:getBool(VConditionValue) then&lt;br/&gt;  if slideDirection == 1 then checkOffset = {x = minOffset.x - mwOffset, y = minOffset.y} setIntPos() end&lt;br/&gt;  if slideDirection == 2 then checkOffset = {x = minOffset.x, y = minOffset.y - mwOffset} setIntPos() end&lt;br/&gt;  if slideDirection == 3 then checkOffset = {x = minOffset.x + mwOffset, y = minOffset.y} setIntPos() end&lt;br/&gt;  if slideDirection == 4 then checkOffset = {x = minOffset.x, y = minOffset.y + mwOffset} setIntPos() end&lt;br/&gt; else&lt;br/&gt;  checkOffset = {x = minOffset.x, y = minOffset.y}&lt;br/&gt;  setIntPos()&lt;br/&gt; end&lt;br/&gt;end" ScriptType="1">
+		<Script name="inventory_slide" id="2" order="2" lastModified="1" ScriptScript="--[[&lt;br/&gt;Deponia Based Sliding Interface [v4] (18/03/2013)&lt;br/&gt;Written by AFRLme [Lee Clarke]&lt;br/&gt;-- + --&lt;br/&gt;alternatingfrequencies@hotmail.com | skype @ AFRLme&lt;br/&gt;-- + --&lt;br/&gt;This script is donation optional. In game credit is non-negotiable.&lt;br/&gt;You are free to: ¹ use it in your game(s). ² modify the script.&lt;br/&gt;Do not remove - or edit - this comment block.&lt;br/&gt;--]]&lt;br/&gt; &lt;br/&gt;-- * local variables * --&lt;br/&gt;local getInterface = getObject(&quot;Interfaces[inventory]&quot;) -- stores interface into a variable (replace &quot;inventory&quot; with your interface name)&lt;br/&gt; &lt;br/&gt;local minOffset = {x = 560, y = 1055} -- replace min offset values with current x,y absolute position of your interface&lt;br/&gt;local maxOffset = {x = 560, y = 910} -- replace max offset values with the x,y values that you want the interface to slide to&lt;br/&gt;local mwOffset = 0 -- this should be same value or slightly larger than the overlap amount of minOffset&lt;br/&gt;local checkOffset = getInterface:getPoint(VInterfaceOffset) -- stores current position of interface on start&lt;br/&gt; &lt;br/&gt;local inSpeed = 10 -- replace &quot;1&quot; with x number of squares you want interface to move back to start position on each loop&lt;br/&gt;local outSpeed = 10 -- replace &quot;2&quot; with x number of squares you want interface to move to max position on each loop&lt;br/&gt; &lt;br/&gt;local slideDirection = 4 -- set direction interface should slide from (1 = left, 2 = top, 3 = right, 4 = bottom) &lt;br/&gt; &lt;br/&gt;local hover = getObject(&quot;Conditions[hover]&quot;) -- store hover condition&lt;br/&gt;local mwheel = getObject(&quot;Conditions[mwheel]&quot;) -- store mouse mwheel condition&lt;br/&gt; &lt;br/&gt;-- * global variables * --&lt;br/&gt;mwUp = 0 -- this controls if mouse wheel up or down has been executed; by default &quot;0&quot; = nil (!important: do not edit)&lt;br/&gt; &lt;br/&gt;-- * function that moves the linked interface * --&lt;br/&gt;function intSlide()&lt;br/&gt; -- * let's create the on mouse over code * --&lt;br/&gt; if hover:getBool(VConditionValue) and not mwheel:getBool(VConditionValue) then -- check if &quot;hover&quot; = true &amp; &quot;mwheel&quot; = false&lt;br/&gt;  if mwUp ~= 0 then mwUp = 0 end -- check if mouse wheel is active; if it is, then set inactive&lt;br/&gt;  -- * let's slide the x position of the interface based on slideDirection (out) * --&lt;br/&gt;  if (slideDirection == 1 or slideDirection == 2) and checkOffset.x &lt; maxOffset.x then checkOffset.x = checkOffset.x + outSpeed setIntPos() end&lt;br/&gt;  if (slideDirection == 1 or slideDirection == 2) and checkOffset.x &gt; maxOffset.x then checkOffset.x = maxOffset.x setIntPos() end&lt;br/&gt;  if (slideDirection == 3 or slideDirection == 4) and checkOffset.x &gt; maxOffset.x then checkOffset.x = checkOffset.x - outSpeed setIntPos() end&lt;br/&gt;  if (slideDirection == 3 or slideDirection == 4) and checkOffset.x &lt; maxOffset.x then checkOffset.x = maxOffset.x setIntPos() end&lt;br/&gt;  -- * let's slide the y position of the interface based on SlideDirection (out) * --&lt;br/&gt;  if (slideDirection == 1 or slideDirection == 2) and checkOffset.y &lt; maxOffset.y then checkOffset.y = checkOffset.y + outSpeed setIntPos() end&lt;br/&gt;  if (slideDirection == 1 or slideDirection == 2) and checkOffset.y &gt; maxOffset.y then checkOffset.y = maxOffset.y setIntPos() end&lt;br/&gt;  if (slideDirection == 3 or slideDirection == 4) and checkOffset.y &gt; maxOffset.y then checkOffset.y = checkOffset.y - outSpeed setIntPos()  end&lt;br/&gt;  if (slideDirection == 3 or slideDirection == 4) and checkOffset.y &lt; maxOffset.y then checkOffset.y = maxOffset.y setIntPos() end&lt;br/&gt; elseif not hover:getBool(VConditionValue) and not mwheel:getBool(VConditionValue) then&lt;br/&gt;  if mwUp ~= 0 then mwUp = 0 end -- check if mouse wheel is active; if it is, then set inactive&lt;br/&gt;  -- * let's slide the x position of the interface based on slideDirection (in) * --&lt;br/&gt;  if (slideDirection == 1 or slideDirection == 2) and checkOffset.x &gt; minOffset.x then checkOffset.x = checkOffset.x - inSpeed setIntPos() end&lt;br/&gt;  if (slideDirection == 1 or slideDirection == 2) and checkOffset.x &lt; minOffset.x then checkOffset.x = minOffset.x setIntPos() end&lt;br/&gt;  if (slideDirection == 3 or slideDirection == 4) and checkOffset.x &lt; minOffset.x then checkOffset.x = checkOffset.x + inSpeed setIntPos() end&lt;br/&gt;  if (slideDirection == 3 or slideDirection == 4) and checkOffset.x &gt; minOffset.x then checkOffset.x = minOffset.x setIntPos() end&lt;br/&gt;  -- * let's slide the y position of the interface based on SlideDirection (in) * --&lt;br/&gt;  if (slideDirection == 1 or slideDirection == 2) and checkOffset.y &gt; minOffset.y then checkOffset.y = checkOffset.y - inSpeed setIntPos() end&lt;br/&gt;  if (slideDirection == 1 or slideDirection == 2) and checkOffset.y &lt; minOffset.y then checkOffset.y = minOffset.y setIntPos() end&lt;br/&gt;  if (slideDirection == 3 or slideDirection == 4) and checkOffset.y &lt; minOffset.y then checkOffset.y = checkOffset.y + inSpeed setIntPos() end&lt;br/&gt;  if (slideDirection == 3 or slideDirection == 4) and checkOffset.y &gt; minOffset.y then checkOffset.y = minOffset.y setIntPos() end&lt;br/&gt; end&lt;br/&gt; -- * let's create the mouse wheel code * --&lt;br/&gt; if not hover:getBool(VConditionValue) and mwheel:getBool(VConditionValue) and mwUp == 1 then -- check if mouse wheel up has been rotated&lt;br/&gt;  -- * let's slide the x position of the interface based on slideDirection (out) * --&lt;br/&gt;  if (slideDirection == 1 or slideDirection == 2) and checkOffset.x &lt; maxOffset.x then checkOffset.x = checkOffset.x + outSpeed setIntPos() end&lt;br/&gt;  if (slideDirection == 1 or slideDirection == 2) and checkOffset.x &gt; maxOffset.x then checkOffset.x = maxOffset.x setIntPos() end&lt;br/&gt;  if (slideDirection == 3 or slideDirection == 4) and checkOffset.x &gt; maxOffset.x then checkOffset.x = checkOffset.x - outSpeed setIntPos() end&lt;br/&gt;  if (slideDirection == 3 or slideDirection == 4) and checkOffset.x &lt; maxOffset.x then checkOffset.x = maxOffset.x setIntPos() end&lt;br/&gt;  -- * let's slide the y position of the interface based on SlideDirection (out) * --&lt;br/&gt;  if (slideDirection == 1 or slideDirection == 2) and checkOffset.y &lt; maxOffset.y then checkOffset.y = checkOffset.y + outSpeed setIntPos() end&lt;br/&gt;  if (slideDirection == 1 or slideDirection == 2) and checkOffset.y &gt; maxOffset.y then checkOffset.y = maxOffset.y setIntPos() end&lt;br/&gt;  if (slideDirection == 3 or slideDirection == 4) and checkOffset.y &gt; maxOffset.y then checkOffset.y = checkOffset.y - outSpeed setIntPos()  end&lt;br/&gt;  if (slideDirection == 3 or slideDirection == 4) and checkOffset.y &lt; maxOffset.y then checkOffset.y = maxOffset.y setIntPos() end&lt;br/&gt; end&lt;br/&gt; if not hover:getBool(VConditionValue) and mwheel:getBool(VConditionValue) and mwUp == 2 then -- check if mouse wheel down has been rotated&lt;br/&gt;  -- * let's slide the x position of the interface based on slideDirection (in) * --&lt;br/&gt;  if slideDirection == 1 and checkOffset.x &gt; minOffset.x - mwOffset then checkOffset.x = checkOffset.x - inSpeed setIntPos() end&lt;br/&gt;  if slideDirection == 1 and checkOffset.x &lt; minOffset.x - mwOffset then checkOffset.x = minOffset.x - mwOffset setIntPos() end&lt;br/&gt;  if slideDirection == 2 and checkOffset.x &gt; minOffset.x then checkOffset.x = checkOffset.x - inSpeed setIntPos() end&lt;br/&gt;  if slideDirection == 2 and checkOffset.x &lt; minOffset.x then checkOffset.x = minOffset.x setIntPos() end&lt;br/&gt;  if slideDirection == 3 and checkOffset.x &lt; minOffset.x + mwOffset then checkOffset.x = checkOffset.x + inSpeed setIntPos() end&lt;br/&gt;  if slideDirection == 3 and checkOffset.x &gt; minOffset.x + mwOffset then checkOffset.x = minOffset.x + mwOffset setIntPos() end&lt;br/&gt;  if slideDirection == 4 and checkOffset.x &lt; minOffset.x then checkOffset.x = checkOffset.x + inSpeed setIntPos() end&lt;br/&gt;  if slideDirection == 4 and checkOffset.x &gt; minOffset.x then checkOffset.x = minOffset.x setIntPos() end&lt;br/&gt;  -- * let's slide the y position of the interface based on SlideDirection (in) * --&lt;br/&gt;  if slideDirection == 1 and checkOffset.y &gt; minOffset.y then checkOffset.y = checkOffset.y - inSpeed setIntPos() end&lt;br/&gt;  if slideDirection == 1 and checkOffset.y &lt; minOffset.y then checkOffset.y = minOffset.y setIntPos() end&lt;br/&gt;  if slideDirection == 2 and checkOffset.y &gt; minOffset.y - mwOffset then checkOffset.y = checkOffset.y - inSpeed setIntPos() end&lt;br/&gt;  if slideDirection == 2 and checkOffset.y &lt; minOffset.y - mwOffset then checkOffset.y = minOffset.y - mwOffset setIntPos() end&lt;br/&gt;  if slideDirection == 3 and checkOffset.y &lt; minOffset.y then checkOffset.y = checkOffset.y + inSpeed setIntPos() end&lt;br/&gt;  if slideDirection == 3 and checkOffset.y &gt; minOffset.y then checkOffset.y = minOffset.y setIntPos() end&lt;br/&gt;  if slideDirection == 4 and checkOffset.y &lt; minOffset.y + mwOffset then checkOffset.y = checkOffset.y + inSpeed setIntPos() end&lt;br/&gt;  if slideDirection == 4 and checkOffset.y &gt; minOffset.y + mwOffset then checkOffset.y = minOffset.y + mwOffset setIntPos() end&lt;br/&gt; end&lt;br/&gt;end&lt;br/&gt; &lt;br/&gt; -- * updates the current position of the interface * --&lt;br/&gt;function setIntPos()&lt;br/&gt; getInterface:setValue(VInterfaceOffset, checkOffset)&lt;br/&gt;end&lt;br/&gt; &lt;br/&gt;-- * let's check if mouse wheel mode = true; if true then hide the interface else overlap interface slightly * --&lt;br/&gt;function mwMode()&lt;br/&gt; if mwheel:getBool(VConditionValue) then&lt;br/&gt;  if slideDirection == 1 then checkOffset = {x = minOffset.x - mwOffset, y = minOffset.y} setIntPos() end&lt;br/&gt;  if slideDirection == 2 then checkOffset = {x = minOffset.x, y = minOffset.y - mwOffset} setIntPos() end&lt;br/&gt;  if slideDirection == 3 then checkOffset = {x = minOffset.x + mwOffset, y = minOffset.y} setIntPos() end&lt;br/&gt;  if slideDirection == 4 then checkOffset = {x = minOffset.x, y = minOffset.y + mwOffset} setIntPos() end&lt;br/&gt; else&lt;br/&gt;  checkOffset = {x = minOffset.x, y = minOffset.y}&lt;br/&gt;  setIntPos()&lt;br/&gt; end&lt;br/&gt;end" ScriptType="1">
 		</Script>
 		<Script name="event_inventory_slide" id="3" order="3" lastModified="-1" ScriptScript="-- * this is the mainLoop event function (all loop events &amp; functions for looping should be added or linked here) * --&lt;br/&gt;function onMainLoop()&lt;br/&gt; intSlide() -- loop the function which checks if interface should be sliding in, out or at default position!&lt;br/&gt;end&lt;br/&gt; &lt;br/&gt;-- * this is the mouse event listener! (all mouse events &amp; functions should be added or linked here) * --&lt;br/&gt;function onMouseEvent(eventType)&lt;br/&gt; if not getObject(&quot;Conditions[mwtoggle]&quot;):getBool(VConditionValue) then -- if toggle is false then set default&lt;br/&gt;  if eventType == eEvtMouseWheelUp then mwUp = 1 end&lt;br/&gt;  if eventType == eEvtMouseWheelDown then mwUp = 2 end&lt;br/&gt; else -- invert mouse wheel&lt;br/&gt;  if eventType == eEvtMouseWheelUp then mwUp = 2 end&lt;br/&gt;  if eventType == eEvtMouseWheelDown then mwUp = 1 end&lt;br/&gt; end&lt;br/&gt;end&lt;br/&gt; &lt;br/&gt;-- * let's create the mouse event listener! * --&lt;br/&gt;registerEventHandler(&quot;mouseEvent&quot;, &quot;onMouseEvent&quot;, {eEvtMouseWheelUp, eEvtMouseWheelDown})&lt;br/&gt;-- * let's create the loop event handler! * --&lt;br/&gt;registerEventHandler(&quot;mainLoop&quot;, &quot;onMainLoop&quot;)" ScriptType="1">
 		</Script>
