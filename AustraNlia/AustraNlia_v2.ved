@@ -47,7 +47,7 @@
 		<GameStandardLanguage parentLink="F" id="0" tableId="18" LinkAny="F"/>
 		<GameActions>
 		</GameActions>
-		<GameStartAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		<GameStartAction parentLink="T" id="61" tableId="7" LinkAny="F"/>
 		<GameRightClickAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		<GameLeftDblClickAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		<GameLeftHoldAction parentLink="T" id="14" tableId="7" LinkAny="F"/>
@@ -2185,7 +2185,7 @@
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
 	</Objects>
-	<Actions newId="61" versionedId="22" tableId="7">
+	<Actions newId="62" versionedId="22" tableId="7">
 		<Action name="At beginning of scene" id="0" order="0" lastModified="-1" ActionExecutionType="31">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -2785,8 +2785,15 @@
 				<Link parentLink="T" id="389" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
+		<Action name="Action" id="61" order="61" lastModified="-1" ActionExecutionType="-1">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="390" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
 	</Actions>
-	<ActionParts newId="390" versionedId="207" tableId="8">
+	<ActionParts newId="391" versionedId="207" tableId="8">
 		<ActionPart name="Play video 'logo_screen.mov'" id="0" order="1" lastModified="-1" ActionPartCommand="66" ActionPartPath="Assets/Video/logo_screen.mov" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -3956,6 +3963,10 @@
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="End if" id="389" order="5" lastModified="1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Execute script 'read_ini()'" id="390" order="0" lastModified="1" ActionPartCommand="138" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="read_ini()">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -8530,7 +8541,7 @@
 			</SpriteSprite>
 		</Sprite>
 	</Sprites>
-	<Texts newId="198" versionedId="39" tableId="14">
+	<Texts newId="199" versionedId="39" tableId="14">
 		<Text name="Unnamed" id="0" order="0" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
