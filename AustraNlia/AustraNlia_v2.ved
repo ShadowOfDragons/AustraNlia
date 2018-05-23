@@ -471,6 +471,9 @@
 			<CharacterDialogs>
 			</CharacterDialogs>
 			<CharacterActions>
+				<Link parentLink="T" id="143" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="144" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="145" tableId="7" LinkAny="F"/>
 			</CharacterActions>
 			<CharacterOutfits>
 				<Link parentLink="T" id="7" tableId="17" LinkAny="F"/>
@@ -3286,7 +3289,7 @@
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
 	</Objects>
-	<Actions newId="142" versionedId="22" tableId="7">
+	<Actions newId="146" versionedId="22" tableId="7">
 		<Action name="At beginning of scene" id="0" order="0" lastModified="-1" ActionExecutionType="31">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -4477,8 +4480,31 @@
 				<Link parentLink="T" id="577" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
+		<Action name="Cursor enters character area" id="143" order="0" lastModified="1" ActionExecutionType="1">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="578" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Cursor leaves character area" id="144" order="1" lastModified="1" ActionExecutionType="2">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="579" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="'main_command' executed" id="145" order="2" lastModified="1" ActionExecutionType="6">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="8" tableId="2" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="580" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="581" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="582" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
 	</Actions>
-	<ActionParts newId="578" versionedId="207" tableId="8">
+	<ActionParts newId="583" versionedId="207" tableId="8">
 		<ActionPart name="Play video 'logo_screen.mov'" id="0" order="1" lastModified="-1" ActionPartCommand="66" ActionPartPath="Assets/Video/logo_screen.mov" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -6310,6 +6336,26 @@
 		<ActionPart name="pc_chad: emmmm... thanks?" id="577" order="11" lastModified="1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="334" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Set cursor 'cursor_talk'" id="578" order="0" lastModified="1" ActionPartCommand="94" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="3" tableId="15" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Set cursor 'cursors_arrow'" id="579" order="0" lastModified="1" ActionPartCommand="94" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="0" tableId="15" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If 'npc_guard' has 'inv_fish'" id="580" order="1" lastModified="1" ActionPartCommand="161" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="7" tableId="0" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="57" tableId="6" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="npc_guard: Thank you so much, freshwater sailorm you can talk me whenever you want." id="581" order="2" lastModified="1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="335" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="7" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="npc_guard: Get out, you scare the clients! Wait… if you find a fish and give it to me I will let you talk with me. I am so nice." id="582" order="0" lastModified="1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="336" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="7" tableId="0" LinkAny="F"/>
 		</ActionPart>
 	</ActionParts>
 	<Animations newId="193" versionedId="31" tableId="9">
@@ -12492,7 +12538,7 @@
 			</SpriteSprite>
 		</Sprite>
 	</Sprites>
-	<Texts newId="335" versionedId="39" tableId="14">
+	<Texts newId="337" versionedId="39" tableId="14">
 		<Text name="Unnamed" id="0" order="0" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
@@ -13266,6 +13312,16 @@
 		<Text name="Unnamed" id="334" order="334" lastModified="1">
 			<TextTextLanguages>
 				<text Text="emmmm... thanks?" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="335" order="335" lastModified="1">
+			<TextTextLanguages>
+				<text Text="Thank you so much, freshwater sailorm you can talk me whenever you want." path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="336" order="336" lastModified="1">
+			<TextTextLanguages>
+				<text Text="Get out, you scare the clients! Wait… if you find a fish and give it to me I will let you talk with me. I am so nice." path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
 	</Texts>
