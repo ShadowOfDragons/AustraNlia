@@ -236,12 +236,12 @@
 			<CharacterCurrentCommentSet parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<CharacterDialogCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<CharacterDialogs>
-				<Link parentLink="T" id="3" tableId="11" LinkAny="F"/>
 			</CharacterDialogs>
 			<CharacterActions>
 				<Link parentLink="T" id="134" tableId="7" LinkAny="F"/>
 				<Link parentLink="T" id="135" tableId="7" LinkAny="F"/>
 				<Link parentLink="T" id="141" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="154" tableId="7" LinkAny="F"/>
 			</CharacterActions>
 			<CharacterOutfits>
 				<Link parentLink="T" id="2" tableId="17" LinkAny="F"/>
@@ -474,6 +474,7 @@
 				<Link parentLink="T" id="143" tableId="7" LinkAny="F"/>
 				<Link parentLink="T" id="144" tableId="7" LinkAny="F"/>
 				<Link parentLink="T" id="145" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="157" tableId="7" LinkAny="F"/>
 			</CharacterActions>
 			<CharacterOutfits>
 				<Link parentLink="T" id="7" tableId="17" LinkAny="F"/>
@@ -3289,7 +3290,7 @@
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
 	</Objects>
-	<Actions newId="146" versionedId="22" tableId="7">
+	<Actions newId="158" versionedId="22" tableId="7">
 		<Action name="At beginning of scene" id="0" order="0" lastModified="-1" ActionExecutionType="31">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -4438,6 +4439,7 @@
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionActionParts>
 				<Link parentLink="T" id="544" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="626" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="'inv_mechero' dropped" id="135" order="2" lastModified="1" ActionExecutionType="3">
@@ -4446,6 +4448,10 @@
 			<ActionActionParts>
 				<Link parentLink="T" id="545" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="546" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="628" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="629" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="630" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="635" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Action" id="136" order="136" lastModified="-1" ActionExecutionType="-1">
@@ -4467,17 +4473,8 @@
 			<ActionCommand parentLink="F" id="8" tableId="2" LinkAny="F"/>
 			<ActionActionParts>
 				<Link parentLink="T" id="566" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="567" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="568" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="569" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="570" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="571" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="572" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="573" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="574" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="575" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="576" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="577" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="634" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Cursor enters character area" id="143" order="0" lastModified="1" ActionExecutionType="1">
@@ -4498,13 +4495,26 @@
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="8" tableId="2" LinkAny="F"/>
 			<ActionActionParts>
-				<Link parentLink="T" id="580" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="581" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="582" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
+		<Action name="'' dropped" id="154" order="4" lastModified="1" ActionExecutionType="3">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="632" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="633" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="'inv_fish' dropped" id="157" order="3" lastModified="1" ActionExecutionType="3">
+			<ActionFixture parentLink="F" id="57" tableId="6" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="636" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
 	</Actions>
-	<ActionParts newId="583" versionedId="207" tableId="8">
+	<ActionParts newId="637" versionedId="207" tableId="8">
 		<ActionPart name="Play video 'logo_screen.mov'" id="0" order="1" lastModified="-1" ActionPartCommand="66" ActionPartPath="Assets/Video/logo_screen.mov" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -6293,49 +6303,9 @@
 			<ActionPartLink parentLink="T" id="327" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="2" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Start dialog 'cigarro'" id="567" order="1" lastModified="1" ActionPartCommand="13" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="3" tableId="11" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="npc_mierins: … thank you for your lack of punctuality, you’re going to give me my damned cigarette… Mr. never-in-time…" id="568" order="2" lastModified="1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="npc_mierins: … thank you for your lack of punctuality, you’re going to give me my damned cigarette… Mr. never-in-time…" id="568" order="4" lastModified="1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="328" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="2" tableId="0" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="If 'npc_mierins' has 'inv_cigarro'" id="569" order="3" lastModified="1" ActionPartCommand="161" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="2" tableId="0" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="73" tableId="6" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="If 'npc_mierins' has 'inv_mechero'" id="570" order="5" lastModified="1" ActionPartCommand="161" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="2" tableId="0" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="74" tableId="6" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="npc_mierins: Oh! wow, it looks like you can do something more than be late… Give me the lighter!, it’s over there." id="571" order="4" lastModified="1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="T" id="329" tableId="14" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="2" tableId="0" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="npc_mierins: Hooray! it seems that that you’re not a waste of a human." id="572" order="6" lastModified="1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="T" id="330" tableId="14" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="2" tableId="0" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="pc_chad: Thank you!" id="573" order="7" lastModified="1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="T" id="331" tableId="14" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="npc_mierins: Okay… Listen because it will be a very difficult proof, for you… You only need to get that tablet that is in my small ta..." id="574" order="8" lastModified="1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="T" id="332" tableId="14" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="2" tableId="0" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="If 'npc_mierins' has '[empty]'" id="575" order="9" lastModified="1" ActionPartCommand="161" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="2" tableId="0" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="npc_mierins: I’m... amazed… It doesn’t matter, let’s start: today you are going to be a new person, you will try to live an amazing m..." id="576" order="10" lastModified="1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="T" id="333" tableId="14" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="2" tableId="0" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="pc_chad: emmmm... thanks?" id="577" order="11" lastModified="1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="T" id="334" tableId="14" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="Set cursor 'cursor_talk'" id="578" order="0" lastModified="1" ActionPartCommand="94" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="3" tableId="15" LinkAny="F"/>
@@ -6345,16 +6315,44 @@
 			<ActionPartLink parentLink="F" id="0" tableId="15" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="If 'npc_guard' has 'inv_fish'" id="580" order="1" lastModified="1" ActionPartCommand="161" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="7" tableId="0" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="57" tableId="6" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="npc_guard: Thank you so much, freshwater sailorm you can talk me whenever you want." id="581" order="2" lastModified="1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="T" id="335" tableId="14" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="7" tableId="0" LinkAny="F"/>
-		</ActionPart>
 		<ActionPart name="npc_guard: Get out, you scare the clients! Wait… if you find a fish and give it to me I will let you talk with me. I am so nice." id="582" order="0" lastModified="1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="336" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="7" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="npc_mierins: Oh! wow, it looks like you can do something more than be late… Give me the lighter!, it’s over there." id="626" order="1" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="366" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="2" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="npc_mierins: Hooray! it seems that that you’re not a waste of a human." id="628" order="3" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="367" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="2" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="pc_chad: Thank you!" id="629" order="4" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="368" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="npc_mierins: Okay… Listen because it will be a very difficult proof, for you… " id="630" order="5" lastModified="1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="369" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="2" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="npc_mierins: I’m... amazed… It doesn’t matter, let’s start: today you are going to be a new person, you will try to live an amazing m..." id="632" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="372" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="2" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="pc_chad: emmmm... thanks?" id="633" order="1" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="373" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="pc_chad: Hey fella, what’s up?" id="634" order="3" lastModified="1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="374" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="npc_mierins: You only need to get that tablet that is in my small table, that where is the super-wonder-amazing computer that gives y..." id="635" order="6" lastModified="1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="375" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="2" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="npc_guard: Thank you so much, freshwater sailorm you can talk me whenever you want." id="636" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="377" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="7" tableId="0" LinkAny="F"/>
 		</ActionPart>
 	</ActionParts>
@@ -12087,7 +12085,7 @@
 			</AnimationPauses>
 		</Animation>
 	</Animations>
-	<Conditions newId="30" versionedId="11" tableId="10">
+	<Conditions newId="36" versionedId="11" tableId="10">
 		<Condition name="fullscreen?" id="0" order="0" lastModified="-1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionOperator="0">
 			<ConditionConditions>
 			</ConditionConditions>
@@ -12226,18 +12224,6 @@
 			</DialogDialogParts>
 			<DialogCharacter parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Dialog>
-		<Dialog name="cigarro" id="3" order="0" lastModified="1">
-			<DialogDialogParts>
-				<Link parentLink="T" id="5" tableId="12" LinkAny="F"/>
-				<Link parentLink="T" id="6" tableId="12" LinkAny="F"/>
-			</DialogDialogParts>
-			<DialogCharacter parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</Dialog>
-		<Dialog name="2. Yup!" id="4" order="4" lastModified="1">
-			<DialogDialogParts>
-			</DialogDialogParts>
-			<DialogCharacter parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</Dialog>
 	</Dialogs>
 	<DialogParts newId="7" versionedId="-1" tableId="12">
 		<DialogPart name="1. The mammoth." id="0" order="0" lastModified="1" DialogPartConditionNegate="F" DialogPartReturn="0" DialogPartRemove="F" DialogPartUseAltText="F" DialogPartValueOperator="-1" DialogPartValueInt="-1">
@@ -12288,26 +12274,6 @@
 			<DialogPartAnswerText parentLink="T" id="256" tableId="14" LinkAny="F"/>
 			<DialogPartNextDialog parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<DialogPartAltText parentLink="T" id="257" tableId="14" LinkAny="F"/>
-			<DialogPartValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</DialogPart>
-		<DialogPart name="1. Hey fella, what’s up?" id="5" order="0" lastModified="1" DialogPartConditionNegate="F" DialogPartReturn="0" DialogPartRemove="F" DialogPartUseAltText="F" DialogPartValueOperator="-1" DialogPartValueInt="-1">
-			<DialogPartCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<DialogPartText parentLink="T" id="321" tableId="14" LinkAny="F"/>
-			<DialogPartAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<DialogPartLinkedAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<DialogPartAnswerText parentLink="T" id="322" tableId="14" LinkAny="F"/>
-			<DialogPartNextDialog parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<DialogPartAltText parentLink="T" id="323" tableId="14" LinkAny="F"/>
-			<DialogPartValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</DialogPart>
-		<DialogPart name="2. Yup!" id="6" order="1" lastModified="1" DialogPartConditionNegate="F" DialogPartReturn="0" DialogPartRemove="F" DialogPartUseAltText="F" DialogPartValueOperator="-1" DialogPartValueInt="-1">
-			<DialogPartCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<DialogPartText parentLink="T" id="324" tableId="14" LinkAny="F"/>
-			<DialogPartAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<DialogPartLinkedAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<DialogPartAnswerText parentLink="T" id="325" tableId="14" LinkAny="F"/>
-			<DialogPartNextDialog parentLink="T" id="4" tableId="11" LinkAny="F"/>
-			<DialogPartAltText parentLink="T" id="326" tableId="14" LinkAny="F"/>
 			<DialogPartValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</DialogPart>
 	</DialogParts>
@@ -12538,7 +12504,7 @@
 			</SpriteSprite>
 		</Sprite>
 	</Sprites>
-	<Texts newId="337" versionedId="39" tableId="14">
+	<Texts newId="378" versionedId="39" tableId="14">
 		<Text name="Unnamed" id="0" order="0" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
@@ -13244,84 +13210,64 @@
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="321" order="321" lastModified="1">
-			<TextTextLanguages>
-				<text Text="Hey fella, what’s up?" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Unnamed" id="322" order="322" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Unnamed" id="323" order="323" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Unnamed" id="324" order="324" lastModified="1">
-			<TextTextLanguages>
-				<text Text="Yup!" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Unnamed" id="325" order="325" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Unnamed" id="326" order="326" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
 		<Text name="Unnamed" id="327" order="327" lastModified="1">
 			<TextTextLanguages>
 				<text Text="I truly hope you are who I think you are.... Mr. COSAY!" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="328" order="328" lastModified="1">
+		<Text name="Unnamed" id="328" order="328" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="… thank you for your lack of punctuality, you’re going to give me my damned cigarette… Mr. never-in-time…" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Unnamed" id="329" order="329" lastModified="1">
-			<TextTextLanguages>
-				<text Text="Oh! wow, it looks like you can do something more than be late… Give me the lighter!, it’s over there." path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Unnamed" id="330" order="330" lastModified="1">
-			<TextTextLanguages>
-				<text Text="Hooray! it seems that that you’re not a waste of a human." path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Unnamed" id="331" order="331" lastModified="1">
-			<TextTextLanguages>
-				<text Text="Thank you!" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Unnamed" id="332" order="332" lastModified="1">
-			<TextTextLanguages>
-				<text Text="Okay… Listen because it will be a very difficult proof, for you… You only need to get that tablet that is in my small table, that where is the super-wonder-amazing computer that gives you the answer of the universe and the life." path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Unnamed" id="333" order="333" lastModified="1">
-			<TextTextLanguages>
-				<text Text="I’m... amazed… It doesn’t matter, let’s start: today you are going to be a new person, you will try to live an amazing magic adventures, but guess… maybe you will be too late to achieve it." path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Unnamed" id="334" order="334" lastModified="1">
-			<TextTextLanguages>
-				<text Text="emmmm... thanks?" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Unnamed" id="335" order="335" lastModified="1">
-			<TextTextLanguages>
-				<text Text="Thank you so much, freshwater sailorm you can talk me whenever you want." path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="336" order="336" lastModified="1">
 			<TextTextLanguages>
 				<text Text="Get out, you scare the clients! Wait… if you find a fish and give it to me I will let you talk with me. I am so nice." path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="366" order="329" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Oh! wow, it looks like you can do something more than be late… Give me the lighter!, it’s over there." path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="367" order="330" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Hooray! it seems that that you’re not a waste of a human." path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="368" order="331" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Thank you!" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="369" order="332" lastModified="1">
+			<TextTextLanguages>
+				<text Text="Okay… Listen because it will be a very difficult proof, for you… " path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="372" order="333" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="I’m... amazed… It doesn’t matter, let’s start: today you are going to be a new person, you will try to live an amazing magic adventures, but guess… maybe you will be too late to achieve it." path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="373" order="334" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="emmmm... thanks?" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="374" order="374" lastModified="1">
+			<TextTextLanguages>
+				<text Text="Hey fella, what’s up?" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="375" order="375" lastModified="1">
+			<TextTextLanguages>
+				<text Text="You only need to get that tablet that is in my small table, that where is the super-wonder-amazing computer that gives you the answer of the universe and the life." path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="377" order="335" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Thank you so much, freshwater sailorm you can talk me whenever you want." path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
 	</Texts>
