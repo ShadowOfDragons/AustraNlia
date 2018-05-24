@@ -46,6 +46,8 @@
 			<Link parentLink="T" id="59" tableId="6" LinkAny="F"/>
 			<Link parentLink="T" id="73" tableId="6" LinkAny="F"/>
 			<Link parentLink="T" id="74" tableId="6" LinkAny="F"/>
+			<Link parentLink="T" id="75" tableId="6" LinkAny="F"/>
+			<Link parentLink="T" id="76" tableId="6" LinkAny="F"/>
 		</GameItems>
 		<GameLoading parentLink="T" id="0" tableId="21" LinkAny="F"/>
 		<GameWindowResolution x="1920" y="1080"/>
@@ -320,7 +322,7 @@
 			<CharacterActionDestPosition x="-1" y="-1"/>
 			<CharacterAudioBus parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Character>
-		<Character name="npc_jinrus" id="4" order="4" lastModified="1" CharacterWalkingSound="" CharacterScale="T" CharacterDialogVerticalSpace="10" CharacterScaleFactor="35" CharacterHarmonizeWalkAnimations="F">
+		<Character name="npc_jinrus" id="4" order="4" lastModified="1" CharacterWalkingSound="" CharacterScale="T" CharacterDialogVerticalSpace="10" CharacterScaleFactor="50" CharacterHarmonizeWalkAnimations="F">
 			<CharacterName parentLink="T" id="76" tableId="14" LinkAny="F"/>
 			<CharacterInterfaces>
 			</CharacterInterfaces>
@@ -366,7 +368,7 @@
 			<CharacterActionDestPosition x="-1" y="-1"/>
 			<CharacterAudioBus parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Character>
-		<Character name="npc_koala" id="5" order="5" lastModified="1" CharacterWalkingSound="" CharacterScale="T" CharacterDialogVerticalSpace="10" CharacterScaleFactor="60" CharacterHarmonizeWalkAnimations="F">
+		<Character name="npc_koala" id="5" order="5" lastModified="1" CharacterWalkingSound="" CharacterScale="T" CharacterDialogVerticalSpace="10" CharacterScaleFactor="90" CharacterHarmonizeWalkAnimations="F">
 			<CharacterName parentLink="T" id="77" tableId="14" LinkAny="F"/>
 			<CharacterInterfaces>
 			</CharacterInterfaces>
@@ -412,7 +414,7 @@
 			<CharacterActionDestPosition x="-1" y="-1"/>
 			<CharacterAudioBus parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Character>
-		<Character name="npc_granny" id="6" order="6" lastModified="1" CharacterWalkingSound="" CharacterScale="T" CharacterDialogVerticalSpace="10" CharacterScaleFactor="35" CharacterHarmonizeWalkAnimations="F">
+		<Character name="npc_granny" id="6" order="6" lastModified="1" CharacterWalkingSound="" CharacterScale="T" CharacterDialogVerticalSpace="10" CharacterScaleFactor="70" CharacterHarmonizeWalkAnimations="F">
 			<CharacterName parentLink="T" id="78" tableId="14" LinkAny="F"/>
 			<CharacterInterfaces>
 			</CharacterInterfaces>
@@ -460,7 +462,7 @@
 			<CharacterActionDestPosition x="-1" y="-1"/>
 			<CharacterAudioBus parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Character>
-		<Character name="npc_guard" id="7" order="7" lastModified="1" CharacterWalkingSound="" CharacterScale="T" CharacterDialogVerticalSpace="10" CharacterScaleFactor="70" CharacterHarmonizeWalkAnimations="F">
+		<Character name="npc_guard" id="7" order="7" lastModified="1" CharacterWalkingSound="" CharacterScale="T" CharacterDialogVerticalSpace="10" CharacterScaleFactor="110" CharacterHarmonizeWalkAnimations="F">
 			<CharacterName parentLink="T" id="79" tableId="14" LinkAny="F"/>
 			<CharacterInterfaces>
 			</CharacterInterfaces>
@@ -507,7 +509,7 @@
 			<CharacterActionDestPosition x="-1" y="-1"/>
 			<CharacterAudioBus parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Character>
-		<Character name="npc_roboguard" id="8" order="8" lastModified="1" CharacterWalkingSound="" CharacterScale="T" CharacterDialogVerticalSpace="10" CharacterScaleFactor="70" CharacterHarmonizeWalkAnimations="F">
+		<Character name="npc_roboguard" id="8" order="8" lastModified="1" CharacterWalkingSound="" CharacterScale="T" CharacterDialogVerticalSpace="10" CharacterScaleFactor="90" CharacterHarmonizeWalkAnimations="F">
 			<CharacterName parentLink="T" id="80" tableId="14" LinkAny="F"/>
 			<CharacterInterfaces>
 			</CharacterInterfaces>
@@ -976,7 +978,7 @@
 			</ButtonGroup>
 			<ButtonValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Button>
-		<Button name="main_command" id="8" order="0" lastModified="1" ButtonType="3" ButtonCommandType="0" ButtonUse="0" ButtonUseOnCurrentCharacter="F" ButtonConditionNegate="F" ButtonDraggable="T" ButtonValueOperator="-1" ButtonValueInt="-1">
+		<Button name="main_command" id="8" order="0" lastModified="1" ButtonType="3" ButtonCommandType="0" ButtonUse="0" ButtonUseOnCurrentCharacter="T" ButtonConditionNegate="F" ButtonDraggable="T" ButtonValueOperator="-1" ButtonValueInt="-1">
 			<ButtonActiveSprite parentLink="T" id="44" tableId="13" LinkAny="F"/>
 			<ButtonInactiveSprite parentLink="T" id="45" tableId="13" LinkAny="F"/>
 			<ButtonCursor parentLink="F" id="0" tableId="15" LinkAny="F"/>
@@ -1381,7 +1383,7 @@
 				<Link parentLink="F" id="6" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
-		<Point name="Point1" id="6" order="1" lastModified="1" PointSize="-1">
+		<Point name="Point1" id="6" order="1" lastModified="1" PointSize="50">
 			<PointPosition x="210" y="788"/>
 			<PointRelations>
 				<Link parentLink="F" id="5" tableId="5" LinkAny="F"/>
@@ -1443,7 +1445,7 @@
 				<Link parentLink="F" id="15" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
-		<Point name="Point1" id="15" order="1" lastModified="1" PointSize="-1">
+		<Point name="Point1" id="15" order="1" lastModified="1" PointSize="70">
 			<PointPosition x="422" y="514"/>
 			<PointRelations>
 				<Link parentLink="F" id="14" tableId="5" LinkAny="F"/>
@@ -1482,14 +1484,14 @@
 				<Link parentLink="F" id="22" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
-		<Point name="Point10" id="22" order="10" lastModified="1" PointSize="-1">
+		<Point name="Point10" id="22" order="10" lastModified="1" PointSize="80">
 			<PointPosition x="1909" y="1044"/>
 			<PointRelations>
 				<Link parentLink="F" id="21" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
 	</Points>
-	<Objects newId="75" versionedId="9" tableId="6">
+	<Objects newId="77" versionedId="9" tableId="6">
 		<Object name="opt_tablet" id="0" order="14" lastModified="1" ObjectDirection="-1" ObjectCenter="1080" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="5" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
@@ -2001,11 +2003,18 @@
 		<Object name="bottle_closet" id="21" order="11" lastModified="1" ObjectDirection="90" ObjectCenter="624" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="58" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
+				<point x="1200" y="470"/>
+				<point x="1234" y="467"/>
+				<point x="1237" y="525"/>
+				<point x="1200" y="525"/>
 			</ObjectPolygon>
 			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectAnimation parentLink="F" id="44" tableId="9" LinkAny="F"/>
 			<ObjectActions>
+				<Link parentLink="T" id="158" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="159" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="160" tableId="7" LinkAny="F"/>
 			</ObjectActions>
 			<ObjectConditions>
 			</ObjectConditions>
@@ -3290,8 +3299,52 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
+		<Object name="inv_key" id="75" order="4" lastModified="1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="T" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+			<ObjectName parentLink="T" id="380" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="53" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="193" tableId="9" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+				<Link parentLink="T" id="193" tableId="9" LinkAny="F"/>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Object>
+		<Object name="inv_botella" id="76" order="5" lastModified="1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="T" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+			<ObjectName parentLink="T" id="381" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="54" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="194" tableId="9" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+				<Link parentLink="T" id="194" tableId="9" LinkAny="F"/>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Object>
 	</Objects>
-	<Actions newId="158" versionedId="22" tableId="7">
+	<Actions newId="161" versionedId="22" tableId="7">
 		<Action name="At beginning of scene" id="0" order="0" lastModified="-1" ActionExecutionType="31">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -4512,8 +4565,31 @@
 				<Link parentLink="T" id="641" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
+		<Action name="Cursor enters object area" id="158" order="0" lastModified="1" ActionExecutionType="1">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="642" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Cursor leaves object area" id="159" order="1" lastModified="1" ActionExecutionType="2">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="643" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="'main_command' executed" id="160" order="2" lastModified="1" ActionExecutionType="6">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="8" tableId="2" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="644" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="645" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="646" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
 	</Actions>
-	<ActionParts newId="642" versionedId="207" tableId="8">
+	<ActionParts newId="647" versionedId="207" tableId="8">
 		<ActionPart name="Play video 'logo_screen.mov'" id="0" order="1" lastModified="-1" ActionPartCommand="66" ActionPartPath="Assets/Video/logo_screen.mov" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -6370,8 +6446,28 @@
 			<ActionPartLink parentLink="F" id="30" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
+		<ActionPart name="Set cursor 'cursor_hand'" id="642" order="0" lastModified="1" ActionPartCommand="94" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="1" tableId="15" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Set cursor 'cursors_arrow'" id="643" order="0" lastModified="1" ActionPartCommand="94" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="0" tableId="15" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Add item 'inv_botella' to character 'pc_chad'" id="644" order="0" lastModified="1" ActionPartCommand="150" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="1" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="76" tableId="6" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play animation 'closet_without_bottle'" id="645" order="1" lastModified="1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="45" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide animation 'closet_with_bottle'" id="646" order="2" lastModified="1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="44" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
 	</ActionParts>
-	<Animations newId="193" versionedId="31" tableId="9">
+	<Animations newId="195" versionedId="31" tableId="9">
 		<Animation name="Unnamed" id="1" order="1" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -12099,6 +12195,34 @@
 			<AnimationPauses>
 			</AnimationPauses>
 		</Animation>
+		<Animation name="inv_key" id="193" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="inv_botella" id="194" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
 	</Animations>
 	<Conditions newId="31" versionedId="11" tableId="10">
 		<Condition name="fullscreen?" id="0" order="0" lastModified="-1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionOperator="0">
@@ -12296,7 +12420,7 @@
 			<DialogPartValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</DialogPart>
 	</DialogParts>
-	<Sprites newId="53" versionedId="19" tableId="13">
+	<Sprites newId="55" versionedId="19" tableId="13">
 		<Sprite name="Unnamed" id="3" order="3" lastModified="-1">
 			<SpriteSprite name="" pause="-1" path="" Transparency="2">
 				<position x="0" y="0"/>
@@ -12522,8 +12646,18 @@
 				<position x="1794" y="693"/>
 			</SpriteSprite>
 		</Sprite>
+		<Sprite name="Image" id="53" order="53" lastModified="1">
+			<SpriteSprite name="" pause="-1" path="Assets/Items/inv_office_key.png" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Image" id="54" order="54" lastModified="1">
+			<SpriteSprite name="" pause="-1" path="Assets/Items/inv_bottle_whiskey.png" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
 	</Sprites>
-	<Texts newId="380" versionedId="39" tableId="14">
+	<Texts newId="387" versionedId="39" tableId="14">
 		<Text name="Unnamed" id="0" order="0" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
@@ -13292,6 +13426,16 @@
 		<Text name="Unnamed" id="379" order="379" lastModified="1">
 			<TextTextLanguages>
 				<text Text="Thank you so much, freshwater sailorm you can talk me whenever you want." path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="380" order="380" lastModified="1">
+			<TextTextLanguages>
+				<text Text="Key" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="381" order="381" lastModified="1">
+			<TextTextLanguages>
+				<text Text="Whiskey" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
 	</Texts>
