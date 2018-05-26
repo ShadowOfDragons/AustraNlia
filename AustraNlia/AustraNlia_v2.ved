@@ -1107,10 +1107,6 @@
 				<Link parentLink="T" id="38" tableId="6" LinkAny="F"/>
 				<Link parentLink="T" id="39" tableId="6" LinkAny="F"/>
 				<Link parentLink="T" id="42" tableId="6" LinkAny="F"/>
-				<Link parentLink="T" id="43" tableId="6" LinkAny="F"/>
-				<Link parentLink="T" id="44" tableId="6" LinkAny="F"/>
-				<Link parentLink="T" id="45" tableId="6" LinkAny="F"/>
-				<Link parentLink="T" id="46" tableId="6" LinkAny="F"/>
 				<Link parentLink="T" id="47" tableId="6" LinkAny="F"/>
 				<Link parentLink="T" id="48" tableId="6" LinkAny="F"/>
 				<Link parentLink="T" id="49" tableId="6" LinkAny="F"/>
@@ -2506,12 +2502,12 @@
 			<ObjectName parentLink="T" id="181" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 				<point x="233" y="873"/>
-				<point x="496" y="872"/>
-				<point x="496" y="926"/>
-				<point x="232" y="932"/>
+				<point x="512" y="875"/>
+				<point x="516" y="939"/>
+				<point x="231" y="939"/>
 			</ObjectPolygon>
 			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectSprite parentLink="T" id="35" tableId="13" LinkAny="F"/>
+			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectActions>
 				<Link parentLink="T" id="60" tableId="7" LinkAny="F"/>
@@ -2520,94 +2516,6 @@
 			</ObjectConditions>
 			<ObjectAnimations>
 				<Link parentLink="T" id="125" tableId="9" LinkAny="F"/>
-			</ObjectAnimations>
-			<ObjectValues>
-			</ObjectValues>
-			<ObjectPosition x="0" y="0"/>
-			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectSnoopAnimationPos x="0" y="0"/>
-			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</Object>
-		<Object name="fullscreen_text" id="43" order="10" lastModified="1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
-			<ObjectName parentLink="T" id="182" tableId="14" LinkAny="F"/>
-			<ObjectPolygon>
-			</ObjectPolygon>
-			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectActions>
-			</ObjectActions>
-			<ObjectConditions>
-			</ObjectConditions>
-			<ObjectAnimations>
-				<Link parentLink="T" id="126" tableId="9" LinkAny="F"/>
-			</ObjectAnimations>
-			<ObjectValues>
-			</ObjectValues>
-			<ObjectPosition x="0" y="0"/>
-			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectSnoopAnimationPos x="0" y="0"/>
-			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</Object>
-		<Object name="global_text" id="44" order="11" lastModified="1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
-			<ObjectName parentLink="T" id="183" tableId="14" LinkAny="F"/>
-			<ObjectPolygon>
-			</ObjectPolygon>
-			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectActions>
-			</ObjectActions>
-			<ObjectConditions>
-			</ObjectConditions>
-			<ObjectAnimations>
-				<Link parentLink="T" id="127" tableId="9" LinkAny="F"/>
-			</ObjectAnimations>
-			<ObjectValues>
-			</ObjectValues>
-			<ObjectPosition x="0" y="0"/>
-			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectSnoopAnimationPos x="0" y="0"/>
-			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</Object>
-		<Object name="sound_text" id="45" order="13" lastModified="1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
-			<ObjectName parentLink="T" id="184" tableId="14" LinkAny="F"/>
-			<ObjectPolygon>
-			</ObjectPolygon>
-			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectActions>
-			</ObjectActions>
-			<ObjectConditions>
-			</ObjectConditions>
-			<ObjectAnimations>
-				<Link parentLink="T" id="129" tableId="9" LinkAny="F"/>
-			</ObjectAnimations>
-			<ObjectValues>
-			</ObjectValues>
-			<ObjectPosition x="0" y="0"/>
-			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectSnoopAnimationPos x="0" y="0"/>
-			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</Object>
-		<Object name="music_text" id="46" order="12" lastModified="1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
-			<ObjectName parentLink="T" id="185" tableId="14" LinkAny="F"/>
-			<ObjectPolygon>
-			</ObjectPolygon>
-			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectActions>
-			</ObjectActions>
-			<ObjectConditions>
-			</ObjectConditions>
-			<ObjectAnimations>
-				<Link parentLink="T" id="128" tableId="9" LinkAny="F"/>
 			</ObjectAnimations>
 			<ObjectValues>
 			</ObjectValues>
@@ -3680,7 +3588,6 @@
 			<ActionActionParts>
 				<Link parentLink="T" id="211" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="227" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="430" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Cursor enters object area" id="28" order="0" lastModified="1" ActionExecutionType="1">
@@ -3719,6 +3626,7 @@
 				<Link parentLink="T" id="340" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="376" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="431" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="648" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Left click" id="31" order="2" lastModified="1" ActionExecutionType="7">
@@ -3882,6 +3790,7 @@
 				<Link parentLink="T" id="359" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="400" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="401" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="647" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Cursor enters object area" id="50" order="0" lastModified="1" ActionExecutionType="1">
@@ -3974,12 +3883,6 @@
 				<Link parentLink="T" id="391" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="392" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="393" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="394" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="395" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="396" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="397" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="398" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="399" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="ActVol_2" id="64" order="0" lastModified="1" ActionExecutionType="5">
@@ -4068,6 +3971,9 @@
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionActionParts>
 				<Link parentLink="T" id="429" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="649" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="650" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="651" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Cursor enters character area" id="74" order="0" lastModified="1" ActionExecutionType="1">
@@ -4589,7 +4495,7 @@
 			</ActionActionParts>
 		</Action>
 	</Actions>
-	<ActionParts newId="647" versionedId="207" tableId="8">
+	<ActionParts newId="652" versionedId="207" tableId="8">
 		<ActionPart name="Play video 'logo_screen.mov'" id="0" order="1" lastModified="-1" ActionPartCommand="66" ActionPartPath="Assets/Video/logo_screen.mov" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -5114,7 +5020,7 @@
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Show menu 'main_menu'" id="220" order="14" lastModified="1" ActionPartCommand="46" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Show menu 'main_menu'" id="220" order="15" lastModified="1" ActionPartCommand="46" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="2" tableId="4" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -5122,11 +5028,11 @@
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Call action 'opt_tablet_easing_exit'" id="222" order="11" lastModified="1" ActionPartCommand="148" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="local object = Objects[&quot;opt_tablet&quot;]&lt;br/&gt;object:to(1500, {ObjectOffset = {x = -1425, y = 0}}, easeQuintOut)">
+		<ActionPart name="Call action 'opt_tablet_easing_exit'" id="222" order="12" lastModified="1" ActionPartCommand="148" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="local object = Objects[&quot;opt_tablet&quot;]&lt;br/&gt;object:to(1500, {ObjectOffset = {x = -1425, y = 0}}, easeQuintOut)">
 			<ActionPartLink parentLink="F" id="32" tableId="7" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Pause for 1500 milliseconds" id="223" order="13" lastModified="1" ActionPartCommand="30" ActionPartPath="" ActionPartInt="1500" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Pause for 1500 milliseconds" id="223" order="14" lastModified="1" ActionPartCommand="30" ActionPartPath="" ActionPartInt="1500" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -5706,7 +5612,7 @@
 			<ActionPartLink parentLink="F" id="20" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Change condition 'in_options_menu' to false" id="376" order="12" lastModified="1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Change condition 'in_options_menu' to false" id="376" order="13" lastModified="1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="13" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -5771,30 +5677,6 @@
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="End if" id="393" order="2" lastModified="1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="If 'English' is current language" id="394" order="3" lastModified="1" ActionPartCommand="92" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="0" tableId="18" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="Play animation 'fullscreen_eng'" id="395" order="4" lastModified="1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="126" tableId="9" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="Play animation 'global_eng'" id="396" order="5" lastModified="1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="127" tableId="9" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="Play animation 'music_eng'" id="397" order="6" lastModified="1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="128" tableId="9" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="Play animation 'sound_eng'" id="398" order="7" lastModified="1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="129" tableId="9" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="End if" id="399" order="8" lastModified="1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -5915,10 +5797,6 @@
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="Execute script 'mousebtnHold(true)'" id="429" order="0" lastModified="1" ActionPartCommand="138" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="mousebtnHold(true)">
-			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="Execute script 'beginVolCon()'" id="430" order="1" lastModified="1" ActionPartCommand="138" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="beginVolCon()">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -6466,8 +6344,28 @@
 			<ActionPartLink parentLink="F" id="44" tableId="9" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
+		<ActionPart name="Execute script 'beginVolCon()'" id="647" order="4" lastModified="-1" ActionPartCommand="138" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="beginVolCon()">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Execute script 'endVolCon()'" id="648" order="11" lastModified="1" ActionPartCommand="138" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="endVolCon()">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide animation 'AniVolCon_2'" id="649" order="1" lastModified="1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="140" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide animation 'AniVolCon_0'" id="650" order="2" lastModified="1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="142" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide animation 'AniVolCon_1'" id="651" order="3" lastModified="1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="143" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
 	</ActionParts>
-	<Animations newId="195" versionedId="31" tableId="9">
+	<Animations newId="196" versionedId="31" tableId="9">
 		<Animation name="Unnamed" id="1" order="1" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -10245,100 +10143,100 @@
 			<AnimationPosition x="-1425" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
-				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/OptionsMenuBase/options_menu/options_menu_base_00000.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/options_menu/options_menu_anim00000.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/OptionsMenuBase/options_menu/options_menu_base_00001.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/options_menu/options_menu_anim00001.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/OptionsMenuBase/options_menu/options_menu_base_00002.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/options_menu/options_menu_anim00002.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/OptionsMenuBase/options_menu/options_menu_base_00003.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/options_menu/options_menu_anim00003.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/OptionsMenuBase/options_menu/options_menu_base_00004.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/options_menu/options_menu_anim00004.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/OptionsMenuBase/options_menu/options_menu_base_00005.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/options_menu/options_menu_anim00005.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/OptionsMenuBase/options_menu/options_menu_base_00006.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/options_menu/options_menu_anim00006.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/OptionsMenuBase/options_menu/options_menu_base_00007.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/options_menu/options_menu_anim00007.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/OptionsMenuBase/options_menu/options_menu_base_00008.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/options_menu/options_menu_anim00008.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/OptionsMenuBase/options_menu/options_menu_base_00009.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/options_menu/options_menu_anim00009.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/OptionsMenuBase/options_menu/options_menu_base_00010.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/options_menu/options_menu_anim00010.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/OptionsMenuBase/options_menu/options_menu_base_00011.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/options_menu/options_menu_anim00011.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/OptionsMenuBase/options_menu/options_menu_base_00012.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/options_menu/options_menu_anim00012.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/OptionsMenuBase/options_menu/options_menu_base_00013.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/options_menu/options_menu_anim00013.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/OptionsMenuBase/options_menu/options_menu_base_00014.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/options_menu/options_menu_anim00014.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/OptionsMenuBase/options_menu/options_menu_base_00015.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/options_menu/options_menu_anim00015.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/OptionsMenuBase/options_menu/options_menu_base_00016.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/options_menu/options_menu_anim00016.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/OptionsMenuBase/options_menu/options_menu_base_00017.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/options_menu/options_menu_anim00017.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/OptionsMenuBase/options_menu/options_menu_base_00018.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/options_menu/options_menu_anim00018.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/OptionsMenuBase/options_menu/options_menu_base_00019.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/options_menu/options_menu_anim00019.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/OptionsMenuBase/options_menu/options_menu_base_00020.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/options_menu/options_menu_anim00020.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/OptionsMenuBase/options_menu/options_menu_base_00021.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/options_menu/options_menu_anim00021.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/OptionsMenuBase/options_menu/options_menu_base_00022.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/options_menu/options_menu_anim00022.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/OptionsMenuBase/options_menu/options_menu_base_00023.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/options_menu/options_menu_anim00023.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/OptionsMenuBase/options_menu/options_menu_base_00024.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/options_menu/options_menu_anim00024.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/OptionsMenuBase/options_menu/options_menu_base_00025.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/options_menu/options_menu_anim00025.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/OptionsMenuBase/options_menu/options_menu_base_00026.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/options_menu/options_menu_anim00026.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/OptionsMenuBase/options_menu/options_menu_base_00027.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/options_menu/options_menu_anim00027.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/OptionsMenuBase/options_menu/options_menu_base_00028.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/options_menu/options_menu_anim00028.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/OptionsMenuBase/options_menu/options_menu_base_00029.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/options_menu/options_menu_anim00029.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/OptionsMenuBase/options_menu/options_menu_base_00030.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/options_menu/options_menu_anim00030.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/OptionsMenuBase/options_menu/options_menu_base_00031.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/OptionsMenu/options_menu/options_menu_anim00031.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
 			</AnimationSprites>
@@ -10700,78 +10598,10 @@
 			</AnimationPauses>
 		</Animation>
 		<Animation name="fullscreen_on" id="125" order="0" lastModified="1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
-			<AnimationPosition x="229" y="869"/>
+			<AnimationPosition x="233" y="875"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
 				<sprite name="" pause="0" path="Assets/UI/Buttons/OptionsMenu/Fullscreen/TogglePoint.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-			</AnimationSprites>
-			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="0" y="0"/>
-			<AnimationPropertyFrames>
-			</AnimationPropertyFrames>
-			<AnimationWalkSteps>
-			</AnimationWalkSteps>
-			<AnimationPauses>
-			</AnimationPauses>
-		</Animation>
-		<Animation name="fullscreen_eng" id="126" order="0" lastModified="1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
-			<AnimationPosition x="301" y="887"/>
-			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationSprites>
-				<sprite name="" pause="1" path="Assets/UI/Buttons/OptionsMenu/Fullscreen/fullscreen_text_eng.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-			</AnimationSprites>
-			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="0" y="0"/>
-			<AnimationPropertyFrames>
-			</AnimationPropertyFrames>
-			<AnimationWalkSteps>
-			</AnimationWalkSteps>
-			<AnimationPauses>
-			</AnimationPauses>
-		</Animation>
-		<Animation name="global_eng" id="127" order="0" lastModified="1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
-			<AnimationPosition x="674" y="487"/>
-			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationSprites>
-				<sprite name="" pause="0" path="Assets/UI/Buttons/OptionsMenu/Texts/global_text_eng.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-			</AnimationSprites>
-			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="0" y="0"/>
-			<AnimationPropertyFrames>
-			</AnimationPropertyFrames>
-			<AnimationWalkSteps>
-			</AnimationWalkSteps>
-			<AnimationPauses>
-			</AnimationPauses>
-		</Animation>
-		<Animation name="music_eng" id="128" order="0" lastModified="1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
-			<AnimationPosition x="703" y="640"/>
-			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationSprites>
-				<sprite name="" pause="11842" path="Assets/UI/Buttons/OptionsMenu/Texts/music_text_eng.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-			</AnimationSprites>
-			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="0" y="0"/>
-			<AnimationPropertyFrames>
-			</AnimationPropertyFrames>
-			<AnimationWalkSteps>
-			</AnimationWalkSteps>
-			<AnimationPauses>
-			</AnimationPauses>
-		</Animation>
-		<Animation name="sound_eng" id="129" order="0" lastModified="1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
-			<AnimationPosition x="702" y="784"/>
-			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationSprites>
-				<sprite name="" pause="0" path="Assets/UI/Buttons/OptionsMenu/Texts/sound_text_eng.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
 			</AnimationSprites>
@@ -12556,11 +12386,6 @@
 				<position x="0" y="0"/>
 			</SpriteSprite>
 		</Sprite>
-		<Sprite name="Image" id="35" order="35" lastModified="1">
-			<SpriteSprite name="" pause="-1" path="Assets/UI/Buttons/OptionsMenu/Fullscreen/Toggle.png" Transparency="2">
-				<position x="229" y="869"/>
-			</SpriteSprite>
-		</Sprite>
 		<Sprite name="Image" id="36" order="36" lastModified="1">
 			<SpriteSprite name="" pause="-1" path="Assets/Scenes/Secretary/mesa.png" Transparency="2">
 				<position x="0" y="0"/>
@@ -12657,7 +12482,7 @@
 			</SpriteSprite>
 		</Sprite>
 	</Sprites>
-	<Texts newId="387" versionedId="39" tableId="14">
+	<Texts newId="384" versionedId="39" tableId="14">
 		<Text name="Unnamed" id="0" order="0" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
@@ -13029,26 +12854,6 @@
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="181" order="181" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Unnamed" id="182" order="182" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Unnamed" id="183" order="183" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Unnamed" id="184" order="184" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Unnamed" id="185" order="185" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
@@ -13943,7 +13748,7 @@
 		</Script>
 		<Script name="event_inventory_slide" id="3" order="3" lastModified="-1" ScriptScript="-- * this is the mainLoop event function (all loop events &amp; functions for looping should be added or linked here) * --&lt;br/&gt;function onMainLoop()&lt;br/&gt; intSlide() -- loop the function which checks if interface should be sliding in, out or at default position!&lt;br/&gt;end&lt;br/&gt; &lt;br/&gt;-- * this is the mouse event listener! (all mouse events &amp; functions should be added or linked here) * --&lt;br/&gt;function onMouseEvent(eventType)&lt;br/&gt; if not getObject(&quot;Conditions[mwtoggle]&quot;):getBool(VConditionValue) then -- if toggle is false then set default&lt;br/&gt;  if eventType == eEvtMouseWheelUp then mwUp = 1 end&lt;br/&gt;  if eventType == eEvtMouseWheelDown then mwUp = 2 end&lt;br/&gt; else -- invert mouse wheel&lt;br/&gt;  if eventType == eEvtMouseWheelUp then mwUp = 2 end&lt;br/&gt;  if eventType == eEvtMouseWheelDown then mwUp = 1 end&lt;br/&gt; end&lt;br/&gt;end&lt;br/&gt; &lt;br/&gt;-- * let's create the mouse event listener! * --&lt;br/&gt;registerEventHandler(&quot;mouseEvent&quot;, &quot;onMouseEvent&quot;, {eEvtMouseWheelUp, eEvtMouseWheelDown})&lt;br/&gt;-- * let's create the loop event handler! * --&lt;br/&gt;registerEventHandler(&quot;mainLoop&quot;, &quot;onMainLoop&quot;)" ScriptType="1">
 		</Script>
-		<Script name="volume_control" id="4" order="4" lastModified="1" ScriptScript="-- VolConMinPos / VolConMaxPos(volume control slider minimum/maximum position; x axis - &quot;ReglerMinPos/ReglerMaxPos&quot;)&lt;br/&gt;-- VolConWidth (the width of the image you're using as the slider handle - &quot;ReglerWidth&quot;)&lt;br/&gt;-- VolConYPos (sets the y position (vertical axis) of the slider handles - use bottom edge of image for y position - &quot;ReglerYPos&quot;&lt;br/&gt;&lt;br/&gt;VolConMinPos = 851&lt;br/&gt;VolConMaxPos = 1085&lt;br/&gt;VolConWidth = 33&lt;br/&gt;VolConYPos = {634; 784; 484} --music(0),sfx(1),voice(2)&lt;br/&gt;&lt;br/&gt;------------------------------------------------------------------&lt;br/&gt;&lt;br/&gt;-- VolConTotal (gets the distance between the min &amp; max pos - &quot;ReglerTotal&quot;)&lt;br/&gt;-- Slider1 (converts volcontotal into % - &quot;Regler1&quot;)&lt;br/&gt;-- defaultHoldTime (time it take for mouse hold to register &quot;GehaltenStandard&quot;)&lt;br/&gt;&lt;br/&gt;VolConTotal = VolConMaxPos - VolConMinPos&lt;br/&gt;Slider1 = VolConTotal / 100&lt;br/&gt;defaultHoldTime = game:getInt(VGameHoldTime)&lt;br/&gt;&lt;br/&gt;-- Load Volume Options Script&lt;br/&gt;-- i = 0, 2 (i defines which slider is active: music(0), sfx(1), voice(2))  &lt;br/&gt;-- VolVal (volume value is the volume level - &quot;VolWert&quot;)&lt;br/&gt;&lt;br/&gt;function beginVolCon()&lt;br/&gt;  for i = 0, 2 do&lt;br/&gt;    startAnimation(&quot;Animations[AniVolCon_&quot; .. i .. &quot;]&quot;)&lt;br/&gt;&lt;br/&gt;    local VolVal = getVolume(i)&lt;br/&gt;    if VolVal &lt; 0 then&lt;br/&gt;      setVolume(i, 0)&lt;br/&gt;      VolVal = 0&lt;br/&gt;    elseif VolVal &gt; 100 then&lt;br/&gt;      setVolume(i, 100)&lt;br/&gt;      VolVal = 100&lt;br/&gt;    end&lt;br/&gt;   &lt;br/&gt;    local VolConPos = math.floor((VolVal * Slider1 + VolConMinPos) + 0.5)&lt;br/&gt;&lt;br/&gt; setVolConPos(i, VolConPos)&lt;br/&gt;  end&lt;br/&gt;end&lt;br/&gt;&lt;br/&gt;-- Set the positions of the slider handles&lt;br/&gt;function setVolConPos(typ, xpos)&lt;br/&gt;  local VolAnim = getObject(&quot;ActiveAnimations[AniVolCon_&quot; .. typ .. &quot;]&quot;)&lt;br/&gt;  VolAnim:setValue(VAnimationCurrentPosition, {x=xpos,y=VolConYPos[typ + 1]})&lt;br/&gt;end&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;-- Checks if mouse button is being held down&lt;br/&gt;function mousebtnHold(standard)&lt;br/&gt;  if standard == false then&lt;br/&gt;    game:setValue(VGameHoldTime, 1)&lt;br/&gt;  else&lt;br/&gt;    game:setValue(VGameHoldTime, defaultHoldTime)&lt;br/&gt;  end&lt;br/&gt;end&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;-- The function which allows you to drag the slider handle&lt;br/&gt;function dragVolCon(typ)&lt;br/&gt;  local CursorPos = getCursorPos()&lt;br/&gt;  local VolConPos = math.floor(CursorPos.x - VolConWidth / 2 + 0.5)&lt;br/&gt;  &lt;br/&gt;  if VolConPos &lt; VolConMinPos then&lt;br/&gt;    VolConPos = VolConMinPos&lt;br/&gt;  elseif VolConPos &gt; VolConMaxPos then&lt;br/&gt;    VolConPos = VolConMaxPos&lt;br/&gt;  end&lt;br/&gt;&lt;br/&gt;  setVolConPos(typ, VolConPos)&lt;br/&gt;&lt;br/&gt;  local VolVal = math.floor(((VolConPos - VolConMinPos) / Slider1) + 0.5)&lt;br/&gt;  setVolume(typ, VolVal)&lt;br/&gt;end&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;-- Plus_Minus Buttons raise or lower vol by 10%&lt;br/&gt;function pluminClick(typ, up)&lt;br/&gt;  VolVal = getVolume(typ)&lt;br/&gt;&lt;br/&gt;  if up == true then&lt;br/&gt;    VolVal = VolVal + 10&lt;br/&gt;    if VolVal &gt; 100 then VolVal = 100 end&lt;br/&gt;  else&lt;br/&gt;    VolVal = VolVal - 10&lt;br/&gt;    if VolVal &lt; 0 then VolVal = 0 end      &lt;br/&gt;  end&lt;br/&gt;&lt;br/&gt;  setVolume(typ, VolVal)&lt;br/&gt;  local VolConPos = math.floor((VolVal * Slider1 + VolConMinPos) + 0.5)&lt;br/&gt;&lt;br/&gt;  setVolConPos(typ, VolConPos)&lt;br/&gt;end" ScriptType="1">
+		<Script name="volume_control" id="4" order="4" lastModified="1" ScriptScript="-- VolConMinPos / VolConMaxPos(volume control slider minimum/maximum position; x axis - &quot;ReglerMinPos/ReglerMaxPos&quot;)&lt;br/&gt;-- VolConWidth (the width of the image you're using as the slider handle - &quot;ReglerWidth&quot;)&lt;br/&gt;-- VolConYPos (sets the y position (vertical axis) of the slider handles - use bottom edge of image for y position - &quot;ReglerYPos&quot;&lt;br/&gt;&lt;br/&gt;VolConMinPos = 851&lt;br/&gt;VolConMaxPos = 1085&lt;br/&gt;VolConWidth = 33&lt;br/&gt;VolConYPos = {634; 784; 484} --music(0),sfx(1),voice(2)&lt;br/&gt;&lt;br/&gt;------------------------------------------------------------------&lt;br/&gt;&lt;br/&gt;-- VolConTotal (gets the distance between the min &amp; max pos - &quot;ReglerTotal&quot;)&lt;br/&gt;-- Slider1 (converts volcontotal into % - &quot;Regler1&quot;)&lt;br/&gt;-- defaultHoldTime (time it take for mouse hold to register &quot;GehaltenStandard&quot;)&lt;br/&gt;&lt;br/&gt;VolConTotal = VolConMaxPos - VolConMinPos&lt;br/&gt;Slider1 = VolConTotal / 100&lt;br/&gt;defaultHoldTime = game:getInt(VGameHoldTime)&lt;br/&gt;&lt;br/&gt;-- Load Volume Options Script&lt;br/&gt;-- i = 0, 2 (i defines which slider is active: music(0), sfx(1), voice(2))  &lt;br/&gt;-- VolVal (volume value is the volume level - &quot;VolWert&quot;)&lt;br/&gt;&lt;br/&gt;function beginVolCon()&lt;br/&gt;  for i = 0, 2 do&lt;br/&gt;    startAnimation(&quot;Animations[AniVolCon_&quot; .. i .. &quot;]&quot;)&lt;br/&gt;&lt;br/&gt;    local VolVal = getVolume(i)&lt;br/&gt;    if VolVal &lt; 0 then&lt;br/&gt;      setVolume(i, 0)&lt;br/&gt;      VolVal = 0&lt;br/&gt;    elseif VolVal &gt; 100 then&lt;br/&gt;      setVolume(i, 100)&lt;br/&gt;      VolVal = 100&lt;br/&gt;    end&lt;br/&gt;   &lt;br/&gt;    local VolConPos = math.floor((VolVal * Slider1 + VolConMinPos) + 0.5)&lt;br/&gt;&lt;br/&gt; setVolConPos(i, VolConPos)&lt;br/&gt;  end&lt;br/&gt;end&lt;br/&gt;&lt;br/&gt;function endVolCon()&lt;br/&gt;  for i = 0, 2 do&lt;br/&gt;    endAnimation(&quot;Animations[AniVolCon_&quot; .. i .. &quot;]&quot;)&lt;br/&gt;  end&lt;br/&gt;end&lt;br/&gt;&lt;br/&gt;-- Set the positions of the slider handles&lt;br/&gt;function setVolConPos(typ, xpos)&lt;br/&gt;  local VolAnim = getObject(&quot;ActiveAnimations[AniVolCon_&quot; .. typ .. &quot;]&quot;)&lt;br/&gt;  VolAnim:setValue(VAnimationCurrentPosition, {x=xpos,y=VolConYPos[typ + 1]})&lt;br/&gt;end&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;-- Checks if mouse button is being held down&lt;br/&gt;function mousebtnHold(standard)&lt;br/&gt;  if standard == false then&lt;br/&gt;    game:setValue(VGameHoldTime, 1)&lt;br/&gt;  else&lt;br/&gt;    game:setValue(VGameHoldTime, defaultHoldTime)&lt;br/&gt;  end&lt;br/&gt;end&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;-- The function which allows you to drag the slider handle&lt;br/&gt;function dragVolCon(typ)&lt;br/&gt;  local CursorPos = getCursorPos()&lt;br/&gt;  local VolConPos = math.floor(CursorPos.x - VolConWidth / 2 + 0.5)&lt;br/&gt;  &lt;br/&gt;  if VolConPos &lt; VolConMinPos then&lt;br/&gt;    VolConPos = VolConMinPos&lt;br/&gt;  elseif VolConPos &gt; VolConMaxPos then&lt;br/&gt;    VolConPos = VolConMaxPos&lt;br/&gt;  end&lt;br/&gt;&lt;br/&gt;  setVolConPos(typ, VolConPos)&lt;br/&gt;&lt;br/&gt;  local VolVal = math.floor(((VolConPos - VolConMinPos) / Slider1) + 0.5)&lt;br/&gt;  setVolume(typ, VolVal)&lt;br/&gt;end&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;-- Plus_Minus Buttons raise or lower vol by 10%&lt;br/&gt;function pluminClick(typ, up)&lt;br/&gt;  VolVal = getVolume(typ)&lt;br/&gt;&lt;br/&gt;  if up == true then&lt;br/&gt;    VolVal = VolVal + 10&lt;br/&gt;    if VolVal &gt; 100 then VolVal = 100 end&lt;br/&gt;  else&lt;br/&gt;    VolVal = VolVal - 10&lt;br/&gt;    if VolVal &lt; 0 then VolVal = 0 end      &lt;br/&gt;  end&lt;br/&gt;&lt;br/&gt;  setVolume(typ, VolVal)&lt;br/&gt;  local VolConPos = math.floor((VolVal * Slider1 + VolConMinPos) + 0.5)&lt;br/&gt;&lt;br/&gt;  setVolConPos(typ, VolConPos)&lt;br/&gt;end" ScriptType="1">
 		</Script>
 	</Scripts>
 	<InterfaceClasses newId="5" versionedId="4" tableId="31">
