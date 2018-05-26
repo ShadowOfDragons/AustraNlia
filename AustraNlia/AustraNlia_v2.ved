@@ -4510,6 +4510,7 @@
 				<Link parentLink="T" id="659" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="660" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="661" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="665" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Left click" id="162" order="2" lastModified="1" ActionExecutionType="7">
@@ -4520,7 +4521,7 @@
 			</ActionActionParts>
 		</Action>
 	</Actions>
-	<ActionParts newId="665" versionedId="207" tableId="8">
+	<ActionParts newId="666" versionedId="207" tableId="8">
 		<ActionPart name="Play video 'logo_screen.mov'" id="0" order="1" lastModified="-1" ActionPartCommand="66" ActionPartPath="Assets/Video/logo_screen.mov" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -6432,6 +6433,10 @@
 		<ActionPart name="Change to scene of character 'Current character'" id="664" order="0" lastModified="1" ActionPartCommand="54" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Set character 'Current character' to object 'mo_start_pos'" id="665" order="9" lastModified="1" ActionPartCommand="50" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="69" tableId="6" LinkAny="F"/>
 		</ActionPart>
 	</ActionParts>
 	<Animations newId="196" versionedId="31" tableId="9">
@@ -12551,7 +12556,7 @@
 			</SpriteSprite>
 		</Sprite>
 	</Sprites>
-	<Texts newId="387" versionedId="39" tableId="14">
+	<Texts newId="383" versionedId="39" tableId="14">
 		<Text name="Unnamed" id="0" order="0" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
