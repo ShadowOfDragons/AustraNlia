@@ -61,6 +61,7 @@
 		<GameFirstCharacter parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		<GameStandardLanguage parentLink="F" id="0" tableId="18" LinkAny="F"/>
 		<GameActions>
+			<Link parentLink="T" id="164" tableId="7" LinkAny="F"/>
 		</GameActions>
 		<GameStartAction parentLink="T" id="61" tableId="7" LinkAny="F"/>
 		<GameRightClickAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -1457,7 +1458,7 @@
 				<Link parentLink="F" id="15" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
-		<Point name="Point0" id="17" order="0" lastModified="1" PointSize="-1">
+		<Point name="Point0" id="17" order="0" lastModified="1" PointSize="150">
 			<PointPosition x="973" y="1030"/>
 			<PointRelations>
 				<Link parentLink="F" id="18" tableId="5" LinkAny="F"/>
@@ -1470,7 +1471,7 @@
 				<Link parentLink="F" id="19" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
-		<Point name="Point2" id="19" order="2" lastModified="1" PointSize="-1">
+		<Point name="Point2" id="19" order="2" lastModified="1" PointSize="100">
 			<PointPosition x="320" y="697"/>
 			<PointRelations>
 				<Link parentLink="F" id="18" tableId="5" LinkAny="F"/>
@@ -1897,7 +1898,7 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="bookshelf" id="15" order="4" lastModified="1" ObjectDirection="-1" ObjectCenter="506" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="bookshelf" id="15" order="4" lastModified="1" ObjectDirection="-1" ObjectCenter="462" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="50" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 				<point x="390" y="333"/>
@@ -1917,7 +1918,7 @@
 			</ObjectAnimations>
 			<ObjectValues>
 			</ObjectValues>
-			<ObjectPosition x="710" y="249"/>
+			<ObjectPosition x="-1" y="-1"/>
 			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
@@ -3287,7 +3288,7 @@
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
 	</Objects>
-	<Actions newId="164" versionedId="22" tableId="7">
+	<Actions newId="165" versionedId="22" tableId="7">
 		<Action name="At beginning of scene" id="0" order="0" lastModified="-1" ActionExecutionType="31">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -4564,8 +4565,15 @@
 				<Link parentLink="T" id="671" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
+		<Action name="." id="164" order="0" lastModified="1" ActionExecutionType="46">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="672" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
 	</Actions>
-	<ActionParts newId="672" versionedId="207" tableId="8">
+	<ActionParts newId="673" versionedId="207" tableId="8">
 		<ActionPart name="Play video 'logo_screen.mov'" id="0" order="1" lastModified="-1" ActionPartCommand="66" ActionPartPath="Assets/Video/logo_screen.mov" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -6499,6 +6507,10 @@
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="Send character 'Current character' to position (497,787) and wait" id="671" order="0" lastModified="1" ActionPartCommand="47" ActionPartPath="" ActionPartInt="497" ActionPartAltInt="787" ActionPartAltInt2="1" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Skip current text" id="672" order="0" lastModified="1" ActionPartCommand="107" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -12860,7 +12872,7 @@
 			</SpriteSprite>
 		</Sprite>
 	</Sprites>
-	<Texts newId="388" versionedId="39" tableId="14">
+	<Texts newId="382" versionedId="39" tableId="14">
 		<Text name="Unnamed" id="0" order="0" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
@@ -14006,7 +14018,7 @@
 	</ParticleContainers>
 	<CommentSetEntries newId="0" versionedId="-1" tableId="27">
 	</CommentSetEntries>
-	<AnimationFrames newId="1" versionedId="-1" tableId="28">
+	<AnimationFrames newId="0" versionedId="-1" tableId="28">
 	</AnimationFrames>
 	<WaySystems newId="5" versionedId="0" tableId="29">
 		<WaySystem name="normal" id="0" order="0" lastModified="1">
