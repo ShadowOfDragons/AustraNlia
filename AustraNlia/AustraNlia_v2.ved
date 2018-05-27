@@ -1340,7 +1340,7 @@
 			<SceneTestCharacter parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Scene>
 	</Scenes>
-	<Points newId="23" versionedId="-1" tableId="5">
+	<Points newId="27" versionedId="-1" tableId="5">
 		<Point name="Point0" id="0" order="0" lastModified="1" PointSize="-1">
 			<PointPosition x="1270" y="631"/>
 			<PointRelations>
@@ -1353,6 +1353,8 @@
 				<Link parentLink="F" id="0" tableId="5" LinkAny="F"/>
 				<Link parentLink="F" id="2" tableId="5" LinkAny="F"/>
 				<Link parentLink="F" id="3" tableId="5" LinkAny="F"/>
+				<Link parentLink="F" id="23" tableId="5" LinkAny="F"/>
+				<Link parentLink="F" id="25" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
 		<Point name="Point2" id="2" order="2" lastModified="1" PointSize="-1">
@@ -1455,7 +1457,7 @@
 				<Link parentLink="F" id="15" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
-		<Point name="Point0" id="17" order="0" lastModified="1" PointSize="-1">
+		<Point name="Point0" id="17" order="0" lastModified="1" PointSize="150">
 			<PointPosition x="973" y="1030"/>
 			<PointRelations>
 				<Link parentLink="F" id="18" tableId="5" LinkAny="F"/>
@@ -1468,7 +1470,7 @@
 				<Link parentLink="F" id="19" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
-		<Point name="Point2" id="19" order="2" lastModified="1" PointSize="-1">
+		<Point name="Point2" id="19" order="2" lastModified="1" PointSize="100">
 			<PointPosition x="320" y="697"/>
 			<PointRelations>
 				<Link parentLink="F" id="18" tableId="5" LinkAny="F"/>
@@ -1485,6 +1487,32 @@
 			<PointPosition x="1909" y="1044"/>
 			<PointRelations>
 				<Link parentLink="F" id="21" tableId="5" LinkAny="F"/>
+			</PointRelations>
+		</Point>
+		<Point name="Point5" id="23" order="5" lastModified="1" PointSize="-1">
+			<PointPosition x="1004" y="791"/>
+			<PointRelations>
+				<Link parentLink="F" id="1" tableId="5" LinkAny="F"/>
+				<Link parentLink="F" id="24" tableId="5" LinkAny="F"/>
+			</PointRelations>
+		</Point>
+		<Point name="Point6" id="24" order="6" lastModified="1" PointSize="-1">
+			<PointPosition x="470" y="789"/>
+			<PointRelations>
+				<Link parentLink="F" id="23" tableId="5" LinkAny="F"/>
+			</PointRelations>
+		</Point>
+		<Point name="Point7" id="25" order="7" lastModified="1" PointSize="-1">
+			<PointPosition x="1186" y="1042"/>
+			<PointRelations>
+				<Link parentLink="F" id="1" tableId="5" LinkAny="F"/>
+				<Link parentLink="F" id="26" tableId="5" LinkAny="F"/>
+			</PointRelations>
+		</Point>
+		<Point name="Point8" id="26" order="8" lastModified="1" PointSize="-1">
+			<PointPosition x="307" y="1042"/>
+			<PointRelations>
+				<Link parentLink="F" id="25" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
 	</Points>
@@ -1827,7 +1855,7 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="table" id="13" order="1" lastModified="1" ObjectDirection="-1" ObjectCenter="1006" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="table" id="13" order="1" lastModified="1" ObjectDirection="-1" ObjectCenter="833" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="48" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -1872,11 +1900,16 @@
 		<Object name="bookshelf" id="15" order="4" lastModified="1" ObjectDirection="-1" ObjectCenter="506" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="50" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
+				<point x="390" y="333"/>
+				<point x="502" y="336"/>
+				<point x="510" y="478"/>
+				<point x="377" y="475"/>
 			</ObjectPolygon>
 			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSprite parentLink="T" id="23" tableId="13" LinkAny="F"/>
 			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectActions>
+				<Link parentLink="T" id="163" tableId="7" LinkAny="F"/>
 			</ObjectActions>
 			<ObjectConditions>
 			</ObjectConditions>
@@ -1956,7 +1989,7 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="table_books" id="19" order="9" lastModified="1" ObjectDirection="-1" ObjectCenter="826" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="table_books" id="19" order="9" lastModified="1" ObjectDirection="-1" ObjectCenter="685" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="56" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -1977,7 +2010,7 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="wall" id="20" order="10" lastModified="1" ObjectDirection="-1" ObjectCenter="773" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="wall" id="20" order="10" lastModified="1" ObjectDirection="-1" ObjectCenter="670" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="57" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -1998,7 +2031,7 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="bottle_closet" id="21" order="11" lastModified="1" ObjectDirection="90" ObjectCenter="624" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="bottle_closet" id="21" order="11" lastModified="1" ObjectDirection="90" ObjectCenter="586" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="58" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 				<point x="1200" y="470"/>
@@ -3254,7 +3287,7 @@
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
 	</Objects>
-	<Actions newId="163" versionedId="22" tableId="7">
+	<Actions newId="164" versionedId="22" tableId="7">
 		<Action name="At beginning of scene" id="0" order="0" lastModified="-1" ActionExecutionType="31">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -4003,6 +4036,7 @@
 				<Link parentLink="T" id="451" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="452" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="460" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="666" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Cursor enters character area" id="77" order="0" lastModified="1" ActionExecutionType="1">
@@ -4410,7 +4444,6 @@
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionActionParts>
 				<Link parentLink="T" id="545" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="546" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="628" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="629" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="630" tableId="8" LinkAny="F"/>
@@ -4458,12 +4491,13 @@
 				<Link parentLink="T" id="640" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
-		<Action name="'' dropped" id="154" order="4" lastModified="1" ActionExecutionType="3">
-			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		<Action name="'inv_key' dropped" id="154" order="4" lastModified="1" ActionExecutionType="3">
+			<ActionFixture parentLink="F" id="75" tableId="6" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionActionParts>
 				<Link parentLink="T" id="632" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="633" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="669" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="'inv_fish' dropped" id="157" order="3" lastModified="1" ActionExecutionType="3">
@@ -4488,13 +4522,14 @@
 				<Link parentLink="T" id="643" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
-		<Action name="'main_command' executed" id="160" order="2" lastModified="1" ActionExecutionType="6">
+		<Action name="'main_command' executed (immediate)" id="160" order="2" lastModified="1" ActionExecutionType="17">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="8" tableId="2" LinkAny="F"/>
 			<ActionActionParts>
 				<Link parentLink="T" id="644" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="645" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="646" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="670" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="reset_game" id="161" order="1" lastModified="1" ActionExecutionType="5">
@@ -4520,8 +4555,17 @@
 				<Link parentLink="T" id="664" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
+		<Action name="'inv_botella' dropped (immediate)" id="163" order="0" lastModified="1" ActionExecutionType="20">
+			<ActionFixture parentLink="F" id="76" tableId="6" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="667" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="668" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="671" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
 	</Actions>
-	<ActionParts newId="666" versionedId="207" tableId="8">
+	<ActionParts newId="672" versionedId="207" tableId="8">
 		<ActionPart name="Play video 'logo_screen.mov'" id="0" order="1" lastModified="-1" ActionPartCommand="66" ActionPartPath="Assets/Video/logo_screen.mov" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -5910,7 +5954,7 @@
 			<ActionPartLink parentLink="F" id="21" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="End if" id="452" order="6" lastModified="1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="End if" id="452" order="7" lastModified="1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -6222,10 +6266,6 @@
 			<ActionPartLink parentLink="F" id="74" tableId="6" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Change condition 'quest_recieved' to true" id="546" order="1" lastModified="1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="27" tableId="10" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
 		<ActionPart name="Change condition 'cigar_visible' to false" id="547" order="2" lastModified="1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="28" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -6358,15 +6398,15 @@
 			<ActionPartLink parentLink="F" id="0" tableId="15" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Add item 'inv_botella' to character 'pc_chad'" id="644" order="0" lastModified="1" ActionPartCommand="150" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="1" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Add item 'inv_botella' to character 'pc_chad'" id="644" order="1" lastModified="1" ActionPartCommand="150" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="1" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="76" tableId="6" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Play animation 'closet_without_bottle'" id="645" order="1" lastModified="1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Play animation 'closet_without_bottle'" id="645" order="2" lastModified="1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="45" tableId="9" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Hide animation 'closet_with_bottle'" id="646" order="2" lastModified="1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Hide animation 'closet_with_bottle'" id="646" order="3" lastModified="1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="44" tableId="9" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -6437,6 +6477,30 @@
 		<ActionPart name="Set character 'Current character' to object 'mo_start_pos'" id="665" order="9" lastModified="1" ActionPartCommand="50" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="69" tableId="6" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Align character 'npc_girl' to the back" id="666" order="6" lastModified="1" ActionPartCommand="58" ActionPartPath="" ActionPartInt="90" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="3" tableId="0" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Add item 'inv_key' to character 'Current character'" id="667" order="1" lastModified="1" ActionPartCommand="150" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="1" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="75" tableId="6" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Remove item 'inv_botella' from character 'Current character'" id="668" order="2" lastModified="1" ActionPartCommand="150" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="1" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="76" tableId="6" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition 'quest_recieved' to true" id="669" order="2" lastModified="1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="27" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Send character 'Current character' to position (1242,619) and wait" id="670" order="0" lastModified="1" ActionPartCommand="47" ActionPartPath="" ActionPartInt="1242" ActionPartAltInt="619" ActionPartAltInt2="1" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Send character 'Current character' to position (497,787) and wait" id="671" order="0" lastModified="1" ActionPartCommand="47" ActionPartPath="" ActionPartInt="497" ActionPartAltInt="787" ActionPartAltInt2="1" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 	</ActionParts>
 	<Animations newId="196" versionedId="31" tableId="9">
@@ -8378,13 +8442,253 @@
 			<AnimationPauses>
 			</AnimationPauses>
 		</Animation>
-		<Animation name="back" id="60" order="1" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="90" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+		<Animation name="back" id="60" order="1" lastModified="1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="50" AnimationDirection="90" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (1).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (2).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (3).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (4).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (5).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (6).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (7).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (8).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (9).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (10).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (11).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (12).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (13).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (14).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (15).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (16).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (17).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (18).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (19).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (20).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (21).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (22).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (23).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (24).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (25).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (26).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (27).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (28).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (29).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (30).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (31).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (32).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (33).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (34).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (35).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (36).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (37).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (38).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (39).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (40).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (41).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (42).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (43).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (44).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (45).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (46).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (47).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (48).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (49).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (50).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (51).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (52).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (53).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (54).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (55).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (56).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (57).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (58).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (59).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (60).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (61).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (62).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (63).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (64).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (65).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (66).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (67).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (68).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (69).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (70).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (71).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (72).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (73).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (74).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (75).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (76).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (77).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (78).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (79).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Characters/girl_no_fish/girl_no_fish (80).png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="0" y="0"/>
+			<AnimationCenter x="99" y="277"/>
 			<AnimationPropertyFrames>
 			</AnimationPropertyFrames>
 			<AnimationWalkSteps>
@@ -12556,7 +12860,7 @@
 			</SpriteSprite>
 		</Sprite>
 	</Sprites>
-	<Texts newId="383" versionedId="39" tableId="14">
+	<Texts newId="388" versionedId="39" tableId="14">
 		<Text name="Unnamed" id="0" order="0" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
@@ -13702,7 +14006,7 @@
 	</ParticleContainers>
 	<CommentSetEntries newId="0" versionedId="-1" tableId="27">
 	</CommentSetEntries>
-	<AnimationFrames newId="0" versionedId="-1" tableId="28">
+	<AnimationFrames newId="1" versionedId="-1" tableId="28">
 	</AnimationFrames>
 	<WaySystems newId="5" versionedId="0" tableId="29">
 		<WaySystem name="normal" id="0" order="0" lastModified="1">
@@ -13739,8 +14043,8 @@
 				<point x="251" y="1012"/>
 				<point x="833" y="1017"/>
 				<point x="934" y="810"/>
-				<point x="618" y="810"/>
-				<point x="656" y="773"/>
+				<point x="394" y="811"/>
+				<point x="423" y="768"/>
 				<point x="1080" y="770"/>
 				<point x="1175" y="723"/>
 				<point x="1173" y="670"/>
@@ -13752,6 +14056,10 @@
 				<Link parentLink="T" id="2" tableId="5" LinkAny="F"/>
 				<Link parentLink="T" id="3" tableId="5" LinkAny="F"/>
 				<Link parentLink="T" id="4" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="23" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="24" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="25" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="26" tableId="5" LinkAny="F"/>
 			</WaySystemPoints>
 		</WaySystem>
 		<WaySystem name="Way system0" id="3" order="0" lastModified="1">
