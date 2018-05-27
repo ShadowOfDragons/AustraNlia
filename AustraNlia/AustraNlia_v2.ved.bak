@@ -134,7 +134,7 @@
 			</LoadingStatusSprite>
 		</Loading>
 	</Loadings>
-	<Characters newId="15" versionedId="0" tableId="0">
+	<Characters newId="14" versionedId="0" tableId="0">
 		<Character name="pc_chad" id="0" order="0" lastModified="1" CharacterWalkingSound="" CharacterScale="T" CharacterDialogVerticalSpace="10" CharacterScaleFactor="100" CharacterHarmonizeWalkAnimations="F">
 			<CharacterName parentLink="T" id="2" tableId="14" LinkAny="F"/>
 			<CharacterInterfaces>
@@ -6402,7 +6402,7 @@
 			<ActionPartLink parentLink="T" id="375" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="2" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="npc_guard: Thank you so much, freshwater sailorm you can talk me whenever you want." id="636" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="npc_guard: I'm sorry, this is not the best moment to go in..." id="636" order="0" lastModified="1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="377" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="7" tableId="0" LinkAny="F"/>
 		</ActionPart>
@@ -6410,7 +6410,7 @@
 			<ActionPartLink parentLink="F" id="30" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="npc_guard: Thank you so much, freshwater sailorm you can talk me whenever you want." id="638" order="1" lastModified="1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="npc_guard: Thank you so much, freshwater sailorm you can enter in the restaurant." id="638" order="1" lastModified="1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="379" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="7" tableId="0" LinkAny="F"/>
 		</ActionPart>
@@ -6543,7 +6543,7 @@
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 	</ActionParts>
-	<Animations newId="213" versionedId="31" tableId="9">
+	<Animations newId="214" versionedId="31" tableId="9">
 		<Animation name="Unnamed" id="1" order="1" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -14439,14 +14439,14 @@
 				<text Text="You only need to get that tablet that is in my small table, that where is the super-wonder-amazing computer that gives you the answer of the universe and the life." path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="377" order="335" lastModified="-1">
+		<Text name="Unnamed" id="377" order="335" lastModified="1">
 			<TextTextLanguages>
-				<text Text="Thank you so much, freshwater sailorm you can talk me whenever you want." path="" int="0"/>
+				<text Text="I'm sorry, this is not the best moment to go in..." path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="379" order="379" lastModified="1">
 			<TextTextLanguages>
-				<text Text="Thank you so much, freshwater sailorm you can talk me whenever you want." path="" int="0"/>
+				<text Text="Thank you so much, freshwater sailorm you can enter in the restaurant." path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="380" order="380" lastModified="1">
@@ -14499,7 +14499,7 @@
 	</Cursors>
 	<CommentSets newId="0" versionedId="-1" tableId="16">
 	</CommentSets>
-	<Outfits newId="15" versionedId="0" tableId="17">
+	<Outfits newId="14" versionedId="0" tableId="17">
 		<Outfit name="Unnamed" id="0" order="0" lastModified="-1" OutfitCharacterSpeed="350" OutfitModel="" OutfitCameraHeight="0" OutfitCameraAngle="0" OutfitUseLight="F" OutfitLightPosX="1.000000" OutfitLightPosY="1.000000" OutfitLightPosZ="1.000000" OutfitLightColor="9345433" OutfitModelScaleFactor="100" OutfitModelUseToonShading="F" OutfitModelToonNuances="3" OutfitModelShowOutline="F" OutfitModelOutlineColor="0" OutfitModelOutlineWidth="5" OutfitAmbientLightColor="6717311" OutfitModelShadowVisibility="50" OutfitRandomMinTime="10000" OutfitRandomMaxTime="30000" OutfitModelShadow="2" OutfitModelAmbientOcclusion="50" OutfitSlideWalkAnimation="T" OutfitModelTurnSpeed="100">
 			<OutfitWalkAnimations>
 				<Link parentLink="T" id="3" tableId="9" LinkAny="F"/>
