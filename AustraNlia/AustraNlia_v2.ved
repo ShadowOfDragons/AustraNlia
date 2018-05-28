@@ -112,9 +112,9 @@
 		<GameAudioContainerLinks>
 		</GameAudioContainerLinks>
 		<GameDefaultSpeechBus parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		<GameDefaultSoundBus parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		<GameWalksoundBus parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		<GameDefaultMusicBus parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		<GameDefaultSoundBus parentLink="F" id="1" tableId="37" LinkAny="F"/>
+		<GameWalksoundBus parentLink="F" id="1" tableId="37" LinkAny="F"/>
+		<GameDefaultMusicBus parentLink="F" id="0" tableId="37" LinkAny="F"/>
 		<GameCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		<GameCustomActionParts>
 		</GameCustomActionParts>
@@ -1035,6 +1035,7 @@
 			</SceneValues>
 			<SceneConditions>
 				<Link parentLink="T" id="6" tableId="10" LinkAny="F"/>
+				<Link parentLink="T" id="31" tableId="10" LinkAny="F"/>
 			</SceneConditions>
 			<SceneActions>
 				<Link parentLink="T" id="4" tableId="7" LinkAny="F"/>
@@ -1533,6 +1534,7 @@
 			<ObjectAnimation parentLink="F" id="13" tableId="9" LinkAny="F"/>
 			<ObjectActions>
 				<Link parentLink="T" id="2" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="167" tableId="7" LinkAny="F"/>
 			</ObjectActions>
 			<ObjectConditions>
 			</ObjectConditions>
@@ -2784,10 +2786,10 @@
 		<Object name="hook" id="58" order="4" lastModified="1" ObjectDirection="-1" ObjectCenter="984" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="267" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
-				<point x="1210" y="523"/>
-				<point x="1280" y="513"/>
-				<point x="1276" y="928"/>
-				<point x="1215" y="932"/>
+				<point x="1189" y="531"/>
+				<point x="1234" y="526"/>
+				<point x="1238" y="936"/>
+				<point x="1183" y="944"/>
 			</ObjectPolygon>
 			<ObjectCondition parentLink="F" id="26" tableId="10" LinkAny="F"/>
 			<ObjectSprite parentLink="T" id="48" tableId="13" LinkAny="F"/>
@@ -3316,7 +3318,7 @@
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
 	</Objects>
-	<Actions newId="165" versionedId="22" tableId="7">
+	<Actions newId="168" versionedId="22" tableId="7">
 		<Action name="At beginning of scene" id="0" order="0" lastModified="-1" ActionExecutionType="31">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -3334,7 +3336,7 @@
 				<Link parentLink="T" id="2" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
-		<Action name="At beginning of scene" id="4" order="0" lastModified="-1" ActionExecutionType="31">
+		<Action name="At beginning of scene" id="4" order="0" lastModified="1" ActionExecutionType="31">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionActionParts>
@@ -3343,6 +3345,12 @@
 				<Link parentLink="T" id="201" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="203" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="204" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="681" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="682" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="683" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="684" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="685" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="689" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Action" id="5" order="5" lastModified="-1" ActionExecutionType="-1">
@@ -3652,6 +3660,7 @@
 			<ActionActionParts>
 				<Link parentLink="T" id="211" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="227" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="675" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Cursor enters object area" id="28" order="0" lastModified="1" ActionExecutionType="1">
@@ -3691,6 +3700,7 @@
 				<Link parentLink="T" id="376" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="431" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="648" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="686" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Left click" id="31" order="2" lastModified="1" ActionExecutionType="7">
@@ -3885,6 +3895,7 @@
 				<Link parentLink="T" id="373" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="374" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="375" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="691" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="cr_tablet_easing_enter" id="53" order="0" lastModified="1" ActionExecutionType="5">
@@ -3914,6 +3925,8 @@
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionActionParts>
 				<Link parentLink="T" id="377" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="688" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="690" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Left click" id="60" order="0" lastModified="1" ActionExecutionType="7">
@@ -4527,6 +4540,7 @@
 				<Link parentLink="T" id="632" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="633" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="669" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="673" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="'inv_fish' dropped" id="157" order="3" lastModified="1" ActionExecutionType="3">
@@ -4535,6 +4549,7 @@
 			<ActionActionParts>
 				<Link parentLink="T" id="636" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="641" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="674" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Cursor enters object area" id="158" order="0" lastModified="1" ActionExecutionType="1">
@@ -4600,8 +4615,15 @@
 				<Link parentLink="T" id="672" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
+		<Action name="from_other_menu" id="167" order="1" lastModified="1" ActionExecutionType="5">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="677" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
 	</Actions>
-	<ActionParts newId="673" versionedId="207" tableId="8">
+	<ActionParts newId="692" versionedId="207" tableId="8">
 		<ActionPart name="Play video 'logo_screen.mov'" id="0" order="1" lastModified="-1" ActionPartCommand="66" ActionPartPath="Assets/Video/logo_screen.mov" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -4614,7 +4636,7 @@
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Call action 'tablet_easing_main'" id="3" order="8" lastModified="-1" ActionPartCommand="148" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Call action 'tablet_easing_main'" id="3" order="13" lastModified="-1" ActionPartCommand="148" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="2" tableId="7" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -5054,7 +5076,7 @@
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Pause for 650 milliseconds" id="201" order="9" lastModified="-1" ActionPartCommand="30" ActionPartPath="" ActionPartInt="650" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Pause for 650 milliseconds" id="201" order="14" lastModified="-1" ActionPartCommand="30" ActionPartPath="" ActionPartInt="650" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -5126,7 +5148,7 @@
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Show menu 'main_menu'" id="220" order="15" lastModified="1" ActionPartCommand="46" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Show menu 'main_menu'" id="220" order="19" lastModified="1" ActionPartCommand="46" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="2" tableId="4" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -5138,11 +5160,11 @@
 			<ActionPartLink parentLink="F" id="32" tableId="7" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Pause for 1500 milliseconds" id="223" order="14" lastModified="1" ActionPartCommand="30" ActionPartPath="" ActionPartInt="1500" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Pause for 1500 milliseconds" id="223" order="18" lastModified="1" ActionPartCommand="30" ActionPartPath="" ActionPartInt="1500" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Execute script 'local object = Objects[&quot;o...'" id="224" order="0" lastModified="1" ActionPartCommand="138" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="local object = Objects[&quot;opt_tablet&quot;]&lt;br/&gt;object:to(1500, {ObjectOffset = {x = 0, y = 0}}, easeQuintOut)">
+		<ActionPart name="Execute script 'local object = Objects[&quot;o...'" id="224" order="0" lastModified="1" ActionPartCommand="138" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="local object = Objects[&quot;opt_tablet&quot;]&lt;br/&gt;object:to(1500, {ObjectOffset = {x = -350, y = 0}}, easeQuintOut)">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -5690,7 +5712,7 @@
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Execute script 'local object = Objects[&quot;c...'" id="369" order="0" lastModified="1" ActionPartCommand="138" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="local object = Objects[&quot;cr_tablet&quot;]&lt;br/&gt;object:to(1500, {ObjectOffset = {x = 0, y = 0}}, easeQuintOut)">
+		<ActionPart name="Execute script 'local object = Objects[&quot;c...'" id="369" order="0" lastModified="1" ActionPartCommand="138" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="local object = Objects[&quot;cr_tablet&quot;]&lt;br/&gt;object:to(1500, {ObjectOffset = {x = -350, y = 0}}, easeQuintOut)">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -5706,11 +5728,11 @@
 			<ActionPartLink parentLink="F" id="54" tableId="7" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Pause for 1500 milliseconds" id="373" order="2" lastModified="1" ActionPartCommand="30" ActionPartPath="" ActionPartInt="1500" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Pause for 1500 milliseconds" id="373" order="3" lastModified="1" ActionPartCommand="30" ActionPartPath="" ActionPartInt="1500" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Show menu 'main_menu'" id="374" order="3" lastModified="1" ActionPartCommand="46" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Show menu 'main_menu'" id="374" order="4" lastModified="1" ActionPartCommand="46" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="2" tableId="4" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -5722,7 +5744,7 @@
 			<ActionPartLink parentLink="F" id="13" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Show menu 'credits_menu'" id="377" order="0" lastModified="1" ActionPartCommand="46" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Show menu 'credits_menu'" id="377" order="2" lastModified="1" ActionPartCommand="46" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="8" tableId="4" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -6540,6 +6562,62 @@
 		</ActionPart>
 		<ActionPart name="Skip current text" id="672" order="0" lastModified="1" ActionPartCommand="107" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Remove item 'inv_key' from character 'Current character'" id="673" order="3" lastModified="1" ActionPartCommand="150" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="1" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="75" tableId="6" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Remove item 'inv_fish' from character 'Current character'" id="674" order="2" lastModified="1" ActionPartCommand="150" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="1" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="57" tableId="6" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Move object 'mm_tablet' to (225,0)" id="675" order="3" lastModified="1" ActionPartCommand="159" ActionPartPath="" ActionPartInt="225" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="2" tableId="6" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Execute script 'local object = Objects[&quot;m...'" id="677" order="0" lastModified="1" ActionPartCommand="138" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="local object = Objects[&quot;mm_tablet&quot;]&lt;br/&gt;object:to(1500, {ObjectOffset = {x = 575, y = 0}}, easeBackOut)">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If condition 'from_other_menu' is true" id="681" order="8" lastModified="1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="31" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Call action 'from_other_menu'" id="682" order="9" lastModified="1" ActionPartCommand="148" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="167" tableId="7" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Pause for 650 milliseconds" id="683" order="10" lastModified="1" ActionPartCommand="30" ActionPartPath="" ActionPartInt="650" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Else" id="684" order="12" lastModified="1" ActionPartCommand="5" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="End if" id="685" order="15" lastModified="1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition 'from_other_menu' to true" id="686" order="17" lastModified="1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="31" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Move object 'mm_tablet' to (225,0)" id="688" order="3" lastModified="-1" ActionPartCommand="159" ActionPartPath="" ActionPartInt="225" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="2" tableId="6" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition 'from_other_menu' to false" id="689" order="11" lastModified="1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="31" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition 'in_main_menu' to false" id="690" order="0" lastModified="1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="6" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition 'from_other_menu' to true" id="691" order="2" lastModified="1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="31" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 	</ActionParts>
@@ -13290,7 +13368,7 @@
 			</AnimationPauses>
 		</Animation>
 	</Animations>
-	<Conditions newId="31" versionedId="11" tableId="10">
+	<Conditions newId="32" versionedId="11" tableId="10">
 		<Condition name="fullscreen?" id="0" order="0" lastModified="-1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionOperator="0">
 			<ConditionConditions>
 			</ConditionConditions>
@@ -13408,6 +13486,10 @@
 			</ConditionConditions>
 		</Condition>
 		<Condition name="fish_dropped" id="30" order="1" lastModified="1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionOperator="0">
+			<ConditionConditions>
+			</ConditionConditions>
+		</Condition>
+		<Condition name="from_other_menu" id="31" order="1" lastModified="1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionOperator="0">
 			<ConditionConditions>
 			</ConditionConditions>
 		</Condition>
@@ -13703,7 +13785,7 @@
 			</SpriteSprite>
 		</Sprite>
 	</Sprites>
-	<Texts newId="386" versionedId="39" tableId="14">
+	<Texts newId="404" versionedId="39" tableId="14">
 		<Text name="Unnamed" id="0" order="0" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
