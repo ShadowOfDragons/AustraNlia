@@ -4187,6 +4187,7 @@
 				<Link parentLink="T" id="489" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="490" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="491" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="692" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Cursor enters character area" id="91" order="0" lastModified="1" ActionExecutionType="1">
@@ -4645,7 +4646,7 @@
 			</ActionActionParts>
 		</Action>
 	</Actions>
-	<ActionParts newId="692" versionedId="207" tableId="8">
+	<ActionParts newId="693" versionedId="207" tableId="8">
 		<ActionPart name="Play video 'logo_screen.mov'" id="0" order="1" lastModified="-1" ActionPartCommand="66" ActionPartPath="Assets/Video/logo_screen.mov" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -6142,7 +6143,7 @@
 			<ActionPartLink parentLink="F" id="1" tableId="11" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="End if" id="491" order="7" lastModified="1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="End if" id="491" order="8" lastModified="1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -6641,6 +6642,10 @@
 		<ActionPart name="Change condition 'from_other_menu' to true" id="691" order="2" lastModified="1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="31" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="npc_roboguard: You can go in." id="692" order="7" lastModified="1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="387" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="8" tableId="0" LinkAny="F"/>
 		</ActionPart>
 	</ActionParts>
 	<Animations newId="214" versionedId="31" tableId="9">
@@ -13812,7 +13817,7 @@
 			</SpriteSprite>
 		</Sprite>
 	</Sprites>
-	<Texts newId="387" versionedId="39" tableId="14">
+	<Texts newId="388" versionedId="39" tableId="14">
 		<Text name="Unnamed" id="0" order="0" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
@@ -14586,6 +14591,11 @@
 		<Text name="Unnamed" id="386" order="386" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="387" order="387" lastModified="1">
+			<TextTextLanguages>
+				<text Text="You can go in." path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
 	</Texts>
