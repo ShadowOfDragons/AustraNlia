@@ -68,7 +68,7 @@
 		<GameLeftHoldingAction parentLink="T" id="12" tableId="7" LinkAny="F"/>
 		<GameParticleContainerLinks>
 		</GameParticleContainerLinks>
-		<GameLeftClickAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		<GameLeftClickAction parentLink="T" id="174" tableId="7" LinkAny="F"/>
 		<GameActionTextFont parentLink="F" id="0" tableId="3" LinkAny="F"/>
 		<GameActionTextRect top="-1" left="-1" bottom="-3" right="-3"/>
 		<GameScriptLinks>
@@ -924,7 +924,7 @@
 			<FontFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<FontShadowOffset x="1" y="1"/>
 		</Font>
-		<Font name="font_basic_inactvie" id="6" order="2" lastModified="1" FontAlphabet="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789" FontLetterSpacing="-4" VerticalLetterSpacing="3" FontSpaceWidth="10" FontAutoLineBreak="F" FontLineWidth="100" FontKerning="" FontTrueTypeFont="F" FontTrueTypeFontPath="Assets\UI\Fonts\SadanaSquare.ttf" FontSize="12.000000" FontColor="9474192" FontBorder="T" FontBorderColor="0" FontBorderSize="2.000000" FontShadow="T">
+		<Font name="font_basic_inactvie" id="6" order="2" lastModified="1" FontAlphabet="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789" FontLetterSpacing="-4" VerticalLetterSpacing="3" FontSpaceWidth="10" FontAutoLineBreak="F" FontLineWidth="100" FontKerning="" FontTrueTypeFont="F" FontTrueTypeFontPath="Assets/UI/Fonts/SadanaSquare.ttf" FontSize="12.000000" FontColor="9474192" FontBorder="T" FontBorderColor="0" FontBorderSize="2.000000" FontShadow="T">
 			<FontSprite name="" pause="-1" path="" Transparency="2">
 				<position x="0" y="0"/>
 			</FontSprite>
@@ -1258,6 +1258,7 @@
 			<SceneName parentLink="T" id="390" tableId="14" LinkAny="F"/>
 			<SceneObjects>
 				<Link parentLink="T" id="81" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="82" tableId="6" LinkAny="F"/>
 			</SceneObjects>
 			<SceneCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<SceneSavegameAreas>
@@ -1458,7 +1459,7 @@
 			</PointRelations>
 		</Point>
 	</Points>
-	<Objects newId="82" versionedId="9" tableId="6">
+	<Objects newId="83" versionedId="9" tableId="6">
 		<Object name="opt_tablet" id="0" order="14" lastModified="1" ObjectDirection="-1" ObjectCenter="1080" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="5" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
@@ -1516,6 +1517,7 @@
 			<ObjectActions>
 				<Link parentLink="T" id="2" tableId="7" LinkAny="F"/>
 				<Link parentLink="T" id="167" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="173" tableId="7" LinkAny="F"/>
 			</ObjectActions>
 			<ObjectConditions>
 			</ObjectConditions>
@@ -3341,8 +3343,29 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
+		<Object name="ending_text" id="82" order="1" lastModified="1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+			<ObjectName parentLink="T" id="401" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Object>
 	</Objects>
-	<Actions newId="172" versionedId="22" tableId="7">
+	<Actions newId="175" versionedId="22" tableId="7">
 		<Action name="At beginning of scene" id="0" order="0" lastModified="-1" ActionExecutionType="31">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -3421,9 +3444,6 @@
 				<Link parentLink="T" id="23" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="29" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="30" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="40" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="41" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="42" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="43" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="44" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="45" tableId="8" LinkAny="F"/>
@@ -3437,7 +3457,6 @@
 				<Link parentLink="T" id="53" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="54" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="111" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="112" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="113" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="114" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="115" tableId="8" LinkAny="F"/>
@@ -3485,9 +3504,6 @@
 				<Link parentLink="T" id="59" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="60" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="61" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="62" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="63" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="64" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="65" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="66" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="67" tableId="8" LinkAny="F"/>
@@ -3500,7 +3516,6 @@
 				<Link parentLink="T" id="74" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="75" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="106" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="107" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="108" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="109" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="110" tableId="8" LinkAny="F"/>
@@ -3664,8 +3679,9 @@
 			<ActionActionParts>
 				<Link parentLink="T" id="211" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="227" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="675" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="725" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="747" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="748" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Cursor enters object area" id="28" order="0" lastModified="1" ActionExecutionType="1">
@@ -3938,9 +3954,10 @@
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionActionParts>
 				<Link parentLink="T" id="377" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="688" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="690" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="726" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="749" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="750" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Left click" id="60" order="0" lastModified="1" ActionExecutionType="7">
@@ -3966,6 +3983,9 @@
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionActionParts>
 				<Link parentLink="T" id="390" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="752" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="753" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="754" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="check_options" id="63" order="0" lastModified="1" ActionExecutionType="5">
@@ -4653,7 +4673,7 @@
 				<Link parentLink="T" id="672" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
-		<Action name="from_other_menu" id="167" order="1" lastModified="1" ActionExecutionType="5">
+		<Action name="from_other_menu" id="167" order="2" lastModified="1" ActionExecutionType="5">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionActionParts>
@@ -4689,8 +4709,22 @@
 				<Link parentLink="T" id="744" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
+		<Action name="tablet_easing_out" id="173" order="1" lastModified="1" ActionExecutionType="5">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="746" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Action" id="174" order="174" lastModified="-1" ActionExecutionType="-1">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="756" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
 	</Actions>
-	<ActionParts newId="745" versionedId="207" tableId="8">
+	<ActionParts newId="757" versionedId="207" tableId="8">
 		<ActionPart name="Play video 'logo_screen.mov'" id="0" order="1" lastModified="-1" ActionPartCommand="66" ActionPartPath="Assets/Video/logo_screen.mov" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -4775,18 +4809,6 @@
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="If condition 'continue_hoover' is true" id="40" order="13" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="8" tableId="10" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="Play animation 'continue_pressed_eng'" id="41" order="14" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="End if" id="42" order="16" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
 		<ActionPart name="If condition 'options_hoover' is true" id="43" order="17" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="9" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -4859,18 +4881,6 @@
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="If condition 'continue_hoover' is true" id="62" order="22" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="8" tableId="10" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="Play animation 'continue_highlight_eng'" id="63" order="23" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="End if" id="64" order="25" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
 		<ActionPart name="If condition 'options_hoover' is true" id="65" order="26" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="9" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -4919,10 +4929,6 @@
 			<ActionPartLink parentLink="F" id="18" tableId="9" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Hide animation 'continue_pressed_eng'" id="107" order="24" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="">
-			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
 		<ActionPart name="Hide animation 'options_pressed_eng'" id="108" order="28" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="">
 			<ActionPartLink parentLink="F" id="24" tableId="9" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -4937,10 +4943,6 @@
 		</ActionPart>
 		<ActionPart name="Hide animation 'newgame_highlight_eng'" id="111" order="11" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="">
 			<ActionPartLink parentLink="F" id="17" tableId="9" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="Hide animation 'continue_highlight_eng'" id="112" order="15" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="">
-			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="Hide animation 'options_highlight_eng'" id="113" order="19" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="">
@@ -4971,7 +4973,7 @@
 			<ActionPartLink parentLink="F" id="8" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Hide animation 'continue_pressed_eng'" id="142" order="59" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="">
+		<ActionPart name="Hide animation '[empty]'" id="142" order="59" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -5147,7 +5149,7 @@
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Show menu 'options_menu'" id="211" order="3" lastModified="1" ActionPartCommand="46" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Show menu 'options_menu'" id="211" order="5" lastModified="1" ActionPartCommand="46" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="3" tableId="4" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -5203,7 +5205,7 @@
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Change condition 'in_main_menu' to false" id="227" order="2" lastModified="1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Change condition 'in_main_menu' to false" id="227" order="4" lastModified="1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="6" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -5779,7 +5781,7 @@
 			<ActionPartLink parentLink="F" id="13" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Show menu 'credits_menu'" id="377" order="3" lastModified="1" ActionPartCommand="46" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Show menu 'credits_menu'" id="377" order="5" lastModified="1" ActionPartCommand="46" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="8" tableId="4" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -6603,10 +6605,6 @@
 			<ActionPartLink parentLink="F" id="57" tableId="6" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Move object 'mm_tablet' to (225,0)" id="675" order="4" lastModified="1" ActionPartCommand="159" ActionPartPath="" ActionPartInt="225" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="2" tableId="6" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
 		<ActionPart name="Execute script 'local object = Objects[&quot;m...'" id="677" order="0" lastModified="1" ActionPartCommand="138" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="local object = Objects[&quot;mm_tablet&quot;]&lt;br/&gt;object:to(1500, {ObjectOffset = {x = 575, y = 0}}, easeBackOut)">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -6635,15 +6633,11 @@
 			<ActionPartLink parentLink="F" id="31" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Move object 'mm_tablet' to (225,0)" id="688" order="4" lastModified="-1" ActionPartCommand="159" ActionPartPath="" ActionPartInt="225" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="2" tableId="6" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
 		<ActionPart name="Change condition 'from_other_menu' to false" id="689" order="11" lastModified="1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="31" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Change condition 'in_main_menu' to false" id="690" order="2" lastModified="1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Change condition 'in_main_menu' to false" id="690" order="4" lastModified="1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="6" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -6832,6 +6826,42 @@
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="Start color overlay" id="744" order="1" lastModified="1" ActionPartCommand="162" ActionPartPath="" ActionPartInt="500" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Execute script 'local object = Objects[&quot;m...'" id="746" order="0" lastModified="1" ActionPartCommand="138" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="local object = Objects[&quot;mm_tablet&quot;]&lt;br/&gt;object:to(1000, {ObjectOffset = {x = 225, y = 0}}, easeBackIn)">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Call action 'tablet_easing_out'" id="747" order="2" lastModified="1" ActionPartCommand="148" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="173" tableId="7" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Pause for 1500 milliseconds" id="748" order="3" lastModified="1" ActionPartCommand="30" ActionPartPath="" ActionPartInt="1500" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Call action 'tablet_easing_out'" id="749" order="2" lastModified="-1" ActionPartCommand="148" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="173" tableId="7" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Pause for 1500 milliseconds" id="750" order="3" lastModified="-1" ActionPartCommand="30" ActionPartPath="" ActionPartInt="1500" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Preload animation 'opt_tablet_idle'" id="752" order="2" lastModified="1" ActionPartCommand="149" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="104" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Preload animation 'mm_tablet_idle'" id="753" order="1" lastModified="1" ActionPartCommand="149" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="13" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Preload animation 'cr_tablet_idle'" id="754" order="3" lastModified="1" ActionPartCommand="149" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="120" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play sound 'water_click.wav'" id="756" order="0" lastModified="1" ActionPartCommand="24" ActionPartPath="Assets\SFX\water_click.wav" ActionPartInt="-25" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -7186,100 +7216,100 @@
 			<AnimationPosition x="-2000" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
-				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/Idle/WithButtons_00000.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/MainMenuAnim_00000.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/Idle/WithButtons_00001.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/MainMenuAnim_00001.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/Idle/WithButtons_00002.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/MainMenuAnim_00002.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/Idle/WithButtons_00003.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/MainMenuAnim_00003.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/Idle/WithButtons_00004.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/MainMenuAnim_00004.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/Idle/WithButtons_00005.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/MainMenuAnim_00005.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/Idle/WithButtons_00006.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/MainMenuAnim_00006.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/Idle/WithButtons_00007.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/MainMenuAnim_00007.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/Idle/WithButtons_00008.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/MainMenuAnim_00008.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/Idle/WithButtons_00009.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/MainMenuAnim_00009.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/Idle/WithButtons_00010.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/MainMenuAnim_00010.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/Idle/WithButtons_00011.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/MainMenuAnim_00011.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/Idle/WithButtons_00012.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/MainMenuAnim_00012.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/Idle/WithButtons_00013.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/MainMenuAnim_00013.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/Idle/WithButtons_00014.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/MainMenuAnim_00014.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/Idle/WithButtons_00015.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/MainMenuAnim_00015.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/Idle/WithButtons_00016.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/MainMenuAnim_00016.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/Idle/WithButtons_00017.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/MainMenuAnim_00017.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/Idle/WithButtons_00018.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/MainMenuAnim_00018.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/Idle/WithButtons_00019.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/MainMenuAnim_00019.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/Idle/WithButtons_00020.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/MainMenuAnim_00020.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/Idle/WithButtons_00021.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/MainMenuAnim_00021.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/Idle/WithButtons_00022.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/MainMenuAnim_00022.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/Idle/WithButtons_00023.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/MainMenuAnim_00023.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/Idle/WithButtons_00024.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/MainMenuAnim_00024.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/Idle/WithButtons_00025.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/MainMenuAnim_00025.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/Idle/WithButtons_00026.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/MainMenuAnim_00026.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/Idle/WithButtons_00027.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/MainMenuAnim_00027.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/Idle/WithButtons_00028.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/MainMenuAnim_00028.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/Idle/WithButtons_00029.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/MainMenuAnim_00029.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/Idle/WithButtons_00030.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/MainMenuAnim_00030.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/Idle/WithButtons_00031.png" Transparency="2">
+				<sprite name="" pause="-1" path="Assets/Scenes/MainMenu/MainMenuTabletAnim/MainMenuAnim_00031.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
 			</AnimationSprites>
@@ -13881,7 +13911,7 @@
 			</SpriteSprite>
 		</Sprite>
 	</Sprites>
-	<Texts newId="398" versionedId="39" tableId="14">
+	<Texts newId="402" versionedId="39" tableId="14">
 		<Text name="Unnamed" id="0" order="0" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
@@ -14667,6 +14697,11 @@
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
+		<Text name="Unnamed" id="401" order="401" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
 	</Texts>
 	<Cursors newId="5" versionedId="0" tableId="15">
 		<Cursor name="cursors_arrow" id="0" order="0" lastModified="-1">
@@ -15014,7 +15049,7 @@
 			<AnimationFrameAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</AnimationFrame>
 	</AnimationFrames>
-	<WaySystems newId="6" versionedId="0" tableId="29">
+	<WaySystems newId="5" versionedId="0" tableId="29">
 		<WaySystem name="normal" id="0" order="0" lastModified="1">
 			<WaySystemBorder>
 				<point x="9" y="679"/>
