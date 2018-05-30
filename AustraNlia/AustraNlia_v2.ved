@@ -22,7 +22,6 @@
 			<Link parentLink="T" id="7" tableId="0" LinkAny="F"/>
 			<Link parentLink="T" id="8" tableId="0" LinkAny="F"/>
 			<Link parentLink="T" id="9" tableId="0" LinkAny="F"/>
-			<Link parentLink="T" id="12" tableId="0" LinkAny="F"/>
 			<Link parentLink="T" id="13" tableId="0" LinkAny="F"/>
 		</GameCharacterLinks>
 		<GameInterfaces>
@@ -162,17 +161,17 @@
 			<CharacterActiveDialogFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<CharacterInactiveDialogFont parentLink="F" id="5" tableId="3" LinkAny="F"/>
 			<CharacterDialogArea top="934" left="492" bottom="1066" right="1390"/>
-			<CharacterDialogActiveScrollUp name="" pause="-1" path="Assets/UI/GUI/DialogBox/up_highlight.png" Transparency="2">
-				<position x="1400" y="950"/>
+			<CharacterDialogActiveScrollUp name="" pause="-1" path="Assets/UI/GUI/DialogBox/up_highlight_white.png" Transparency="2">
+				<position x="1401" y="950"/>
 			</CharacterDialogActiveScrollUp>
-			<CharacterDialogInactiveScrollUp name="" pause="-1" path="Assets/UI/GUI/DialogBox/up.png" Transparency="2">
-				<position x="1400" y="950"/>
+			<CharacterDialogInactiveScrollUp name="" pause="-1" path="Assets/UI/GUI/DialogBox/up_white.png" Transparency="2">
+				<position x="1401" y="950"/>
 			</CharacterDialogInactiveScrollUp>
-			<CharacterDialogActiveScrollDown name="" pause="-1" path="Assets/UI/GUI/DialogBox/down_highlight.png" Transparency="2">
-				<position x="1400" y="1010"/>
+			<CharacterDialogActiveScrollDown name="" pause="-1" path="Assets/UI/GUI/DialogBox/down_highlight_white.png" Transparency="2">
+				<position x="1401" y="1010"/>
 			</CharacterDialogActiveScrollDown>
-			<CharacterDialogInactiveScrollDown name="" pause="-1" path="Assets/UI/GUI/DialogBox/down.png" Transparency="2">
-				<position x="1400" y="1010"/>
+			<CharacterDialogInactiveScrollDown name="" pause="-1" path="Assets/UI/GUI/DialogBox/down_white.png" Transparency="2">
+				<position x="1401" y="1010"/>
 			</CharacterDialogInactiveScrollDown>
 			<CharacterDialogSprite name="" pause="-1" path="Assets/UI/GUI/DialogBox/dialog_box.png" Transparency="2">
 				<position x="452" y="884"/>
@@ -579,49 +578,6 @@
 			<CharacterCommentSets>
 			</CharacterCommentSets>
 			<CharacterStartObject parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<CharacterValues>
-			</CharacterValues>
-			<CharacterConditions>
-			</CharacterConditions>
-			<CharacterActiveDialogFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<CharacterInactiveDialogFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<CharacterDialogArea top="0" left="0" bottom="-1" right="-1"/>
-			<CharacterDialogActiveScrollUp name="" pause="-1" path="" Transparency="2">
-				<position x="0" y="0"/>
-			</CharacterDialogActiveScrollUp>
-			<CharacterDialogInactiveScrollUp name="" pause="-1" path="" Transparency="2">
-				<position x="0" y="0"/>
-			</CharacterDialogInactiveScrollUp>
-			<CharacterDialogActiveScrollDown name="" pause="-1" path="" Transparency="2">
-				<position x="0" y="0"/>
-			</CharacterDialogActiveScrollDown>
-			<CharacterDialogInactiveScrollDown name="" pause="-1" path="" Transparency="2">
-				<position x="0" y="0"/>
-			</CharacterDialogInactiveScrollDown>
-			<CharacterDialogSprite name="" pause="-1" path="" Transparency="2">
-				<position x="0" y="0"/>
-			</CharacterDialogSprite>
-			<CharacterActionDestPosition x="-1" y="-1"/>
-			<CharacterAudioBus parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</Character>
-		<Character name="anim_warining" id="12" order="11" lastModified="1" CharacterWalkingSound="" CharacterScale="T" CharacterDialogVerticalSpace="10" CharacterScaleFactor="100" CharacterHarmonizeWalkAnimations="F">
-			<CharacterName parentLink="T" id="195" tableId="14" LinkAny="F"/>
-			<CharacterInterfaces>
-			</CharacterInterfaces>
-			<CharacterFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<CharacterCurrentOutfit parentLink="F" id="12" tableId="17" LinkAny="F"/>
-			<CharacterCurrentCommentSet parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<CharacterDialogCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<CharacterDialogs>
-			</CharacterDialogs>
-			<CharacterActions>
-			</CharacterActions>
-			<CharacterOutfits>
-				<Link parentLink="T" id="12" tableId="17" LinkAny="F"/>
-			</CharacterOutfits>
-			<CharacterCommentSets>
-			</CharacterCommentSets>
-			<CharacterStartObject parentLink="F" id="26" tableId="6" LinkAny="F"/>
 			<CharacterValues>
 			</CharacterValues>
 			<CharacterConditions>
@@ -1254,13 +1210,14 @@
 			<SceneScrollableArea top="0" left="0" bottom="-1" right="-1"/>
 			<SceneWaySystems>
 				<Link parentLink="T" id="4" tableId="29" LinkAny="F"/>
+				<Link parentLink="T" id="5" tableId="29" LinkAny="F"/>
 			</SceneWaySystems>
-			<SceneCurrentWaySystem parentLink="F" id="4" tableId="29" LinkAny="F"/>
+			<SceneCurrentWaySystem parentLink="F" id="5" tableId="29" LinkAny="F"/>
 			<SceneActionAreas>
 			</SceneActionAreas>
 			<SceneAudioBusses>
 			</SceneAudioBusses>
-			<SceneTestCharacter parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneTestCharacter parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</Scene>
 		<Scene name="credits_menu" id="8" order="3" lastModified="1" SceneBackgroundMusic="" SceneContinueMusic="T" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="T" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="Assets/Scenes/CreditsMenu/main_menu_background.png" Transparency="2">
@@ -1471,7 +1428,7 @@
 			</PointRelations>
 		</Point>
 	</Points>
-	<Objects newId="81" versionedId="9" tableId="6">
+	<Objects newId="82" versionedId="9" tableId="6">
 		<Object name="opt_tablet" id="0" order="14" lastModified="1" ObjectDirection="-1" ObjectCenter="1080" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="5" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
@@ -1636,16 +1593,11 @@
 			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectActions>
-				<Link parentLink="T" id="15" tableId="7" LinkAny="F"/>
-				<Link parentLink="T" id="16" tableId="7" LinkAny="F"/>
-				<Link parentLink="T" id="162" tableId="7" LinkAny="F"/>
 			</ObjectActions>
 			<ObjectConditions>
 				<Link parentLink="T" id="8" tableId="10" LinkAny="F"/>
 			</ObjectConditions>
 			<ObjectAnimations>
-				<Link parentLink="T" id="20" tableId="9" LinkAny="F"/>
-				<Link parentLink="T" id="21" tableId="9" LinkAny="F"/>
 			</ObjectAnimations>
 			<ObjectValues>
 			</ObjectValues>
@@ -2123,7 +2075,7 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="box_light" id="27" order="3" lastModified="1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="box_light" id="27" order="8" lastModified="1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="67" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -2144,7 +2096,7 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="fence_light_back" id="28" order="4" lastModified="1" ObjectDirection="-1" ObjectCenter="1036" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="fence_light_back" id="28" order="9" lastModified="1" ObjectDirection="-1" ObjectCenter="35" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="68" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -2165,7 +2117,7 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="fence_light_front" id="29" order="5" lastModified="1" ObjectDirection="-1" ObjectCenter="50" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="fence_light_front" id="29" order="3" lastModified="1" ObjectDirection="-1" ObjectCenter="1015" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="69" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -2186,7 +2138,7 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="fence_front" id="30" order="7" lastModified="1" ObjectDirection="-1" ObjectCenter="1015" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="fence_front" id="30" order="4" lastModified="1" ObjectDirection="-1" ObjectCenter="1015" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="70" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -2207,7 +2159,7 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="Jinrus" id="32" order="8" lastModified="1" ObjectDirection="-1" ObjectCenter="385" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="Jinrus" id="32" order="5" lastModified="1" ObjectDirection="-1" ObjectCenter="385" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="72" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -2228,7 +2180,7 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="Koala" id="33" order="9" lastModified="1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="Koala" id="33" order="7" lastModified="1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="73" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -2674,12 +2626,13 @@
 			</ObjectPolygon>
 			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSprite parentLink="T" id="41" tableId="13" LinkAny="F"/>
-			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="215" tableId="9" LinkAny="F"/>
 			<ObjectActions>
 			</ObjectActions>
 			<ObjectConditions>
 			</ObjectConditions>
 			<ObjectAnimations>
+				<Link parentLink="T" id="215" tableId="9" LinkAny="F"/>
 			</ObjectAnimations>
 			<ObjectValues>
 			</ObjectValues>
@@ -3564,26 +3517,6 @@
 				<Link parentLink="T" id="442" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="443" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="444" tableId="8" LinkAny="F"/>
-			</ActionActionParts>
-		</Action>
-		<Action name="Cursor enters object area" id="15" order="0" lastModified="-1" ActionExecutionType="1">
-			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ActionActionParts>
-				<Link parentLink="T" id="156" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="157" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="158" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="159" tableId="8" LinkAny="F"/>
-			</ActionActionParts>
-		</Action>
-		<Action name="Cursor leaves object area" id="16" order="1" lastModified="-1" ActionExecutionType="2">
-			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ActionActionParts>
-				<Link parentLink="T" id="160" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="161" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="162" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="163" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Cursor enters object area" id="17" order="0" lastModified="-1" ActionExecutionType="1">
@@ -4645,14 +4578,6 @@
 				<Link parentLink="T" id="665" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
-		<Action name="Left click" id="162" order="2" lastModified="1" ActionExecutionType="7">
-			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ActionActionParts>
-				<Link parentLink="T" id="664" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="724" tableId="8" LinkAny="F"/>
-			</ActionActionParts>
-		</Action>
 		<Action name="'inv_botella' dropped (immediate)" id="163" order="0" lastModified="1" ActionExecutionType="20">
 			<ActionFixture parentLink="F" id="76" tableId="6" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -4782,7 +4707,7 @@
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="Play animation 'continue_pressed_eng'" id="41" order="14" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="21" tableId="9" LinkAny="F"/>
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="End if" id="42" order="16" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
@@ -4866,7 +4791,7 @@
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="Play animation 'continue_highlight_eng'" id="63" order="23" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="20" tableId="9" LinkAny="F"/>
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="End if" id="64" order="25" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
@@ -4922,7 +4847,7 @@
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="Hide animation 'continue_pressed_eng'" id="107" order="24" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="">
-			<ActionPartLink parentLink="F" id="21" tableId="9" LinkAny="F"/>
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="Hide animation 'options_pressed_eng'" id="108" order="28" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="">
@@ -4942,7 +4867,7 @@
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="Hide animation 'continue_highlight_eng'" id="112" order="15" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="">
-			<ActionPartLink parentLink="F" id="20" tableId="9" LinkAny="F"/>
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="Hide animation 'options_highlight_eng'" id="113" order="19" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="">
@@ -4974,7 +4899,7 @@
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="Hide animation 'continue_pressed_eng'" id="142" order="59" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="">
-			<ActionPartLink parentLink="F" id="21" tableId="9" LinkAny="F"/>
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="End if" id="143" order="60" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
@@ -5014,38 +4939,6 @@
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="End if" id="155" order="73" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="Change condition 'continue_hoover' to true" id="156" order="0" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="8" tableId="10" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="If 'English' is current language" id="157" order="1" lastModified="-1" ActionPartCommand="92" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="0" tableId="18" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="Play animation 'continue_highlight_eng'" id="158" order="2" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="20" tableId="9" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="End if" id="159" order="3" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="Change condition 'continue_hoover' to false" id="160" order="0" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="8" tableId="10" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="If 'English' is current language" id="161" order="1" lastModified="-1" ActionPartCommand="92" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="0" tableId="18" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="Hide animation 'continue_highlight_eng'" id="162" order="2" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="20" tableId="9" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="End if" id="163" order="3" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -6597,10 +6490,6 @@
 			<ActionPartLink parentLink="F" id="161" tableId="7" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Change to scene of character 'Current character'" id="664" order="1" lastModified="1" ActionPartCommand="54" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
 		<ActionPart name="Set character 'Current character' to object 'mo_start_pos'" id="665" order="9" lastModified="1" ActionPartCommand="50" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="69" tableId="6" LinkAny="F"/>
@@ -6797,10 +6686,6 @@
 			<ActionPartLink parentLink="F" id="1" tableId="37" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Play sound 'button_beep.wav'" id="724" order="0" lastModified="1" ActionPartCommand="24" ActionPartPath="Assets/SFX/button_beep.wav" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="1" tableId="37" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
 		<ActionPart name="Play sound 'button_beep.wav'" id="725" order="0" lastModified="1" ActionPartCommand="24" ActionPartPath="Assets/SFX/button_beep.wav" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="1" tableId="37" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -6858,7 +6743,7 @@
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 	</ActionParts>
-	<Animations newId="214" versionedId="31" tableId="9">
+	<Animations newId="216" versionedId="31" tableId="9">
 		<Animation name="Unnamed" id="1" order="1" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -7336,40 +7221,6 @@
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
 				<sprite name="" pause="11873" path="Assets/UI/Buttons/MainMenu/NewGame/newgame_pressed_eng.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-			</AnimationSprites>
-			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="0" y="0"/>
-			<AnimationPropertyFrames>
-			</AnimationPropertyFrames>
-			<AnimationWalkSteps>
-			</AnimationWalkSteps>
-			<AnimationPauses>
-			</AnimationPauses>
-		</Animation>
-		<Animation name="continue_highlight_eng" id="20" order="1" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
-			<AnimationPosition x="57" y="309"/>
-			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationSprites>
-				<sprite name="" pause="11873" path="Assets/UI/Buttons/MainMenu/Continue/continue_highlight_eng.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-			</AnimationSprites>
-			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="0" y="0"/>
-			<AnimationPropertyFrames>
-			</AnimationPropertyFrames>
-			<AnimationWalkSteps>
-			</AnimationWalkSteps>
-			<AnimationPauses>
-			</AnimationPauses>
-		</Animation>
-		<Animation name="continue_pressed_eng" id="21" order="2" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
-			<AnimationPosition x="57" y="309"/>
-			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationSprites>
-				<sprite name="" pause="11873" path="Assets/UI/Buttons/MainMenu/Continue/continue_pressed_eng.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
 			</AnimationSprites>
@@ -11514,358 +11365,6 @@
 			<AnimationPauses>
 			</AnimationPauses>
 		</Animation>
-		<Animation name="front" id="161" order="3" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="270" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
-			<AnimationPosition x="0" y="0"/>
-			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationSprites>
-			</AnimationSprites>
-			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="0" y="0"/>
-			<AnimationPropertyFrames>
-			</AnimationPropertyFrames>
-			<AnimationWalkSteps>
-			</AnimationWalkSteps>
-			<AnimationPauses>
-			</AnimationPauses>
-		</Animation>
-		<Animation name="back" id="162" order="1" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="90" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
-			<AnimationPosition x="0" y="0"/>
-			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationSprites>
-			</AnimationSprites>
-			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="0" y="0"/>
-			<AnimationPropertyFrames>
-			</AnimationPropertyFrames>
-			<AnimationWalkSteps>
-			</AnimationWalkSteps>
-			<AnimationPauses>
-			</AnimationPauses>
-		</Animation>
-		<Animation name="left" id="163" order="2" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="180" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
-			<AnimationPosition x="0" y="0"/>
-			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationSprites>
-			</AnimationSprites>
-			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="0" y="0"/>
-			<AnimationPropertyFrames>
-			</AnimationPropertyFrames>
-			<AnimationWalkSteps>
-			</AnimationWalkSteps>
-			<AnimationPauses>
-			</AnimationPauses>
-		</Animation>
-		<Animation name="right" id="164" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="0" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
-			<AnimationPosition x="0" y="0"/>
-			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationSprites>
-			</AnimationSprites>
-			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="0" y="0"/>
-			<AnimationPropertyFrames>
-			</AnimationPropertyFrames>
-			<AnimationWalkSteps>
-			</AnimationWalkSteps>
-			<AnimationPauses>
-			</AnimationPauses>
-		</Animation>
-		<Animation name="front" id="165" order="3" lastModified="1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="70" AnimationDirection="270" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
-			<AnimationPosition x="0" y="0"/>
-			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationSprites>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_000.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_001.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_002.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_003.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_004.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_005.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_006.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_007.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_008.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_009.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_010.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_011.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_012.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_013.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_014.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_015.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_016.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_017.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_018.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_019.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_020.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_021.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_022.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_023.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_024.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_025.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_026.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_027.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_028.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_029.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_030.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_031.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_032.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_033.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_034.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_035.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_036.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_037.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_038.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_039.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_040.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_041.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_042.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_043.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_044.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_045.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_046.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_047.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_048.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_049.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_050.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_051.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_052.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_053.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_054.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_055.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_056.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_057.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_058.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_059.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_060.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_061.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_062.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_063.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_064.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_065.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_066.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_067.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_068.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_069.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_070.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_071.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_072.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_073.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_074.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_075.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_076.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_077.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_078.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_079.png" Transparency="2">
-					<position x="0" y="0"/>
-				</sprite>
-			</AnimationSprites>
-			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="0" y="0"/>
-			<AnimationPropertyFrames>
-			</AnimationPropertyFrames>
-			<AnimationWalkSteps>
-			</AnimationWalkSteps>
-			<AnimationPauses>
-			</AnimationPauses>
-		</Animation>
-		<Animation name="back" id="166" order="1" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="90" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
-			<AnimationPosition x="0" y="0"/>
-			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationSprites>
-			</AnimationSprites>
-			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="0" y="0"/>
-			<AnimationPropertyFrames>
-			</AnimationPropertyFrames>
-			<AnimationWalkSteps>
-			</AnimationWalkSteps>
-			<AnimationPauses>
-			</AnimationPauses>
-		</Animation>
-		<Animation name="left" id="167" order="2" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="180" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
-			<AnimationPosition x="0" y="0"/>
-			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationSprites>
-			</AnimationSprites>
-			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="0" y="0"/>
-			<AnimationPropertyFrames>
-			</AnimationPropertyFrames>
-			<AnimationWalkSteps>
-			</AnimationWalkSteps>
-			<AnimationPauses>
-			</AnimationPauses>
-		</Animation>
-		<Animation name="right" id="168" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="0" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
-			<AnimationPosition x="0" y="0"/>
-			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationSprites>
-			</AnimationSprites>
-			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="0" y="0"/>
-			<AnimationPropertyFrames>
-			</AnimationPropertyFrames>
-			<AnimationWalkSteps>
-			</AnimationWalkSteps>
-			<AnimationPauses>
-			</AnimationPauses>
-		</Animation>
 		<Animation name="front" id="169" order="3" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="270" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -12256,7 +11755,7 @@
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
-				<sprite name="" pause="0" path="Assets/UI/Cursors/door.png" Transparency="2">
+				<sprite name="" pause="0" path="Assets/UI/Cursors/door_white.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
 			</AnimationSprites>
@@ -12273,7 +11772,7 @@
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
-				<sprite name="" pause="0" path="Assets/UI/Cursors/door.png" Transparency="2">
+				<sprite name="" pause="0" path="Assets/UI/Cursors/door_white.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
 			</AnimationSprites>
@@ -13608,6 +13107,260 @@
 			<AnimationPauses>
 			</AnimationPauses>
 		</Animation>
+		<Animation name="warning_tape_idle" id="215" order="0" lastModified="1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_000.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_001.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_002.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_003.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_004.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_005.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_006.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_007.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_008.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_009.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_010.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_011.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_012.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_013.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_014.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_015.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_016.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_017.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_018.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_019.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_020.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_021.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_022.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_023.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_024.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_025.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_026.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_027.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_028.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_029.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_030.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_031.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_032.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_033.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_034.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_035.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_036.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_037.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_038.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_039.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_040.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_041.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_042.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_043.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_044.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_045.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_046.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_047.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_048.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_049.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_050.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_051.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_052.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_053.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_054.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_055.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_056.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_057.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_058.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_059.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_060.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_061.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_062.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_063.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_064.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_065.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_066.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_067.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_068.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_069.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_070.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_071.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_072.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_073.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_074.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_075.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_076.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_077.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_078.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="Assets/Scenes/BubbleForest/anim_warning/warning_079.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
 	</Animations>
 	<Conditions newId="34" versionedId="11" tableId="10">
 		<Condition name="fullscreen?" id="0" order="0" lastModified="-1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionOperator="0">
@@ -14035,7 +13788,7 @@
 			</SpriteSprite>
 		</Sprite>
 	</Sprites>
-	<Texts newId="390" versionedId="39" tableId="14">
+	<Texts newId="391" versionedId="39" tableId="14">
 		<Text name="Unnamed" id="0" order="0" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
@@ -14442,11 +14195,6 @@
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="192" order="192" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Unnamed" id="195" order="195" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
@@ -15102,32 +14850,6 @@
 			<OutfitTurnAnimations>
 			</OutfitTurnAnimations>
 		</Outfit>
-		<Outfit name="Unnamed" id="12" order="0" lastModified="-1" OutfitCharacterSpeed="350" OutfitModel="" OutfitCameraHeight="0" OutfitCameraAngle="0" OutfitUseLight="F" OutfitLightPosX="1.000000" OutfitLightPosY="1.000000" OutfitLightPosZ="1.000000" OutfitLightColor="9345433" OutfitModelScaleFactor="100" OutfitModelUseToonShading="F" OutfitModelToonNuances="3" OutfitModelShowOutline="F" OutfitModelOutlineColor="0" OutfitModelOutlineWidth="5" OutfitAmbientLightColor="6717311" OutfitModelShadowVisibility="50" OutfitRandomMinTime="10000" OutfitRandomMaxTime="30000" OutfitModelShadow="2" OutfitModelAmbientOcclusion="50" OutfitSlideWalkAnimation="T" OutfitModelTurnSpeed="100">
-			<OutfitWalkAnimations>
-				<Link parentLink="T" id="161" tableId="9" LinkAny="F"/>
-				<Link parentLink="T" id="162" tableId="9" LinkAny="F"/>
-				<Link parentLink="T" id="163" tableId="9" LinkAny="F"/>
-				<Link parentLink="T" id="164" tableId="9" LinkAny="F"/>
-			</OutfitWalkAnimations>
-			<OutfitTalkAnimations>
-			</OutfitTalkAnimations>
-			<OutfitRandomAnimations>
-			</OutfitRandomAnimations>
-			<OutfitCharacterAnimations>
-			</OutfitCharacterAnimations>
-			<OutfitStandingAnimations>
-				<Link parentLink="T" id="165" tableId="9" LinkAny="F"/>
-				<Link parentLink="T" id="166" tableId="9" LinkAny="F"/>
-				<Link parentLink="T" id="167" tableId="9" LinkAny="F"/>
-				<Link parentLink="T" id="168" tableId="9" LinkAny="F"/>
-			</OutfitStandingAnimations>
-			<OutfitModelTextures>
-			</OutfitModelTextures>
-			<OutfitModelFiles>
-			</OutfitModelFiles>
-			<OutfitTurnAnimations>
-			</OutfitTurnAnimations>
-		</Outfit>
 		<Outfit name="Unnamed" id="13" order="0" lastModified="-1" OutfitCharacterSpeed="350" OutfitModel="" OutfitCameraHeight="0" OutfitCameraAngle="0" OutfitUseLight="F" OutfitLightPosX="1.000000" OutfitLightPosY="1.000000" OutfitLightPosZ="1.000000" OutfitLightColor="9345433" OutfitModelScaleFactor="100" OutfitModelUseToonShading="F" OutfitModelToonNuances="3" OutfitModelShowOutline="F" OutfitModelOutlineColor="0" OutfitModelOutlineWidth="5" OutfitAmbientLightColor="6717311" OutfitModelShadowVisibility="50" OutfitRandomMinTime="10000" OutfitRandomMaxTime="30000" OutfitModelShadow="2" OutfitModelAmbientOcclusion="50" OutfitSlideWalkAnimation="T" OutfitModelTurnSpeed="100">
 			<OutfitWalkAnimations>
 				<Link parentLink="T" id="169" tableId="9" LinkAny="F"/>
@@ -15175,7 +14897,7 @@
 	</ParticleContainers>
 	<CommentSetEntries newId="0" versionedId="-1" tableId="27">
 	</CommentSetEntries>
-	<AnimationFrames newId="4" versionedId="-1" tableId="28">
+	<AnimationFrames newId="6" versionedId="-1" tableId="28">
 		<AnimationFrame name="right - Property Frame" id="0" order="0" lastModified="1" AnimationFrameIndex="0" AnimationFrameSound="Assets/SFX/step.wav" AnimationFrameSoundVolume="0" AnimationFrameSoundBalance="0">
 			<AnimationFrameAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</AnimationFrame>
@@ -15189,7 +14911,7 @@
 			<AnimationFrameAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</AnimationFrame>
 	</AnimationFrames>
-	<WaySystems newId="5" versionedId="0" tableId="29">
+	<WaySystems newId="6" versionedId="0" tableId="29">
 		<WaySystem name="normal" id="0" order="0" lastModified="1">
 			<WaySystemBorder>
 				<point x="9" y="679"/>
@@ -15299,6 +15021,16 @@
 				<Link parentLink="T" id="14" tableId="5" LinkAny="F"/>
 				<Link parentLink="T" id="15" tableId="5" LinkAny="F"/>
 				<Link parentLink="T" id="16" tableId="5" LinkAny="F"/>
+			</WaySystemPoints>
+		</WaySystem>
+		<WaySystem name="testimg" id="5" order="1" lastModified="1">
+			<WaySystemBorder>
+				<point x="12" y="19"/>
+				<point x="1884" y="8"/>
+				<point x="1892" y="1057"/>
+				<point x="17" y="1057"/>
+			</WaySystemBorder>
+			<WaySystemPoints>
 			</WaySystemPoints>
 		</WaySystem>
 	</WaySystems>
