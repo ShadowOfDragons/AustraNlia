@@ -32,7 +32,6 @@
 		</GameInterfaces>
 		<GameFontLinks>
 			<Link parentLink="T" id="0" tableId="3" LinkAny="F"/>
-			<Link parentLink="T" id="4" tableId="3" LinkAny="F"/>
 			<Link parentLink="T" id="5" tableId="3" LinkAny="F"/>
 		</GameFontLinks>
 		<GameLanguages>
@@ -160,7 +159,7 @@
 			</CharacterValues>
 			<CharacterConditions>
 			</CharacterConditions>
-			<CharacterActiveDialogFont parentLink="F" id="4" tableId="3" LinkAny="F"/>
+			<CharacterActiveDialogFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<CharacterInactiveDialogFont parentLink="F" id="5" tableId="3" LinkAny="F"/>
 			<CharacterDialogArea top="934" left="492" bottom="1066" right="1390"/>
 			<CharacterDialogActiveScrollUp name="" pause="-1" path="Assets/UI/GUI/DialogBox/up_highlight.png" Transparency="2">
@@ -959,7 +958,7 @@
 		</Button>
 	</Buttons>
 	<Fonts newId="6" versionedId="5" tableId="3">
-		<Font name="font_basic" id="0" order="0" lastModified="-1" FontAlphabet="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789" FontLetterSpacing="2" VerticalLetterSpacing="3" FontSpaceWidth="10" FontAutoLineBreak="T" FontLineWidth="750" FontKerning="" FontTrueTypeFont="T" FontTrueTypeFontPath="Assets/UI/Fonts/SadanaSquare.ttf" FontSize="40.000000" FontColor="16777215" FontBorder="T" FontBorderColor="0" FontBorderSize="2.000000" FontShadow="T">
+		<Font name="font_basic" id="0" order="0" lastModified="1" FontAlphabet="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789" FontLetterSpacing="2" VerticalLetterSpacing="3" FontSpaceWidth="10" FontAutoLineBreak="T" FontLineWidth="750" FontKerning="" FontTrueTypeFont="T" FontTrueTypeFontPath="Assets/UI/Fonts/SadanaSquare.ttf" FontSize="40.000000" FontColor="16777215" FontBorder="T" FontBorderColor="0" FontBorderSize="2.000000" FontShadow="T">
 			<FontSprite name="" pause="-1" path="" Transparency="2">
 				<position x="0" y="0"/>
 			</FontSprite>
@@ -968,16 +967,7 @@
 			<FontFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<FontShadowOffset x="1" y="1"/>
 		</Font>
-		<Font name="font_chad_active" id="4" order="1" lastModified="-1" FontAlphabet="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789" FontLetterSpacing="-4" VerticalLetterSpacing="3" FontSpaceWidth="10" FontAutoLineBreak="T" FontLineWidth="100" FontKerning="" FontTrueTypeFont="T" FontTrueTypeFontPath="" FontSize="12.000000" FontColor="4753128" FontBorder="T" FontBorderColor="0" FontBorderSize="2.000000" FontShadow="T">
-			<FontSprite name="" pause="-1" path="" Transparency="2">
-				<position x="0" y="0"/>
-			</FontSprite>
-			<FontLetters>
-			</FontLetters>
-			<FontFont parentLink="F" id="0" tableId="3" LinkAny="F"/>
-			<FontShadowOffset x="1" y="1"/>
-		</Font>
-		<Font name="font_chad_inactive" id="5" order="2" lastModified="-1" FontAlphabet="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789" FontLetterSpacing="-4" VerticalLetterSpacing="3" FontSpaceWidth="10" FontAutoLineBreak="T" FontLineWidth="100" FontKerning="" FontTrueTypeFont="T" FontTrueTypeFontPath="" FontSize="12.000000" FontColor="1658529" FontBorder="T" FontBorderColor="0" FontBorderSize="2.000000" FontShadow="T">
+		<Font name="font_chad_inactive" id="5" order="2" lastModified="1" FontAlphabet="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789" FontLetterSpacing="-4" VerticalLetterSpacing="3" FontSpaceWidth="10" FontAutoLineBreak="T" FontLineWidth="100" FontKerning="" FontTrueTypeFont="T" FontTrueTypeFontPath="" FontSize="12.000000" FontColor="16777215" FontBorder="T" FontBorderColor="0" FontBorderSize="2.000000" FontShadow="T">
 			<FontSprite name="" pause="-1" path="" Transparency="2">
 				<position x="0" y="0"/>
 			</FontSprite>
@@ -3343,7 +3333,7 @@
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
 	</Objects>
-	<Actions newId="171" versionedId="22" tableId="7">
+	<Actions newId="170" versionedId="22" tableId="7">
 		<Action name="At beginning of scene" id="0" order="0" lastModified="-1" ActionExecutionType="31">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -6467,7 +6457,7 @@
 			<ActionPartLink parentLink="F" id="0" tableId="15" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="npc_guard: Get out, you scare the clients! Wait… if you find a fish and give it to me I will let you talk with me. I am so nice." id="582" order="3" lastModified="1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="npc_guard: Get out, you scare the clients! Wait… if you find a fish and give it to me I will let you enter to the restaurant. I am ..." id="582" order="3" lastModified="1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="336" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="7" tableId="0" LinkAny="F"/>
 		</ActionPart>
@@ -6511,7 +6501,7 @@
 			<ActionPartLink parentLink="F" id="30" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="npc_guard: I'm sorry, this is not the best moment to go in..." id="638" order="1" lastModified="1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="npc_guard: I'm sorry, this is not the best moment to go in... Please come back later." id="638" order="1" lastModified="1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="379" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="7" tableId="0" LinkAny="F"/>
 		</ActionPart>
@@ -6863,7 +6853,7 @@
 			<ActionPartLink parentLink="T" id="389" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="8" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Play sound 'robot_beep.wav'" id="738" order="3" lastModified="1" ActionPartCommand="24" ActionPartPath="Assets\SFX\robot_beep.wav" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Play sound 'robot_beep.wav'" id="738" order="3" lastModified="1" ActionPartCommand="24" ActionPartPath="Assets/SFX/robot_beep.wav" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="1" tableId="37" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -14045,7 +14035,7 @@
 			</SpriteSprite>
 		</Sprite>
 	</Sprites>
-	<Texts newId="392" versionedId="39" tableId="14">
+	<Texts newId="390" versionedId="39" tableId="14">
 		<Text name="Unnamed" id="0" order="0" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
@@ -14738,7 +14728,7 @@
 		</Text>
 		<Text name="Unnamed" id="336" order="336" lastModified="1">
 			<TextTextLanguages>
-				<text Text="Get out, you scare the clients! Wait… if you find a fish and give it to me I will let you talk with me. I am so nice." path="" int="0"/>
+				<text Text="Get out, you scare the clients! Wait… if you find a fish and give it to me I will let you enter to the restaurant. I am so nice." path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="366" order="329" lastModified="-1">
@@ -14788,7 +14778,7 @@
 		</Text>
 		<Text name="Unnamed" id="379" order="379" lastModified="1">
 			<TextTextLanguages>
-				<text Text="I'm sorry, this is not the best moment to go in..." path="" int="0"/>
+				<text Text="I'm sorry, this is not the best moment to go in... Please come back later." path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="380" order="380" lastModified="1">
