@@ -10,6 +10,7 @@
 			<Link parentLink="T" id="6" tableId="4" LinkAny="F"/>
 			<Link parentLink="T" id="7" tableId="4" LinkAny="F"/>
 			<Link parentLink="T" id="8" tableId="4" LinkAny="F"/>
+			<Link parentLink="T" id="9" tableId="4" LinkAny="F"/>
 		</GameSceneLinks>
 		<GameCharacterLinks>
 			<Link parentLink="T" id="0" tableId="0" LinkAny="F"/>
@@ -31,7 +32,7 @@
 		</GameInterfaces>
 		<GameFontLinks>
 			<Link parentLink="T" id="0" tableId="3" LinkAny="F"/>
-			<Link parentLink="T" id="5" tableId="3" LinkAny="F"/>
+			<Link parentLink="T" id="6" tableId="3" LinkAny="F"/>
 		</GameFontLinks>
 		<GameLanguages>
 			<Link parentLink="T" id="0" tableId="18" LinkAny="F"/>
@@ -158,8 +159,8 @@
 			</CharacterValues>
 			<CharacterConditions>
 			</CharacterConditions>
-			<CharacterActiveDialogFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<CharacterInactiveDialogFont parentLink="F" id="5" tableId="3" LinkAny="F"/>
+			<CharacterActiveDialogFont parentLink="F" id="0" tableId="3" LinkAny="F"/>
+			<CharacterInactiveDialogFont parentLink="F" id="0" tableId="3" LinkAny="F"/>
 			<CharacterDialogArea top="934" left="492" bottom="1066" right="1390"/>
 			<CharacterDialogActiveScrollUp name="" pause="-1" path="Assets/UI/GUI/DialogBox/up_highlight_white.png" Transparency="2">
 				<position x="1401" y="950"/>
@@ -913,7 +914,7 @@
 			<ButtonValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Button>
 	</Buttons>
-	<Fonts newId="6" versionedId="5" tableId="3">
+	<Fonts newId="7" versionedId="5" tableId="3">
 		<Font name="font_basic" id="0" order="0" lastModified="1" FontAlphabet="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789" FontLetterSpacing="2" VerticalLetterSpacing="3" FontSpaceWidth="10" FontAutoLineBreak="T" FontLineWidth="750" FontKerning="" FontTrueTypeFont="T" FontTrueTypeFontPath="Assets/UI/Fonts/SadanaSquare.ttf" FontSize="40.000000" FontColor="16777215" FontBorder="T" FontBorderColor="0" FontBorderSize="2.000000" FontShadow="T">
 			<FontSprite name="" pause="-1" path="" Transparency="2">
 				<position x="0" y="0"/>
@@ -923,17 +924,17 @@
 			<FontFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<FontShadowOffset x="1" y="1"/>
 		</Font>
-		<Font name="font_chad_inactive" id="5" order="2" lastModified="1" FontAlphabet="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789" FontLetterSpacing="-4" VerticalLetterSpacing="3" FontSpaceWidth="10" FontAutoLineBreak="T" FontLineWidth="100" FontKerning="" FontTrueTypeFont="T" FontTrueTypeFontPath="" FontSize="12.000000" FontColor="16777215" FontBorder="T" FontBorderColor="0" FontBorderSize="2.000000" FontShadow="T">
+		<Font name="font_basic_inactvie" id="6" order="2" lastModified="1" FontAlphabet="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789" FontLetterSpacing="-4" VerticalLetterSpacing="3" FontSpaceWidth="10" FontAutoLineBreak="F" FontLineWidth="100" FontKerning="" FontTrueTypeFont="F" FontTrueTypeFontPath="Assets\UI\Fonts\SadanaSquare.ttf" FontSize="12.000000" FontColor="9474192" FontBorder="T" FontBorderColor="0" FontBorderSize="2.000000" FontShadow="T">
 			<FontSprite name="" pause="-1" path="" Transparency="2">
 				<position x="0" y="0"/>
 			</FontSprite>
 			<FontLetters>
 			</FontLetters>
-			<FontFont parentLink="F" id="0" tableId="3" LinkAny="F"/>
+			<FontFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<FontShadowOffset x="1" y="1"/>
 		</Font>
 	</Fonts>
-	<Scenes newId="9" versionedId="4" tableId="4">
+	<Scenes newId="10" versionedId="4" tableId="4">
 		<Scene name="logo_screen" id="0" order="0" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="T" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="" Transparency="2">
 				<position x="0" y="0"/>
@@ -1210,14 +1211,13 @@
 			<SceneScrollableArea top="0" left="0" bottom="-1" right="-1"/>
 			<SceneWaySystems>
 				<Link parentLink="T" id="4" tableId="29" LinkAny="F"/>
-				<Link parentLink="T" id="5" tableId="29" LinkAny="F"/>
 			</SceneWaySystems>
-			<SceneCurrentWaySystem parentLink="F" id="5" tableId="29" LinkAny="F"/>
+			<SceneCurrentWaySystem parentLink="F" id="4" tableId="29" LinkAny="F"/>
 			<SceneActionAreas>
 			</SceneActionAreas>
 			<SceneAudioBusses>
 			</SceneAudioBusses>
-			<SceneTestCharacter parentLink="F" id="0" tableId="0" LinkAny="F"/>
+			<SceneTestCharacter parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Scene>
 		<Scene name="credits_menu" id="8" order="3" lastModified="1" SceneBackgroundMusic="" SceneContinueMusic="T" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="T" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="Assets/Scenes/CreditsMenu/main_menu_background.png" Transparency="2">
@@ -1238,6 +1238,36 @@
 			</SceneConditions>
 			<SceneActions>
 				<Link parentLink="T" id="55" tableId="7" LinkAny="F"/>
+			</SceneActions>
+			<SceneSavegameFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneScrollableArea top="0" left="0" bottom="-1" right="-1"/>
+			<SceneWaySystems>
+			</SceneWaySystems>
+			<SceneCurrentWaySystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneActionAreas>
+			</SceneActionAreas>
+			<SceneAudioBusses>
+			</SceneAudioBusses>
+			<SceneTestCharacter parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Scene>
+		<Scene name="ending_scene" id="9" order="8" lastModified="1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+			<SceneSprite name="" pause="-1" path="Assets/Scenes/EndingScene/background.png" Transparency="2">
+				<position x="0" y="0"/>
+			</SceneSprite>
+			<SceneName parentLink="T" id="390" tableId="14" LinkAny="F"/>
+			<SceneObjects>
+				<Link parentLink="T" id="81" tableId="6" LinkAny="F"/>
+			</SceneObjects>
+			<SceneCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneSavegameAreas>
+			</SceneSavegameAreas>
+			<SceneValues>
+			</SceneValues>
+			<SceneConditions>
+			</SceneConditions>
+			<SceneActions>
+				<Link parentLink="T" id="171" tableId="7" LinkAny="F"/>
 			</SceneActions>
 			<SceneSavegameFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<SceneParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -3285,8 +3315,34 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
+		<Object name="click_return_menu" id="81" order="0" lastModified="1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+			<ObjectName parentLink="T" id="391" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+				<point x="1" y="1"/>
+				<point x="1913" y="3"/>
+				<point x="1913" y="1075"/>
+				<point x="6" y="1073"/>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+				<Link parentLink="T" id="170" tableId="7" LinkAny="F"/>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Object>
 	</Objects>
-	<Actions newId="170" versionedId="22" tableId="7">
+	<Actions newId="172" versionedId="22" tableId="7">
 		<Action name="At beginning of scene" id="0" order="0" lastModified="-1" ActionExecutionType="31">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -4172,6 +4228,8 @@
 				<Link parentLink="T" id="499" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="500" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="560" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="740" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="741" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Cursor enters object area" id="97" order="0" lastModified="1" ActionExecutionType="1">
@@ -4616,8 +4674,23 @@
 				<Link parentLink="T" id="694" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
+		<Action name="Left click" id="170" order="0" lastModified="1" ActionExecutionType="7">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="739" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="At beginning of scene" id="171" order="0" lastModified="1" ActionExecutionType="31">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="742" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="744" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
 	</Actions>
-	<ActionParts newId="739" versionedId="207" tableId="8">
+	<ActionParts newId="745" versionedId="207" tableId="8">
 		<ActionPart name="Play video 'logo_screen.mov'" id="0" order="1" lastModified="-1" ActionPartCommand="66" ActionPartPath="Assets/Video/logo_screen.mov" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -6330,8 +6403,8 @@
 			<ActionPartLink parentLink="F" id="59" tableId="6" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Show menu 'main_menu'" id="560" order="3" lastModified="1" ActionPartCommand="46" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="2" tableId="4" LinkAny="F"/>
+		<ActionPart name="Show scene 'ending_scene'" id="560" order="5" lastModified="1" ActionPartCommand="46" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="9" tableId="4" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="npc_mierins: I truly hope you are who I think you are.... Mr. COSAY!" id="566" order="0" lastModified="1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
@@ -6742,8 +6815,28 @@
 			<ActionPartLink parentLink="F" id="1" tableId="37" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
+		<ActionPart name="Show menu 'main_menu'" id="739" order="0" lastModified="1" ActionPartCommand="46" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="2" tableId="4" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Start color overlay" id="740" order="3" lastModified="1" ActionPartCommand="162" ActionPartPath="" ActionPartInt="5000" ActionPartAltInt="100" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Pause for 5 seconds" id="741" order="4" lastModified="1" ActionPartCommand="30" ActionPartPath="" ActionPartInt="5" ActionPartAltInt="1" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide 'Inventory'" id="742" order="0" lastModified="1" ActionPartCommand="56" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="1" tableId="31" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Start color overlay" id="744" order="1" lastModified="1" ActionPartCommand="162" ActionPartPath="" ActionPartInt="500" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
 	</ActionParts>
-	<Animations newId="216" versionedId="31" tableId="9">
+	<Animations newId="217" versionedId="31" tableId="9">
 		<Animation name="Unnamed" id="1" order="1" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -13788,7 +13881,7 @@
 			</SpriteSprite>
 		</Sprite>
 	</Sprites>
-	<Texts newId="391" versionedId="39" tableId="14">
+	<Texts newId="398" versionedId="39" tableId="14">
 		<Text name="Unnamed" id="0" order="0" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
@@ -14564,6 +14657,16 @@
 				<text Text="You can go in." path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
+		<Text name="Unnamed" id="390" order="390" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="391" order="391" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
 	</Texts>
 	<Cursors newId="5" versionedId="0" tableId="15">
 		<Cursor name="cursors_arrow" id="0" order="0" lastModified="-1">
@@ -14897,7 +15000,7 @@
 	</ParticleContainers>
 	<CommentSetEntries newId="0" versionedId="-1" tableId="27">
 	</CommentSetEntries>
-	<AnimationFrames newId="6" versionedId="-1" tableId="28">
+	<AnimationFrames newId="4" versionedId="-1" tableId="28">
 		<AnimationFrame name="right - Property Frame" id="0" order="0" lastModified="1" AnimationFrameIndex="0" AnimationFrameSound="Assets/SFX/step.wav" AnimationFrameSoundVolume="0" AnimationFrameSoundBalance="0">
 			<AnimationFrameAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</AnimationFrame>
@@ -15021,16 +15124,6 @@
 				<Link parentLink="T" id="14" tableId="5" LinkAny="F"/>
 				<Link parentLink="T" id="15" tableId="5" LinkAny="F"/>
 				<Link parentLink="T" id="16" tableId="5" LinkAny="F"/>
-			</WaySystemPoints>
-		</WaySystem>
-		<WaySystem name="testimg" id="5" order="1" lastModified="1">
-			<WaySystemBorder>
-				<point x="12" y="19"/>
-				<point x="1884" y="8"/>
-				<point x="1892" y="1057"/>
-				<point x="17" y="1057"/>
-			</WaySystemBorder>
-			<WaySystemPoints>
 			</WaySystemPoints>
 		</WaySystem>
 	</WaySystems>
