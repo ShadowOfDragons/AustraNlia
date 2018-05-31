@@ -3343,12 +3343,12 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="ending_text" id="82" order="1" lastModified="1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="ending_text" id="82" order="1" lastModified="1" ObjectDirection="-1" ObjectCenter="547" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="401" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
 			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="57" tableId="13" LinkAny="F"/>
 			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectActions>
 			</ObjectActions>
@@ -6861,7 +6861,7 @@
 			<ActionPartLink parentLink="F" id="120" tableId="9" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Play sound 'water_click.wav'" id="756" order="0" lastModified="1" ActionPartCommand="24" ActionPartPath="Assets\SFX\water_click.wav" ActionPartInt="-25" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Play sound 'water_click.wav'" id="756" order="0" lastModified="1" ActionPartCommand="24" ActionPartPath="Assets/SFX/water_click.wav" ActionPartInt="-25" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -13689,7 +13689,7 @@
 			<DialogPartValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</DialogPart>
 	</DialogParts>
-	<Sprites newId="57" versionedId="19" tableId="13">
+	<Sprites newId="58" versionedId="19" tableId="13">
 		<Sprite name="Unnamed" id="3" order="3" lastModified="-1">
 			<SpriteSprite name="" pause="-1" path="" Transparency="2">
 				<position x="0" y="0"/>
@@ -13908,6 +13908,11 @@
 		<Sprite name="Image" id="56" order="56" lastModified="1">
 			<SpriteSprite name="" pause="-1" path="Assets/Scenes/Secretary/planta.png" Transparency="2">
 				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Image" id="57" order="57" lastModified="1">
+			<SpriteSprite name="" pause="-1" path="Assets/Scenes/EndingScene/mensaje_ending.png" Transparency="2">
+				<position x="321" y="452"/>
 			</SpriteSprite>
 		</Sprite>
 	</Sprites>
